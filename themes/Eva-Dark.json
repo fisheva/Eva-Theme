@@ -1,0 +1,997 @@
+{
+	"name": "Eva",
+    "colors": {
+		"activityBar.background": "#282c34",
+	    "activityBar.dropBackground": "",
+	    "activityBar.foreground": "#A6ACCD",
+	    "activityBarBadge.background": "#598DEF",
+	    "activityBarBadge.foreground": "#fff",
+	    "button.background": "#676E9599",
+	    "button.hoverBackground": "#598DEF",
+	    "diffEditor.insertedTextBackground": "",
+	    "diffEditor.removedTextBackground": "",
+	    "dropdown.background": "#1B1D23",
+	    "dropdown.foreground": "#676E95",
+	    "editor.background": "#282c34",
+	    "editor.foreground": "#8E99B1",
+	    "editor.lineHighlightBackground": "#2C313A",
+	    "editor.selectionBackground": "#3E4450",
+	    "editor.selectionHighlightBackground": "#3E445000",
+	    "editor.wordHighlightBackground": "#324464",
+	    "editor.wordHighlightStrongBackground": "#598DEFB2",
+	    "editor.findMatchBackground": "#598DEFB2",
+	    "editor.findMatchHighlightBackground": "#676E95cc",
+	    "editor.findRangeHighlightBackground":"#598DEF33",
+	    "editorCursor.foreground": "#8E99B1",
+	    "editorGroup.border": "#181A1F",
+	    "editorGroup.dropBackground": "#282c34",
+	    "editorGroupHeader.tabsBackground": "#21252B",
+	    "editorHoverWidget.background": "#23272F",
+	    "editorHoverWidget.border": "#181A1F",
+	    "editorIndentGuide.background": "#454963",
+	    "editorLineNumber.foreground": "#676E95",
+	    "editorLink.activeForeground": "#61AFEF",
+	    "editorSuggestWidget.background": "#21252B",
+	    "editorSuggestWidget.border": "#181A1F",
+	    "editorSuggestWidget.foreground": "#8E99B1",
+	    "editorSuggestWidget.highlightForeground": "#598DEF",
+	    "editorSuggestWidget.selectedBackground": "#676E9566",
+	    "editorWhitespace.foreground": "#2C313A",
+	    "editorWidget.background": "#21252B",
+	    "foreground": "#9DA5B3",
+	    "focusBorder": "#598DEFB2",
+	    "input.background": "#1B1D23",
+	    "input.foreground": "#d7dae0",
+	    "input.placeholderForeground": "#676E95",
+	    "inputValidation.errorBackground": "#F42534",
+	    "inputValidation.errorBorder": "#F42534",
+	    "inputValidation.infoBackground": "#598DEF",
+	    "inputValidation.infoBorder": "#598DEF",
+	    "inputValidation.warningBackground": "#ff6500",
+	    "inputValidation.warningBorder": "#ff6500",
+	    "list.activeSelectionBackground": "#2C313A",
+	    "list.activeSelectionForeground": "#d7dae0",
+	    "list.dropBackground": "#676E9566",
+	    "list.focusBackground": "#676E9566",
+	    "list.highlightForeground": "#67BAFF",
+	    "list.hoverBackground": "#292d35",
+	    "list.inactiveSelectionBackground": "#2C313A",
+		"notification.background": "#21252b",
+	    "panel.border": "#676E95",
+	    "panelTitle.activeForeground": "#C5C5C5",
+	    "panelTitle.inactiveForeground":"#676E95",
+	    "scrollbarSlider.background": "#676E9566",
+	    "scrollbarSlider.hoverBackground": "#676E9599",
+	    "sideBar.background": "#21252B",
+	    "sideBar.foreground": "#676E95",
+	    "sideBarSectionHeader.background": "#282c34",
+	    "sideBarTitle.foreground": "#A6ACCD",
+	    "statusBar.background": "#21252B",
+	    "statusBar.debuggingBackground": "#21252B",
+	    "statusBar.foreground": "#676E95",
+	    "statusBar.noFolderBackground": "#21252B",
+	    "statusBarItem.hoverBackground": "#2c313a",
+	    "tab.activeBackground": "#282c34",
+	    "tab.activeForeground": "#C5C5C5",
+	    "tab.border": "#181A1F",
+	    "tab.inactiveBackground": "#21252B",
+	    "tab.inactiveForeground": "#676E95",
+	    "terminal.ansiBlack": "#676E95",
+	    "terminal.ansiBlue": "#439EB8",
+	    "terminal.ansiBrightBlack": "#8E99B1",
+	    "terminal.ansiBrightBlue": "#56b6c2",
+	    "terminal.ansiBrightCyan": "#61AFEF",
+	    "terminal.ansiBrightGreen": "#98C379",
+	    "terminal.ansiBrightMagenta": "#c678dd",
+	    "terminal.ansiBrightRed": "#FF6AB3",
+	    "terminal.ansiBrightWhite": "#ffffff",
+	    "terminal.ansiBrightYellow": "#FFEDAF",
+	    "terminal.ansiCyan": "#598DEF",
+	    "terminal.ansiGreen": "#59B100",
+	    "terminal.ansiMagenta": "#FF2D7A",
+	    "terminal.ansiRed": "#F42534",
+	    "terminal.ansiWhite": "#ffffff",
+	    "terminal.ansiYellow": "#f78c6c",
+	    "titleBar.activeBackground": "#282c34",
+	    "titleBar.activeForeground": "#676E95",
+	    "titleBar.inactiveBackground": "#282C34",
+	    "titleBar.inactiveForeground": "#676E95",
+		"tabsContainerBackground": "#1c1c2a",
+		"inactiveTabBackground": "#10192c"
+	},
+	"tokenColors": [
+    {
+      "name": "variable.parameter",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#f78c6c"
+      }
+    },{
+      "name": "variable.parameter",
+	  "nameCN": "css里url文件引用的链接",
+      "scope": "variable.parameter.url.css",
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "Variable",
+      "nameCN": "sass,less里的变量;css3里的关键帧",
+      "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss",
+      "settings": {
+		  "fontStyle": "italic",
+          "foreground": "#f78c6c"
+      }
+    },
+    {
+      "name": "Variable",
+      "nameCN": "变量",
+      "scope": "variable.other.readwrite",
+      "settings": {
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "property",
+      "nameCN": "变量",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "property",
+      "nameCN": "值为对象的变量",
+      "scope": "variable.other.constant.object",
+      "settings": {
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "property",
+      "nameCN": "属性",
+      "scope": "variable.other.constant.property",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "module",
+      "nameCN": "模块",
+      "scope": "variable.other.readwrite.alias, entity.name.type.module",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Variable",
+      "nameCN": "定义变量",
+      "scope": "meta.definition.variable",
+      "settings": {
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "property-list",
+      "nameCN": "css里fix IE 6的属性修饰符*",
+      "scope": "meta.property-list.css",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Variable",
+      "nameCN": "对象类型变量",
+      "scope": "variable.other.object",
+      "settings": {
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "Variable",
+      "nameCN": "定义函数的注释上的参数",
+      "scope": "variable.other.jsdoc",
+      "settings": {
+		  "fontStyle": "italic",
+	      "foreground": "#f78c6c"
+      }
+    },
+    {
+      "name": "comment",
+      "nameCN": "注释",
+      "scope": "comment",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#676E95"
+      }
+    },
+    {
+      "name": "Comment Markup Link",
+      "scope": "comment markup.link",
+      "settings": {
+        "foreground": "#676E95"
+      }
+    },
+    {
+      "name": "math js",
+      "nameCN": "math对象",
+      "scope": "support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
+      "settings": {
+        "foreground": "#E4BF7F"
+      }
+    },
+    {
+      "name": "Function Call Variable",
+      "nameCN": "用户自定义的变量属性(发现innerHTML也被包含在内, 所以这条暂不能区分用户自定义 与 语言内置对象属性)",
+      "scope": "variable.other.property",
+      "settings": {
+          "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Function Call Variable",
+      "nameCN": "用户自定义的变量属性",
+      "scope": "variable.other.object.property",
+      "settings": {
+          "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Punctuation colon",
+      "nameCN": "冒号 :",
+      "scope": "punctuation.separator.key-value, keyword.operator.type.annotation",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#8E99B1"
+      }
+    },
+    {
+      "name": "Punctuation comma",
+      "nameCN": "逗号 ,",
+      "scope": "punctuation.separator.comma,punctuation.separator.list.comma,punctuation.separator.parameter",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#7B829D"
+      }
+    },
+    {
+      "name": "Punctuation Terminator",
+      "nameCN": "分号 ;",
+      "scope": "punctuation.terminator.statement, punctuation.terminator.rule.css",
+      "settings": {
+        "foreground": "#676E95"
+      }
+    },
+    {
+      "name": "Punctuation accessor",
+      "nameCN": "点号 .",
+      "scope": "punctuation.accessor",
+      "settings": {
+        "foreground": "#8E99B1"
+      }
+    },
+    {
+      "name": "font-name",
+      "nameCN": "css里字体颜色",
+      "scope": "support.constant.font-name",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "support.constant.property-value.scss",
+      "nameCN": "css属性常量 block inline inline-block none solid等",
+      "scope": "support.constant.property-value.scss,support.constant.property-value.css",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "css color standard name",
+      "nameCN": "css 颜色常量值 red orange pink plum 等",
+      "scope": "support.constant.color.w3c-standard-color-name,constant.other.color.rgb-value.hex,constant.other.rgb-value",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "js template-expression",
+      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "support.variable",
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "#C5C5C5"
+      }
+    },
+    {
+      "name": "js object-literal.key",
+	  "nameCN": "对象属性名 js和ts不一样,可选属性符合 ?",
+      "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "regexp or",
+      "scope": "keyword.operator.or.regexp",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "regexp ^ ?: $",
+      "scope": "keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp",
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "name": "js variable.property",
+      "scope": "support.variable.property",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "js dom variable",
+      "scope": "support.variable.dom,support.variable.property.dom",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Punctuation Definition Comment",
+      "nameCN": "注释的定义符号 // /* */",
+      "scope": "punctuation.definition.comment",
+      "settings": {
+        "foreground": "#676E95"
+      }
+    },
+    {
+      "name": "typeof",
+      "scope": "keyword.operator.expression.typeof",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "keyword Operators assignment",
+	  "nameCN": "等号 =(把+= -=包含进来了,然后单独设)",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#8E99B1"
+      }
+    },
+    {
+      "name": "keyword Operators increment decrement",
+	  "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,keyword.operator.sass",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "keyword Operators bitwise",
+	  "nameCN": "|",
+      "scope": "keyword.operator.bitwise",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "keyword Operators ternary",
+	  "nameCN": "三元运算符",
+      "scope": "keyword.operator.ternary",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "keyword Operators logical",
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "keyword Operators comparison",
+	  "nameCN": "== === != !==",
+      "scope": "keyword.operator.comparison",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "keyword Operators relational",
+	  "nameCN": "< > <= >=",
+      "scope": "keyword.operator.relational",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "instanceof",
+      "scope": "keyword.operator.expression.instanceof",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "token.variable.parameter",
+      "settings": {
+        "foreground": "#f78c6c"
+      }
+    },
+    {
+      "name": "Functions",
+      "nameCN": "单独的函数",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "support.function",
+      "scope": "support.function",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "jsx-children",
+      "scope": "meta.jsx.children.tsx",
+      "settings": {
+        "foreground": "#8E99B1"
+      }
+    },
+    {
+      "name": "support.function.console",
+      "scope": "support.function.console",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "support.function.dom",
+      "scope": "support.function.dom",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "support.function.any-method.builtin.url.css",
+      "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "support.class",
+      "scope": "support.class",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "support.class.console",
+      "scope": "support.class.console",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "support.class.builtin",
+      "scope": "support.class.builtin",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Type Name",
+      "scope": "entity.name.type.instance.jsdoc",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "declaration",
+      "scope": "meta.method.declaration",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "arrow",
+	  "nameCN": "箭头函数",
+      "scope": "storage.type.function.arrow",
+      "settings": {
+        "foreground": "#A2A8FF"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "delete",
+      "scope": "keyword.operator.expression.delete",
+      "settings": {
+        "foreground": "#FF2D7A"
+      }
+    },
+    {
+      "name": "in of",
+      "scope": "keyword.operator.expression.in,keyword.operator.expression.of",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "Keyword Control",
+      "scope": "keyword.control",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "CSS from to, js from",
+      "scope": "keyword.control.from,entity.other.keyframe-offset",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "import, export, return(flow)",
+      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow",
+      "settings": {
+        "foreground": "#A2A8FF"
+      }
+    },
+    {
+      "name": "default",
+      "scope": "keyword.control.default",
+      "settings": {
+        "foreground": "#A2A8FF"
+      }
+    },
+    {
+      "name": "support type",
+      "nameCN": "变量类型名 颜色",
+      "scope": "support.type.primitive,support.type.builtin",
+      "settings": {
+        "foreground": "#FF6AB3"
+      }
+    },
+    {
+      "name": "type name",
+	  "nameCN": "用户自定义interface",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "css Support type",
+      "nameCN": "css less sass属性名 如果不填就与support.type同色",
+      "scope": "support.type.property-name",
+      "settings": {
+        "foreground": "#97a7c8"
+      }
+    },
+    {
+      "name": "Inherited Class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "Constant",
+	  "nameCN": "包含true false null undefined",
+      "scope": [
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "number",
+      "nameCN": "数字",
+      "scope": "constant.numeric",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#E4BF7F"
+      }
+    },
+    {
+      "name": "Tags",
+	  "nameCN": "HTML的标签名",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "punctuation",
+	  "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
+      "scope": "punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace.square,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,meta.brace.round,punctuation.definition.tag,punctuation.section.function.begin.bracket.round,punctuation.section.function.end.bracket.round,punctuation.section.property-list.begin.bracket.curly,punctuation.section.property-list.end.bracket.curly,punctuation.definition.metadata.markdown",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#8E99B1"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "class.mixin",
+	  "nameCN": "less sass里的自定义的代码块",
+      "scope": "entity.other.attribute-name.class.mixin",
+      "settings": {
+        "foreground": "#61AFEF"
+      }
+    },
+    {
+      "name": "Attribute class",
+      "scope": "entity.other.attribute-name.class.css",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "Punctuation colon",
+      "nameCN": "css里的 &",
+      "scope": "entity.other.attribute-name.parent-selector.css",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "Punctuation colon",
+      "nameCN": "css里的冒号 : 和 伪类 hover",
+      "scope": "entity.other.attribute-name.pseudo-class.css",
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "name": "Headings",
+	  "nameCN": "Markdown里的标题",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Units",
+      "nameCN": "单位 px % rem 等",
+      "scope": "keyword.other.unit",
+      "settings": {
+		"fontStyle": "normal",
+        "foreground": "#8E99B1"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM]Markdown Bold, Markdown Punctuation Definition Bold",
+      "scope": "markup.bold, punctuation.definition.bold.markdown",
+      "settings": {
+        "foreground": "#E4BF7F"
+      }
+    },
+    {
+      "name": "Italic",
+	  "nameCN": "Markdown里的斜体字",
+      "scope": "markup.italic, punctuation.definition.italic",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown headings",
+      "scope": "entity.name.section.markdown",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
+      "nameCN": "Markdown里定义标题的井号 # ",
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
+      "nameCN": "Markdown里定义有序项和无序项的 - * + 1. 2.  ",
+      "scope": "beginning.punctuation.definition.list.markdown",
+      "settings": {
+        "foreground": "#61AFEF"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
+      "scope": "markup.inline.raw.markdown",
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Quote",
+      "scope": "markup.quote.markdown",
+      "settings": {
+        "foreground": "#676E95"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Link/Image",
+      "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+      "settings": {
+        "foreground": "#598DEF"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
+      "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Regular Expressions",
+	  "nameCN": "正则表达式",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "Regular keyword",
+	  "nameCN": "正则表达式关键字",
+      "scope": "keyword.other",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Escape Characters",
+	  "nameCN": "转义符 \\ ",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Illegal",
+	  "nameCN": "无效的",
+      "scope": "invalid",
+      "settings": {
+		"fontStyle": "strikeout",
+        "foreground": "#676E95"
+      }
+    },
+    {
+      "name": "Illegal",
+	  "nameCN": "非法的",
+      "scope": "invalid.illegal",
+      "settings": {
+        "background": "#F42534",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Broken",
+      "scope": "invalid.broken",
+      "settings": {
+        "background": "#F42534",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Deprecated",
+	  "nameCN": "不赞成的",
+      "scope": "invalid.deprecated",
+      "settings": {
+		"fontStyle": "strikeout",
+        "background": "#F42534",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Unimplemented",
+	  "nameCN": "未生效的",
+      "scope": "invalid.unimplemented",
+      "settings": {
+        "background": "#F42534",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Source Json Meta Structure Dictionary Json > String Quoted Json",
+      "scope": "source.json meta.structure.dictionary.json > string.quoted.json",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
+      "scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] JSON Property Name",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#D26873"
+      }
+    },
+    {
+      "name": "parameter function",
+      "scope": "function.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#f78c6c"
+      }
+    },
+    {
+      "name": "sass selector",
+      "scope": "selector.sass",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "language arguments",
+      "scope": "variable.language.arguments",
+      "settings": {
+		  "fontStyle": "italic",
+          "foreground": "#f78c6c"
+      }
+    },
+    {
+      "name": "js ts this",
+      "scope": "variable.language.this",
+      "settings": {
+        "foreground": "#FF2D7A"
+      }
+    },
+    {
+      "name": "js ts super",
+      "scope": "variable.language.super",
+      "settings": {
+        "foreground": "#FF2D7A"
+      }
+    },
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+	{
+	  "name": "void, null, undefined",
+	  "scope": "keyword.operator.expression.void",
+	  "settings": {
+	    "foreground": "#c678dd"
+	  }
+	},
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#ff6500"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#F42534"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+  },
+  {
+	"name": "css property-name",
+	"nameCN": "自动生成的CSS属性名, 如兼容属性",
+	"scope": "support.type.vendored.property-name.css",
+	"settings": {
+	  "foreground": "#97a7c8"
+	}
+  },
+  {
+	"name": "css property-name",
+	"nameCN": "自动生成的CSS属性名, 如兼容属性",
+	"scope": "support.constant.vendored.property-value.css",
+	"settings": {
+	  "foreground": "#C5C5C5"
+	}
+  },
+  {
+	"name": "Attribute IDs",
+	"scope": "entity.other.attribute-name.id",
+	"settings": {
+	  "foreground": "#E4BF7F"
+	}
+  },
+  {
+	"name": "storage.type,new",
+	"scope": "storage.type,keyword.operator.new",
+	"settings": {
+	  "foreground": "#A2A8FF"
+	}
+  },
+  {
+	"name": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc",
+	"scope": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc,keyword.ccontrol.at-rule.keyframes.css,keyword.control.at-rule.keyframes.css",
+	"settings": {
+	  "fontStyle": "normal",
+	  "foreground": "#A2A8FF"
+	}
+  },
+  {
+	"name": "js module",
+	"scope": "support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts",
+	"settings": {
+	  "foreground": "#A2A8FF"
+	}
+  },
+  {
+	"name": "Class name",
+	"scope": "entity.name.class.identifier.namespace.type",
+	"settings": {
+	  "foreground": "#ff0000"
+	}
+  }
+  ],
+  "type": "dark"
+}
