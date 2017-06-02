@@ -1,0 +1,34 @@
+{
+    "name": "Eva",
+    "displayName": "Eva",
+    "description": "A meticulous, high contrast and comfortable code themes.",
+    "version": "0.0.1",
+    "preview": true,
+    "publisher": "fisheva",
+    "engines": {
+        "vscode": "^1.12.2"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Eva Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark.json"
+            }
+        ]
+    },
+    "icon": "static/eva.jpg",
+    "keywords": [
+        "eva",
+		"dark",
+        "light",
+		"theme",
+		"atom"
+	],
+	"engines": {
+		"vscode": "^1.12.0"
+	}
+}
