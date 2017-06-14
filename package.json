@@ -1,10 +1,20 @@
 {
-    "name": "Eva",
+    "name": "Eva-code-themes",
     "displayName": "Eva",
     "description": "A meticulous, high contrast and comfortable code themes.",
     "version": "0.0.1",
     "preview": true,
     "publisher": "fisheva",
+    "license": "MIT",
+    "icon": "./static/eva.jpg",
+    "homepage": "",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/fisheva/Eva-code-themes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/fisheva/Eva-code-themes/issues"
+	},
     "engines": {
         "vscode": "^1.12.2"
     },
@@ -17,18 +27,35 @@
                 "label": "Eva Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Eva-Dark.json"
+            },
+            {
+                "label": "Eva Dark Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Bold.json"
+            },
+            {
+                "label": "Eva Light",
+                "uiTheme": "vs",
+                "path": "./themes/Eva-Light.json"
+            },
+            {
+                "label": "Eva Light Bold",
+                "uiTheme": "vs",
+                "path": "./themes/Eva-Light-Bold.json"
             }
         ]
     },
-    "icon": "static/eva.jpg",
     "keywords": [
         "eva",
 		"dark",
         "light",
 		"theme",
-		"atom"
+		"atom",
+        "material"
 	],
-	"engines": {
-		"vscode": "^1.12.0"
+	"__metadata": {
+		"id": "",
+		"publisherId": "",
+		"publisherDisplayName": "fisheva"
 	}
 }

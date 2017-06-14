@@ -1,5 +1,5 @@
 {
-  "name": "Eva Dark",
+  "name": "Eva Dark Bold",
   "type": "dark",
   "colors": {
     "activityBar.background": "#282c34",
@@ -405,7 +405,7 @@
       "nameCN": "三元运算符 ? :;logical;== === != !==;< > <= >=;正则表达式里的 或|",
       "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.bitwise",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
@@ -413,7 +413,7 @@
       "name": "instanceof",
       "scope": "keyword.operator.expression.instanceof",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
@@ -422,7 +422,7 @@
       "nameCN": "单独的函数",
       "scope": "entity.name.function",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -462,7 +462,7 @@
       "name": "url.css,rgb(),transform,calc",
       "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -470,7 +470,7 @@
       "name": "Classes",
       "scope": "entity.name.type.class",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -478,7 +478,7 @@
       "name": "support.class",
       "scope": "support.class",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -494,7 +494,7 @@
       "name": "support.class.builtin",
       "scope": "support.class.builtin",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -502,7 +502,7 @@
       "name": "Class name",
       "scope": "entity.name.class",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -510,7 +510,7 @@
       "name": "declaration",
       "scope": "meta.method.declaration",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -519,7 +519,7 @@
       "nameCN": "箭头函数",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#A78CFA"
       }
     },
@@ -527,7 +527,7 @@
       "name": "Storage",
       "scope": "storage.modifier",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
@@ -535,7 +535,7 @@
       "name": "delete,new",
       "scope": "keyword.operator.expression.delete,keyword.operator.new",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#A78CFA"
       }
     },
@@ -543,7 +543,7 @@
       "name": "in of",
       "scope": "keyword.operator.expression.in,keyword.operator.expression.of",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
@@ -551,7 +551,7 @@
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
@@ -559,7 +559,7 @@
       "name": "CSS from to, js from",
       "scope": "keyword.control.from,entity.other.keyframe-offset",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
@@ -567,7 +567,7 @@
       "name": "import, export, return(flow)",
       "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#A78CFA"
       }
     },
@@ -575,7 +575,7 @@
       "name": "default",
       "scope": "keyword.control.default",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
@@ -593,7 +593,7 @@
       "nameCN": "用户自定义interface",
       "scope": "entity.name.type",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -601,7 +601,7 @@
       "name": "Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -618,16 +618,25 @@
       "nameCN": "语言常量,包含 true false null undefined等; void",
       "scope": "constant.language,constant.language.boolean,keyword.operator.expression.void",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#CF68E1"
       }
     },
     {
-      "name": "number,unit,markup bold,constant,id,Math",
-      "nameCN": "数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象",
-      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,entity.other.attribute-name.id,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
+      "name": "number,unit,markup bold,constant,Math",
+      "nameCN": "数字;单位;值为数字的常量;Math对象",
+      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
       "settings": {
         "fontStyle": "normal",
+        "foreground": "#FF9070"
+      }
+    },
+    {
+      "name": "id",
+      "nameCN": "HTML行间的id和CSS里的id名",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "fontStyle": "bold",
         "foreground": "#FF9070"
       }
     },
@@ -761,7 +770,7 @@
       "nameCN": "less sass里的自定义的代码块名 类似函数",
       "scope": "entity.other.attribute-name.class.mixin",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#4F97E0"
       }
     },
@@ -941,7 +950,7 @@
       "name": "js ts this super",
       "scope": "variable.language.this,variable.language.super",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#F02B77"
       }
     },
@@ -977,7 +986,7 @@
       "name": "storage.type",
       "scope": "storage.type",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#A78CFA"
       }
     },
@@ -985,7 +994,7 @@
       "name": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc",
       "scope": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc,keyword.ccontrol.at-rule.keyframes.css,keyword.control.at-rule.keyframes.css",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#A78CFA"
       }
     },
@@ -993,7 +1002,7 @@
       "name": "js module",
       "scope": "support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "bold",
         "foreground": "#A78CFA"
       }
     }
