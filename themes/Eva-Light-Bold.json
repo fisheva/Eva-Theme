@@ -193,7 +193,7 @@
     {
       "name": "Variable",
       "nameCN": "变量",
-      "scope": "support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite",
+      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#5D5D5F"
@@ -245,9 +245,18 @@
       }
     },
     {
+      "name": "keyword.operator.key.php",
+      "nameCN": "PHP里的 => 类似JS里的对象里的冒号:",
+      "scope": "keyword.operator.key.php",
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#8E8E90"
+      }
+    },
+    {
       "name": "Punctuation comma",
       "nameCN": "逗号 ,",
-      "scope": "punctuation.separator.comma,punctuation.separator.list.comma,punctuation.separator.parameter",
+      "scope": "punctuation.separator.comma,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A0A1A7F2"
@@ -256,7 +265,7 @@
     {
       "name": "Punctuation Terminator",
       "nameCN": "分号 ;",
-      "scope": "punctuation.terminator.statement, punctuation.terminator.rule.css",
+      "scope": "punctuation.terminator.statement, punctuation.terminator.rule.css, punctuation.terminator.expression",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#B3B3B4"
@@ -360,7 +369,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,keyword.operator.sass",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,keyword.operator.sass, keyword.operator.increment-decrement",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#00BEC4"
@@ -663,7 +672,7 @@
     {
       "name": "block,embedded,definition,bracket,typeparameters",
       "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
-      "scope": "punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace.square,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,meta.brace.round,punctuation.section.function.begin.bracket.round,punctuation.section.function.end.bracket.round,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end",
+      "scope": "punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace.square,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,meta.brace.round,punctuation.section.function.begin.bracket.round,punctuation.section.function.end.bracket.round,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, source.php, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#5D5D5FD8"

@@ -1,18 +1,18 @@
 {
     "name": "Eva-VSCode-Theme",
     "displayName": "Eva",
-    "description": "A meticulous and colorful code theme. Four styles: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker.",
+    "description": "A colorful and meticulous code theme. Four styles: Dark, Dark Bold, Light, Light Bold. ",
     "version": "0.0.1",
     "publisher": "fisheva",
     "license": "MIT",
-    "icon": "./static/Portraits/eva_catchU.jpg",
+    "icon": "logo.jpg",
     "homepage": "",
     "repository": {
 		"type": "git",
-		"url": "https://github.com/fisheva/Eva-code-themes.git"
+		"url": "https://github.com/fisheva/Eva-VSCode-Theme.git"
 	},
 	"bugs": {
-		"url": "https://github.com/fisheva/Eva-code-themes/issues"
+		"url": "https://github.com/fisheva/Eva-VSCode-Theme/issues"
 	},
     "engines": {
         "vscode": "^1.13.0"
