@@ -1,12 +1,14 @@
-<p align="center"><img src="https://github.com/fisheva/Photo/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
-<p align="center"><img src="https://github.com/fisheva/Photo/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
 
 [![Marketplace](http://vsmarketplacebadge.apphb.com/version/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Installs](http://vsmarketplacebadge.apphb.com/installs/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme)
+
+> [中文README_CN.md](https://github.com/fisheva/Eva-VSCode-Theme/blob/master/README_CN.md)
 
 ### Description
 Eva is a colorful and meticulous code theme meet Visual Studio Code.
 
-Four styles : Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker.
+Four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker.
 
 ### Support
 Tested with the following languag:
@@ -30,7 +32,7 @@ VSCode → Preferences → Color themes → Select Eva theme
 There is a little bug when switching themes in VSCode. You can not switch Dark with Dark Bold, or Light with Light Bold **directly**. Please change color while changing bold style.
 
 ### Font
-The above screenshots font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Setting :
+The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
 ```json
 "editor.fontFamily": "CamingoCode"
 ```
@@ -74,7 +76,7 @@ Here is my Bracket Pair Colorizer setting:
 ```
 
 ### Issue
-Please note that this theme is still in Beta(β) release. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-code-themes). Thanks for your issues !
+Please note that this theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-code-themes), or leave me a message on [Marketplace](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme). Thanks for your issues! I will keep updating !
 
 ### Encourage
-If you like this theme, would you please give me a [star ☆](https://github.com/fisheva/Eva-VSCode-Theme) as a reward. Thanks ! O(∩_∩)O~
+If you do like this theme, would you please give me a [star ☆](https://github.com/fisheva/Eva-VSCode-Theme) as a reward. Thanks so much! O(∩_∩)O~

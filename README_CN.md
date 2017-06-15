@@ -6,7 +6,7 @@
 ### 介绍
 Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
 
-有四种样式: Dark, Dark Bold, Light, Light Bold。Bold的样式加粗了许多关键字和函数名。
+有四种样式: Dark, Dark Bold, Light, Light Bold。Bold样式加粗了许多关键字和函数名。
 
 ### 支持
 已在下列语言中做详细测试:
@@ -27,10 +27,10 @@ ext install
 VSCode → 首选项 → 颜色主题 → 选择Eva主题
 
 ### 注意
-在VSCode中切换主题时有一个小Bug, 你不能直接互换 Dark 和 Dark Bold, 或 Light 和 Light Bold。在切换 Bold样式时，请同时切换颜色。
+在VSCode中切换主题时有一个小Bug, 您不能直接互换 Dark 和 Dark Bold, 或 Light 和 Light Bold。在切换 Bold样式时，请同时切换颜色。
 
 ### 字体
-上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode), 如果你喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
+上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode), 如果您喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
 ```json
 "editor.fontFamily": "CamingoCode"
 ```
@@ -74,7 +74,7 @@ VSCode → 首选项 → 颜色主题 → 选择Eva主题
 ```
 
 ### Issue
-这款主题目前还不完善, 如果您在任何语言发现前后颜色不一致的的情况, 可以向我提[issue](https://github.com/fisheva/Eva-code-themes).  感谢!
+这款主题目前还不完善, 如果您在任何语言发现前后颜色不一致的的情况, 可以向我提[issue](https://github.com/fisheva/Eva-code-themes), 或者到[插件商店](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme)给我留言. 感谢您的提交! 我会持续更新的！
 
 ### 鼓励
 如果您喜欢这款主题, 可以给我一颗 [Star ☆](https://github.com/fisheva/Eva-VSCode-Theme)以示鼓励吗? 感谢! O(∩_∩)O~
