@@ -3,6 +3,8 @@
 
 [![Marketplace](http://vsmarketplacebadge.apphb.com/version/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Installs](http://vsmarketplacebadge.apphb.com/installs/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme)
 
+> 中文版README_CN.md
+
 ### Description
 Eva is a colorful and meticulous code theme meet Visual Studio Code.
 
@@ -74,7 +76,7 @@ Here is my Bracket Pair Colorizer setting:
 ```
 
 ### Issue
-Please note that this theme is still not perfect. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-code-themes). Thanks very much!
+Please note that this theme is still in Beta(β) release. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-code-themes). Thanks for your issues !
 
 ### Encourage
 If you like this theme, would you please give me a [star ☆](https://github.com/fisheva/Eva-VSCode-Theme) as a reward. Thanks ! O(∩_∩)O~
