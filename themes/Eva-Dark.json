@@ -136,7 +136,7 @@
     "terminal.ansiBrightBlue": "#57d9ad",
     "terminal.ansiBrightCyan": "#4F97E0",
     "terminal.ansiBrightGreen": "#98CF00",
-    "terminal.ansiBrightMagenta": "#CF68E1",
+    "terminal.ansiBrightMagenta": "#C57BDB",
     "terminal.ansiBrightRed": "#FF6AB3",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightYellow": "#FFEDAF",
@@ -807,7 +807,7 @@
       "scope": "markup.italic, punctuation.definition.italic",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#CF68E1"
+        "foreground": "#C57BDB"
       }
     },
     {
