@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "publisher": "fisheva",
     "license": "MIT",
-    "icon": "logo.jpg",
+    "icon": "./sundry/logo.jpg",
     "homepage": "",
     "repository": {
 		"type": "git",
