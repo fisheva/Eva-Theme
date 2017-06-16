@@ -72,7 +72,7 @@ VSCode → 首选项 → 颜色主题 → 选择Eva主题
 ```
 
 ### Issue
-这款主题目前还不完善, 如果您在任何语言发现前后颜色不一致的的情况, 可以向我提[issue](https://github.com/fisheva/Eva-Theme), 或者到[插件商店](https://marketplace.visualstudio.com/items/fisheva.eva-theme)给我留言. 感谢您的提交! 我会持续更新的！
+这款主题目前还不完善, 如果您在任何语言发现前后颜色不一致的的情况, 可以向我提[issue](https://github.com/fisheva/Eva-Theme/issues), 或者到[插件商店](https://marketplace.visualstudio.com/items/fisheva.eva-theme)给我留言. 感谢您的提交! 我会持续更新的！
 
 ### 鼓励
 如果您喜欢这款主题, 可以给我一颗 [Star ☆](https://github.com/fisheva/Eva-Theme)以示鼓励吗? 感谢! O(∩_∩)O~

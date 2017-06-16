@@ -74,7 +74,7 @@ Here is my Bracket Pair Colorizer setting:
 ```
 
 ### Issue
-Please note that this theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-Theme), or leave me a message on [Marketplace](https://marketplace.visualstudio.com/items/fisheva.eva-theme). Thanks for your issues! I will keep updating !
+Please note that this theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-Theme/issues), or leave me a message on [Marketplace](https://marketplace.visualstudio.com/items/fisheva.eva-theme). Thanks for your issues! I will keep updating !
 
 ### Encourage
 If you do like this theme, would you please give me a [star ☆](https://github.com/fisheva/Eva-Theme) as a reward. Thanks so much! O(∩_∩)O~
