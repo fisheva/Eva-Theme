@@ -1,5 +1,5 @@
-<p align="center"><img src="https://github.com/fisheva/static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
-<p align="center"><img src="https://github.com/fisheva/static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
 
 [![Marketplace](http://vsmarketplacebadge.apphb.com/version/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Installs](http://vsmarketplacebadge.apphb.com/installs/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme)
 
@@ -11,7 +11,7 @@ Eva is a colorful and meticulous code theme meet Visual Studio Code.
 Four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker.
 
 ### Support
-Tested with the following languag:
+Tested with the following language:
 - HTML / XML / JSX
 - CSS / LESS / SCSS
 - JavaScript / TypeScript
@@ -21,7 +21,7 @@ Tested with the following languag:
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic yet.
 
 ### Installing
-Paste the following command into VSCode extention input and press `Enter`:
+Paste the following command into VSCode extension input and press `Enter`:
 ```shell
 ext install
 ```
@@ -29,7 +29,7 @@ ext install
 VSCode → Preferences → Color themes → Select Eva theme
 
 ### Attention
-There is a little bug when switching themes in VSCode. You can not switch Dark with Dark Bold, or Light with Light Bold **directly**. Please change color while changing bold style.
+There is a little bug when switching themes in VSCode. You can not switch Dark with Dark Bold, or Light with Light Bold **directly**. Please change color while turn on/off bold style.
 
 ### Font
 The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
