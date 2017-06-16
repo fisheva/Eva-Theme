@@ -50,7 +50,7 @@ Here is my Bracket Pair Colorizer setting:
         "#56B7C3",
         "#E4BF7F",
         "#A78CFA",
-        "#CD6069"
+        "#E06C75"
         ],
         "#f42a2a"
     ]
