@@ -1,7 +1,7 @@
-<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
-<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-Theme/Screenshot/Eva-Dark@2X.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-Theme/Screenshot/Eva-Light@2X.png?raw=true"></p>
 
-> [中文README_CN.md](https://github.com/fisheva/Eva-VSCode-Theme/blob/master/README_CN.md)
+> [中文README_CN.md](https://github.com/fisheva/Eva-Theme/blob/master/README_CN.md)
 
 ### Description
 Eva is a colorful and meticulous code theme meet Visual Studio Code.
@@ -21,7 +21,7 @@ Other languages have syntax highlighting too, it's just not guaranteed to be sem
 ### Installing
 Paste the following command into VSCode extension input and press `Enter`:
 ```shell
-ext install vscode-theme-eva
+ext install eva-theme
 ```
 ### Activate
 VSCode → Preferences → Color themes → Select Eva theme
@@ -74,7 +74,7 @@ Here is my Bracket Pair Colorizer setting:
 ```
 
 ### Issue
-Please note that this theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-code-themes), or leave me a message on [Marketplace](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme). Thanks for your issues! I will keep updating !
+Please note that this theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-Theme), or leave me a message on [Marketplace](https://marketplace.visualstudio.com/items/fisheva.eva-theme). Thanks for your issues! I will keep updating !
 
 ### Encourage
-If you do like this theme, would you please give me a [star ☆](https://github.com/fisheva/Eva-VSCode-Theme) as a reward. Thanks so much! O(∩_∩)O~
+If you do like this theme, would you please give me a [star ☆](https://github.com/fisheva/Eva-Theme) as a reward. Thanks so much! O(∩_∩)O~

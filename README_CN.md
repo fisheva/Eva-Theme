@@ -1,5 +1,5 @@
-<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
-<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-Theme/Screenshot/Eva-Dark@2X.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-Theme/Screenshot/Eva-Light@2X.png?raw=true"></p>
 
 ### 介绍
 Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
@@ -19,7 +19,7 @@ Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
 ### 安装
 将下列指令复制进VSCode的扩展输入框，并按下回车`Enter`：
 ```shell
-ext install vscode-theme-eva
+ext install eva-theme
 ```
 ### 使用
 VSCode → 首选项 → 颜色主题 → 选择Eva主题
@@ -72,7 +72,7 @@ VSCode → 首选项 → 颜色主题 → 选择Eva主题
 ```
 
 ### Issue
-这款主题目前还不完善, 如果您在任何语言发现前后颜色不一致的的情况, 可以向我提[issue](https://github.com/fisheva/Eva-code-themes), 或者到[插件商店](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme)给我留言. 感谢您的提交! 我会持续更新的！
+这款主题目前还不完善, 如果您在任何语言发现前后颜色不一致的的情况, 可以向我提[issue](https://github.com/fisheva/Eva-Theme), 或者到[插件商店](https://marketplace.visualstudio.com/items/fisheva.eva-theme)给我留言. 感谢您的提交! 我会持续更新的！
 
 ### 鼓励
-如果您喜欢这款主题, 可以给我一颗 [Star ☆](https://github.com/fisheva/Eva-VSCode-Theme)以示鼓励吗? 感谢! O(∩_∩)O~
+如果您喜欢这款主题, 可以给我一颗 [Star ☆](https://github.com/fisheva/Eva-Theme)以示鼓励吗? 感谢! O(∩_∩)O~
