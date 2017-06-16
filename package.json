@@ -1,25 +1,31 @@
 {
-    "name": "Eva-VSCode-Theme",
-    "displayName": "Eva",
-    "description": "A colorful and meticulous code theme.",
+    "name": "eva-vscode-theme",
+    "displayName": "Eva Theme",
+    "description": "A colorful and meticulous code theme. Dark | Light. Regular | Bold",
     "version": "0.0.1",
     "publisher": "fisheva",
-    "license": "MIT",
-    "icon": "./sundry/logo.jpg",
-    "homepage": "",
+    "preview": true,
+    "license": "SEE LICENSE IN<LICENSE.md>",
+    "icon": "eva.jpg",
+    "homepage": "https://github.com/fisheva/Eva-VSCode-Theme/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/fisheva/Eva-VSCode-Theme/issues"
+	},
     "repository": {
 		"type": "git",
 		"url": "https://github.com/fisheva/Eva-VSCode-Theme.git"
 	},
-	"bugs": {
-		"url": "https://github.com/fisheva/Eva-VSCode-Theme/issues"
-	},
     "engines": {
-        "vscode": "^1.13.0"
+        "vscode": "^1.12.0"
     },
     "categories": [
-        "Themes"
+        "Themes",
+        "Other"
     ],
+    "galleryBanner": {
+		"color": "#E1E4EB",
+		"theme": "light"
+	},
     "contributes": {
         "themes": [
             {
@@ -49,14 +55,9 @@
 		"dark",
         "light",
 		"theme",
-		"atom",
-        "material",
-        "eva dark",
-        "eva light"
+		"atom"
 	],
-	"__metadata": {
-		"id": "",
-		"publisherId": "",
-		"publisherDisplayName": "fisheva"
-	}
+    "scripts":{
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
+    }
 }

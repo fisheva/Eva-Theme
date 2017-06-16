@@ -1,7 +1,5 @@
-<p align="center"><img src="https://github.com/fisheva/Photo/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
-<p align="center"><img src="https://github.com/fisheva/Photo/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
-
-[![Marketplace](http://vsmarketplacebadge.apphb.com/version/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Installs](http://vsmarketplacebadge.apphb.com/installs/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme)
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
+<p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
 
 ### 介绍
 Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
@@ -21,7 +19,7 @@ Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
 ### 安装
 将下列指令复制进VSCode的扩展输入框，并按下回车`Enter`：
 ```shell
-ext install
+ext install vscode-theme-eva
 ```
 ### 使用
 VSCode → 首选项 → 颜色主题 → 选择Eva主题

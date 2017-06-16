@@ -1,8 +1,6 @@
 <p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Dark.png?raw=true"></p>
 <p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-VSCode-Theme/Screenshot/Eva-Light.png?raw=true"></p>
 
-[![Marketplace](http://vsmarketplacebadge.apphb.com/version/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Installs](http://vsmarketplacebadge.apphb.com/installs/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme) [![Ratings](http://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-vscode-theme.svg)](https://marketplace.visualstudio.com/items/fisheva.eva-vscode-theme)
-
 > [中文README_CN.md](https://github.com/fisheva/Eva-VSCode-Theme/blob/master/README_CN.md)
 
 ### Description
@@ -23,7 +21,7 @@ Other languages have syntax highlighting too, it's just not guaranteed to be sem
 ### Installing
 Paste the following command into VSCode extension input and press `Enter`:
 ```shell
-ext install
+ext install vscode-theme-eva
 ```
 ### Activate
 VSCode → Preferences → Color themes → Select Eva theme
