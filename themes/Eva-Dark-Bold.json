@@ -11,13 +11,14 @@
     "badge.background": "#676E95E5",
     "button.background": "#676E9599",
     "button.hoverBackground": "#598DEF",
-    "debugExceptionWidget.background": "#C8535F",
+    "debugExceptionWidget.background": "#a3151533",
+    "debugExceptionWidget.border": "#a31515",
     "debugToolBar.background": "#21252B",
     "dropdown.background": "#23272F",
     "dropdown.foreground": "#9DA5B3",
     "dropdown.border": "#181A1F",
     "diffEditor.insertedTextBackground": "#73c99066",
-    "diffEditor.removedTextBackground": "#f42a2a4C",
+    "diffEditor.removedTextBackground": "#a3151533",
     "editor.background": "#282c34",
     "editor.findMatchBackground": "#F8F900",
     "editor.findMatchHighlightBackground": "#324464",
@@ -61,6 +62,9 @@
     "editorSuggestWidget.selectedBackground": "#598DEF64",
     "editorWhitespace.foreground": "#2C313A",
     "editorWidget.background": "#21252B",
+    "extensionButton.prominentForeground": "#fff",
+    "extensionButton.prominentBackground": "#499149",
+    "extensionButton.prominentHoverBackground": "#377337",
     "focusBorder": "#598DEFB2",
     "foreground": "#9DA5B3",
     "input.background": "#282c34",
@@ -118,17 +122,17 @@
     "sideBarTitle.foreground": "#9DA5B3",
     "statusBar.background": "#21252B",
     "statusBar.foreground": "#676E95",
-    "statusBar.debuggingBackground": "#C8535F",
-    "statusBar.debuggingForeground": "#fff",
+    "statusBar.debuggingBackground": "#6c2022",
+    "statusBar.debuggingForeground": "#9da5b3",
     "statusBar.noFolderBackground": "#21252B",
     "statusBarItem.activeBackground": "#4283F5",
     "statusBarItem.hoverBackground": "#598DEF",
     "tab.activeBackground": "#282c34",
-    "tab.activeForeground": "#B0B7C3",
+    "tab.activeForeground": "#d7dae0",
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#21252B",
     "tab.inactiveForeground": "#676E95",
-    "tab.unfocusedActiveForeground": "#B0B7C3BF",
+    "tab.unfocusedActiveForeground": "#d7dae0BF",
     "tab.unfocusedInactiveForeground": "#676E95",
     "terminal.ansiBlack": "#676E95",
     "terminal.ansiBlue": "#56B7C3",
@@ -151,7 +155,10 @@
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#676E95",
     "titleBar.inactiveBackground": "#282C34",
-    "titleBar.inactiveForeground": "#676E95"
+    "titleBar.inactiveForeground": "#676E95",
+    "walkThrough.embeddedEditorBackground": "#21252B",
+    "welcomePage.buttonBackground": "#21252B",
+    "welcomePage.buttonHoverBackground": "#598DEF66"
   },
   "tokenColors": [
     {
@@ -343,10 +350,11 @@
     },
     {
       "name": "js template-expression",
+      "nameCN": "模板字符串里的${}",
       "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#56B7C3"
+        "foreground": "#6495EE"
       }
     },
     {

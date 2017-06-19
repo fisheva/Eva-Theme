@@ -1,7 +1,26 @@
-# Change Log
-All notable changes to the "eva" extension will be documented in this file.
+0.0.2 (2017-06-19)
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+* Changed Eva Dark
+```
+"tab.activeForeground"
+```
+* Changed All
+```
+"debugExceptionWidget.background"
 
-## [Unreleased]
-- Initial release
+"debugExceptionWidget.border"
+
+"debugToolBar.background"
+```
+* Add All
+```
+"walkThrough.embeddedEditorBackground"
+
+"welcomePage.buttonBackground"
+
+"welcomePage.buttonHoverBackground"
+```
+
+0.0.1 (2017-06-16)
+
+* Initial Version Release
