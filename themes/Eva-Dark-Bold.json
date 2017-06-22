@@ -57,7 +57,7 @@
     "editorRuler.foreground": "#6495EE",
     "editorSuggestWidget.background": "#23272F",
     "editorSuggestWidget.border": "#181A1F",
-    "editorSuggestWidget.foreground": "#838FA7",
+    "editorSuggestWidget.foreground": "#8E99B1",
     "editorSuggestWidget.highlightForeground": "#4480F4",
     "editorSuggestWidget.selectedBackground": "#598DEF64",
     "editorWhitespace.foreground": "#2C313A",
@@ -509,8 +509,9 @@
       }
     },
     {
-      "name": "support.class.console",
-      "scope": "support.class.console",
+      "name": "support.class.console,support.class.component",
+      "nameCN": "console输出台,react组件",
+      "scope": "support.class.console,support.class.component",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E06C75"

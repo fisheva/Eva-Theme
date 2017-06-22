@@ -57,7 +57,7 @@
     "editorRuler.foreground": "#55ACF2",
     "editorSuggestWidget.background": "#F1F4FB",
     "editorSuggestWidget.border": "#CED1D7",
-    "editorSuggestWidget.foreground": "#A0A1A7",
+    "editorSuggestWidget.foreground": "#8E8E90",
     "editorSuggestWidget.selectedBackground": "#0065FF33",
     "editorSuggestWidget.highlightForeground": "#598DEF",
     "editorWhitespace.foreground": "#BDBDBE",
@@ -149,7 +149,7 @@
     "terminal.ansiMagenta": "#C838C6",
     "terminal.ansiRed": "#FF2D7A",
     "terminal.ansiWhite": "#ffffff",
-    "terminal.ansiYellow": "#EFB05B",
+    "terminal.ansiYellow": "#ffb62c",
     "terminal.background": "#EBEEF5",
     "terminal.foreground": "#5D5D5F",
     "titleBar.activeBackground": "#EBEEF5",
@@ -167,7 +167,7 @@
       "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EFB05B"
+        "foreground": "#ffb62c"
       }
     },
     {
@@ -176,7 +176,7 @@
       "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EFB05B"
+        "foreground": "#ffb62c"
       }
     },
     {
@@ -346,7 +346,7 @@
       "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#EFB05B"
+        "foreground": "#ffb62c"
       }
     },
     {
@@ -483,8 +483,9 @@
       }
     },
     {
-      "name": "support.class.console",
-      "scope": "support.class.console",
+      "name": "support.class.console,support.class.component",
+      "nameCN": "console输出台,react组件",
+      "scope": "support.class.console,support.class.component",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#CD6069"
@@ -629,7 +630,7 @@
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#EFB05B"
+        "foreground": "#ffb62c"
       }
     },
     {
