@@ -427,14 +427,6 @@
       }
     },
     {
-      "name": "jsx-children",
-      "scope": "meta.jsx.children.tsx",
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#8796B0"
-      }
-    },
-    {
       "name": "support.function.console",
       "scope": "support.function.console",
       "settings": {
@@ -685,6 +677,15 @@
       "settings": {
         "fontStyle": "normal",
         "foreground": "#626264"
+      }
+    },
+    {
+      "name": "meta.jsx.children.tsx",
+      "nameCN": "jsx里的文字",
+      "scope": "meta.jsx.children.tsx",
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#A0A1A7"
       }
     },
     {

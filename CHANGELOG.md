@@ -1,9 +1,17 @@
+0.0.4
+
+* Changed All
+```
+//Inorder to differentiate variable from text in jsx.
+meta.jsx.children.tsx
+```
+
 0.0.3 (2017-06-22)
 
 * Changed Eva Light
 ```
-"markup.bold.markdown"
-"variable.parameter"
+markup.bold.markdown
+variable.parameter
 "editorSuggestWidget.foreground"
 ```
 
