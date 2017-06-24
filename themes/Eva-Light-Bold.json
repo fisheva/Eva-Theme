@@ -139,17 +139,17 @@
     "terminal.ansiBrightBlack": "#8E8E90",
     "terminal.ansiBrightBlue": "#57D9AD",
     "terminal.ansiBrightCyan": "#55ACF2",
-    "terminal.ansiBrightGreen": "#98CF00",
+    "terminal.ansiBrightGreen": "#45B746",
     "terminal.ansiBrightMagenta": "#C57BDB",
-    "terminal.ansiBrightRed": "#EF8ED8",
+    "terminal.ansiBrightRed": "#F5625C",
     "terminal.ansiBrightWhite": "#ffffff",
-    "terminal.ansiBrightYellow": "#FFEDAF",
-    "terminal.ansiCyan": "#437AED",
-    "terminal.ansiGreen": "#53A053",
-    "terminal.ansiMagenta": "#C838C6",
-    "terminal.ansiRed": "#FF2D7A",
+    "terminal.ansiBrightYellow": "#F8B940",
+    "terminal.ansiCyan": "#55ACF2",
+    "terminal.ansiGreen": "#45B746",
+    "terminal.ansiMagenta": "#C57BDB",
+    "terminal.ansiRed": "#F5625C",
     "terminal.ansiWhite": "#ffffff",
-    "terminal.ansiYellow": "#ffb62c",
+    "terminal.ansiYellow": "#F8B940",
     "terminal.background": "#EBEEF5",
     "terminal.foreground": "#5D5D5F",
     "titleBar.activeBackground": "#EBEEF5",
@@ -167,7 +167,7 @@
       "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ffb62c"
+        "foreground": "#F1B25B"
       }
     },
     {
@@ -176,7 +176,7 @@
       "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ffb62c"
+        "foreground": "#F1B25B"
       }
     },
     {
@@ -346,7 +346,7 @@
       "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#ffb62c"
+        "foreground": "#F1B25B"
       }
     },
     {
@@ -631,7 +631,7 @@
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#ffb62c"
+        "foreground": "#F1B25B"
       }
     },
     {

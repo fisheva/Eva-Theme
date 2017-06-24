@@ -1,5 +1,14 @@
-0.0.4
+0.0.5 (2017-06-24)
+* Changed All
+```
+variable.parameter // improve 2° lighter
+"terminal.ansiBrightCyan" = "terminal.ansiCyan"
+"terminal.ansiBrightGreen" = "terminal.ansiGreen"
+"terminal.ansiBrightRed" = "terminal.ansiRed"
+"terminal.ansiBrightYellow" = "terminal.ansiYellow"
+```
 
+0.0.4 (2017-06-23)
 * Changed All
 ```
 //Inorder to differentiate variable from text in jsx.
