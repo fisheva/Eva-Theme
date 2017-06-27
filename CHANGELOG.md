@@ -1,10 +1,14 @@
-0.0.5 (2017-06-24)
-* Changed All
+0.0.6 (2017-06-27)
 ```
 variable.parameter // improve 2° lighter
 "terminal.foreground" = "editor.foreground"
 "terminal.ansiBrightBlue" = "terminal.ansiBlue"
 "terminal.ansiBrightBlack" = "terminal.ansiBlack"
+```
+
+0.0.5 (2017-06-24)
+* Changed All
+```
 "terminal.ansiBrightCyan" = "terminal.ansiCyan"
 "terminal.ansiBrightGreen" = "terminal.ansiGreen"
 "terminal.ansiBrightRed" = "terminal.ansiRed"
