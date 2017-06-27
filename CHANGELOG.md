@@ -2,6 +2,9 @@
 * Changed All
 ```
 variable.parameter // improve 2° lighter
+"terminal.foreground" = "editor.foreground"
+"terminal.ansiBrightBlue" = "terminal.ansiBlue"
+"terminal.ansiBrightBlack" = "terminal.ansiBlack"
 "terminal.ansiBrightCyan" = "terminal.ansiCyan"
 "terminal.ansiBrightGreen" = "terminal.ansiGreen"
 "terminal.ansiBrightRed" = "terminal.ansiRed"
