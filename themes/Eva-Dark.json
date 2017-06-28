@@ -600,8 +600,8 @@
     },
     {
       "name": "support type ts",
-      "nameCN": "ts里变量类型名 颜色;js里声明函数注释参数类型;interface的颜色;ts里的构造函数",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts",
+      "nameCN": "ts里默认数据类型;自定义数据类型;interface",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,meta.type.parameters,entity.name.type.interface,entity.other.inherited-class,entity.name.type.alias.ts,meta.return.type,meta.type.annotation",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF6AB3"
@@ -610,7 +610,7 @@
     {
       "name": "type name",
       "nameCN": "构造函数",
-      "scope": "entity.name.type",
+      "scope": "entity.name.type.js,new.expr.ts",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#6495EE"

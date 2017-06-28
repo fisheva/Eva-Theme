@@ -1,8 +1,23 @@
+0.0.8 (2017-06-29)
+
+* Deleted all
+```
+entity.name.type.ts
+```
+
+* Add all
+```
+{
+scope: "entity.name.type.alias.ts,meta.return.type,meta.type.annotation",
+"foreground": "#FF6AB3/#EF8ED8"
+```
+
 0.0.7 (2017-06-28)
+
 * Changed all
 ```
 {
-scope:"entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts"
+scope:"entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts",
 "foreground": "#FF6AB3/#EF8ED8"
 }
 ```
@@ -19,6 +34,7 @@ scope:"entity.name.type.interface,entity.other.inherited-class,entity.name.type.
 ```
 
 0.0.6 (2017-06-27)
+
 * Changed All
 ```
 variable.parameter // improve 2° lighter
@@ -28,6 +44,7 @@ variable.parameter // improve 2° lighter
 ```
 
 0.0.5 (2017-06-24)
+
 * Changed All
 ```
 "terminal.ansiBrightCyan" = "terminal.ansiCyan"
@@ -37,6 +54,7 @@ variable.parameter // improve 2° lighter
 ```
 
 0.0.4 (2017-06-23)
+
 * Changed All
 ```
 //Inorder to differentiate variable from text in jsx.
@@ -44,6 +62,7 @@ meta.jsx.children.tsx
 ```
 
 0.0.3 (2017-06-22)
+
 * Changed Eva Light
 ```
 markup.bold.markdown
@@ -57,6 +76,7 @@ support.class.component
 ```
 
 0.0.2 (2017-06-19)
+
 * Changed Eva Dark
 ```
 "tab.activeForeground"
@@ -79,4 +99,5 @@ support.class.component
 ```
 
 0.0.1 (2017-06-16)
+
 * Initial Version Release
