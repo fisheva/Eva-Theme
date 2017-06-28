@@ -566,8 +566,8 @@
     },
     {
       "name": "support type ts",
-      "nameCN": "ts里变量类型名 颜色;js里声明函数注释参数类型",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance.jsdoc",
+      "nameCN": "ts里变量类型名 颜色;js里声明函数注释参数类型;interface的颜色;ts里的构造函数",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#EF8ED8"
@@ -575,16 +575,8 @@
     },
     {
       "name": "type name",
-      "nameCN": "用户自定义interface",
+      "nameCN": "构造函数",
       "scope": "entity.name.type",
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#EF8ED8"
-      }
-    },
-    {
-      "name": "Inherited Class",
-      "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#437AED"

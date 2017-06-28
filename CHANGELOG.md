@@ -1,19 +1,23 @@
 0.0.7 (2017-06-28)
+* Changed all
+```
+{
+scope:"entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts"
+"foreground": "#FF6AB3/#EF8ED8"
+}
+```
+
 * Changed All
 ```
 //Changed all red as the same to panel default red color.
 "terminal.ansiRed": "#e51400"
 ```
-* Changed Light
+* Changed All
 ```
-"terminal.ansiBrightMagenta":"#C838C6"
-"terminal.ansiMagenta":"#C838C6"
+"terminal.ansiBrightMagenta":"#C838C6/#CF68E1"
+"terminal.ansiMagenta":"#C838C6/#CF68E1"
 ```
-* Changed Dark
-```
-"terminal.ansiBrightMagenta":"#CF68E1"
-"terminal.ansiMagenta":"#CF68E1"
-```
+
 0.0.6 (2017-06-27)
 * Changed All
 ```
@@ -40,7 +44,6 @@ meta.jsx.children.tsx
 ```
 
 0.0.3 (2017-06-22)
-
 * Changed Eva Light
 ```
 markup.bold.markdown
@@ -54,7 +57,6 @@ support.class.component
 ```
 
 0.0.2 (2017-06-19)
-
 * Changed Eva Dark
 ```
 "tab.activeForeground"
@@ -77,5 +79,4 @@ support.class.component
 ```
 
 0.0.1 (2017-06-16)
-
 * Initial Version Release
