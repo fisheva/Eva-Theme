@@ -1,6 +1,7 @@
 0.0.7 (2017-06-28)
 * Changed All
 ```
+//Changed all red as the same to panel default red color.
 "terminal.ansiRed": "#e51400"
 ```
 * Changed Light
