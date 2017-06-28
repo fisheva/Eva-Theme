@@ -1,4 +1,20 @@
+0.0.7 (2017-06-28)
+* Changed All
+```
+"terminal.ansiRed": "#e51400"
+```
+* Changed Light
+```
+"terminal.ansiBrightMagenta":"#C838C6"
+"terminal.ansiMagenta":"#C838C6"
+```
+* Changed Dark
+```
+"terminal.ansiBrightMagenta":"#CF68E1"
+"terminal.ansiMagenta":"#CF68E1"
+```
 0.0.6 (2017-06-27)
+* Changed All
 ```
 variable.parameter // improve 2° lighter
 "terminal.foreground" = "editor.foreground"

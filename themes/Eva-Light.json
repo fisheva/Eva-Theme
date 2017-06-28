@@ -35,7 +35,7 @@
     "editorBracketMatch.border": "#FC835700",
     "editorCodeLens.foreground": "#BDBDBE",
     "editorCursor.foreground": "#A0A1A7",
-    "editorError.foreground": "#f42a2a",
+    "editorError.foreground": "#e51400a",
     "editorWarning.foreground": "#ff6500",
     "editorGroup.border": "#CED1D7",
     "editorGroup.dropBackground": "#EBEEF5",
@@ -51,7 +51,7 @@
     "editorLineNumber.foreground": "#B3B3B4",
     "editorLink.activeForeground": "#55ACF2",
     "editorMarkerNavigation.background": "#598DEF",
-    "editorMarkerNavigationError.background": "#f42a2a",
+    "editorMarkerNavigationError.background": "#e51400a",
     "editorMarkerNavigationWarning.background": "#ff6500",
     "editorOverviewRuler.border": "#B3B3B4",
     "editorRuler.foreground": "#55ACF2",
@@ -72,8 +72,8 @@
     "input.foreground": "#5D5D5F",
     "input.placeholderForeground": "#5D5D5F99",
     "inputOption.activeBorder": "#598DEFA5",
-    "inputValidation.errorBackground": "#f42a2a59",
-    "inputValidation.errorBorder": "#f42a2a",
+    "inputValidation.errorBackground": "#e51400a59",
+    "inputValidation.errorBorder": "#e51400a",
     "inputValidation.infoBackground": "#598DEF59",
     "inputValidation.infoBorder": "#598DEF",
     "inputValidation.warningBackground": "#ff650059",
@@ -140,14 +140,14 @@
     "terminal.ansiBrightBlue": "#00BEC4",
     "terminal.ansiBrightCyan": "#55ACF2",
     "terminal.ansiBrightGreen": "#45B746",
-    "terminal.ansiBrightMagenta": "#C57BDB",
+    "terminal.ansiBrightMagenta": "#C838C6",
     "terminal.ansiBrightRed": "#F5625C",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightYellow": "#F8B940",
     "terminal.ansiCyan": "#55ACF2",
     "terminal.ansiGreen": "#45B746",
-    "terminal.ansiMagenta": "#C57BDB",
-    "terminal.ansiRed": "#F5625C",
+    "terminal.ansiMagenta": "#C838C6",
+    "terminal.ansiRed": "#e51400",
     "terminal.ansiWhite": "#ffffff",
     "terminal.ansiYellow": "#F8B940",
     "terminal.background": "#EBEEF5",
@@ -579,7 +579,7 @@
       "scope": "entity.name.type",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#437AED"
+        "foreground": "#EF8ED8"
       }
     },
     {
@@ -942,7 +942,7 @@
       "scope": "token.error-token",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#f42a2a"
+        "foreground": "#e51400a"
       }
     },
     {
