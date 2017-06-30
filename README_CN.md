@@ -26,9 +26,6 @@ ext install eva-theme
 ### 使用
 VSCode → 首选项 → 颜色主题 → 选择Eva主题
 
-### 注意
-在VSCode中切换主题时有一个小Bug, 您不能直接互换 Dark 和 Dark Bold, 或 Light 和 Light Bold。在切换Bold样式时，请同时切换颜色。
-
 ### 字体
 上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode), 如果您喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
 ```json
