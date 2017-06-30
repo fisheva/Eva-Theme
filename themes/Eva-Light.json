@@ -166,7 +166,7 @@
       "name": "variable.parameter",
       "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#F1B25B"
       }
     },
@@ -175,7 +175,7 @@
       "nameCN": "sass,less里的变量;css3里的关键帧",
       "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#F1B25B"
       }
     },
