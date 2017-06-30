@@ -2,6 +2,7 @@
 
 * Changed all
 ```
+variable.parameter  italic → normal;
 editor.foreground = #B0B7C3E5/#5D5D5FE5;
 ```
 
