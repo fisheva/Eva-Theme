@@ -1,3 +1,16 @@
+0.0.9 (2017-06-30)
+
+* Changed all
+```
+editor.foreground = #B0B7C3E5/#5D5D5FE5;
+```
+
+* Added all
+```
+entity.name.type.enum = #B0B7C3/#5D5D5F;
+variable.other.enummember = #E06C75/#CD6069;
+```
+
 0.0.8 (2017-06-29)
 
 * Deleted all

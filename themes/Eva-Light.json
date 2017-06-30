@@ -23,7 +23,7 @@
     "editor.findMatchBackground": "#F8F900",
     "editor.findMatchHighlightBackground": "#CFD2D9",
     "editor.findRangeHighlightBackground": "#F8F9004C",
-    "editor.foreground": "#8E8E90",
+    "editor.foreground": "#5D5D5FE5",
     "editor.hoverHighlightBackground": "#CFD2D98C",
     "editor.lineHighlightBackground": "#E5E8EF",
     "editor.rangeHighlightBackground": "#E5E8EF",
@@ -35,7 +35,7 @@
     "editorBracketMatch.border": "#FC835700",
     "editorCodeLens.foreground": "#BDBDBE",
     "editorCursor.foreground": "#A0A1A7",
-    "editorError.foreground": "#e51400a",
+    "editorError.foreground": "#e51400",
     "editorWarning.foreground": "#ff6500",
     "editorGroup.border": "#CED1D7",
     "editorGroup.dropBackground": "#EBEEF5",
@@ -199,8 +199,8 @@
     },
     {
       "name": "Variable",
-      "nameCN": "变量",
-      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite",
+      "nameCN": "变量,enum",
+      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#5D5D5F"
@@ -334,8 +334,8 @@
     },
     {
       "name": "js object-literal.key",
-      "nameCN": "对象属性名 js和ts不一样,可选属性符合 ?",
-      "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional",
+      "nameCN": "对象属性名 js和ts不一样,可选属性符合 ?;enum里的元素",
+      "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional, variable.other.enummember",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#CD6069"

@@ -23,7 +23,7 @@
     "editor.findMatchBackground": "#F8F900",
     "editor.findMatchHighlightBackground": "#324464",
     "editor.findRangeHighlightBackground": "#F8F9004C",
-    "editor.foreground": "#8792BD",
+    "editor.foreground": "#B0B7C3E5",
     "editor.hoverHighlightBackground": "#32446499",
     "editor.lineHighlightBackground": "#2D3039",
     "editor.rangeHighlightBackground": "#2D3039",
@@ -216,8 +216,8 @@
     },
     {
       "name": "Variable",
-      "nameCN": "变量",
-      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite",
+      "nameCN": "变量,enum",
+      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#B0B7C3"
@@ -359,8 +359,8 @@
     },
     {
       "name": "js object-literal.key",
-      "nameCN": "对象属性名 js和ts不一样,可选属性符合 ?",
-      "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional",
+      "nameCN": "对象属性名 js和ts不一样,可选属性符合 ?;enum里的元素",
+      "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional, variable.other.enummember",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E06C75"
@@ -635,7 +635,7 @@
     },
     {
       "name": "number,unit,markup bold,constant,Math",
-      "nameCN": "数字;单位;值为数字的常量;Math对象",
+      "nameCN": "数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象",
       "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
       "settings": {
         "fontStyle": "normal",
