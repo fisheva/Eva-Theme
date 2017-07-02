@@ -920,7 +920,7 @@
       "scope": "variable.language.this,variable.language.super",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F01398"
+        "foreground": "#FF2791"
       }
     },
     {
