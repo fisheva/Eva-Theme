@@ -18,7 +18,7 @@
     "dropdown.foreground": "#5D5D5F",
     "dropdown.border": "#CED1D7",
     "diffEditor.insertedTextBackground": "#73c99059",
-    "diffEditor.removedTextBackground": "#a315153F",
+    "diffEditor.removedTextBackground": "#E04B3ECC",
     "editor.background": "#EBEEF5",
     "editor.findMatchBackground": "#F8F900",
     "editor.findMatchHighlightBackground": "#CFD2D9",
@@ -167,7 +167,7 @@
       "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F1B25B"
+        "foreground": "#F0AA0B"
       }
     },
     {
@@ -176,7 +176,7 @@
       "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F1B25B"
+        "foreground": "#F0AA0B"
       }
     },
     {
@@ -346,7 +346,7 @@
       "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F1B25B"
+        "foreground": "#F0AA0B"
       }
     },
     {
@@ -623,7 +623,7 @@
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#F1B25B"
+        "foreground": "#F0AA0B"
       }
     },
     {

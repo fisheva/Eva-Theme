@@ -18,7 +18,7 @@
     "dropdown.foreground": "#5D5D5F",
     "dropdown.border": "#CED1D7",
     "diffEditor.insertedTextBackground": "#73c99059",
-    "diffEditor.removedTextBackground": "#a315153F",
+    "diffEditor.removedTextBackground": "#E04B3ECC",
     "editor.background": "#EBEEF5",
     "editor.findMatchBackground": "#F8F900",
     "editor.findMatchHighlightBackground": "#CFD2D9",
@@ -51,7 +51,7 @@
     "editorLineNumber.foreground": "#B3B3B4",
     "editorLink.activeForeground": "#55ACF2",
     "editorMarkerNavigation.background": "#598DEF",
-    "editorMarkerNavigationError.background": "#e51400a",
+    "editorMarkerNavigationError.background": "#e51400",
     "editorMarkerNavigationWarning.background": "#ff6500",
     "editorOverviewRuler.border": "#B3B3B4",
     "editorRuler.foreground": "#55ACF2",
@@ -72,8 +72,8 @@
     "input.foreground": "#5D5D5F",
     "input.placeholderForeground": "#5D5D5F99",
     "inputOption.activeBorder": "#598DEFA5",
-    "inputValidation.errorBackground": "#e51400a59",
-    "inputValidation.errorBorder": "#e51400a",
+    "inputValidation.errorBackground": "#e5140059",
+    "inputValidation.errorBorder": "#e51400",
     "inputValidation.infoBackground": "#598DEF59",
     "inputValidation.infoBorder": "#598DEF",
     "inputValidation.warningBackground": "#ff650059",
@@ -167,7 +167,7 @@
       "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F1B25B"
+        "foreground": "#F0AA0B"
       }
     },
     {
@@ -176,7 +176,7 @@
       "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F1B25B"
+        "foreground": "#F0AA0B"
       }
     },
     {
@@ -346,7 +346,7 @@
       "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F1B25B"
+        "foreground": "#F0AA0B"
       }
     },
     {
@@ -613,8 +613,8 @@
       "nameCN": "Markdown里的bold",
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#F1B25B"
+        "fontStyle": "normal",
+        "foreground": "#F0AA0B"
       }
     },
     {
@@ -783,7 +783,7 @@
       "nameCN": "Markdown里的标题 和 定义标题的#",
       "scope": "entity.name.section.markdown,markup.heading,punctuation.definition.heading.markdown",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CD6069"
       }
     },
@@ -934,7 +934,7 @@
       "scope": "token.error-token",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#e51400a"
+        "foreground": "#e51400"
       }
     },
     {
