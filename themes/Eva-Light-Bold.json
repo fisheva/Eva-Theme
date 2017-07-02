@@ -18,7 +18,7 @@
     "dropdown.foreground": "#5D5D5F",
     "dropdown.border": "#CED1D7",
     "diffEditor.insertedTextBackground": "#73c99059",
-    "diffEditor.removedTextBackground": "#E04B3ECC",
+    "diffEditor.removedTextBackground": "#a315153F",
     "editor.background": "#EBEEF5",
     "editor.findMatchBackground": "#F8F900",
     "editor.findMatchHighlightBackground": "#CFD2D9",

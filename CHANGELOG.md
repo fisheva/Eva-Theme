@@ -3,7 +3,6 @@
 * Changed all
 
 ```
-diffEditor.removedTextBackground = #D13B2ECC/#E04B3ECC
 variable.parameter = #E4BF7F/#F0AA0B
 ```
 
