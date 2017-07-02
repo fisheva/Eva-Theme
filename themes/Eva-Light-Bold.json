@@ -929,7 +929,7 @@
       "scope": "variable.language.this,variable.language.super",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#FF2791"
+        "foreground": "#FA278E"
       }
     },
     {

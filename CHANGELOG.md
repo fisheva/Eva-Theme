@@ -2,7 +2,7 @@
 
 * Changed Eva Light & Bold
 ```
-variable.language.this = #FF2791
+variable.language.this = #FA278C
 ```
 * Changed all
 
