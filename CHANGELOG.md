@@ -4,7 +4,7 @@
 
 ```
 diffEditor.removedTextBackground = #D13B2ECC/#E04B3ECC
-variable.parameter = #E2C08D/#F0AA0B
+variable.parameter = #E4BF7F/#F0AA0B
 ```
 
 * Changed Eva Dark/Light

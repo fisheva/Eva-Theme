@@ -166,7 +166,7 @@
       "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E2C08D"
+        "foreground": "#E4BF7F"
       }
     },
     {
@@ -184,7 +184,7 @@
       "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss,meta.function.calc.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E2C08D"
+        "foreground": "#E4BF7F"
       }
     },
     {
@@ -371,7 +371,7 @@
       "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E2C08D"
+        "foreground": "#E4BF7F"
       }
     },
     {
@@ -657,7 +657,7 @@
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#E2C08D"
+        "foreground": "#E4BF7F"
       }
     },
     {
