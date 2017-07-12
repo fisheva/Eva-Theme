@@ -377,7 +377,7 @@
     {
       "name": "punctuation",
       "nameCN": "html标签里的</> = ",
-      "scope": "punctuation.definition.tag.html,meta.tag.inline.any.html,meta.tag.block.any.html,meta.tag.any.html,meta.tag.structure.any.html,meta.tag.metadata.script.html,punctuation.definition.tag.begin,punctuation.definition.tag.end,punctuation.separator.key-value.html",
+      "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.separator.key-value",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A0A1A7"
@@ -463,7 +463,7 @@
       "scope": "entity.name.type.class",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#437AED"
+        "foreground": "#EF8ED8"
       }
     },
     {
