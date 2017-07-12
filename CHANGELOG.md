@@ -6,6 +6,19 @@
 entity.other.inherited-class,meta.type.annotation,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
 ```
 
+* Add all
+
+```
+"notification.buttonBackground": "#676E9599/#A0A1A7E5",
+"notification.buttonHoverBackground": "#598DEF",
+"notification.infoBackground": "#598DEF",
+"notification.infoForeground": "#FFF",
+"notification.warningBackground": "#ff6500",
+"notification.warningForeground": "#FFF",
+"notification.errorBackground": "#e51400",
+"notification.errorForeground": "#FFF",
+```
+
 0.1.0 (2017-07-03)
 
 * Changed Eva Light & Bold
