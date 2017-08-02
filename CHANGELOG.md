@@ -1,3 +1,24 @@
+0.1.2 (2017-08-02)
+
+* Add all
+
+```
+"selection.background": "#598DEF59/#0065FF3F"
+
+```
+
+* Fixed all
+
+```
+
+keyword.operator.css, entity.name.tag.wildcard.scss = #56B7C3/#00BEC4
+
+punctuation.definition.parameters.end.bracket.round.scss, punctuation.definition.parameters.begin.bracket.round.scss = #838FA7CC/#888888BF
+
+source.css.scss = #79859D/#A0A1A7F2
+
+```
+
 0.1.1 (2017-07-12)
 
 * Changed all

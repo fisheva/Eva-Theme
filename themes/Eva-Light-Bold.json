@@ -125,6 +125,7 @@
     "scrollbarSlider.activeBackground": "#00000022",
     "scrollbarSlider.background": "#00000011",
     "scrollbarSlider.hoverBackground": "#00000022",
+    "selection.background": "#0065FF3F",
     "sideBar.background": "#E1E4EB",
     "sideBarSectionHeader.background": "#EBEEF5",
     "sideBarTitle.foreground": "#5D5D5F",
@@ -280,7 +281,7 @@
     {
       "name": "Punctuation comma",
       "nameCN": "逗号 ,",
-      "scope": "punctuation.separator.comma,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php",
+      "scope": "punctuation.separator.comma,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, source.css.scss",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A0A1A7F2"
@@ -394,7 +395,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,keyword.operator.sass, keyword.operator.increment-decrement",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#00BEC4"
@@ -709,7 +710,7 @@
     {
       "name": "curly",
       "nameCN": "CSS里的大括号 {} ()",
-      "scope": "punctuation.section.property-list.begin.bracket.curly,punctuation.section.property-list.end.bracket.curly,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,meta.brace.round.css",
+      "scope": "punctuation.section.property-list.begin.bracket.curly,punctuation.section.property-list.end.bracket.curly,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,meta.brace.round.css, punctuation.definition.parameters.end.bracket.round.scss, punctuation.definition.parameters.begin.bracket.round.scss",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#888888BF"
