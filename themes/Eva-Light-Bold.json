@@ -105,7 +105,7 @@
     "panel.border": "#E1E4EB",
     "panelTitle.activeForeground": "#5D5D5F",
     "panelTitle.activeBorder": "#5D5D5F",
-    "panelTitle.inactiveForeground": "#A0A1A7",
+    "panelTitle.inactiveForeground": "#A9A9AA",
     "peekView.border": "#E6E6E6",
     "peekViewEditor.background": "#F2F2F2",
     "peekViewEditor.matchHighlightBackground": "#67BAFF72",
@@ -221,7 +221,7 @@
       "scope": "comment,comment markup.link,punctuation.definition.comment,markup.quote.markdown",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#B3B3B4"
+        "foreground": "#A9A9AA"
       }
     },
     {
@@ -230,7 +230,7 @@
       "scope": "invalid",
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#B3B3B4"
+        "foreground": "#A9A9AA"
       }
     },
     {
@@ -239,7 +239,7 @@
       "scope": "invalid.unimplemented",
       "settings": {
           "fontStyle": "underline",
-          "foreground": "#B3B3B4"
+          "foreground": "#A9A9AA"
       }
     },
     {
@@ -293,7 +293,7 @@
       "scope": "punctuation.terminator.statement, punctuation.terminator.rule, punctuation.terminator.expression",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#B3B3B4"
+        "foreground": "#A9A9AA"
       }
     },
     {
@@ -380,7 +380,7 @@
       "scope": "keyword.operator.assignment",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#888888D8"
+        "foreground": "#888888"
       }
     },
     {
@@ -389,7 +389,7 @@
       "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.separator.key-value",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#A0A1A7"
+        "foreground": "#888888"
       }
     },
     {
@@ -713,7 +713,7 @@
       "scope": "punctuation.section.property-list.begin.bracket.curly,punctuation.section.property-list.end.bracket.curly,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,meta.brace.round.css, punctuation.definition.parameters.end.bracket.round.scss, punctuation.definition.parameters.begin.bracket.round.scss",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#888888BF"
+        "foreground": "#888888D9"
       }
     },
     {
@@ -731,7 +731,7 @@
       "scope": "support.type.property-name.css,meta.property-value.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#94969B"
+        "foreground": "#888888"
       }
     },
     {
@@ -740,7 +740,7 @@
       "scope": "meta.property-list.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#B3B3B4"
+        "foreground": "#A9A9AA"
       }
     },
     {
@@ -749,7 +749,7 @@
       "scope": "support.type.vendored.property-name.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#A0A1A7"
+        "foreground": "#888888"
       }
     },
     {
@@ -943,8 +943,8 @@
       }
     },
     {
-      "name": "js ts this super",
-      "scope": "variable.language.this,variable.language.super",
+      "name": "js ts this super, python self",
+      "scope": "variable.language.this,variable.language.super,variable.language.special.self.python",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#FA278E"

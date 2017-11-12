@@ -1,3 +1,24 @@
+0.1.3 (2017-11-11)
+
+* Add all
+
+```
+Add "self" keyword in Python.
+```
+
+* Changed Light
+
+```
+//Make COMMENT a little darker and clear.
+comment: #B3B3B4 → #A9A9AA
+panelTitle.inactiveForeground: #A0A1A7 → #A9A9AA
+
+//Make PUNCTUATION(html标签里的</> =)and PROPERTY-NAME(CSS属性名) a little darker and clear.
+punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.separator.key-value: #A0A1A7 → #888888
+
+support.type.property-name.css,meta.property-value.css: #94969B→#888888
+```
+
 0.1.2 (2017-08-02)
 
 * Add all

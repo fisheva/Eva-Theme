@@ -967,8 +967,8 @@
       }
     },
     {
-      "name": "js ts this super",
-      "scope": "variable.language.this,variable.language.super",
+      "name": "js ts this super, python self",
+      "scope": "variable.language.this,variable.language.super,variable.language.special.self.python",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#F02B77"
