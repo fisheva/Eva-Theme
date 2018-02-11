@@ -389,7 +389,7 @@
       "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.separator.key-value",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#888888"
+        "foreground": "#A0A1A7"
       }
     },
     {
