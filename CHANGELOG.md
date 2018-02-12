@@ -1,3 +1,12 @@
+0.1.5 (2018-02-12)
+
+* Changed Dark
+
+```
+statusBar.foreground: #9DA5B3 → #B0B7C3
+statusBar.debuggingForeground: #9DA5B3 → #B0B7C3
+```
+
 0.1.4 (2018-02-11)
 
 * Changed Dark
