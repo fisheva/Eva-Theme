@@ -1,10 +1,15 @@
-0.1.5 (2018-02-12)
+0.1.5 (2018-03-24)
 
-* Changed Dark
+* Add Dark
 
 ```
-statusBar.foreground: #9DA5B3 → #B0B7C3
-statusBar.debuggingForeground: #9DA5B3 → #B0B7C3
+list.inactiveSelectionForeground: #d7dae0
+```
+
+* Add Light
+
+```
+list.inactiveSelectionForeground: #5D5D5F
 ```
 
 0.1.4 (2018-02-11)
