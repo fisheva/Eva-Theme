@@ -14,6 +14,12 @@ list.focusForeground: #5D5D5F
 list.hoverForeground: #5D5D5F
 ```
 
+* Changed Dark
+
+```
+warning: #FF6500 → FF9070
+```
+
 * Changed Light
 
 ```
