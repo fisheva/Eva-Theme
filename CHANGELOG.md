@@ -1,3 +1,25 @@
+0.1.7
+
+* Add Dark
+
+```
+list.focusForeground: #d7dae0
+list.hoverForeground: #d7dae0
+```
+
+* Add Light
+
+```
+list.focusForeground: #5D5D5F
+list.hoverForeground: #5D5D5F
+```
+
+* Changed Light
+
+```
+number、id: #F5625C → #FF6500
+```
+
 0.1.6 (2018-04-01)
 
 * Add Dark

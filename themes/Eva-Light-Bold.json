@@ -87,8 +87,10 @@
     "list.activeSelectionForeground": "#5D5D5F",
     "list.dropBackground": "#0065FF33",
     "list.focusBackground": "#0065FF33",
+    "list.focusForeground": "#5D5D5F",
     "list.highlightForeground": "#4283F5",
     "list.hoverBackground": "#0065FF19",
+    "list.hoverForeground": "#5D5D5F",
     "list.inactiveSelectionBackground": "#EDF0F7",
     "list.inactiveSelectionForeground": "#5D5D5F",
     "merge.border": "#CED1D7",
@@ -627,12 +629,12 @@
       }
     },
     {
-      "name": "number,unit,markup bold,constant,Math",
+      "name": "number,unit,constant,Math",
       "nameCN": "数字;单位;值为数字的常量;Math对象",
       "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#F5625C"
+        "foreground": "#ff6500"
       }
     },
     {
@@ -641,11 +643,11 @@
       "scope": "entity.other.attribute-name.id",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#F5625C"
+        "foreground": "#ff6500"
       }
     },
     {
-      "name": "number,unit,markup bold,constant,id,Math",
+      "name": "markup bold",
       "nameCN": "Markdown里的bold",
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {

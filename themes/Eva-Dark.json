@@ -87,8 +87,10 @@
     "list.activeSelectionForeground": "#d7dae0",
     "list.dropBackground": "#598DEF3F",
     "list.focusBackground": "#598DEF66",
+    "list.focusForeground": "#d7dae0",
     "list.highlightForeground": "#5889EA",
     "list.hoverBackground": "#598DEF3F",
+    "list.hoverForeground": "#d7dae0",
     "list.inactiveSelectionBackground": "#2C313A",
     "list.inactiveSelectionForeground": "#d7dae0",
     "merge.border": "#181A1F",
@@ -653,7 +655,7 @@
       }
     },
     {
-      "name": "number,unit,markup bold,constant,id,Math",
+      "name": "number,unit,constant,id,Math",
       "nameCN": "数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象",
       "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,entity.other.attribute-name.id,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
       "settings": {
@@ -662,7 +664,7 @@
       }
     },
     {
-      "name": "number,unit,markup bold,constant,id,Math",
+      "name": "markup bold",
       "nameCN": "Markdown里的bold",
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {
