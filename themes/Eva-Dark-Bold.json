@@ -51,7 +51,7 @@
     "editorHoverWidget.border": "#181A1F",
     "editorIndentGuide.background": "#454963",
     "editorLineNumber.foreground": "#535773",
-    "editorLink.activeForeground": "#6495EE",
+    "editorLink.activeForeground": "#A78CFA",
     "editorMarkerNavigation.background": "#598DEF",
     "editorMarkerNavigationError.background": "#e51400",
     "editorMarkerNavigationWarning.background": "#ff6500",
@@ -168,6 +168,9 @@
     "terminal.background": "#282c34",
     "terminal.foreground": "#B0B7C3",
     "textBlockQuote.border":"#4283F5",
+    "textLink.activeForeground": "#A78CFA",
+    "textLink.foreground": "#598DEF",
+    "textPreformat.foreground": "#E4BF7F",
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#676E95",
     "titleBar.inactiveBackground": "#282C34",
@@ -660,7 +663,7 @@
     },
     {
       "name": "number,unit,markup bold,constant,Math",
-      "nameCN": "数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象",
+      "nameCN": "数字;单位;值为数字的常量;Math对象",
       "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
       "settings": {
         "fontStyle": "normal",

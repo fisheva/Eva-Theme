@@ -1,4 +1,4 @@
-0.1.6 (2018-03-31)
+0.1.6 (2018-04-01)
 
 * Add Dark
 
@@ -8,6 +8,16 @@ editorGroup.background: #282c34
 sideBar.foreground: #8E99B1
 sideBarSectionHeader.foreground: #9DA5B3
 textBlockQuote.border: #4283F5
+textLink.activeForeground: #A78CFA
+textLink.foreground: #598DEF
+textPreformat.foreground: #E4BF7F
+```
+
+* Changed Dark
+
+```
+foreground: #9DA5B3 → #B0B7C3
+editorLink.activeForeground: #6494ed → #A78CFA
 ```
 
 * Add Light
@@ -18,12 +28,15 @@ editorGroup.background: #EBEEF5
 sideBar.foreground: #626264D8
 sideBarSectionHeader.foreground: #5D5D5F
 textBlockQuote.border: #598DEF
+textLink.activeForeground: #7C4DFF
+textPreformat.foreground: #F5625C
 ```
 
-* Changed Dark
+* Changed Light
 
 ```
-foreground: #9DA5B3 → #B0B7C3
+editorLink.activeForeground: #55ACF2 → #7C4DFF
+number、id: #FF9070 → #F5625C
 ```
 
 0.1.5 (2018-03-24)

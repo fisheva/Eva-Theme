@@ -51,7 +51,7 @@
     "editorHoverWidget.border": "#CED1D7",
     "editorIndentGuide.background": "#CED1D7",
     "editorLineNumber.foreground": "#B3B3B4",
-    "editorLink.activeForeground": "#55ACF2",
+    "editorLink.activeForeground": "#7C4DFF",
     "editorMarkerNavigation.background": "#598DEF",
     "editorMarkerNavigationError.background": "#e51400",
     "editorMarkerNavigationWarning.background": "#ff6500",
@@ -168,6 +168,8 @@
     "terminal.background": "#EBEEF5",
     "terminal.foreground": "#5D5D5F",
     "textBlockQuote.border":"#598DEF",
+    "textLink.activeForeground": "#7C4DFF",
+    "textPreformat.foreground": "#F5625C",
     "titleBar.activeBackground": "#EBEEF5",
     "titleBar.activeForeground": "#5D5D5F",
     "titleBar.inactiveBackground": "#EBEEF5",
@@ -621,7 +623,7 @@
       "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,entity.other.attribute-name.id,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#FF9070"
+        "foreground": "#F5625C"
       }
     },
     {
