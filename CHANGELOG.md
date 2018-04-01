@@ -1,3 +1,31 @@
+0.1.6 (2018-03-31)
+
+* Add Dark
+
+```
+descriptionForeground: #B0B7C3BF
+editorGroup.background: #282c34
+sideBar.foreground: #8E99B1
+sideBarSectionHeader.foreground: #9DA5B3
+textBlockQuote.border: #4283F5
+```
+
+* Add Light
+
+```
+descriptionForeground: #626264BF
+editorGroup.background: #EBEEF5
+sideBar.foreground: #626264D8
+sideBarSectionHeader.foreground: #5D5D5F
+textBlockQuote.border: #598DEF
+```
+
+* Changed Dark
+
+```
+foreground: #9DA5B3 → #B0B7C3
+```
+
 0.1.5 (2018-03-24)
 
 * Add Dark
