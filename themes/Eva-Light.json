@@ -37,7 +37,7 @@
     "editorCodeLens.foreground": "#BDBDBE",
     "editorCursor.foreground": "#A0A1A7",
     "editorError.foreground": "#e51400",
-    "editorWarning.foreground": "#ff6500",
+    "editorWarning.foreground": "#F5625C",
     "editorGroup.background": "#EBEEF5",
     "editorGroup.border": "#CED1D7",
     "editorGroup.dropBackground": "#EBEEF5",
@@ -54,7 +54,7 @@
     "editorLink.activeForeground": "#7C4DFF",
     "editorMarkerNavigation.background": "#598DEF",
     "editorMarkerNavigationError.background": "#e51400",
-    "editorMarkerNavigationWarning.background": "#ff6500",
+    "editorMarkerNavigationWarning.background": "#F5625C",
     "editorOverviewRuler.border": "#B3B3B4",
     "editorOverviewRuler.currentContentForeground": "#FFF",
     "editorOverviewRuler.incomingContentForeground": "#FFF",
@@ -81,8 +81,8 @@
     "inputValidation.errorBorder": "#e51400",
     "inputValidation.infoBackground": "#598DEF59",
     "inputValidation.infoBorder": "#598DEF",
-    "inputValidation.warningBackground": "#ff650059",
-    "inputValidation.warningBorder": "#ff6500",
+    "inputValidation.warningBackground": "#F5625C59",
+    "inputValidation.warningBorder": "#F5625C",
     "list.activeSelectionBackground": "#EDF0F7",
     "list.activeSelectionForeground": "#5D5D5F",
     "list.dropBackground": "#0065FF33",
@@ -104,7 +104,7 @@
     "notification.buttonHoverBackground": "#598DEF",
     "notification.infoBackground": "#598DEF",
     "notification.infoForeground": "#FFF",
-    "notification.warningBackground": "#ff6500",
+    "notification.warningBackground": "#F5625C",
     "notification.warningForeground": "#FFF",
     "notification.errorBackground": "#e51400",
     "notification.errorForeground": "#FFF",
@@ -961,7 +961,7 @@
       "scope": "token.warn-token",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#ff6500"
+        "foreground": "#F5625C"
       }
     },
     {
