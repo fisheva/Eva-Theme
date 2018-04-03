@@ -1,3 +1,37 @@
+0.1.8
+
+* Changed all
+
+```
+diffEditor.insertedTextBackground: #45B7463F/#45B7464C
+diffEditor.removedTextBackground: #e514003F/#e514004C
+merge.currentHeaderBackground: #598DEF59/#0065FF33
+merge.currentContentBackground: #45B7463F/#45B7464C
+merge.incomingContentBackground: #45B7463F/#45B7464C
+
+//Redesigned peekView
+peekView.border: #535773/#BDBDBED8
+peekViewEditor.background: #2D3039/#E5E8EF
+peekViewEditor.matchHighlightBackground: #598DEF33/#0065FF19
+peekViewResult.background: #282c34/#EBEEF5
+peekViewResult.fileForeground: #9DA5B3/#626264
+peekViewResult.lineForeground: #8E99B1/#888888
+peekViewResult.matchHighlightBackground: #282c3400/#EBEEF500
+peekViewResult.selectionBackground: #598DEFA5/#0065FF4C
+peekViewResult.selectionForeground: #d7dae0/#626264
+peekViewTitle.background: #282c34/#EBEEF5
+peekViewTitleLabel.foreground: #9DA5B3/#626264
+peekViewTitleDescription.foreground: #9DA5B3BF/#888888
+```
+
+* Add all
+
+```
+//There is no following api, but it should be, maybe I should make a issue.
+statusBarItem.hoverForeground: #FFFFFF
+peekViewResult.inactiveSelectionBackground: #598DEFA5/#0065FF4C
+```
+
 0.1.7
 
 * Add Dark
@@ -89,7 +123,7 @@ statusBar.foreground: #676E95 → #9da5b3
 * Add all
 
 ```
-Add "self" keyword in Python.
+Add self keyword in Python.
 ```
 
 * Changed Light
@@ -108,7 +142,7 @@ support.type.property-name.css,meta.property-value.css: #94969B→#888888
 * Add all
 
 ```
-"selection.background": "#598DEF59/#0065FF3F"
+selection.background: #598DEF59/#0065FF3F
 ```
 
 * Fixed all
@@ -134,14 +168,14 @@ entity.other.inherited-class,meta.type.annotation,entity.name.type.interface,met
 * Add all
 
 ```
-"notification.buttonBackground": "#676E9599/#A0A1A7E5",
-"notification.buttonHoverBackground": "#598DEF",
-"notification.infoBackground": "#598DEF",
-"notification.infoForeground": "#FFF",
-"notification.warningBackground": "#ff6500",
-"notification.warningForeground": "#FFF",
-"notification.errorBackground": "#e51400",
-"notification.errorForeground": "#FFF",
+notification.buttonBackground: #676E9599/#A0A1A7E5,
+notification.buttonHoverBackground: #598DEF,
+notification.infoBackground: #598DEF,
+notification.infoForeground: #FFF,
+notification.warningBackground: #ff6500,
+notification.warningForeground: #FFF,
+notification.errorBackground: #e51400,
+notification.errorForeground: #FFF,
 ```
 
 0.1.0 (2017-07-03)
@@ -151,6 +185,7 @@ entity.other.inherited-class,meta.type.annotation,entity.name.type.interface,met
 ```
 variable.language.this = #FA278C
 ```
+
 * Changed all
 
 ```
@@ -191,9 +226,9 @@ entity.name.type.ts
 
 ```
 {
-scope: "entity.name.type.alias.ts,meta.return.type,meta.type.annotation",
+scope: entity.name.type.alias.ts,meta.return.type,meta.type.annotation;
 
-"foreground": "#FF6AB3/#EF8ED8"
+foreground: #FF6AB3/#EF8ED8
 }
 ```
 
@@ -203,9 +238,9 @@ scope: "entity.name.type.alias.ts,meta.return.type,meta.type.annotation",
 
 ```
 {
-scope:"entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts",
+scope:entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts;
 
-"foreground": "#FF6AB3/#EF8ED8"
+foreground: #FF6AB3/#EF8ED8
 }
 ```
 
@@ -213,14 +248,14 @@ scope:"entity.name.type.interface,entity.other.inherited-class,entity.name.type.
 
 ```
 //Changed all red as the same to panel default red color.
-"terminal.ansiRed": "#e51400"
+terminal.ansiRed: #e51400
 ```
 
 * Changed All
 
 ```
-"terminal.ansiBrightMagenta":"#C838C6/#CF68E1"
-"terminal.ansiMagenta":"#C838C6/#CF68E1"
+terminal.ansiBrightMagenta:#C838C6/#CF68E1
+terminal.ansiMagenta:#C838C6/#CF68E1
 ```
 
 0.0.6 (2017-06-27)
@@ -229,9 +264,9 @@ scope:"entity.name.type.interface,entity.other.inherited-class,entity.name.type.
 
 ```
 variable.parameter // improve 2° lighter
-"terminal.foreground" = "editor.foreground"
-"terminal.ansiBrightBlue" = "terminal.ansiBlue"
-"terminal.ansiBrightBlack" = "terminal.ansiBlack"
+terminal.foreground = editor.foreground
+terminal.ansiBrightBlue = terminal.ansiBlue
+terminal.ansiBrightBlack = terminal.ansiBlack
 ```
 
 0.0.5 (2017-06-24)
@@ -239,10 +274,10 @@ variable.parameter // improve 2° lighter
 * Changed All
 
 ```
-"terminal.ansiBrightCyan" = "terminal.ansiCyan"
-"terminal.ansiBrightGreen" = "terminal.ansiGreen"
-"terminal.ansiBrightRed" = "terminal.ansiRed"
-"terminal.ansiBrightYellow" = "terminal.ansiYellow"
+terminal.ansiBrightCyan = terminal.ansiCyan
+terminal.ansiBrightGreen = terminal.ansiGreen
+terminal.ansiBrightRed = terminal.ansiRed
+terminal.ansiBrightYellow = terminal.ansiYellow
 ```
 
 0.0.4 (2017-06-23)
@@ -261,10 +296,11 @@ meta.jsx.children.tsx
 ```
 markup.bold.markdown
 variable.parameter
-"editorSuggestWidget.foreground"
+editorSuggestWidget.foreground
 ```
 
 * Fixed All
+
 ```
 support.class.component
 ```
@@ -274,27 +310,27 @@ support.class.component
 * Changed Eva Dark
 
 ```
-"tab.activeForeground"
+tab.activeForeground
 ```
 
 * Changed All
 
 ```
-"debugExceptionWidget.background"
+debugExceptionWidget.background
 
-"debugExceptionWidget.border"
+debugExceptionWidget.border
 
-"debugToolBar.background"
+debugToolBar.background
 ```
 
 * Add All
 
 ```
-"walkThrough.embeddedEditorBackground"
+walkThrough.embeddedEditorBackground
 
-"welcomePage.buttonBackground"
+welcomePage.buttonBackground
 
-"welcomePage.buttonHoverBackground"
+welcomePage.buttonHoverBackground
 ```
 
 0.0.1 (2017-06-16)
