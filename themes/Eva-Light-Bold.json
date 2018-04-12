@@ -120,7 +120,7 @@
     "peekViewResult.lineForeground": "#888",
     "peekViewResult.matchHighlightBackground": "#EBEEF500",
     "peekViewResult.selectionBackground": "#0065FF4C",
-    "peekViewResult.inactiveSelectionBackground": "#0065FF4C",    
+    "peekViewResult.inactiveSelectionBackground": "#0065FF4C",
     "peekViewResult.selectionForeground": "#626264",
     "peekViewTitle.background": "#EBEEF5",
     "peekViewTitleLabel.foreground": "#626264",
@@ -266,7 +266,7 @@
     },
     {
       "name": "meta.parameters",
-      "nameCN": "scope值不规则的点. 分号; 引号",
+      "nameCN": "scope值不规则的点. 引号",
       "scope": "meta.parameters.js",
       "settings": {
         "fontStyle": "normal",
@@ -339,7 +339,7 @@
     {
       "name": "support.constant.property-value.scss",
       "nameCN": "css属性值常量 block inline inline-block none solid等",
-      "scope": "support.constant.property-value.scss,support.constant.property-value.css",
+      "scope": "support.constant.property-value.scss,support.constant.property-value.css,support.constant.vendored.property-value.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#C57BDB"
@@ -408,7 +408,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#00BEC4"
@@ -572,7 +572,7 @@
     },
     {
       "name": "import, export, return(flow)",
-      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass",
+      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.package,keyword.import",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#7C4DFF"
@@ -588,17 +588,17 @@
     },
     {
       "name": "support type ts",
-      "nameCN": "ts里默认数据类型;自定义数据类型;interface",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts",
+      "nameCN": "ts里默认数据类型;自定义数据类型",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#EF8ED8"
       }
     },
     {
-      "name": "inherited-class",
-      "nameCN": "自定义class",
-      "scope": "entity.other.inherited-class,meta.type.annotation,entity.name.type.interface,meta.return.type,meta.type.parameters",
+      "name": "inherited-class;interface;class",
+      "nameCN": "自定义class;interface;class",
+      "scope": "entity.other.inherited-class,meta.type.annotation,entity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#EF8ED8"
@@ -722,7 +722,7 @@
     },
     {
       "name": "curly",
-      "nameCN": "CSS里的大括号 {} ()",
+      "nameCN": "CSS里的括号 {} ()",
       "scope": "punctuation.section.property-list.begin.bracket.curly,punctuation.section.property-list.end.bracket.curly,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,meta.brace.round.css, punctuation.definition.parameters.end.bracket.round.scss, punctuation.definition.parameters.begin.bracket.round.scss",
       "settings": {
         "fontStyle": "normal",
@@ -741,7 +741,7 @@
     {
       "name": "css Support type",
       "nameCN": "css less sass属性名 如果不填就与support.type同色",
-      "scope": "support.type.property-name.css,meta.property-value.css",
+      "scope": "support.type.property-name.css,meta.property-value.css,support.type.vendored.property-name.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#888888"
@@ -750,28 +750,10 @@
     {
       "name": "property-list",
       "nameCN": "css里未写完整的属性名",
-      "scope": "meta.property-list.css",
+      "scope": "meta.property-name.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A9A9AA"
-      }
-    },
-    {
-      "name": "css vendored property-name",
-      "nameCN": "自动生成的CSS属性名, 如兼容属性",
-      "scope": "support.type.vendored.property-name.css",
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#888888"
-      }
-    },
-    {
-      "name": "css vendored property-value",
-      "nameCN": "自动生成的CSS属性值, 如兼容属性",
-      "scope": "support.constant.vendored.property-value.css",
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#C57BDB"
       }
     },
     {
@@ -993,7 +975,7 @@
     },
     {
       "name": "storage.type",
-      "scope": "storage.type",
+      "scope": "storage.type,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.type,keyword.map",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#7C4DFF"

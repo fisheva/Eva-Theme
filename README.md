@@ -13,7 +13,7 @@ Four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keyw
 
 ### Support
 
-Tested with the following language:
+Tested with the following languages:
 
 - HTML / XML / JSX
 - CSS / LESS / SCSS
@@ -21,6 +21,7 @@ Tested with the following language:
 - Markdown
 - JSON
 - Pyhton
+- Golang
 
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic yet.
 

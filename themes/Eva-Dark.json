@@ -120,7 +120,7 @@
     "peekViewResult.lineForeground": "#8E99B1",
     "peekViewResult.matchHighlightBackground": "#282c3400",
     "peekViewResult.selectionBackground": "#598DEFA5",
-    "peekViewResult.inactiveSelectionBackground": "#598DEFA5",        
+    "peekViewResult.inactiveSelectionBackground": "#598DEFA5",
     "peekViewResult.selectionForeground": "#d7dae0",
     "peekViewTitle.background": "#282c34",
     "peekViewTitleLabel.foreground": "#9DA5B3",
@@ -211,30 +211,12 @@
       }
     },
     {
-      "name": "meta calc css",
-      "nameCN": "模块",
-      "scope": "meta.property-value.css",
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#8A97C3"
-      }
-    },
-    {
       "name": "module",
       "nameCN": "模块",
       "scope": "variable.other.readwrite.alias, entity.name.type.module",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E06C75"
-      }
-    },
-    {
-      "name": "property-list",
-      "nameCN": "css里fix IE 6的属性修饰符*",
-      "scope": "meta.property-list.css",
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#97a7c8"
       }
     },
     {
@@ -346,7 +328,7 @@
     },
     {
       "name": "meta.parameters",
-      "nameCN": "scope值不规则的点. 分号; 引号",
+      "nameCN": "scope值不规则的点. 引号",
       "scope": "meta.parameters.js",
       "settings": {
         "fontStyle": "normal",
@@ -365,7 +347,7 @@
     {
       "name": "support.constant.property-value.scss",
       "nameCN": "css属性值常量 block inline inline-block none solid等",
-      "scope": "support.constant.property-value.scss,support.constant.property-value.css",
+      "scope": "support.constant.property-value.scss,support.constant.property-value.css,support.constant.vendored.property-value.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#C57BDB"
@@ -443,7 +425,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#56B7C3"
@@ -607,7 +589,7 @@
     },
     {
       "name": "import, export, return(flow)",
-      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass",
+      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.package,keyword.import",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A78CFA"
@@ -622,9 +604,9 @@
       }
     },
     {
-      "name": "support type ts",
-      "nameCN": "ts里默认数据类型;自定义数据类型;interface",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,meta.type.parameters,entity.name.type.interface,entity.other.inherited-class,entity.name.type.alias.ts,meta.return.type,meta.type.annotation",
+      "name": "support type ts; class",
+      "nameCN": "ts里默认数据类型;自定义数据类型; interface; class",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,meta.type.parameters,entity.name.type.interface,entity.other.inherited-class,entity.name.type.alias.ts,meta.return.type,meta.type.annotation,storage.type.string,storage.type.numeric,storage.type.boolean,keyword.interface",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF6AB3"
@@ -725,7 +707,7 @@
       "scope": "meta.jsx.children.tsx",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#838FA7"
+        "foreground": "#8792AA"
       }
     },
     {
@@ -758,7 +740,7 @@
     {
       "name": "css Support type",
       "nameCN": "css less sass属性名 如果不填就与support.type同色",
-      "scope": "support.type.property-name.css,meta.property-value.css",
+      "scope": "support.type.property-name.css,meta.property-value.css,support.type.vendored.property-name.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8A97C3"
@@ -767,28 +749,10 @@
     {
       "name": "property-list",
       "nameCN": "css里未写完整的属性名",
-      "scope": "meta.property-list.css",
+      "scope": "meta.property-name.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#8792BD"
-      }
-    },
-    {
-      "name": "css vendored property-name",
-      "nameCN": "自动生成的CSS属性名, 如兼容属性",
-      "scope": "support.type.vendored.property-name.css",
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#8792BD"
-      }
-    },
-    {
-      "name": "css vendored property-value",
-      "nameCN": "自动生成的CSS属性值, 如兼容属性",
-      "scope": "support.constant.vendored.property-value.css",
-      "settings": {
-        "fontStyle": "normal",
-        "foreground": "#C57BDB"
+        "foreground": "#676E95"
       }
     },
     {
@@ -927,7 +891,7 @@
       "scope": "invalid.illegal",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#8792BD"
+        "foreground": "#8E99B1"
       }
     },
     {
@@ -936,7 +900,7 @@
       "scope": "invalid.illegal.expected-dictionary-separator.json",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#8792BD"
+        "foreground": "#8E99B1"
       }
     },
     {
@@ -944,7 +908,7 @@
       "scope": "invalid.broken",
       "settings": {
         "fontStyle": "normal",
-        "background": "#8792BD"
+        "background": "#8E99B1"
       }
     },
     {
@@ -953,7 +917,7 @@
       "scope": "invalid.deprecated",
       "settings": {
         "fontStyle": "normal",
-        "background": "#8792BD"
+        "background": "#8E99B1"
       }
     },
     {
@@ -1018,7 +982,7 @@
     },
     {
       "name": "storage.type",
-      "scope": "storage.type",
+      "scope": "storage.type,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.type,keyword.map",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A78CFA"

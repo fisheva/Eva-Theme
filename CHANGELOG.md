@@ -1,3 +1,8 @@
+0.1.9
+
+* fixed many discrepancies between Light & Dark themes.
+* Support Golang
+
 0.1.8
 
 * Changed all
