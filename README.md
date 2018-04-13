@@ -22,6 +22,7 @@ Tested with the following languages:
 - JSON
 - Pyhton
 - Golang
+- Java
 
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic yet.
 

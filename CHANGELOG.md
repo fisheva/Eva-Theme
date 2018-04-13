@@ -1,13 +1,25 @@
+0.2.0
+
+* Support Java
+
+* Deleted all
+
+```syntax
+//覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
+storage.type =  #A78CFA/#7C4DFF
+```
+
 0.1.9
 
 * fixed many discrepancies between Light & Dark themes.
+
 * Support Golang
 
 0.1.8
 
 * Changed all
 
-```
+```UI
 diffEditor.insertedTextBackground: #45B7463F/#45B7464C
 diffEditor.removedTextBackground: #e514003F/#e514004C
 merge.currentHeaderBackground: #598DEF59/#0065FF33
@@ -31,31 +43,32 @@ peekViewTitleDescription.foreground: #9DA5B3BF/#888888
 
 * Add all
 
-```
-//There is no following api, but it should be, maybe I should make a issue.
+```UI
+//There are no following api, but them should be, maybe I should make a issue.
 statusBarItem.hoverForeground: #FFFFFF
 peekViewResult.inactiveSelectionBackground: #598DEFA5/#0065FF4C
+Golang :=
 ```
 
 0.1.7
 
 * Add Dark
 
-```
+```UI
 list.focusForeground: #d7dae0
 list.hoverForeground: #d7dae0
 ```
 
 * Add Light
 
-```
+```UI
 list.focusForeground: #5D5D5F
 list.hoverForeground: #5D5D5F
 ```
 
 * Changed Light
 
-```
+```syntax
 number、id: #F5625C → #FF6500
 warning: #FF6500 → #F5625C
 ```
@@ -64,7 +77,7 @@ warning: #FF6500 → #F5625C
 
 * Add Dark
 
-```
+```UI
 descriptionForeground: #B0B7C3BF
 editorGroup.background: #282c34
 sideBar.foreground: #8E99B1
@@ -77,14 +90,14 @@ textPreformat.foreground: #E4BF7F
 
 * Changed Dark
 
-```
+```UI
 foreground: #9DA5B3 → #B0B7C3
 editorLink.activeForeground: #6494ed → #A78CFA
 ```
 
 * Add Light
 
-```
+```UI
 descriptionForeground: #626264BF
 editorGroup.background: #EBEEF5
 sideBar.foreground: #626264D8
@@ -96,8 +109,11 @@ textPreformat.foreground: #F5625C
 
 * Changed Light
 
-```
+```UI
 editorLink.activeForeground: #55ACF2 → #7C4DFF
+```
+
+```syntax
 number、id: #FF9070 → #F5625C
 ```
 
@@ -105,13 +121,13 @@ number、id: #FF9070 → #F5625C
 
 * Add Dark
 
-```
+```UI
 list.inactiveSelectionForeground: #d7dae0
 ```
 
 * Add Light
 
-```
+```UI
 list.inactiveSelectionForeground: #5D5D5F
 ```
 
@@ -119,7 +135,7 @@ list.inactiveSelectionForeground: #5D5D5F
 
 * Changed Dark
 
-```
+```UI
 statusBar.foreground: #676E95 → #9da5b3
 ```
 
@@ -127,13 +143,13 @@ statusBar.foreground: #676E95 → #9da5b3
 
 * Add all
 
-```
+```syntax
 Add self keyword in Python.
 ```
 
 * Changed Light
 
-```
+```syntax
 //Make COMMENT a little darker and clear.
 comment: #B3B3B4 → #A9A9AA
 panelTitle.inactiveForeground: #A0A1A7 → #A9A9AA
@@ -146,33 +162,31 @@ support.type.property-name.css,meta.property-value.css: #94969B→#888888
 
 * Add all
 
-```
+```UI
 selection.background: #598DEF59/#0065FF3F
 ```
 
 * Fixed all
 
-```
-
+```syntax
 keyword.operator.css, entity.name.tag.wildcard.scss = #56B7C3/#00BEC4
 
 punctuation.definition.parameters.end.bracket.round.scss, punctuation.definition.parameters.begin.bracket.round.scss = #838FA7CC/#888888BF
 
 source.css.scss = #79859D/#A0A1A7F2
-
 ```
 
 0.1.1 (2017-07-12)
 
 * Changed all
 
-```
+```syntax
 entity.other.inherited-class,meta.type.annotation,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
 ```
 
 * Add all
 
-```
+```UI
 notification.buttonBackground: #676E9599/#A0A1A7E5,
 notification.buttonHoverBackground: #598DEF,
 notification.infoBackground: #598DEF,
@@ -187,19 +201,19 @@ notification.errorForeground: #FFF,
 
 * Changed Eva Light & Bold
 
-```
+```syntax
 variable.language.this = #FA278C
 ```
 
 * Changed all
 
-```
+```syntax
 variable.parameter = #E4BF7F/#F0AA0B
 ```
 
 * Changed Eva Dark/Light
 
-```
+```syntax
 markup.bold.markdown bold → normal
 ```
 
@@ -207,14 +221,17 @@ markup.bold.markdown bold → normal
 
 * Changed all
 
-```
+```syntax
 variable.parameter  italic → normal;
+```
+
+```UI
 editor.foreground = #B0B7C3E5/#5D5D5FE5;
 ```
 
 * Added all
 
-```
+```syntax
 entity.name.type.enum = #B0B7C3/#5D5D5F;
 variable.other.enummember = #E06C75/#CD6069;
 ```
@@ -223,13 +240,13 @@ variable.other.enummember = #E06C75/#CD6069;
 
 * Deleted all
 
-```
+```syntax
 entity.name.type.ts
 ```
 
 * Add all
 
-```
+```syntax
 {
 scope: entity.name.type.alias.ts,meta.return.type,meta.type.annotation;
 
@@ -241,7 +258,7 @@ foreground: #FF6AB3/#EF8ED8
 
 * Changed all
 
-```
+```syntax
 {
 scope:entity.name.type.interface,entity.other.inherited-class,entity.name.type.ts,entity.name.type.alias.ts;
 
@@ -251,14 +268,14 @@ foreground: #FF6AB3/#EF8ED8
 
 * Changed All
 
-```
+```UI
 //Changed all red as the same to panel default red color.
 terminal.ansiRed: #e51400
 ```
 
 * Changed All
 
-```
+```UI
 terminal.ansiBrightMagenta:#C838C6/#CF68E1
 terminal.ansiMagenta:#C838C6/#CF68E1
 ```
@@ -267,18 +284,21 @@ terminal.ansiMagenta:#C838C6/#CF68E1
 
 * Changed All
 
-```
-variable.parameter // improve 2° lighter
+```UI
 terminal.foreground = editor.foreground
 terminal.ansiBrightBlue = terminal.ansiBlue
 terminal.ansiBrightBlack = terminal.ansiBlack
+```
+
+```syntax
+variable.parameter // improve 2° lighter
 ```
 
 0.0.5 (2017-06-24)
 
 * Changed All
 
-```
+```UI
 terminal.ansiBrightCyan = terminal.ansiCyan
 terminal.ansiBrightGreen = terminal.ansiGreen
 terminal.ansiBrightRed = terminal.ansiRed
@@ -289,7 +309,7 @@ terminal.ansiBrightYellow = terminal.ansiYellow
 
 * Changed All
 
-```
+```syntax
 //Inorder to differentiate variable from text in jsx.
 meta.jsx.children.tsx
 ```
@@ -298,15 +318,18 @@ meta.jsx.children.tsx
 
 * Changed Eva Light
 
-```
+```syntax
 markup.bold.markdown
 variable.parameter
+```
+
+```UI
 editorSuggestWidget.foreground
 ```
 
 * Fixed All
 
-```
+```syntax
 support.class.component
 ```
 
@@ -314,13 +337,13 @@ support.class.component
 
 * Changed Eva Dark
 
-```
+```UI
 tab.activeForeground
 ```
 
 * Changed All
 
-```
+```UI
 debugExceptionWidget.background
 
 debugExceptionWidget.border
@@ -330,7 +353,7 @@ debugToolBar.background
 
 * Add All
 
-```
+```UI
 walkThrough.embeddedEditorBackground
 
 welcomePage.buttonBackground

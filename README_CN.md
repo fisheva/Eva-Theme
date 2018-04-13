@@ -21,6 +21,7 @@ Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
 - JSON
 - Python
 - Golang
+- Java
 
 其它语言也有语法高亮，但暂时不能保证全部语义化。
 
