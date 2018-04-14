@@ -95,4 +95,4 @@ Please note that this theme is not perfect yet. If you find any inconsistency in
 
 ### Encourage
 
-If you do like this theme, would you please give me a [star ☆](https://github.com/fisheva/Eva-Theme) as a reward. Thanks so much! O(∩_∩)O~
+If you do like this theme, would you please give me a [Github Star ☆](https://github.com/fisheva/Eva-Theme) and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.eva-theme) as reward. Thanks so much! O(∩_∩)O~
