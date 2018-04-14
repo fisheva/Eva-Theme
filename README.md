@@ -39,10 +39,6 @@ ext install eva-theme
 
 VSCode → Preferences → Color themes → Select Eva theme
 
-### Attention
-
-There is a little bug when switching themes in VSCode. You can not switch Dark with Dark Bold, or Light with Light Bold **directly**. Please change color while changing the bold style.
-
 ### Font
 
 The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
