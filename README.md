@@ -13,16 +13,17 @@ Four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keyw
 
 ### Support
 
-Tested with the following languages:
+Tested with the following languages in native environment, except derived frameworks:
 
 - HTML / XML / JSX
 - CSS / LESS / SCSS
 - JavaScript / TypeScript
-- Markdown
-- JSON
-- Pyhton
-- Golang
 - Java
+- Golang
+- PHP
+- Pyhton
+- JSON
+- Markdown
 
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic yet.
 

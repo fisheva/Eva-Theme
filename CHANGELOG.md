@@ -1,6 +1,28 @@
-0.2.0
+0.2.1 (2018-04-14)
 
-* Support Java
+* **Support PHP**
+
+* Add all
+
+```UI
+editorGutter.modifiedBackground: #598DEF
+editorGutter.addedBackground: #40AD41/#44C145
+editorGutter.deletedBackground: #e51400/#ff0000
+```
+
+* Changed Light
+
+```UI
+diffEditor.removedTextBackground: #e514004C → #ff000059
+editorMarkerNavigationError.background: #e51400 → #ff0000
+inputValidation.errorBackground: #e5140059 → #ff000059
+inputValidation.errorBorder: #e51400 → #ff0000
+notification.errorBackground: #e51400 → #ff0000
+```
+
+0.2.0 (2018-04-11)
+
+* **Support Java**
 
 * Deleted all
 
@@ -9,13 +31,13 @@
 storage.type =  #A78CFA/#7C4DFF
 ```
 
-0.1.9
+0.1.9 (2018-04-10)
+
+* **Support Golang**
 
 * fixed many discrepancies between Light & Dark themes.
 
-* Support Golang
-
-0.1.8
+0.1.8 (2018-04-08)
 
 * Changed all
 
@@ -47,10 +69,12 @@ peekViewTitleDescription.foreground: #9DA5B3BF/#888888
 //There are no following api, but them should be, maybe I should make a issue.
 statusBarItem.hoverForeground: #FFFFFF
 peekViewResult.inactiveSelectionBackground: #598DEFA5/#0065FF4C
-Golang :=
+
+Golang := 与 = 区分开来
+PHP -= += /= *= %= 与 = 区分开来, 给keyword.operator.string中的 . 单独区分
 ```
 
-0.1.7
+0.1.7 (2018-04-04)
 
 * Add Dark
 
@@ -141,11 +165,7 @@ statusBar.foreground: #676E95 → #9da5b3
 
 0.1.3 (2017-11-11)
 
-* Add all
-
-```syntax
-Add self keyword in Python.
-```
+* **Support Python**
 
 * Changed Light
 

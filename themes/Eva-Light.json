@@ -19,7 +19,7 @@
     "dropdown.foreground": "#5D5D5F",
     "dropdown.border": "#CED1D7",
     "diffEditor.insertedTextBackground": "#45B7464C",
-    "diffEditor.removedTextBackground": "#e514004C",
+    "diffEditor.removedTextBackground": "#ff000059",
     "editor.background": "#EBEEF5",
     "editor.findMatchBackground": "#F8F900",
     "editor.findMatchHighlightBackground": "#CFD2D9",
@@ -45,15 +45,16 @@
     "editorGroupHeader.tabsBorder": "#E1E4EB",
     "editorGroupHeader.noTabsBackground": "#E1E4EB",
     "editorGutter.background": "#EBEEF5",
-    "editorGutter.modifiedBackground": "",
-    "editorGutter.addedBackground": "",
+    "editorGutter.modifiedBackground": "#598DEF",
+    "editorGutter.addedBackground": "#44C145",
+    "editorGutter.deletedBackground": "#ff0000",
     "editorHoverWidget.background": "#F1F4FB",
     "editorHoverWidget.border": "#CED1D7",
     "editorIndentGuide.background": "#CED1D7",
     "editorLineNumber.foreground": "#B3B3B4",
     "editorLink.activeForeground": "#7C4DFF",
     "editorMarkerNavigation.background": "#598DEF",
-    "editorMarkerNavigationError.background": "#e51400",
+    "editorMarkerNavigationError.background": "#ff0000",
     "editorMarkerNavigationWarning.background": "#F5625C",
     "editorOverviewRuler.border": "#B3B3B4",
     "editorOverviewRuler.currentContentForeground": "#FFF",
@@ -77,8 +78,8 @@
     "input.foreground": "#5D5D5F",
     "input.placeholderForeground": "#5D5D5F99",
     "inputOption.activeBorder": "#598DEFA5",
-    "inputValidation.errorBackground": "#e5140059",
-    "inputValidation.errorBorder": "#e51400",
+    "inputValidation.errorBackground": "#ff000059",
+    "inputValidation.errorBorder": "#ff0000",
     "inputValidation.infoBackground": "#598DEF59",
     "inputValidation.infoBorder": "#598DEF",
     "inputValidation.warningBackground": "#F5625C59",
@@ -106,7 +107,7 @@
     "notification.infoForeground": "#FFF",
     "notification.warningBackground": "#F5625C",
     "notification.warningForeground": "#FFF",
-    "notification.errorBackground": "#e51400",
+    "notification.errorBackground": "#ff0000",
     "notification.errorForeground": "#FFF",
     "panel.border": "#E1E4EB",
     "panelTitle.activeForeground": "#5D5D5F",
@@ -373,7 +374,7 @@
     },
     {
       "name": "js dom variable",
-      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import",
+      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#CD6069"
@@ -399,7 +400,7 @@
     {
       "name": "punctuation",
       "nameCN": "html标签里的</> = ",
-      "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.separator.key-value",
+      "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, punctuation.separator.key-value, meta.tag.preprocessor.xml",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A0A1A7"
@@ -408,7 +409,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#00BEC4"
@@ -417,7 +418,7 @@
     {
       "name": "keyword Operators ternary,logical,comparison,relational",
       "nameCN": "三元运算符 ? :;logical;== === != !==;< > <= >=;正则表达式里的 或|",
-      "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.bitwise",
+      "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.bitwise,keyword.operator.class",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#C838C6"
@@ -442,7 +443,7 @@
     },
     {
       "name": "support.function",
-      "scope": "support.function,meta.function-call",
+      "scope": "support.function,meta.function-call,support.function.construct.output",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#00BEC4"
@@ -465,8 +466,17 @@
       }
     },
     {
+      "name": "global variable in PHP",
+      "nameCN": "PHP里的超全局变量",
+      "scope": "variable.other.global.safer.php,variable.other.global.php",
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "#F0AA0B"
+      }
+    },
+    {
       "name": "url.css,rgb(),transform,calc",
-      "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc",
+      "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#437AED"
@@ -540,7 +550,7 @@
     },
     {
       "name": "delete,new",
-      "scope": "keyword.operator.expression.delete,keyword.operator.new",
+      "scope": "keyword.operator.expression.delete,keyword.operator.new,keyword.other.new",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#7C4DFF"
@@ -624,7 +634,7 @@
     {
       "name": "number,unit,constant,id,Math",
       "nameCN": "数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象",
-      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,entity.other.attribute-name.id,support.constant.math.js,support.constant.property.math.js,support.constant.math.ts,support.constant.property.math.ts",
+      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,entity.other.attribute-name.id,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF6500"
@@ -669,7 +679,7 @@
     {
       "name": "Tags",
       "nameCN": "HTML的标签名",
-      "scope": "entity.name.tag",
+      "scope": "entity.name.tag,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#CD6069"
@@ -678,7 +688,7 @@
     {
       "name": "text",
       "nameCN": "HTML标签里的文字;Markdown里书写的普通文字",
-      "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown",
+      "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown,text.html.php",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#626264"
@@ -696,7 +706,7 @@
     {
       "name": "block,embedded,definition,bracket,typeparameters",
       "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
-      "scope": "punctuation.section.block.begin.bracket.curly,punctuation.section.block.end.bracket.curly,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace.square,punctuation.bracket.square,punctuation.bracket.round,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,meta.brace.round,punctuation.section.function.begin.bracket.round,punctuation.section.function.end.bracket.round,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, source.php, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern.js, punctuation.definition.binding-pattern.object.js",
+      "scope": "punctuation.section.block.begin.bracket.curly,punctuation.section.block.end.bracket.curly,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace.square,punctuation.bracket.square,punctuation.bracket.round,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,meta.brace.round,punctuation.section.function.begin.bracket.round,punctuation.section.function.end.bracket.round,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern.js, punctuation.definition.binding-pattern.object.js,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#5D5D5FD8"
@@ -957,7 +967,7 @@
     },
     {
       "name": "keyword",
-      "scope": "meta.var.expr,storage.type.function,storage.type.object.array,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.type,keyword.map,keyword.reserved",
+      "scope": "meta.var.expr,storage.type.function,storage.type.object.array,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.type,keyword.map,keyword.reserved,storage.type.class,storage.type.php",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#7C4DFF"
