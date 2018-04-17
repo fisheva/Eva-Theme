@@ -18,10 +18,11 @@ Tested with the following languages in native environment, except derived framew
 - HTML / XML / JSX
 - CSS / LESS / SCSS
 - JavaScript / TypeScript
+- C#
 - Java
-- Golang
 - PHP
 - Pyhton
+- Golang
 - JSON
 - Markdown
 

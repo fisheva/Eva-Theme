@@ -1,3 +1,21 @@
+0.2.2 (2018-04-18)
+
+* **Support C#**
+
+* Add all
+
+```syntax
+//枚举里面的元素 每个都代表一个整数
+enum: #FF9070/#ff6500
+```
+
+* Changed all
+
+```syntax
+//位运算符号
+keyword.operator.bitwise: #CF68E1/#C838C6 → #56B7C3/#00BEC4
+```
+
 0.2.1 (2018-04-14)
 
 * **Support PHP**
@@ -28,7 +46,10 @@ notification.errorBackground: #e51400 → #ff0000
 
 ```syntax
 //覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
+
 storage.type =  #A78CFA/#7C4DFF
+
+entity.name.type = #FF6AB3/#EF8ED8
 ```
 
 0.1.9 (2018-04-10)
@@ -201,7 +222,7 @@ source.css.scss = #79859D/#A0A1A7F2
 * Changed all
 
 ```syntax
-entity.other.inherited-class,meta.type.annotation,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
+entity.other.inherited-class,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
 ```
 
 * Add all

@@ -17,10 +17,11 @@ Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
 - HTML / XML / JSX
 - CSS / LESS / SCSS
 - JavaScript / TypeScript
+- C#
 - Java
-- Golang
 - PHP
 - Pyhton
+- Golang
 - JSON
 - Markdown
 
