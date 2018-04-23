@@ -20,7 +20,7 @@ Tested with the following languages in native environment, except derived framew
 - HTML / XML / JSX
 - CSS / LESS / SCSS
 - JavaScript / TypeScript
-- C / C++ /C#
+- C / C++ / C#
 - Java
 - PHP
 - Pyhton
