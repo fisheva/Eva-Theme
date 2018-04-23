@@ -187,7 +187,7 @@
   "tokenColors": [
     {
       "name": "variable.parameter",
-      "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter",
+      "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c, punctuation.vararg-ellipses,variable.other.block.ruby",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E4BF7F"
@@ -222,8 +222,8 @@
     },
     {
       "name": "Variable",
-      "nameCN": "变量,enum",
-      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs",
+      "nameCN": "变量",
+      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source.c,source.cpp,source.ruby,meta.class-struct-block",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#B0B7C3"
@@ -285,7 +285,7 @@
     {
       "name": "Punctuation colon",
       "nameCN": "冒号 :",
-      "scope": "punctuation.separator.key-value.css, punctuation.separator.key-value.js, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon",
+      "scope": "punctuation.separator.key-value.css, punctuation.separator.key-value.js, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8E99B1"
@@ -303,7 +303,7 @@
     {
       "name": "Punctuation comma",
       "nameCN": "逗号 ,",
-      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, source.css.scss, source.cs",
+      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, source.css.scss, source.cs, punctuation.separator.parameters,punctuation.separator.object,meta.function.method.with-arguments.ruby",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#79859D"
@@ -312,7 +312,7 @@
     {
       "name": "Punctuation Terminator",
       "nameCN": "分号 ;",
-      "scope": "punctuation.terminator,punctuation.terminator.statement, punctuation.terminator.rule, punctuation.terminator.expression",
+      "scope": "punctuation.terminator,punctuation.terminator.statement, punctuation.terminator.rule, punctuation.terminator.expression,punctuation.separator.statement,meta.using-namespace-declaration.cpp",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#676E95"
@@ -321,7 +321,7 @@
     {
       "name": "Punctuation accessor",
       "nameCN": "点号 .",
-      "scope": "punctuation.accessor,punctuation.separator.period",
+      "scope": "punctuation.accessor,punctuation.separator.period,punctuation.separator.dot-access,punctuation.separator.method",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#838FA7"
@@ -383,7 +383,7 @@
     {
       "name": "js dom variable, C C++ C# namespace",
       "nameCN": "dom, C系语言的命名空间",
-      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,variable.other.object.cs,entity.name.type.namespace",
+      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,variable.other.object.cs,entity.name.type.namespace,variable.other.member.c,entity.name.type.cpp",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E06C75"
@@ -426,8 +426,8 @@
     },
     {
       "name": "keyword Operators increment decrement",
-      "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise",
+      "nameCN": "keyword.operator,关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#56B7C3"
@@ -445,7 +445,7 @@
     {
       "name": "keyword Operators ternary,logical,comparison,relational,tilde",
       "nameCN": "三元运算符 ? :;logical;== === != !==;< > <= >=;正则表达式里的 或|;波浪号~",
-      "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.class,keyword.operator.type,keyword.operator.conditional,punctuation.separator.question-mark,keyword.operator.null-coalescing,punctuation.tilde",
+      "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.class,keyword.operator.type,keyword.operator.other.ruby,keyword.operator.conditional,punctuation.separator.question-mark,keyword.operator.null-coalescing,punctuation.tilde,punctuation.separator.pointer-access,punctuation.separator.namespace",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#CF68E1"
@@ -460,9 +460,9 @@
       }
     },
     {
-      "name": "Functions",
-      "nameCN": "单独的函数",
-      "scope": "entity.name.function",
+      "name": "Functions,pthread",
+      "nameCN": "单独的函数,C++线程",
+      "scope": "entity.name.function,support.type.pthread",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#6495EE"
@@ -568,14 +568,6 @@
       }
     },
     {
-      "name": "Storage",
-      "scope": "storage.modifier",
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#CF68E1"
-      }
-    },
-    {
       "name": "delete,new",
       "scope": "keyword.operator.expression.delete,keyword.operator.new,keyword.other.new",
       "settings": {
@@ -592,8 +584,8 @@
       }
     },
     {
-      "name": "Keyword Control",
-      "scope": "keyword.control",
+      "name": "Keyword Control,Using",
+      "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,storage.modifier,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,keyword.preprocessor.define,storage.type.modifier",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#CF68E1"
@@ -609,7 +601,7 @@
     },
     {
       "name": "Keyword: import, export, return(flow), interface",
-      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.package,keyword.other.package,keyword.import,keyword.other.import,keyword.other.class,keyword.other.namespace,keyword.other.using,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,punctuation.separator.hash,keyword.other.delegate",
+      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.package,keyword.other.package,keyword.import,keyword.other.import,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#A78CFA"
@@ -626,7 +618,7 @@
     {
       "name": "support type ts",
       "nameCN": "ts里默认数据类型;自定义数据类型",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF6AB3"
@@ -670,7 +662,7 @@
     {
       "name": "number,unit,constant,Math,enum",
       "nameCN": "数字;单位;值为数字的常量;Math对象;enum枚举里的元素",
-      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member",
+      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.function.preprocessor.c",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF9070"
@@ -751,7 +743,7 @@
     {
       "name": "block,embedded,definition,bracket,typeparameters",
       "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
-      "scope": "punctuation.section.block.begin.bracket.curly,punctuation.section.block.end.bracket.curly,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace.square,punctuation.bracket.square,punctuation.bracket.round,punctuation.bracket.square,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,meta.brace.round,punctuation.section.function.begin.bracket.round,punctuation.section.function.end.bracket.round,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end",
+      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#838FA7"
@@ -984,7 +976,7 @@
     },
     {
       "name": "js ts this super, python self",
-      "scope": "variable.language,variable.language.this,variable.language.super,variable.language.special.self.python",
+      "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#F02B77"
@@ -1020,7 +1012,7 @@
     },
     {
       "name": "keyword",
-      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object",
+      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.other.special-method.ruby",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#A78CFA"

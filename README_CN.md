@@ -6,22 +6,25 @@
 
 ### 介绍
 
-Eva 是一款色彩丰富且区分非常细致的 VSCode 主题。
+Eva Theme 是一款色彩丰富的语义化着色 VSCode 主题。
 
-有四种样式: Dark, Dark Bold, Light, Light Bold。Bold样式加粗了许多关键字和函数名。
+内置四套样式: Dark, Dark Bold, Light, Light Bold。Bold样式加粗了许多关键字和函数名。
+
+VSCode版本要求 ≥ 1.12.0。
 
 ### 支持
 
-已在下列语言原生环境中(不包含衍生框架)做详细测试:
+已在下列语言原生环境中(不包含衍生框架)做测试:
 
 - HTML / XML / JSX
 - CSS / LESS / SCSS
 - JavaScript / TypeScript
-- C#
+- C / C++ / C#
 - Java
 - PHP
 - Pyhton
 - Golang
+- Ruby
 - JSON
 - Markdown
 
@@ -44,7 +47,7 @@ VSCode → 首选项 → 颜色主题 → 选择Eva主题
 上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode), 如果您喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
 
 ```json
-"editor.fontFamily": "CamingoCode"
+"editor.fontFamily": "CamingoCode",
 ```
 
 ### 推荐
@@ -56,16 +59,17 @@ VSCode → 首选项 → 颜色主题 → 选择Eva主题
 - 配合 Eva Dark theme
 
 ```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
 "bracketPairColorizer.consecutivePairColors": [
         "()",
         "[]",
         "{}",
         [
         "#838FA7",
-        "#56B7C3",
-        "#E4BF7F",
         "#A78CFA",
-        "#E06C75"
+        "#56B7C3",
+        "#FF9070"
         ],
         "#e51400"
     ]
@@ -74,16 +78,17 @@ VSCode → 首选项 → 颜色主题 → 选择Eva主题
 - 配合 Eva Light theme
 
 ```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
 "bracketPairColorizer.consecutivePairColors": [
         "()",
         "[]",
         "{}",
         [
         "#5D5D5FD8",
-        "#00BEC4",
-        "#FF9070",
         "#7C4DFF",
-        "#CD6069"
+        "#00BEC4",
+        "#ff6500"
         ],
         "#e51400"
     ]

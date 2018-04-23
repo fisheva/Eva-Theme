@@ -7,9 +7,11 @@
 
 ### Description
 
-Eva is a colorful and meticulous code theme meet Visual Studio Code.
+Eva Theme is a colorful and semantic coloring code theme meet Visual Studio Code.
 
-Four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker.
+There are four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker.
+
+Requires a minimum of 1.12.0 VSCode version.
 
 ### Support
 
@@ -18,11 +20,12 @@ Tested with the following languages in native environment, except derived framew
 - HTML / XML / JSX
 - CSS / LESS / SCSS
 - JavaScript / TypeScript
-- C#
+- C / C++ /C#
 - Java
 - PHP
 - Pyhton
 - Golang
+- Ruby
 - JSON
 - Markdown
 
@@ -45,7 +48,7 @@ VSCode → Preferences → Color themes → Select Eva theme
 The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
 
 ```json
-"editor.fontFamily": "CamingoCode"
+"editor.fontFamily": "CamingoCode",
 ```
 
 ### Recommendation
@@ -57,16 +60,17 @@ Here is my Bracket Pair Colorizer setting:
 - Match Eva Dark theme
 
 ```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
 "bracketPairColorizer.consecutivePairColors": [
         "()",
         "[]",
         "{}",
         [
         "#838FA7",
-        "#56B7C3",
-        "#E4BF7F",
         "#A78CFA",
-        "#E06C75"
+        "#56B7C3",
+        "#FF9070"
         ],
         "#e51400"
     ]
@@ -75,16 +79,17 @@ Here is my Bracket Pair Colorizer setting:
 - Match Eva Light theme
 
 ```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
 "bracketPairColorizer.consecutivePairColors": [
         "()",
         "[]",
         "{}",
         [
         "#5D5D5FD8",
-        "#00BEC4",
-        "#FF9070",
         "#7C4DFF",
-        "#CD6069"
+        "#00BEC4",
+        "#ff6500"
         ],
         "#e51400"
     ]
