@@ -1,3 +1,11 @@
+0.2.4 (2014-05-04)
+
+* Add all
+
+```UI
+editorIndentGuide.activeBackground:#CED1D7
+```
+
 0.2.3 (2018-04-22)
 
 * **Support C/C++**
