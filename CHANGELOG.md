@@ -1,8 +1,24 @@
-0.2.4 (2014-05-04)
+0.2.5 （2018-05-06）
+
+* Fixed all
+
+```UI
+//原本设置这个属性是透明的,这里存在一个VSCode二个属性"editor.selectionHighlightBackground" 和 "editor.wordHighlightBackground"区分不严的问题，值得提issue。
+editor.selectionHighlightBackground: #00BEC499/#00BEC459
+```
 
 * Add all
 
 ```UI
+editorLineNumber.activeForeground: #9DA5B3/#5D5D5F
+```
+
+0.2.4 (2018-05-04)
+
+* Add all
+
+```UI
+//关掉VSCode 1.23.0 版本新增的 Highlighted indent guides - Helps visualize source code indenting.功能。
 editorIndentGuide.activeBackground:#CED1D7
 ```
 
