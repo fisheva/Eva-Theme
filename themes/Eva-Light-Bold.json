@@ -48,8 +48,6 @@
     "editorGutter.modifiedBackground": "#598DEF",
     "editorGutter.addedBackground": "#44C145",
     "editorGutter.deletedBackground": "#ff0000",
-    "editorHint.foreground": "#0000ff",
-    "editorHint.border": "#00ff00",
     "editorHoverWidget.background": "#F1F4FB",
     "editorHoverWidget.border": "#CED1D7",
     "editorIndentGuide.activeBackground": "#CED1D7",
@@ -185,7 +183,6 @@
     "welcomePage.buttonBackground": "#E1E4EB",
     "welcomePage.buttonHoverBackground": "#0065FF33",
     "widget.shadow": "#AAADB4"
-
   },
   "tokenColors": [
     {
