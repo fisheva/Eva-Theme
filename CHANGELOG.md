@@ -1,4 +1,12 @@
-0.2.5 （2018-05-06）
+0.2.6 (2018-05-08)
+
+* Fixed all
+
+```Sytax
+Fixed some bugs in Scss files. Support Scss better.
+```
+
+0.2.5（2018-05-06）
 
 * Fixed all
 
