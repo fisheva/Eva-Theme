@@ -410,7 +410,7 @@
     {
       "name": "punctuation",
       "nameCN": "html标签里的</> =",
-      "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml",
+      "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8792AA"
@@ -717,7 +717,7 @@
     {
       "name": "block,embedded,definition,bracket,typeparameters",
       "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
-      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket.curly,punctuation.section.property-list.end.bracket.curly",
+      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket,punctuation.section.property-list.end.bracket",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#838FA7"
@@ -726,7 +726,7 @@
     {
       "name": "curly",
       "nameCN": "CSS里的大括号 {} ()",
-      "scope": "punctuation.section.property-list.begin.bracket.curly.css,punctuation.section.property-list.end.bracket.curly.css,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,meta.brace.round.css",
+      "scope": "meta.brace.round.css,punctuation.section.property-list.begin.bracket.curly.css,punctuation.section.property-list.end.bracket.curly.css,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,punctuation.section.media.begin.bracket.curly.css,punctuation.section.media.end.bracket.curly.css,punctuation.definition.parameters.begin.bracket.round.css,punctuation.definition.parameters.end.bracket.round.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#838FA7CC"
@@ -788,7 +788,7 @@
     {
       "name": "pseudo-class",
       "nameCN": "css里的伪类 hover等 和 伪类选择器 如nth-child()",
-      "scope": "entity.other.attribute-name.pseudo-class.css",
+      "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#56B7C3"
