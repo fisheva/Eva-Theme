@@ -1,3 +1,15 @@
+0.2.8 (2018-05-23)
+
+* Changed Black
+
+```UI
+//因这二个api提示有重叠, 原透明色在选中词时颜色会叠加 导致CSS属性名和注释文字 看不清, 故换了种非透明色。白色主题下影响细微, 暂不换。
+editor.selectionHighlightBackground: #00BEC499 → #006060
+editor.wordHighlightBackground: #00BEC499 → #006060
+
+editorBracketMatch.background: #FF907099 → #FF90708C
+```
+
 0.2.7 (2018-05-21)
 
 * Fixed all

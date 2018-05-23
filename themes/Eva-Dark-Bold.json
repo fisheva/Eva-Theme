@@ -29,10 +29,10 @@
     "editor.lineHighlightBackground": "#2D3039",
     "editor.rangeHighlightBackground": "#2D3039",
     "editor.selectionBackground": "#598DEF59",
-    "editor.selectionHighlightBackground": "#00BEC499",
-    "editor.wordHighlightBackground": "#00BEC499",
+    "editor.selectionHighlightBackground": "#006060",
+    "editor.wordHighlightBackground": "#006060",
     "editor.wordHighlightStrongBackground": "#A78CFA8C",
-    "editorBracketMatch.background": "#FF907099",
+    "editorBracketMatch.background": "#FF90708C",
     "editorBracketMatch.border": "#FF907000",
     "editorCodeLens.foreground": "#535773",
     "editorCursor.foreground": "#838FA7",
@@ -48,6 +48,8 @@
     "editorGutter.modifiedBackground": "#598DEF",
     "editorGutter.addedBackground": "#40AD41",
     "editorGutter.deletedBackground": "#e51400",
+    "editorHint.foreground": "#ff0000",
+    "editorHint.border": "#0000FF",
     "editorHoverWidget.background": "#23272F",
     "editorHoverWidget.border": "#181A1F",
     "editorIndentGuide.activeBackground": "#454963",
@@ -431,7 +433,7 @@
       "scope": "keyword.operator.string.php",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00BEC4"
+        "foreground": "#56B7C3"
       }
     },
     {

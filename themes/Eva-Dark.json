@@ -29,10 +29,10 @@
     "editor.lineHighlightBackground": "#2D3039",
     "editor.rangeHighlightBackground": "#2D3039",
     "editor.selectionBackground": "#598DEF59",
-    "editor.selectionHighlightBackground": "#00BEC499",
-    "editor.wordHighlightBackground": "#00BEC499",
+    "editor.selectionHighlightBackground": "#006060",
+    "editor.wordHighlightBackground": "#006060",
     "editor.wordHighlightStrongBackground": "#A78CFA8C",
-    "editorBracketMatch.background": "#FF907099",
+    "editorBracketMatch.background": "#FF90708C",
     "editorBracketMatch.border": "#FF907000",
     "editorCodeLens.foreground": "#535773",
     "editorCursor.foreground": "#838FA7",
@@ -431,7 +431,7 @@
       "scope": "keyword.operator.string.php",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#00BEC4"
+        "foreground": "#56B7C3"
       }
     },
     {
