@@ -1,3 +1,13 @@
+0.2.9 (2018-05-24)
+
+* Changed Black
+
+```UI
+//反复重调了下这个颜色。
+editor.selectionHighlightBackground:  #006060 → #0088997F
+editor.wordHighlightBackground:  #006060 → #0088997F
+```
+
 0.2.8 (2018-05-23)
 
 * Changed Black
