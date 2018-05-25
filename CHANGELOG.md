@@ -1,29 +1,11 @@
-0.3.0 (2018-05-25)
-
-```UI
-//第三次改这个颜色。
-editor.selectionHighlightBackground: #0088997F → #006661D8
-editor.wordHighlightBackground: #0088997F → #006661D8
-```
-
-0.2.9 (2018-05-24)
+0.2.8 (2018-05-25)
 
 * Changed Black
 
 ```UI
-//反复重调了下这个颜色。
-editor.selectionHighlightBackground: #006060 → #0088997F
-editor.wordHighlightBackground: #006060 → #0088997F
-```
-
-0.2.8 (2018-05-23)
-
-* Changed Black
-
-```UI
-//因这二个api提示有重叠, 原透明色在选中词时颜色会叠加 导致CSS属性名和注释文字 看不清, 故换了种非透明色。白色主题下影响细微, 暂不换。
-editor.selectionHighlightBackground: #00BEC499 → #006060
-editor.wordHighlightBackground: #00BEC499 → #006060
+//原透明色导致CSS属性名和注释文字 看不清, 反复调了下这个颜色。
+editor.selectionHighlightBackground: #00BEC499 → #006060 → #0088997F → #006661D8 → #0080997F
+editor.wordHighlightBackground: #00BEC499 → #006060 → #0088997F → #006661D8 → #0080997F
 
 editorBracketMatch.background: #FF907099 → #FF90708C
 ```
