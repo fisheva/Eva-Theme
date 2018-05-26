@@ -1,3 +1,61 @@
+0.3.2 (2018-05-27)
+
+* Changed all
+
+```UI
+editor.foreground: #B0B7C3E5/#5D5D5FE5 → #C5C5C5/#424242
+editorGutter.modifiedBackground: #598DEF/#598DEF → #A78CFA/#9277E6
+editorMarkerNavigation.background": #598DEF/#598DEF → #40AD41/#44C145
+```
+
+* Add all
+
+```UI
+editorCursor.background: #000/#000
+
+editorMarkerNavigationInfo.background: #598DEF/#598DEF
+
+editorOverviewRuler.addedForeground: #40AD41/#44C145
+editorOverviewRuler.bracketMatchForeground: #FF907000/#FC835700
+editorOverviewRuler.commonContentForeground: #2D3039/#E5E8EF
+editorOverviewRuler.deletedForeground: #e51400/#ff0000
+editorOverviewRuler.errorForeground: #e51400/#ff0000
+editorOverviewRuler.findMatchForeground: #598DEF59/#CFD2D9
+editorOverviewRuler.infoForeground: #598DEF/#598DEF
+editorOverviewRuler.modifiedForeground: #A78CFA/#9277E6
+editorOverviewRuler.rangeHighlightForeground: #2D3039/#E5E8EF
+editorOverviewRuler.selectionHighlightForeground: #008099BF/#00BEC4AD
+editorOverviewRuler.warningForeground: #F5625C/#F5625C
+editorOverviewRuler.wordHighlightForeground: #008099BF/#00BEC4AD
+editorOverviewRuler.wordHighlightStrongForeground: #A78CFABF/#7C4DFF72
+```
+
+* Unknown Location API
+
+```UI
+//待自己测试
+"editorHint.foreground": "#0000ff",
+"editorHint.border": "#00ff00",
+
+//已经写进主题
+"editorOverviewRuler.commonContentForeground": "#2D3039"/"#E5E8EF",
+"editorOverviewRuler.currentContentForeground": "#FFF"/"000",
+"editorOverviewRuler.incomingContentForeground": "#45B7463F"/"#45B7464C",
+"editorOverviewRuler.rangeHighlightForeground": "#2D3039"/"#E5E8EF",
+
+
+"merge.commonContentBackground": "#2D3039"/"#E5E8EF",
+"merge.commonHeaderBackground": "#2D3039"/"#E5E8EF",
+```
+
+* Issue wanted
+
+```UI
+//在搜索时, 右侧色块看不到当前目标, 故应该添加2个API
+editorOverviewRuler.findMatchHighlightForeground: #ff0000
+editorOverviewRuler.findRangeHighlightForeground: #0000ff
+```
+
 0.3.1 (2018-05-25)
 
 * Changed Black
@@ -31,7 +89,7 @@ Fixed some bugs in Scss files. Support Scss better.
 * Fixed all
 
 ```UI
-//原本设置这个属性是透明的,这里存在一个VSCode二个属性"editor.selectionHighlightBackground" 和 "editor.wordHighlightBackground"区分不严的问题，值得提issue。
+//原本设置这个属性是透明的,这里存在一个VSCode二个属性editor.selectionHighlightBackground 和 editor.wordHighlightBackground区分不严的问题，值得提issue。
 editor.selectionHighlightBackground: #00BEC499/#00BEC459
 ```
 
