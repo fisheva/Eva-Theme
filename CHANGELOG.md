@@ -5,7 +5,7 @@
 ```UI
 editorWidget.border: #21252B/#E1E4EB
 
-gitDecoration.conflictingResourceForeground: #F5625C/#F5625C
+gitDecoration.conflictingResourceForeground: #E4BF7F/#F0AA0B
 gitDecoration.deletedResourceForeground: #e51400/#ff0000
 gitDecoration.ignoredResourceForeground: #676E95/#A9A9AA
 gitDecoration.modifiedResourceForeground: #A78CFA/#9277E6
@@ -31,12 +31,6 @@ terminalCursor.foreground: #B0B7C3/#A0A1A7
 ```UI
 notification.background: #1F222A/#C3C6CD → #21252b/#C3C6CD
 notification.foreground: #FFF/#FFF → #B0B7C3/#5D5D5F
-```
-
-* Changed Light
-
-```UI
-panel.border: #E1E4EB → #D7DAE1
 ```
 
 * Add Dark
