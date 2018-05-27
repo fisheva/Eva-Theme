@@ -1,3 +1,51 @@
+0.3.3 (2018-05-27)
+
+* Add all
+
+```UI
+editorWidget.border: #21252B/#E1E4EB
+
+gitDecoration.conflictingResourceForeground: #F5625C/#F5625C
+gitDecoration.deletedResourceForeground: #e51400/#ff0000
+gitDecoration.ignoredResourceForeground: #676E95/#A9A9AA
+gitDecoration.modifiedResourceForeground: #A78CFA/#9277E6
+gitDecoration.untrackedResourceForeground: #8E99B1/#626264D8
+
+notifications.border: #181A1F/#AAADB499
+notificationCenter.border: #181A1F/#AAADB499
+notificationCenterHeader.background: #21252b/#E1E4EB
+notificationCenterHeader.foreground: #B0B7C3/#5D5D5F
+notification.errorBackground: #e51400/#ff0000
+notification.errorForeground: #FFF/#FFF
+notificationToast.border: #181A1F/#AAADB499
+
+statusBar.noFolderForeground: #9DA5B3/#5D5D5F
+
+terminal.selectionBackground: #598DEF59/#0065FF3F
+terminalCursor.background: #000/#000
+terminalCursor.foreground: #B0B7C3/#A0A1A7
+```
+
+* Changed all
+
+```UI
+notification.background: #1F222A/#C3C6CD → #21252b/#C3C6CD
+notification.foreground: #FFF/#FFF → #B0B7C3/#5D5D5F
+```
+
+* Changed Light
+
+```UI
+panel.border: #E1E4EB → #D7DAE1
+```
+
+* Add Dark
+
+```UI
+//白色背景系统默认link颜色就很好, 所以不加。
+notificationLink.foreground: #598DEF
+```
+
 0.3.2 (2018-05-27)
 
 * Changed all
@@ -30,32 +78,6 @@ editorOverviewRuler.wordHighlightForeground: #008099BF/#00BEC4AD
 editorOverviewRuler.wordHighlightStrongForeground: #A78CFABF/#7C4DFF72
 ```
 
-* Unknown Location API
-
-```UI
-//待自己测试
-"editorHint.foreground": "#0000ff",
-"editorHint.border": "#00ff00",
-
-//已经写进主题
-"editorOverviewRuler.commonContentForeground": "#2D3039"/"#E5E8EF",
-"editorOverviewRuler.currentContentForeground": "#FFF"/"000",
-"editorOverviewRuler.incomingContentForeground": "#45B7463F"/"#45B7464C",
-"editorOverviewRuler.rangeHighlightForeground": "#2D3039"/"#E5E8EF",
-
-
-"merge.commonContentBackground": "#2D3039"/"#E5E8EF",
-"merge.commonHeaderBackground": "#2D3039"/"#E5E8EF",
-```
-
-* Issue wanted
-
-```UI
-//在搜索时, 右侧色块看不到当前目标, 故应该添加2个API
-editorOverviewRuler.findMatchHighlightForeground: #ff0000
-editorOverviewRuler.findRangeHighlightForeground: #0000ff
-```
-
 0.3.1 (2018-05-25)
 
 * Changed Black
@@ -85,13 +107,6 @@ Fixed some bugs in Scss files. Support Scss better.
 ```
 
 0.2.5（2018-05-06）
-
-* Fixed all
-
-```UI
-//原本设置这个属性是透明的,这里存在一个VSCode二个属性editor.selectionHighlightBackground 和 editor.wordHighlightBackground区分不严的问题，值得提issue。
-editor.selectionHighlightBackground: #00BEC499/#00BEC459
-```
 
 * Add all
 
@@ -521,3 +536,39 @@ welcomePage.buttonHoverBackground
 0.0.1 (2017-06-16)
 
 * Initial Version Release
+
+---
+
+* Unknown Location API
+
+```UI
+//待自己测试
+"editorHint.foreground": "#0000ff",
+"editorHint.border": "#00ff00",
+
+//已经写进主题
+"editorOverviewRuler.commonContentForeground": "#2D3039"/"#E5E8EF",
+"editorOverviewRuler.currentContentForeground": "#FFF"/"000",
+"editorOverviewRuler.incomingContentForeground": "#45B7463F"/"#45B7464C",
+"editorOverviewRuler.rangeHighlightForeground": "#2D3039"/"#E5E8EF",
+
+"merge.commonContentBackground": "#2D3039"/"#E5E8EF",
+"merge.commonHeaderBackground": "#2D3039"/"#E5E8EF",
+
+"pickerGroup.border": "#4480F4"/"#4283F5",
+"pickerGroup.foreground": "#4480F4"/"#4283F5",
+
+"statusBarItem.prominentBackground": "#21252B"/"#E1E4EB",
+"statusBarItem.prominentHoverBackground": "#598DEF"/"#598DEF",
+```
+
+* Issue wanted
+
+```UI
+//原本设置这个属性是透明的,这里存在一个VSCode二个属性editor.selectionHighlightBackground 和 editor.wordHighlightBackground区分不严的问题，值得提issue。
+editor.selectionHighlightBackground: #00BEC499/#00BEC459
+
+//在搜索时, 右侧色块看不到当前目标, 故应该添加2个API
+editorOverviewRuler.findMatchHighlightForeground: #ff0000
+editorOverviewRuler.findRangeHighlightForeground: #0000ff
+```
