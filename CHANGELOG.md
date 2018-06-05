@@ -1,3 +1,22 @@
+0.3.4 (2018-06-05)
+
+Congratulations on Microsoft's acquisition of GitHub ! \\(≧▽≦)/
+
+* Add all
+
+```UI
+tab.hoverBackground: #598DEF3F
+tab.unfocusedHoverBackground: #598DEF3F
+```
+
+* Changed all
+
+```UI
+statusBarItem.activeBackground: #4283F5/#4283F5 → #598DEFD8/#0065FFB2
+statusBarItem.hoverBackground: #598DEF/#598DEF → #598DEF59/#0065FF33
+statusBarItem.prominentHoverBackground: #598DEF/#598DEF → #598DEF59/#0065FF33
+```
+
 0.3.3 (2018-05-27)
 
 * Add all
@@ -560,9 +579,12 @@ welcomePage.buttonHoverBackground
 
 ```UI
 //原本设置这个属性是透明的,这里存在一个VSCode二个属性editor.selectionHighlightBackground 和 editor.wordHighlightBackground区分不严的问题，值得提issue。
-editor.selectionHighlightBackground: #00BEC499/#00BEC459
+"editor.selectionHighlightBackground": "#00BEC499"/"#00BEC459",
 
 //在搜索时, 右侧色块看不到当前目标, 故应该添加2个API
-editorOverviewRuler.findMatchHighlightForeground: #ff0000
-editorOverviewRuler.findRangeHighlightForeground: #0000ff
+"editorOverviewRuler.findMatchHighlightForeground": "#ff0000",
+"editorOverviewRuler.findRangeHighlightForeground": "#0000ff",
+
+"tab.hoverForeground": "#d7dae0",
+"tab.unfocusedHoverForeground": "#d7dae0",
 ```
