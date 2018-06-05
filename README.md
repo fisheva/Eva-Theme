@@ -1,4 +1,4 @@
-🎉 **Congratulations on Microsoft's acquisition of GitHub ! \\(≧▽≦)/**
+🎉 **Congratulations on Microsoft's acquisition of GitHub !** \\(≧▽≦)/
 <p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-Theme/Screenshot/Eva-Dark5.png?raw=true"></p>
 <p align="center"><img src="https://github.com/fisheva/Static/blob/master/Eva-Theme/Screenshot/Eva-Light5.png?raw=true"></p>
 
