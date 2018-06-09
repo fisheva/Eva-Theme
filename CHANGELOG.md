@@ -1,3 +1,62 @@
+0.3.5 (2018-06-08)
+
+* Add all
+
+```UI
+debugToolBar.border: #21252B/#E1E4EB
+
+list.errorForeground: #e51400/#ff0000
+list.inactiveFocusBackground: #598DEF3F/#0065FF19
+list.invalidItemForeground: #676E95/#A9A9AA (暂未找到位置)
+list.warningForeground: #F5625C/#F5625C
+
+panel.background: #282c34/#EBEEF5
+panel.dropBackground: #598DEF4C/#0065FF21
+peekViewEditorGutter.background: #2D3039/#E5E8EF
+
+sideBar.dropBackground: #598DEF4C/#0065FF21
+
+terminal.border: #21252B/#E1E4EB
+textBlockQuote.background: #31353c/#e0e3e9 (提取的默认色)
+
+以下全是透明的:
+activityBar.border: #282c3400/#EBEEF500
+
+editor.findMatchBorder: #F8F90000/#F8F90000
+editor.findMatchHighlightBorder: #32446400/#CFD2D900
+editor.lineHighlightBorder: #2D303900/#E5E8EF00
+editor.selectionHighlightBorder: #00809900/#00BEC400
+editor.wordHighlightBorder: #00809900/#00BEC400
+editor.wordHighlightStrongBorder: #A78CFA00/#7C4DFF00
+
+peekViewEditor.matchHighlightBorder: #598DEF00/#0065FF00
+
+tab.activeBorder": #282c3400/#EBEEF500
+tab.activeBorderTop: #282c3400/#EBEEF500
+tab.hoverBorder: #598DEF00/#0065FF00
+tab.unfocusedActiveBorder: #282c3400/#EBEEF500
+tab.unfocusedActiveBorderTop: #282c3400/#EBEEF500
+tab.unfocusedHoverBorder: #598DEF00/#0065FF00
+
+titleBar.border: #282c3400/#EBEEF500
+
+```
+
+* Changed all
+
+```UI
+加深5%
+list.dropBackground: #598DEF3F/0065FF19 → #598DEF4C/0065FF21
+```
+
+* Changed Light
+
+```UI
+scrollbarSlider.activeBackground: #00000022 → #00000033
+scrollbarSlider.background: #00000011 → #00000022
+scrollbarSlider.hoverBackground: #00000022 → #00000033
+```
+
 0.3.4 (2018-06-05)
 
 Congratulations on Microsoft's acquisition of GitHub ! \\(≧▽≦)/
