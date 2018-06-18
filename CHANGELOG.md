@@ -1,3 +1,17 @@
+0.3.6 (2018-06-18)
+
+* Add all
+
+```UI
+textCodeBlock.background: #181A1F/#E5E8EF
+```
+
+* Changed all
+
+```UI
+editorGroup.dropBackground: #282C34/#EBEEF5 → #598DEF4C/#0065FF21
+```
+
 0.3.5 (2018-06-08)
 
 * Add all
