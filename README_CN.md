@@ -25,6 +25,7 @@ VSCode版本要求 ≥ 1.12.0。
 - Pyhton
 - Golang
 - Ruby
+- Dart
 - JSON
 - Markdown
 

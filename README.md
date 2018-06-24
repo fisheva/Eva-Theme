@@ -26,6 +26,7 @@ Tested with the following languages in native environment, except derived framew
 - Pyhton
 - Golang
 - Ruby
+- Dart
 - JSON
 - Markdown
 

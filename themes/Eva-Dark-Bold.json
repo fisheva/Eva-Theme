@@ -287,7 +287,7 @@
     {
       "name": "Variable",
       "nameCN": "变量",
-      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block",
+      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#B0B7C3"
@@ -341,7 +341,7 @@
     {
       "name": "Punctuation colon",
       "nameCN": "冒号 :",
-      "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value",
+      "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8E99B1"
@@ -359,7 +359,7 @@
     {
       "name": "Punctuation comma",
       "nameCN": "逗号 ,",
-      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, source.css.scss, source.cs, punctuation.separator.parameters,punctuation.separator.object,meta.function.method.with-arguments.ruby",
+      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, source.css.scss, source.cs, punctuation.separator.parameters,punctuation.separator.object,meta.function.method.with-arguments.ruby, punctuation.comma",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#79859D"
@@ -377,7 +377,7 @@
     {
       "name": "Punctuation accessor",
       "nameCN": "点号 .",
-      "scope": "punctuation.accessor,punctuation.separator.period,punctuation.separator.dot-access,punctuation.separator.method,punctuation.other.period",
+      "scope": "punctuation.accessor,punctuation.separator.period,punctuation.separator.dot-access,punctuation.separator.method,punctuation.other.period,punctuation.dot",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#838FA7"
@@ -439,7 +439,7 @@
     {
       "name": "js dom variable, C C++ C# namespace",
       "nameCN": "dom, C系语言的命名空间",
-      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,variable.other.object.cs,entity.name.type.namespace,variable.other.member.c,entity.name.type.cpp",
+      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,variable.other.object.cs,entity.name.type.namespace,variable.other.member.c,entity.name.type.cpp, variable.other.source.dart",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E06C75"
@@ -483,7 +483,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "keyword.operator,关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby",
+      "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#56B7C3"
@@ -674,7 +674,7 @@
     {
       "name": "support type ts",
       "nameCN": "ts里默认数据类型;自定义数据类型",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c,support.class.dart,meta.declaration.dart",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF6AB3"
@@ -1032,7 +1032,7 @@
     },
     {
       "name": "js ts this super, python self",
-      "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python",
+      "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#F02B77"
@@ -1068,7 +1068,7 @@
     },
     {
       "name": "keyword",
-      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.other.special-method.ruby",
+      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.other.special-method.ruby,storage.type.primitive.dart, keyword.declaration, keyword.operator.closure.dart",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#A78CFA"
