@@ -1,3 +1,13 @@
+0.3.8 (2018-07-07)
+
+* Add all
+
+```UI
+editorGroup.emptyBackground: #282c34/#EBEEF5
+editorGroup.focusedEmptyBorder: #5889EA/#4283F5
+editorPane.background: #21252B/#E1E4EB
+```
+
 0.3.7 (2018-06-24)
 
 * **Support Dart**
