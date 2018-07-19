@@ -1,3 +1,9 @@
+0.3.9 (2018-07-19)
+
+```Sytax
+Fixed some bugs in TypeScript files. Support TypeScript better.
+```
+
 0.3.8 (2018-07-07)
 
 * Add all
