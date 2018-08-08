@@ -773,9 +773,9 @@
       }
     },
     {
-      "name": "meta.jsx.children.tsx",
+      "name": "meta.jsx.children",
       "nameCN": "jsx里的文字",
-      "scope": "meta.jsx.children.tsx",
+      "scope": "meta.jsx.children",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8792AA"

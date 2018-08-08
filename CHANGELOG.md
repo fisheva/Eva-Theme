@@ -1,3 +1,9 @@
+0.4.0 (2018-08-08)
+
+```Sytax
+Fixed some bugs in JSX. Support JSX better.
+```
+
 0.3.9 (2018-07-19)
 
 ```Sytax
