@@ -2,9 +2,6 @@
   "name": "Eva Dark Bold",
   "type": "dark",
   "colors": {
-    "editorHint.foreground": "#00ff00",
-    "editorHint.border": "#00ff00",
-    "textSeparator.foreground": "#0000ff",
     "activityBar.background": "#282c34",
     "activityBar.border": "#282c3400",
     "activityBar.dropBackground": "#21252B",

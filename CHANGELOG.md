@@ -1,13 +1,8 @@
-0.4.1 (2018-08-15)
+0.4.2 (2018-08-15)
 
 * Add all
 
 ```UI
-breadcrumb.activeSelectionForeground: #D7DAE0/#5D5D5F
-breadcrumb.foreground: #8E99B1/#8E8E90
-breadcrumb.focusForeground: #D7DAE0/#5D5D5F
-breadcrumbPicker.background: #23272F/#E5E8EF
-
 menu.background: #282C34/#EBEEF5
 menu.foreground: #8E99B1/#8E8E90
 menu.selectionBackground: #598DEFB3/#0065FF99
@@ -16,6 +11,17 @@ menu.selectionForeground: #E1E4EA/#fff
 menubar.selectionBackground: #598DEFB3/#0065FF99
 menubar.selectionBorder: #598DEF00/#0065FF00
 menubar.selectionForeground: #E1E4EA/#fff
+```
+
+0.4.1 (2018-08-14)
+
+* Add all
+
+```UI
+breadcrumb.activeSelectionForeground: #D7DAE0/#5D5D5F
+breadcrumb.foreground: #8E99B1/#8E8E90
+breadcrumb.focusForeground: #D7DAE0/#5D5D5F
+breadcrumbPicker.background: #23272F/#E5E8EF
 
 settings.checkboxBackground: #23272F/#F1F4FB
 settings.checkboxBorder: #181A1F/#CED1D7
@@ -44,7 +50,7 @@ textLink.foreground: #5B87EB
 
 ```UI
 button.hoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
-input.border: #282C34/# → #21252B/#E1E4EB
+input.border: #282C34/#E5E8EF → #21252B/#E1E4EB
 notification.buttonHoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
 ```
 
