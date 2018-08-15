@@ -1,4 +1,4 @@
-0.4.2 (2018-08-15)
+0.4.3 (2018-08-15)
 
 * Add all
 
@@ -13,16 +13,11 @@ menubar.selectionBorder: #598DEF00/#0065FF00
 menubar.selectionForeground: #E1E4EA/#fff
 ```
 
-0.4.1 (2018-08-14)
+0.4.2 (2018-08-14)
 
 * Add all
 
 ```UI
-breadcrumb.activeSelectionForeground: #D7DAE0/#5D5D5F
-breadcrumb.foreground: #8E99B1/#8E8E90
-breadcrumb.focusForeground: #D7DAE0/#5D5D5F
-breadcrumbPicker.background: #23272F/#E5E8EF
-
 settings.checkboxBackground: #23272F/#F1F4FB
 settings.checkboxBorder: #181A1F/#CED1D7
 settings.checkboxForeground: #9DA5B3/#5D5D5F
@@ -38,6 +33,17 @@ settings.numberInputForeground: #9DA5B3/#5D5D5F
 settings.textInputBackground: #23272F/#F1F4FB
 settings.textInputBorder: #181A1F/#CED1D7
 settings.textInputForeground: #9DA5B3/#5D5D5F
+```
+
+0.4.1 (2018-08-14)
+
+* Add all
+
+```UI
+breadcrumb.activeSelectionForeground: #D7DAE0/#5D5D5F
+breadcrumb.foreground: #8E99B1/#8E8E90
+breadcrumb.focusForeground: #D7DAE0/#5D5D5F
+breadcrumbPicker.background: #23272F/#E5E8EF
 ```
 
 * Add Light

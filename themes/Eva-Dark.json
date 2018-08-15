@@ -15,7 +15,7 @@
     "breadcrumb.focusForeground": "#d7dae0",
     "breadcrumbPicker.background": "#23272F",
     "button.background": "#676E9599",
-    "button.hoverBackground": "#598DEFE6F",
+    "button.hoverBackground": "#598DEFE6",
     "debugExceptionWidget.background": "#a3151533",
     "debugExceptionWidget.border": "#a31515",
     "debugToolBar.background": "#21252B",
