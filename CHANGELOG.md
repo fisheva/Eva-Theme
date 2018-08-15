@@ -1,3 +1,53 @@
+0.4.1 (2018-08-15)
+
+* Add all
+
+```UI
+breadcrumb.activeSelectionForeground: #D7DAE0/#5D5D5F
+breadcrumb.foreground: #8E99B1/#8E8E90
+breadcrumb.focusForeground: #D7DAE0/#5D5D5F
+breadcrumbPicker.background: #23272F/#E5E8EF
+
+menu.background: #282C34/#EBEEF5
+menu.foreground: #8E99B1/#8E8E90
+menu.selectionBackground: #598DEFB3/#0065FF99
+menu.selectionBorder: #598DEF00/#0065FF00
+menu.selectionForeground: #E1E4EA/#fff
+menubar.selectionBackground: #598DEFB3/#0065FF99
+menubar.selectionBorder: #598DEF00/#0065FF00
+menubar.selectionForeground: #E1E4EA/#fff
+
+settings.checkboxBackground: #23272F/#F1F4FB
+settings.checkboxBorder: #181A1F/#CED1D7
+settings.checkboxForeground: #9DA5B3/#5D5D5F
+settings.dropdownBackground: #23272F/#F1F4FB
+settings.dropdownBorder: #181A1F/#CED1D7
+settings.dropdownForeground: #9DA5B3/#5D5D5F
+settings.headerForeground: #9DA5B3/#5D5D5F
+settings.inactiveSelectedItemBorder: #1D1F23/#D3D6DC
+settings.modifiedItemForeground: #65E9F5/#00B4BA
+settings.numberInputBackground: #23272F/#F1F4FB
+settings.numberInputBorder: #181A1F/#CED1D7
+settings.numberInputForeground: #9DA5B3/#5D5D5F
+settings.textInputBackground: #23272F/#F1F4FB
+settings.textInputBorder: #181A1F/#CED1D7
+settings.textInputForeground: #9DA5B3/#5D5D5F
+```
+
+* Add Light
+
+```UI
+textLink.foreground: #5B87EB
+```
+
+* Changed all
+
+```UI
+button.hoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
+input.border: #282C34/# → #21252B/#E1E4EB
+notification.buttonHoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
+```
+
 0.4.0 (2018-08-08)
 
 ```Sytax
@@ -677,6 +727,9 @@ welcomePage.buttonHoverBackground
 * Issue wanted
 
 ```UI
+//面包屑里的选择项背景色
+"breadcrumbPicker.activeSelectionBackground": "#ff0000",
+
 //原本设置这个属性是透明的,这里存在一个VSCode二个属性editor.selectionHighlightBackground 和 editor.wordHighlightBackground区分不严的问题，值得提issue。
 "editor.selectionHighlightBackground": "#00BEC499"/"#00BEC459",
 
