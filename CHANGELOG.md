@@ -1,3 +1,17 @@
+0.4.6 (2018-08-16)
+
+* Changed Dark
+
+```UI
+titleBar.activeForeground: #676E95 → #8E99B1
+```
+
+* Changed Light
+
+```UI
+titleBar.inactiveForeground: #5D5D5F → #94969B
+```
+
 0.4.5 (2018-08-16)
 
 * Changed All
