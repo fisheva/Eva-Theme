@@ -1,6 +1,14 @@
+0.4.5 (2018-08-16)
+
+* Changed All
+
+```UI
+breadcrumbPicker.background: #23272F/#E1E4EB → #252830/#E5E8EF
+```
+
 0.4.4 (2018-08-16)
 
-* Changed all
+* Changed All
 
 ```UI
 editorLink.activeForeground: #A78CFA/#7C4DFF → #D73BD5/#D365E5
@@ -16,7 +24,7 @@ menu.foreground: #8E8E90 → #5D5D5F
 
 0.4.3 (2018-08-15)
 
-* Add all
+* Add All
 
 ```UI
 menu.background: #282C34/#EBEEF5
@@ -31,7 +39,7 @@ menubar.selectionForeground: #E1E4EA/#fff
 
 0.4.2 (2018-08-15)
 
-* Add all
+* Add All
 
 ```UI
 settings.checkboxBackground: #23272F/#F1F4FB
@@ -53,7 +61,7 @@ settings.textInputForeground: #9DA5B3/#5D5D5F
 
 0.4.1 (2018-08-15)
 
-* Add all
+* Add All
 
 ```UI
 breadcrumb.activeSelectionForeground: #D7DAE0/#5D5D5F
@@ -68,7 +76,7 @@ breadcrumbPicker.background: #23272F/#E5E8EF
 textLink.foreground: #5B87EB
 ```
 
-* Changed all
+* Changed All
 
 ```UI
 button.hoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
@@ -90,7 +98,7 @@ Fixed some bugs in TypeScript files. Support TypeScript better.
 
 0.3.8 (2018-07-07)
 
-* Add all
+* Add All
 
 ```UI
 editorGroup.emptyBackground: #282c34/#EBEEF5
@@ -104,13 +112,13 @@ editorPane.background: #21252B/#E1E4EB
 
 0.3.6 (2018-06-18)
 
-* Add all
+* Add All
 
 ```UI
 textCodeBlock.background: #181A1F/#E5E8EF
 ```
 
-* Changed all
+* Changed All
 
 ```UI
 editorGroup.dropBackground: #282C34/#EBEEF5 → #598DEF4C/#0065FF21
@@ -118,7 +126,7 @@ editorGroup.dropBackground: #282C34/#EBEEF5 → #598DEF4C/#0065FF21
 
 0.3.5 (2018-06-08)
 
-* Add all
+* Add All
 
 ```UI
 debugToolBar.border: #21252B/#E1E4EB
@@ -160,7 +168,7 @@ titleBar.border: #282c3400/#EBEEF500
 
 ```
 
-* Changed all
+* Changed All
 
 ```UI
 加深5%
@@ -179,14 +187,14 @@ scrollbarSlider.hoverBackground: #00000022 → #00000033
 
 Congratulations on Microsoft's acquisition of GitHub ! \\(≧▽≦)/
 
-* Add all
+* Add All
 
 ```UI
 tab.hoverBackground: #598DEF3F
 tab.unfocusedHoverBackground: #598DEF3F
 ```
 
-* Changed all
+* Changed All
 
 ```UI
 statusBarItem.activeBackground: #4283F5/#4283F5 → #598DEFD8/#0065FFB2
@@ -196,7 +204,7 @@ statusBarItem.prominentHoverBackground: #598DEF/#598DEF → #598DEF59/#0065FF33
 
 0.3.3 (2018-05-27)
 
-* Add all
+* Add All
 
 ```UI
 editorWidget.border: #21252B/#E1E4EB
@@ -222,7 +230,7 @@ terminalCursor.background: #000/#000
 terminalCursor.foreground: #B0B7C3/#A0A1A7
 ```
 
-* Changed all
+* Changed All
 
 ```UI
 notification.background: #1F222A/#C3C6CD → #21252b/#C3C6CD
@@ -238,7 +246,7 @@ notificationLink.foreground: #598DEF
 
 0.3.2 (2018-05-27)
 
-* Changed all
+* Changed All
 
 ```UI
 editor.foreground: #B0B7C3E5/#5D5D5FE5 → #C5C5C5/#424242
@@ -246,7 +254,7 @@ editorGutter.modifiedBackground: #598DEF/#598DEF → #A78CFA/#9277E6
 editorMarkerNavigation.background": #598DEF/#598DEF → #40AD41/#44C145
 ```
 
-* Add all
+* Add All
 
 ```UI
 editorCursor.background: #000/#000
@@ -282,7 +290,7 @@ editorBracketMatch.background: #FF907099 → #FF90708C
 
 0.2.7 (2018-05-21)
 
-* Fixed all
+* Fixed All
 
 ```Sytax
 Fixed some bugs in less files. Support less better.
@@ -290,7 +298,7 @@ Fixed some bugs in less files. Support less better.
 
 0.2.6 (2018-05-08)
 
-* Fixed all
+* Fixed All
 
 ```Sytax
 Fixed some bugs in Scss files. Support Scss better.
@@ -298,7 +306,7 @@ Fixed some bugs in Scss files. Support Scss better.
 
 0.2.5（2018-05-06）
 
-* Add all
+* Add All
 
 ```UI
 editorLineNumber.activeForeground: #9DA5B3/#5D5D5F
@@ -306,7 +314,7 @@ editorLineNumber.activeForeground: #9DA5B3/#5D5D5F
 
 0.2.4 (2018-05-04)
 
-* Add all
+* Add All
 
 ```UI
 //关掉VSCode 1.23.0 版本新增的 Highlighted indent guides - Helps visualize source code indenting.功能。
@@ -323,14 +331,14 @@ editorIndentGuide.activeBackground:#CED1D7
 
 * **Support C#**
 
-* Add all
+* Add All
 
 ```syntax
 //枚举里面的元素 每个都代表一个整数
 enum: #FF9070/#ff6500
 ```
 
-* Changed all
+* Changed All
 
 ```syntax
 //位运算符号
@@ -341,7 +349,7 @@ keyword.operator.bitwise: #CF68E1/#C838C6 → #56B7C3/#00BEC4
 
 * **Support PHP**
 
-* Add all
+* Add All
 
 ```UI
 editorGutter.modifiedBackground: #598DEF
@@ -363,7 +371,7 @@ notification.errorBackground: #e51400 → #ff0000
 
 * **Support Java**
 
-* Deleted all
+* Deleted All
 
 ```syntax
 //覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
@@ -381,7 +389,7 @@ entity.name.type = #FF6AB3/#EF8ED8
 
 0.1.8 (2018-04-08)
 
-* Changed all
+* Changed All
 
 ```UI
 diffEditor.insertedTextBackground: #45B7463F/#45B7464C
@@ -405,7 +413,7 @@ peekViewTitleLabel.foreground: #9DA5B3/#626264
 peekViewTitleDescription.foreground: #9DA5B3BF/#888888
 ```
 
-* Add all
+* Add All
 
 ```UI
 //There are no following api, but them should be, maybe I should make a issue.
@@ -522,13 +530,13 @@ support.type.property-name.css,meta.property-value.css: #94969B→#888888
 
 0.1.2 (2017-08-02)
 
-* Add all
+* Add All
 
 ```UI
 selection.background: #598DEF59/#0065FF3F
 ```
 
-* Fixed all
+* Fixed All
 
 ```syntax
 keyword.operator.css, entity.name.tag.wildcard.scss = #56B7C3/#00BEC4
@@ -540,13 +548,13 @@ source.css.scss = #79859D/#A0A1A7F2
 
 0.1.1 (2017-07-12)
 
-* Changed all
+* Changed All
 
 ```syntax
 entity.other.inherited-class,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
 ```
 
-* Add all
+* Add All
 
 ```UI
 notification.buttonBackground: #676E9599/#A0A1A7E5,
@@ -567,7 +575,7 @@ notification.errorForeground: #FFF,
 variable.language.this = #FA278C
 ```
 
-* Changed all
+* Changed All
 
 ```syntax
 variable.parameter = #E4BF7F/#F0AA0B
@@ -581,7 +589,7 @@ markup.bold.markdown bold → normal
 
 0.0.9 (2017-06-30)
 
-* Changed all
+* Changed All
 
 ```syntax
 variable.parameter  italic → normal;
@@ -591,7 +599,7 @@ variable.parameter  italic → normal;
 editor.foreground = #B0B7C3E5/#5D5D5FE5;
 ```
 
-* Added all
+* Added All
 
 ```syntax
 entity.name.type.enum = #B0B7C3/#5D5D5F;
@@ -600,13 +608,13 @@ variable.other.enummember = #E06C75/#CD6069;
 
 0.0.8 (2017-06-29)
 
-* Deleted all
+* Deleted All
 
 ```syntax
 entity.name.type.ts
 ```
 
-* Add all
+* Add All
 
 ```syntax
 {
@@ -618,7 +626,7 @@ foreground: #FF6AB3/#EF8ED8
 
 0.0.7 (2017-06-28)
 
-* Changed all
+* Changed All
 
 ```syntax
 {
@@ -631,7 +639,7 @@ foreground: #FF6AB3/#EF8ED8
 * Changed All
 
 ```UI
-//Changed all red as the same to panel default red color.
+//Changed All red as the same to panel default red color.
 terminal.ansiRed: #e51400
 ```
 
