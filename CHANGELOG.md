@@ -1,3 +1,11 @@
+0.4.7 (2018-08-16)
+
+* Changed Light
+
+```UI
+menu.background: #EEF1F8 → #EBEEF5
+```
+
 0.4.6 (2018-08-16)
 
 * Changed Dark
