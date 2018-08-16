@@ -1,10 +1,26 @@
+0.4.4 (2018-08-16)
+
+* Changed all
+
+```UI
+editorLink.activeForeground: #A78CFA/#7C4DFF → #D73BD5/#D365E5
+textLink.activeForeground: #A78CFA#7C4DFF → #D73BD5/#D365E5
+```
+
+* Changed Light
+
+```UI
+menu.background: #EBEEF5 → #EEF1F8
+menu.foreground: #8E8E90 → #5D5D5F
+```
+
 0.4.3 (2018-08-15)
 
 * Add all
 
 ```UI
-menu.background: #282C34/#EEF1F8
-menu.foreground: #8E99B1/#5D5D5F
+menu.background: #282C34/#EBEEF5
+menu.foreground: #8E99B1/#8E8E90
 menu.selectionBackground: #598DEFB3/#0065FF99
 menu.selectionBorder: #598DEF00/#0065FF00
 menu.selectionForeground: #E1E4EA/#fff
@@ -26,7 +42,7 @@ settings.dropdownBorder: #181A1F/#CED1D7
 settings.dropdownForeground: #9DA5B3/#5D5D5F
 settings.headerForeground: #9DA5B3/#5D5D5F
 settings.inactiveSelectedItemBorder: #1D1F23/#D3D6DC
-settings.modifiedItemForeground: #A78CFA/#7C4DFF
+settings.modifiedItemForeground: #65E9F5/#00B4BA
 settings.numberInputBackground: #23272F/#F1F4FB
 settings.numberInputBorder: #181A1F/#CED1D7
 settings.numberInputForeground: #9DA5B3/#5D5D5F
