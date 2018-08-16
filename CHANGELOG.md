@@ -1,3 +1,11 @@
+0.4.8 (2018-08-16)
+
+* Changed All
+
+```UI
+menu.background: #282c34/#EBEEF5 → #21252B/#E1E4EB
+```
+
 0.4.7 (2018-08-16)
 
 * Changed Light
@@ -28,7 +36,7 @@ titleBar.inactiveForeground: #5D5D5F → #94969B
 breadcrumbPicker.background: #23272F/#E1E4EB → #252830/#E5E8EF
 ```
 
-0.4.4 (2018-08-16)
+0.4.4 (2018-08-15)
 
 * Changed All
 
@@ -785,8 +793,15 @@ welcomePage.buttonHoverBackground
 * Issue wanted
 
 ```UI
+
+//Windows下点击链接会有个边框是暗金色, 想定义它的颜色。
+"editorLink.activeForeground": "#D365E5"/"#D73BD5",
+
 //面包屑里的选择项背景色
 "breadcrumbPicker.activeSelectionBackground": "#ff0000",
+
+//面包屑选框里的文字颜色目前不能定义
+"breadcrumbPicker.foreground"
 
 //原本设置这个属性是透明的,这里存在一个VSCode二个属性editor.selectionHighlightBackground 和 editor.wordHighlightBackground区分不严的问题，值得提issue。
 "editor.selectionHighlightBackground": "#00BEC499"/"#00BEC459",

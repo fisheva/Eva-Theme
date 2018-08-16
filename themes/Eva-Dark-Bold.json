@@ -136,7 +136,7 @@
     "list.inactiveSelectionForeground": "#d7dae0",
     "list.invalidItemForeground": "#676E95",
     "list.warningForeground": "#F5625C",
-    "menu.background": "#282C34",
+    "menu.background": "#21252b",
     "menu.foreground": "#8E99B1",
     "menu.selectionBackground": "#598DEFB3",
     "menu.selectionBorder": "#598DEF00",
