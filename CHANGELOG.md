@@ -3,8 +3,8 @@
 * Add all
 
 ```UI
-menu.background: #282C34/#EBEEF5
-menu.foreground: #8E99B1/#8E8E90
+menu.background: #282C34/#EEF1F8
+menu.foreground: #8E99B1/#5D5D5F
 menu.selectionBackground: #598DEFB3/#0065FF99
 menu.selectionBorder: #598DEF00/#0065FF00
 menu.selectionForeground: #E1E4EA/#fff
@@ -13,7 +13,7 @@ menubar.selectionBorder: #598DEF00/#0065FF00
 menubar.selectionForeground: #E1E4EA/#fff
 ```
 
-0.4.2 (2018-08-14)
+0.4.2 (2018-08-15)
 
 * Add all
 
@@ -26,7 +26,7 @@ settings.dropdownBorder: #181A1F/#CED1D7
 settings.dropdownForeground: #9DA5B3/#5D5D5F
 settings.headerForeground: #9DA5B3/#5D5D5F
 settings.inactiveSelectedItemBorder: #1D1F23/#D3D6DC
-settings.modifiedItemForeground: #65E9F5/#00B4BA
+settings.modifiedItemForeground: #A78CFA/#7C4DFF
 settings.numberInputBackground: #23272F/#F1F4FB
 settings.numberInputBorder: #181A1F/#CED1D7
 settings.numberInputForeground: #9DA5B3/#5D5D5F
@@ -35,7 +35,7 @@ settings.textInputBorder: #181A1F/#CED1D7
 settings.textInputForeground: #9DA5B3/#5D5D5F
 ```
 
-0.4.1 (2018-08-14)
+0.4.1 (2018-08-15)
 
 * Add all
 
