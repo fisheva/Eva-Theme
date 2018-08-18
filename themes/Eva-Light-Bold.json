@@ -65,7 +65,7 @@
     "editorGutter.deletedBackground": "#ff0000",
     "editorHoverWidget.background": "#F1F4FB",
     "editorHoverWidget.border": "#CED1D7",
-    "editorIndentGuide.activeBackground": "#CED1D7",
+    "editorIndentGuide.activeBackground": "#FC8357CC",
     "editorIndentGuide.background": "#CED1D7",
     "editorLineNumber.foreground": "#B3B3B4",
     "editorLineNumber.activeForeground": "#5D5D5F",
@@ -687,7 +687,7 @@
     },
     {
       "name": "Keyword: import, export, return(flow), interface",
-      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.package,keyword.other.package,keyword.import,keyword.other.import,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp",
+      "scope": "keyword.control.import,keyword.control.export,keyword.control.flow,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.package,keyword.other.package,keyword.import,keyword.other.import,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#7C4DFF"

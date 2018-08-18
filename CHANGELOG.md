@@ -1,3 +1,17 @@
+0.4.9 (2018-08-18)
+
+* Changed All
+
+```UI
+editorIndentGuide.activeBackground: #454963/#CED1D7 → #FF9070BF/#FC8357CC
+```
+
+* Fixed All
+
+```Sytax
+Fixed some bugs in TypeScript files. Support TypeScript better.
+```
+
 0.4.8 (2018-08-16)
 
 * Changed All
@@ -116,11 +130,15 @@ notification.buttonHoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
 
 0.4.0 (2018-08-08)
 
+* Fixed All
+
 ```Sytax
 Fixed some bugs in JSX. Support JSX better.
 ```
 
 0.3.9 (2018-07-19)
+
+* Fixed All
 
 ```Sytax
 Fixed some bugs in TypeScript files. Support TypeScript better.
