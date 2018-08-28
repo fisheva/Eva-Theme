@@ -1,3 +1,16 @@
+0.5.1 (2018-08-29)
+
+* Add All
+
+```UI
+editorUnnecessaryCode.border: #676E95/#A9A9AA
+editorUnnecessaryCode.opacity: 0
+```
+
+```Sytax
+meta.type.declaration, meta.block.ts : #FF6AB3/#EF8ED8
+```
+
 0.5.0 (2018-08-28)
 
 * Fixed Dark Bold
@@ -427,16 +440,6 @@ notification.errorBackground: #e51400 → #ff0000
 
 * **Support Java**
 
-* Deleted All
-
-```syntax
-//覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
-
-storage.type =  #A78CFA/#7C4DFF
-
-entity.name.type = #FF6AB3/#EF8ED8
-```
-
 0.1.9 (2018-04-10)
 
 * **Support Golang**
@@ -792,6 +795,16 @@ welcomePage.buttonHoverBackground
 * Initial Version Release
 
 ---
+
+* Avoid Using API
+
+```syntax
+//覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
+
+storage.type =  #A78CFA/#7C4DFF
+
+entity.name.type = #FF6AB3/#EF8ED8
+```
 
 * Unknown Location API
 

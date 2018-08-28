@@ -97,6 +97,8 @@
     "editorSuggestWidget.foreground": "#8E99B1",
     "editorSuggestWidget.highlightForeground": "#4480F4",
     "editorSuggestWidget.selectedBackground": "#598DEF64",
+    "editorUnnecessaryCode.border": "#676E95",
+    "editorUnnecessaryCode.opacity": "0",
     "editorWhitespace.foreground": "#2C313A",
     "editorWidget.background": "#21252B",
     "editorWidget.border": "#21252B",
@@ -704,7 +706,7 @@
     {
       "name": "support type ts; class",
       "nameCN": "ts里默认数据类型;自定义数据类型; interface; class",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF6AB3"
@@ -1080,7 +1082,7 @@
     },
     {
       "name": "keyword",
-      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.other.special-method.ruby,storage.type.primitive.dart, keyword.declaration, keyword.operator.closure.dart, storage.type.enum",
+      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.other.special-method.ruby,storage.type.primitive.dart, keyword.declaration, keyword.operator.closure.dart, storage.type.enum, storage.type.type",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A78CFA"

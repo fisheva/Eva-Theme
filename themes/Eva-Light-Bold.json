@@ -95,8 +95,10 @@
     "editorSuggestWidget.background": "#F1F4FB",
     "editorSuggestWidget.border": "#CED1D7",
     "editorSuggestWidget.foreground": "#8E8E90",
-    "editorSuggestWidget.selectedBackground": "#0065FF33",
     "editorSuggestWidget.highlightForeground": "#598DEF",
+    "editorSuggestWidget.selectedBackground": "#0065FF33",
+    "editorUnnecessaryCode.border": "#A9A9AA",
+    "editorUnnecessaryCode.opacity": "0",
     "editorWhitespace.foreground": "#BDBDBE",
     "editorWidget.background": "#E1E4EB",
     "editorWidget.border": "#E1E4EB",
@@ -704,7 +706,7 @@
     {
       "name": "support type ts",
       "nameCN": "ts里默认数据类型;自定义数据类型",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c,support.class.dart,meta.declaration.dart",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#EF8ED8"
@@ -1090,7 +1092,7 @@
     },
     {
       "name": "keyword",
-      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.other.special-method.ruby,storage.type.primitive.dart, keyword.declaration, keyword.operator.closure.dart, storage.type.enum",
+      "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.other.special-method.ruby,storage.type.primitive.dart, keyword.declaration, keyword.operator.closure.dart, storage.type.enum, storage.type.type",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#7C4DFF"
