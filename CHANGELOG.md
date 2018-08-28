@@ -1,3 +1,11 @@
+0.5.0 (2018-08-28)
+
+* Fixed Dark Bold
+
+```Sytax
+Fixed some bugs in TypeScript files.
+```
+
 0.4.9 (2018-08-18)
 
 * Changed All
@@ -9,7 +17,7 @@ editorIndentGuide.activeBackground: #454963/#CED1D7 → #FF9070BF/#FC8357CC
 * Fixed All
 
 ```Sytax
-Fixed some bugs in TypeScript files. Support TypeScript better.
+Fixed some bugs in TypeScript files.
 ```
 
 0.4.8 (2018-08-16)
@@ -133,7 +141,7 @@ notification.buttonHoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
 * Fixed All
 
 ```Sytax
-Fixed some bugs in JSX. Support JSX better.
+Fixed some bugs in JSX.
 ```
 
 0.3.9 (2018-07-19)
@@ -141,7 +149,7 @@ Fixed some bugs in JSX. Support JSX better.
 * Fixed All
 
 ```Sytax
-Fixed some bugs in TypeScript files. Support TypeScript better.
+Fixed some bugs in TypeScript files.
 ```
 
 0.3.8 (2018-07-07)
@@ -341,7 +349,7 @@ editorBracketMatch.background: #FF907099 → #FF90708C
 * Fixed All
 
 ```Sytax
-Fixed some bugs in less files. Support less better.
+Fixed some bugs in less files.
 ```
 
 0.2.6 (2018-05-08)
@@ -349,7 +357,7 @@ Fixed some bugs in less files. Support less better.
 * Fixed All
 
 ```Sytax
-Fixed some bugs in Scss files. Support Scss better.
+Fixed some bugs in Scss files.
 ```
 
 0.2.5（2018-05-06）
