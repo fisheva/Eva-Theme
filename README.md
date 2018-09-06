@@ -52,7 +52,11 @@ The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/
 "editor.fontFamily": "CamingoCode",
 ```
 
-### Recommendation
+### Icons
+
+After trying multiple icon themes, I think [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) is the best match for Eva Theme.
+
+### Advanced
 
 For a better experience, I recommend an awesome plugin [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) for you.
 

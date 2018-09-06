@@ -50,7 +50,11 @@ VSCode → 首选项 → 颜色主题 → 选择Eva主题
 "editor.fontFamily": "CamingoCode",
 ```
 
-### 推荐
+### 图标
+
+在尝试多款图标主题后, 我觉得[file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)是和Eva Theme最搭配的。
+
+### 进阶
 
 为了更好的体验, 我向您推荐一款搭配使用的插件 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)。
 

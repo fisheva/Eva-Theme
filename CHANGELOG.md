@@ -1,3 +1,13 @@
+0.5.2 (2018-09-06)
+
+* Add All
+
+```UI
+breadcrumb.background: #282c34/#EBEEF5
+settings.dropdownListBorder: #181A1F/#CED1D7
+settings.modifiedItemIndicator: #A78CFA/#7C4DFF
+```
+
 0.5.1 (2018-08-29)
 
 * Add All
