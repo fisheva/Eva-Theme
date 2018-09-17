@@ -1,3 +1,13 @@
+0.5.3 (2018-09-17)
+
+```UI
+gitDecoration.addedResourceForeground: #40AD41/#44C145
+```
+
+```Sytax
+Fixed some bugs in Python files.
+```
+
 0.5.2 (2018-09-06)
 
 * Add All
@@ -822,12 +832,16 @@ entity.name.type = #FF6AB3/#EF8ED8
 //待自己测试
 "editorHint.foreground": "#0000ff",
 "editorHint.border": "#00ff00",
+"textSeparator.foreground": "#0000ff",
+"gitDecoration.submoduleResourceForeground": "#ff0000"/"#ff0000",
 
 //已经写进主题
 "editorOverviewRuler.commonContentForeground": "#2D3039"/"#E5E8EF",
 "editorOverviewRuler.currentContentForeground": "#FFF"/"000",
 "editorOverviewRuler.incomingContentForeground": "#45B7463F"/"#45B7464C",
 "editorOverviewRuler.rangeHighlightForeground": "#2D3039"/"#E5E8EF",
+
+"gitDecoration.addedResourceForeground": "#40AD41"/"#44C145",
 
 "merge.commonContentBackground": "#2D3039"/"#E5E8EF",
 "merge.commonHeaderBackground": "#2D3039"/"#E5E8EF",

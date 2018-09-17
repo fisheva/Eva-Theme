@@ -109,6 +109,7 @@
     "extensionButton.prominentHoverBackground": "#377337",
     "focusBorder": "#598DEFA5",
     "foreground": "#626264",
+    "gitDecoration.addedResourceForeground": "#44C145",
     "gitDecoration.conflictingResourceForeground": "#F0AA0B",
     "gitDecoration.deletedResourceForeground": "#ff0000",
     "gitDecoration.ignoredResourceForeground": "#A9A9AA",
@@ -322,7 +323,7 @@
     {
       "name": "Variable",
       "nameCN": "变量",
-      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart",
+      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#5D5D5F"
@@ -376,7 +377,7 @@
     {
       "name": "Punctuation colon",
       "nameCN": "冒号 :",
-      "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart",
+      "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8E8E90"
@@ -394,7 +395,7 @@
     {
       "name": "Punctuation comma",
       "nameCN": "逗号 ,",
-      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, source.css.scss, source.cs, punctuation.separator.parameters,punctuation.separator.object,meta.function.method.with-arguments.ruby, punctuation.comma",
+      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, source.css.scss, source.cs, punctuation.separator.parameters,punctuation.separator.arguments.python,punctuation.separator.object,meta.function.method.with-arguments.ruby, punctuation.comma, punctuation.separator.element.python",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A0A1A7F2"
@@ -403,7 +404,7 @@
     {
       "name": "Punctuation Terminator",
       "nameCN": "分号 ;",
-      "scope": "punctuation.terminator,punctuation.terminator.statement, punctuation.terminator.rule, punctuation.terminator.expression,punctuation.separator.statement,meta.using-namespace-declaration.cpp",
+      "scope": "punctuation.terminator,punctuation.terminator.statement, punctuation.terminator.rule, punctuation.terminator.expression,punctuation.separator.statement,meta.using-namespace-declaration.cpp,invalid.deprecated.semicolon",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A9A9AA"
@@ -834,7 +835,7 @@
     {
       "name": "block,embedded,definition,bracket,typeparameters",
       "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
-      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket,punctuation.section.property-list.end.bracket",
+      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket,punctuation.section.property-list.end.bracket,punctuation.definition.list.begin,punctuation.definition.list.end",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#5D5D5FD8"
