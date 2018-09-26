@@ -1,3 +1,13 @@
+0.5.4 (2018-09-25)
+
+* Add All
+
+```Sytax
+//修复了HTML里id与class同色的问题, 这一条特殊在于它是二个Scope值叠加, 区分了单独entity.other.attribute-name.html选中的单位。Scope值叠加精细选中目标, 以后大有用处。
+
+meta.attribute.id.html entity.other.attribute-name.html: #FF9070
+```
+
 0.5.3 (2018-09-17)
 
 ```UI
