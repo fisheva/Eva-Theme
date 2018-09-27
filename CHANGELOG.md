@@ -1,3 +1,16 @@
+0.5.6 (2018-09-27)
+
+* Changed All
+
+```Sytax
+//这一版改变了许多, 关键词
+public, static, extends, module: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
+return: #A78CFA/#7C4DFF → #CF68E1/#C838C6
+//统一了#A78CFA/#7C4DFF颜色作为新建变量的功能。
+
+//其中extends是由于js和TS文件里不能区分开 public, static和extends, 而做出的退让, 使颜色统一 (在java里可以区分)。
+```
+
 0.5.5 (2018-09-26)
 
 * Fixed All
