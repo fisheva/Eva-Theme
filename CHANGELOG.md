@@ -1,3 +1,11 @@
+0.5.5 (2018-09-26)
+
+* Fixed All
+
+```Sytax
+Fixed some bugs in C++, ruby, css files.
+```
+
 0.5.4 (2018-09-25)
 
 * Add All
@@ -10,9 +18,13 @@ meta.attribute.id.html entity.other.attribute-name.html: #FF9070
 
 0.5.3 (2018-09-17)
 
+* Add All
+
 ```UI
 gitDecoration.addedResourceForeground: #40AD41/#44C145
 ```
+
+* Fixed All
 
 ```Sytax
 Fixed some bugs in Python files.

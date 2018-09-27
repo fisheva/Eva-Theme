@@ -475,7 +475,7 @@
     {
       "name": "js dom variable, C C++ C# namespace",
       "nameCN": "dom, C系语言的命名空间",
-      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,variable.other.object.cs,entity.name.type.namespace,variable.other.member.c,entity.name.type.cpp, variable.other.source.dart",
+      "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,variable.other.object.cs,entity.name.type.namespace,variable.other.member.c,meta.using-namespace-declaration.cpp entity.name.type.cpp,meta.class-struct-block.cpp meta.namespace-block.cpp entity.name.type.cpp, variable.other.source.dart",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E06C75"
@@ -719,7 +719,7 @@
     {
       "name": "inherited-class;interface;class",
       "nameCN": "自定义class;interface;class",
-      "scope": "entity.other.inherited-classentity.name.type.interface,meta.return.type,keyword.interface,entity.name.type.interface,entity.other.inherited-class,entity.name.type.struct,entity.name.type.delegate",
+      "scope": "entity.other.inherited-classentity.name.type.interface,meta.return.type,keyword.interface,entity.name.type.interface,entity.other.inherited-class,entity.name.type.struct,entity.name.type.delegate, meta.class-struct-block.cpp entity.name.type.cpp",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#FF6AB3"
@@ -835,7 +835,7 @@
     {
       "name": "block,embedded,definition,bracket,typeparameters",
       "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
-      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket,punctuation.section.property-list.end.bracket,punctuation.definition.list.begin,punctuation.definition.list.end,punctuation.definition.binding-pattern.array",
+      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket,punctuation.section.property-list.end.bracket,punctuation.definition.list.begin,punctuation.definition.list.end,punctuation.definition.binding-pattern.array, punctuation.section.embedded.end.ruby source.ruby, punctuation.section.embedded.begin.ruby source.ruby",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#838FA7"
@@ -862,7 +862,7 @@
     {
       "name": "css Support type",
       "nameCN": "css less sass属性名 如果不填就与support.type同色",
-      "scope": "support.type.property-name.css,meta.property-value.css,support.type.vendored.property-name.css",
+      "scope": "support.type.property-name.css,meta.property-value.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8A97C3"
