@@ -1,3 +1,36 @@
+0.5.7 (2018-09-30)
+
+* Add All
+
+```UI
+activityBar.inactiveForeground: #8792BD99/#94969B99
+
+editor.snippetFinalTabstopHighlightBackground: #45B7463F/#45B7464C
+editor.snippetFinalTabstopHighlightBorder: #535773/#BDBDBED8
+editor.snippetTabstopHighlightBackground: #45B7463F/#45B7464C
+editor.snippetTabstopHighlightBorder: #45B74600/#45B74600
+
+inputValidation.errorForeground: #DCDFE5/#F5F8FF
+inputValidation.infoForeground: #DCDFE5/#F5F8FF
+inputValidation.warningForeground: #DCDFE5/#F5F8FF
+
+menu.separatorBackground: #8E99B1/#626264
+```
+
+* Fixed Dark
+
+```UI
+//It was too dark to be seen.
+editorWhitespace.foreground: #2C313A → #535773
+```
+
+* Changed Light
+
+```UI
+//Make the color a little lighter.
+editorWhitespace.foreground: #BDBDBE → #BDBDBED8
+```
+
 0.5.6 (2018-09-27)
 
 * Changed All
@@ -24,7 +57,8 @@ Fixed some bugs in C++, ruby, css files.
 * Add All
 
 ```Sytax
-//修复了HTML里id与class同色的问题, 这一条特殊在于它是二个Scope值叠加, 区分了单独entity.other.attribute-name.html选中的单位。Scope值叠加精细选中目标, 以后大有用处。
+//修复了HTML里id与class同色的问题, 这一条特殊在于它是二个Scope值叠加, 区分了单独entity.other.attribute-name.html选中的单位。
+//Scope值叠加精细选中目标, 以后大有用处。
 
 meta.attribute.id.html entity.other.attribute-name.html: #FF9070
 ```
@@ -859,6 +893,11 @@ welcomePage.buttonHoverBackground
 storage.type =  #A78CFA/#7C4DFF
 
 entity.name.type = #FF6AB3/#EF8ED8
+```
+
+```UI
+sideBarSectionHeader.border 不用加, 加了会使文字向下靠, 不居中
+
 ```
 
 * Unknown Location API
