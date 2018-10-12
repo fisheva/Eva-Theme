@@ -56,7 +56,6 @@
     "editorCursor.background": "#000000",
     "editorCursor.foreground": "#A0A1A7",
     "editorError.foreground": "#e51400",
-    "editorWarning.foreground": "#F5625C",
     "editorGroup.background": "#EBEEF5",
     "editorGroup.border": "#CED1D7",
     "editorGroup.dropBackground": "#0065FF21",
@@ -73,6 +72,7 @@
     "editorHoverWidget.border": "#CED1D7",
     "editorIndentGuide.activeBackground": "#FC8357CC",
     "editorIndentGuide.background": "#CED1D7",
+    "editorInfo.foreground": "#598DEF",
     "editorLineNumber.foreground": "#B3B3B4",
     "editorLineNumber.activeForeground": "#5D5D5F",
     "editorLink.activeForeground": "#D73BD5",
@@ -105,6 +105,7 @@
     "editorSuggestWidget.selectedBackground": "#0065FF33",
     "editorUnnecessaryCode.border": "#A9A9AA",
     "editorUnnecessaryCode.opacity": "0",
+    "editorWarning.foreground": "#F5625C",
     "editorWhitespace.foreground": "#BDBDBED8",
     "editorWidget.background": "#E1E4EB",
     "editorWidget.border": "#E1E4EB",
@@ -528,7 +529,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic",
+      "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#00BEC4"

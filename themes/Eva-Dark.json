@@ -56,7 +56,6 @@
     "editorCursor.background": "#000000",
     "editorCursor.foreground": "#B0B7C3",
     "editorError.foreground": "#e51400",
-    "editorWarning.foreground": "#F5625C",
     "editorGroup.background": "#282c34",
     "editorGroup.border": "#181A1F",
     "editorGroup.dropBackground": "#598DEF4C",
@@ -73,6 +72,7 @@
     "editorHoverWidget.border": "#181A1F",
     "editorIndentGuide.activeBackground": "#FF9070BF",
     "editorIndentGuide.background": "#454963",
+    "editorInfo.foreground": "#598DEF",
     "editorLineNumber.foreground": "#535773",
     "editorLineNumber.activeForeground": "#9DA5B3",
     "editorLink.activeForeground": "#D365E5",
@@ -105,6 +105,7 @@
     "editorSuggestWidget.selectedBackground": "#598DEF64",
     "editorUnnecessaryCode.border": "#676E95",
     "editorUnnecessaryCode.opacity": "0",
+    "editorWarning.foreground": "#F5625C",
     "editorWhitespace.foreground": "#535773",
     "editorWidget.background": "#21252B",
     "editorWidget.border": "#21252B",
@@ -528,7 +529,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic",
+      "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#56B7C3"

@@ -1,4 +1,16 @@
-0.5.7 (2018-09-30)
+0.5.8 (2018-10-12)
+
+* Add All
+
+```UI
+editorInfo.foreground: #598DEF/#598DEF
+```
+
+```Sytax
+punctuation.definition.list.begin.markdown: #56B7C3/#00BEC4
+```
+
+0.5.7 (2018-10-07)
 
 * Add All
 
@@ -898,6 +910,10 @@ entity.name.type = #FF6AB3/#EF8ED8
 ```UI
 sideBarSectionHeader.border 不用加, 加了会使文字向下靠, 不居中
 
+//这三个是双下划线, 非常不宜加。
+editorInfo.border
+editorWarning.border
+editorError.border
 ```
 
 * Unknown Location API
