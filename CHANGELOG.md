@@ -1,3 +1,36 @@
+0.5.9 (2018-10-24)
+
+* Add All
+
+```Sytax
+punctuation.section.keyframes.begin.bracket.curly.css,punctuation.section.keyframes.end.bracket.curly.css: #838FA7CC/#888888D9
+
+meta.at-rule.extend.scss: #98C379/#53A053
+
+meta.property-list.css.sass: #8E99B1/#8E8E90
+
+//sass里的函数参数
+source.sass variable.other: #E4BF7F/#F0AA0B
+
+//sass里的某些冒号
+sass-script-maps: #8E99B1/#8E8E90
+
+//sass里的逗号
+comment.punctuation.comma.sass: #79859D/#A0A1A7F2
+```
+
+*Add Light
+
+```Sytax
+meta.function.calc.css: #F0AA0B
+```
+
+* Changed All
+
+```Sytax
+source.css.scss: #79859D/#A0A1A7F2 → #8A97C3/#888888
+```
+
 0.5.8 (2018-10-12)
 
 * Add All
