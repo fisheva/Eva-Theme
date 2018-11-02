@@ -26,6 +26,12 @@ meta.property-value.css: #8A97C3/#888888 → #B0B7C3/#5D5D5F
 variable.other.constant: #B0B7C3/#5D5D5F → #FF9070/#FF6500
 ```
 
+* Delete All
+
+```Sytax
+variable.other.constant.object: #B0B7C3/#5D5D5F
+```
+
 0.5.9 (2018-10-31)
 
 * Add All
