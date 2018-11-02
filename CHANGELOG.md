@@ -1,4 +1,32 @@
-0.5.9 (2018-10-24)
+0.6.0 (2018-11-02)
+
+*Add All
+
+```Sytax
+//less里的基础文字颜色
+source.css.less: #8A97C3/#888888
+
+//less里的等号 = 颜色
+meta.property-value.css keyword.operator.less: #7C88B4/#888888
+
+//CSS里的定义关键帧的百分比数字
+entity.other.keyframe-offset.percentage.css: #FF9070/#FF6500
+
+//HTML的style标签里的元素CSS属性的颜色值, 如red, blue等。
+support.constant.color.w3c-extented-color-name.css: #B0B7C3/#5D5D5F
+```
+
+* Changed All
+
+```Sytax
+variable.parameter.keyframe-list.css: #E4BF7F/#F0AA0B → #B0B7C3/#5D5D5F
+
+meta.property-value.css: #8A97C3/#888888 → #B0B7C3/#5D5D5F
+
+variable.other.constant: #B0B7C3/#5D5D5F → #FF9070/#FF6500
+```
+
+0.5.9 (2018-10-31)
 
 * Add All
 

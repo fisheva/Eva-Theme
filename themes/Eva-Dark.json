@@ -315,7 +315,7 @@
     {
       "name": "variable.other.less,variable.other.sass,keyframe-list",
       "nameCN": "sass,less里的变量;css3里的关键帧",
-      "scope": "variable.other.less,variable.other.sass,variable.parameter.keyframe-list.css,variable.scss,meta.function.calc.css, source.sass variable.other",
+      "scope": "variable.other.less,variable.other.sass,variable.scss,meta.function.calc.css, source.sass variable.other",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#E4BF7F"
@@ -333,7 +333,7 @@
     {
       "name": "Variable",
       "nameCN": "变量",
-      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python",
+      "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.constant.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, source.css.less",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#B0B7C3"
@@ -405,7 +405,7 @@
     {
       "name": "Punctuation comma",
       "nameCN": "逗号 ,",
-      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, punctuation.separator.parameters,punctuation.separator.arguments.python,punctuation.separator.object,meta.function.method.with-arguments.ruby, punctuation.comma, punctuation.separator.element.python, comment.punctuation.comma.sass",
+      "scope": "punctuation.separator.comma,punctuation.separator.delimiter,punctuation.separator.list.comma,punctuation.separator.parameter, meta.array.php, punctuation.separator.parameters,punctuation.separator.arguments.python,punctuation.separator.object,meta.function.method.with-arguments.ruby, punctuation.comma, punctuation.separator.element.python, comment.punctuation.comma.sass, meta.at-rule.keyframes.body.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#79859D"
@@ -511,7 +511,7 @@
     {
       "name": "keyword Operators assignment",
       "nameCN": "等号 = (不包括HTML标签里的=号, 把+= -=包含进来了,然后单独设)",
-      "scope": "keyword.operator.assignment",
+      "scope": "keyword.operator.assignment, meta.property-value.css keyword.operator.less",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#7C88B4"
@@ -755,7 +755,7 @@
     {
       "name": "number,unit,constant,id,Math,enum,symbol in C#",
       "nameCN": "数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象;enum枚举里的元素;C#中预处理器指令创建符号常量",
-      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.variable.preprocessor.symbol,entity.name.function.preprocessor.c",
+      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.variable.preprocessor.symbol,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#FF9070"
@@ -845,7 +845,7 @@
     {
       "name": "css color standard name",
       "nameCN": "css 颜色名词 red orange pink plum 等",
-      "scope": "support.constant.color.w3c-standard-color-name,constant.other.color.rgb-value.hex,constant.other.rgb-value",
+      "scope": "support.constant.color.w3c-standard-color-name,constant.other.color.rgb-value.hex,constant.other.rgb-value, support.constant.color.w3c-extended-color-name.css",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#B0B7C3"
@@ -854,7 +854,7 @@
     {
       "name": "css Support type",
       "nameCN": "css less sass属性名 如果不填就与support.type同色",
-      "scope": "support.type.property-name.css,meta.property-value.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css, source.css.scss",
+      "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css, source.css.scss",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#8A97C3"
