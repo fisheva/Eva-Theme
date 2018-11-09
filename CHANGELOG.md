@@ -1,6 +1,17 @@
+0.6.1 (2018-11-09)
+
+* Add All
+
+```Sytax
+//JSX里的= 和 { }
+meta.tag.attributes.js keyword.operator.assignment,
+meta.tag.attributes.js punctuation.section.embedded.begin,
+meta.tag.attributes.js punctuation.section.embedded.end: #8792AA/#A0A1A7
+```
+
 0.6.0 (2018-11-02)
 
-*Add All
+* Add All
 
 ```Sytax
 //less里的基础文字颜色
@@ -53,7 +64,7 @@ sass-script-maps: #8E99B1/#8E8E90
 comment.punctuation.comma.sass: #79859D/#A0A1A7F2
 ```
 
-*Add Light
+* Add Light
 
 ```Sytax
 meta.function.calc.css: #F0AA0B
