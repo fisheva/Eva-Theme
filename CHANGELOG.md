@@ -1,3 +1,13 @@
+0.6.2 (2018-11-12)
+
+* Changed All
+
+```Sytax
+//Improve the experience in VIM mode.
+editorCursor.background: #fff/#fff
+editorCursor.foreground: #FF9070/#FC8357
+```
+
 0.6.1 (2018-11-09)
 
 * Add All
