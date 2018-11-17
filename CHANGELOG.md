@@ -1,3 +1,18 @@
+0.6.3 (2018-11-17)
+
+* Add All
+
+```Sytax
+text.html.derivative: #B0B7C3/#626264
+```
+
+```UI
+tab.activeModifiedBorder: #A78CFA/#7C4DFF
+tab.inactiveModifiedBorder: #A78CFAA5/#7C4DFFA5
+tab.unfocusedActiveModifiedBorder: #A78CFAD8/#7C4DFFD8
+tab.unfocusedInactiveModifiedBorder: #A78CFA7F/#7C4DFF7F
+```
+
 0.6.2 (2018-11-12)
 
 * Changed All
@@ -5,7 +20,7 @@
 ```Sytax
 //Improve the experience in VIM mode.
 editorCursor.background: #fff/#fff
-editorCursor.foreground: #FF9070/#FC8357
+editorCursor.foreground: #B0B7C3/#A0A1A7 → #FF9070/#FC8357
 ```
 
 0.6.1 (2018-11-09)
