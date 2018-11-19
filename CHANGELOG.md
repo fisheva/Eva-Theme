@@ -1,3 +1,20 @@
+0.6.4 (2018-11-19)
+
+* Add All
+
+```Sytax
+punctuation.definition.string.begin.html, punctuation.definition.string.end.html: #98c379/#53A053
+punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html: #838FA7/#5D5D5FD8
+text.html.vue-html meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace: #8792AA/#A0A1A7
+```
+
+* Delete All
+
+```Sytax
+meta.tag.attributes.js punctuation.section.embedded.begin, meta.tag.attributes.js punctuation.section.embedded.end: #8792AA/#A0A1A7
+//删除这二项后, 对应符号颜色控制由punctuation.section.embedded.begin, punctuation.section.embedded.end: #838FA7/#5D5D5FD8
+```
+
 0.6.3 (2018-11-17)
 
 * Add All

@@ -463,7 +463,7 @@
     {
       "name": "js template-expression",
       "nameCN": "模板字符串里的${}",
-      "scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
+      "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#437AED"
@@ -524,7 +524,7 @@
     {
       "name": "punctuation",
       "nameCN": "html标签里的</> = ",
-      "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, meta.tag.attributes.js punctuation.section.embedded.begin, meta.tag.attributes.js punctuation.section.embedded.end",
+      "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, text.html.vue-html meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#A0A1A7"
@@ -741,7 +741,7 @@
     },
     {
       "name": "Strings",
-      "scope": "string",
+      "scope": "string, punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#53A053"
@@ -831,7 +831,7 @@
     {
       "name": "block,embedded,definition,bracket,typeparameters",
       "nameCN": "大括号 {}, 中括号[], 圆括号(), 尖括号<>",
-      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket,punctuation.section.property-list.end.bracket,punctuation.definition.list.begin,punctuation.definition.list.end,punctuation.definition.binding-pattern.array, punctuation.section.embedded.end.ruby source.ruby, punctuation.section.embedded.begin.ruby source.ruby, source.cs",
+      "scope": "punctuation.section.block.begin.bracket,punctuation.section.block.end.bracket,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,meta.brace,punctuation.bracket,punctuation.definition.parameters.ruby,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.section.function.begin.bracket,punctuation.section.function.end.bracket,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end, punctuation.section.array.end, punctuation.section.array.begin, punctuation.definition.array.end, punctuation.definition.array.begin, punctuation.section.scope.end, punctuation.section.scope.begin, meta.parameter.object-binding-pattern, punctuation.definition.binding-pattern.object,punctuation.definition.arguments.end,punctuation.definition.arguments.begin,punctuation.definition.begin.bracket,punctuation.definition.end.bracket,punctuation.curlybrace.open,punctuation.curlybrace.close,punctuation.parenthesis.open,punctuation.parenthesis.close,punctuation.squarebracket.open,,punctuation.squarebracket.close,punctuation.section.method.begin,punctuation.section.method.end,punctuation.section.class.begin,punctuation.section.class.end,punctuation.section.enum.begin,punctuation.section.enum.end,punctuation.section.parameters.begin.bracket,punctuation.section.parameters.end.bracket,punctuation.section.parens.begin.bracket,punctuation.section.parens.end.bracket,punctuation.section.arguments.begin.bracket,punctuation.section.arguments.end.bracket,punctuation.separator.arguments,punctuation.section.function.ruby,punctuation.definition.dictionary.begin,punctuation.definition.dictionary.end,punctuation.separator.dictionary.pair,punctuation.separator.array,punctuation.definition.map.begin.bracket,punctuation.definition.map.end.bracket,punctuation.section.function, punctuation.definition.parameters.end.bracket, punctuation.definition.parameters.begin.bracket,punctuation.section.property-list.begin.bracket,punctuation.section.property-list.end.bracket,punctuation.definition.list.begin,punctuation.definition.list.end,punctuation.definition.binding-pattern.array, punctuation.section.embedded.end.ruby source.ruby, punctuation.section.embedded.begin.ruby source.ruby, source.cs, punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#5D5D5FD8"
