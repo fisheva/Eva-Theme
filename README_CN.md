@@ -15,8 +15,8 @@ VSCode版本要求 ≥ 1.12.0。
 
 已在下列语言原生环境中(不包含衍生框架)做测试:
 
-- HTML / XML / JSX
-- CSS / LESS / SCSS
+- HTML / XML / JSX / WXML
+- CSS / LESS / SCSS / WXSS
 - JavaScript / TypeScript
 - C / C++ / C#
 - Java

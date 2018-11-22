@@ -1,3 +1,12 @@
+0.6.5 (2018-11-21)
+
+* Add All
+
+```Sytax
+//支持微信小程序
+text.html.wxml: #B0B7C3/#626264
+```
+
 0.6.4 (2018-11-19)
 
 * Add All
@@ -5,7 +14,7 @@
 ```Sytax
 punctuation.definition.string.begin.html, punctuation.definition.string.end.html: #98c379/#53A053
 punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html: #838FA7/#5D5D5FD8
-text.html.vue-html meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace: #8792AA/#A0A1A7
+meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace: #8792AA/#A0A1A7
 ```
 
 * Delete All
