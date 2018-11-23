@@ -1,9 +1,13 @@
+### Interim Advert
+
+[My favorite Cloud Studio plugins selection contest](https://studio.dev.tencent.com/campaign/favorite-plugins/) is being held, friends who like [Eva Theme](https://studio.dev.tencent.com/plugins/detail/239), would you please give me some praise? Thanks so much! O(∩_∩)O~
+
 <p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Dark.png"></p>
 <p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Light.png"></p>
 
 [![install](http://vsmarketplacebadge.apphb.com/installs/fisheva.eva-theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme) [![rating](http://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.eva-theme)  [![GitHub stars](https://img.shields.io/github/stars/fisheva/eva-theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/eva-theme)
 
-> [中文README_CN.md](https://github.com/fisheva/Eva-Theme/blob/master/README_CN.md)
+[中文README_CN.md](https://github.com/fisheva/Eva-Theme/blob/master/README_CN.md)
 
 ### Description
 
