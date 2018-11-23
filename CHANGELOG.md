@@ -1,6 +1,14 @@
+0.6.6 (2018-11-23)
+
+* Add All Sytax
+
+```Sytax
+text.xml, text.html: #B0B7C3/#626264
+```
+
 0.6.5 (2018-11-21)
 
-* Add All
+* Add All Sytax
 
 ```Sytax
 //支持微信小程序
@@ -9,7 +17,7 @@ text.html.wxml: #B0B7C3/#626264
 
 0.6.4 (2018-11-19)
 
-* Add All
+* Add All Sytax
 
 ```Sytax
 punctuation.definition.string.begin.html, punctuation.definition.string.end.html: #98c379/#53A053
@@ -17,7 +25,7 @@ punctuation.definition.generic.begin.html, punctuation.definition.generic.end.ht
 meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace: #8792AA/#A0A1A7
 ```
 
-* Delete All
+* Delete All Sytax
 
 ```Sytax
 meta.tag.attributes.js punctuation.section.embedded.begin, meta.tag.attributes.js punctuation.section.embedded.end: #8792AA/#A0A1A7
@@ -26,11 +34,7 @@ meta.tag.attributes.js punctuation.section.embedded.begin, meta.tag.attributes.j
 
 0.6.3 (2018-11-17)
 
-* Add All
-
-```Sytax
-text.html.derivative: #B0B7C3/#626264
-```
+* Add All UI
 
 ```UI
 tab.activeModifiedBorder: #A78CFA/#7C4DFF
@@ -39,9 +43,15 @@ tab.unfocusedActiveModifiedBorder: #A78CFAD8/#7C4DFFD8
 tab.unfocusedInactiveModifiedBorder: #A78CFA7F/#7C4DFF7F
 ```
 
+* Add All Sytax
+
+```Sytax
+text.html.derivative: #B0B7C3/#626264
+```
+
 0.6.2 (2018-11-12)
 
-* Changed All
+* Changed All Sytax
 
 ```Sytax
 //Improve the experience in VIM mode.
@@ -51,7 +61,7 @@ editorCursor.foreground: #B0B7C3/#A0A1A7 → #FF9070/#FC8357
 
 0.6.1 (2018-11-09)
 
-* Add All
+* Add All Sytax
 
 ```Sytax
 //JSX里的= 和 { }
@@ -62,7 +72,7 @@ meta.tag.attributes.js punctuation.section.embedded.end: #8792AA/#A0A1A7
 
 0.6.0 (2018-11-02)
 
-* Add All
+* Add All Sytax
 
 ```Sytax
 //less里的基础文字颜色
@@ -78,7 +88,7 @@ entity.other.keyframe-offset.percentage.css: #FF9070/#FF6500
 support.constant.color.w3c-extented-color-name.css: #B0B7C3/#5D5D5F
 ```
 
-* Changed All
+* Changed All Sytax
 
 ```Sytax
 variable.parameter.keyframe-list.css: #E4BF7F/#F0AA0B → #B0B7C3/#5D5D5F
@@ -88,7 +98,7 @@ meta.property-value.css: #8A97C3/#888888 → #B0B7C3/#5D5D5F
 variable.other.constant: #B0B7C3/#5D5D5F → #FF9070/#FF6500
 ```
 
-* Delete All
+* Delete All Sytax
 
 ```Sytax
 variable.other.constant.object: #B0B7C3/#5D5D5F
@@ -96,7 +106,7 @@ variable.other.constant.object: #B0B7C3/#5D5D5F
 
 0.5.9 (2018-10-31)
 
-* Add All
+* Add All Sytax
 
 ```Sytax
 punctuation.section.keyframes.begin.bracket.curly.css,punctuation.section.keyframes.end.bracket.curly.css: #838FA7CC/#888888D9
@@ -115,13 +125,13 @@ sass-script-maps: #8E99B1/#8E8E90
 comment.punctuation.comma.sass: #79859D/#A0A1A7F2
 ```
 
-* Add Light
+* Add Light Sytax
 
 ```Sytax
 meta.function.calc.css: #F0AA0B
 ```
 
-* Changed All
+* Changed All Sytax
 
 ```Sytax
 source.css.scss: #79859D/#A0A1A7F2 → #8A97C3/#888888
@@ -129,11 +139,13 @@ source.css.scss: #79859D/#A0A1A7F2 → #8A97C3/#888888
 
 0.5.8 (2018-10-12)
 
-* Add All
+* Add All UI
 
 ```UI
 editorInfo.foreground: #598DEF/#598DEF
 ```
+
+* Add All Sytax
 
 ```Sytax
 punctuation.definition.list.begin.markdown: #56B7C3/#00BEC4
@@ -141,7 +153,7 @@ punctuation.definition.list.begin.markdown: #56B7C3/#00BEC4
 
 0.5.7 (2018-10-07)
 
-* Add All
+* Add All UI
 
 ```UI
 activityBar.inactiveForeground: #8792BD99/#94969B99
@@ -158,14 +170,14 @@ inputValidation.warningForeground: #DCDFE5/#F5F8FF
 menu.separatorBackground: #8E99B1/#626264
 ```
 
-* Fixed Dark
+* Fixed Dark UI
 
 ```UI
 //It was too dark to be seen.
 editorWhitespace.foreground: #2C313A → #535773
 ```
 
-* Changed Light
+* Changed Light UI
 
 ```UI
 //Make the color a little lighter.
@@ -174,7 +186,7 @@ editorWhitespace.foreground: #BDBDBE → #BDBDBED8
 
 0.5.6 (2018-09-27)
 
-* Changed All
+* Changed All Sytax
 
 ```Sytax
 //这一版改变了许多, 关键词
@@ -187,7 +199,7 @@ return: #A78CFA/#7C4DFF → #CF68E1/#C838C6
 
 0.5.5 (2018-09-26)
 
-* Fixed All
+* Fixed All Sytax
 
 ```Sytax
 Fixed some bugs in C++, ruby, css files.
@@ -195,7 +207,7 @@ Fixed some bugs in C++, ruby, css files.
 
 0.5.4 (2018-09-25)
 
-* Add All
+* Add All Sytax
 
 ```Sytax
 //修复了HTML里id与class同色的问题, 这一条特殊在于它是二个Scope值叠加, 区分了单独entity.other.attribute-name.html选中的单位。
@@ -206,13 +218,13 @@ meta.attribute.id.html entity.other.attribute-name.html: #FF9070
 
 0.5.3 (2018-09-17)
 
-* Add All
+* Add All UI
 
 ```UI
 gitDecoration.addedResourceForeground: #40AD41/#44C145
 ```
 
-* Fixed All
+* Fixed All Sytax
 
 ```Sytax
 Fixed some bugs in Python files.
@@ -220,7 +232,7 @@ Fixed some bugs in Python files.
 
 0.5.2 (2018-09-06)
 
-* Add All
+* Add All UI
 
 ```UI
 breadcrumb.background: #282c34/#EBEEF5
@@ -230,12 +242,14 @@ settings.modifiedItemIndicator: #A78CFA/#7C4DFF
 
 0.5.1 (2018-08-29)
 
-* Add All
+* Add All UI
 
 ```UI
 editorUnnecessaryCode.border: #676E95/#A9A9AA
 editorUnnecessaryCode.opacity: 0
 ```
+
+* Add All Sytax
 
 ```Sytax
 meta.type.declaration, meta.block.ts : #FF6AB3/#EF8ED8
@@ -243,7 +257,7 @@ meta.type.declaration, meta.block.ts : #FF6AB3/#EF8ED8
 
 0.5.0 (2018-08-28)
 
-* Fixed Dark Bold
+* Fixed Dark Bold Sytax
 
 ```Sytax
 Fixed some bugs in TypeScript files.
@@ -251,13 +265,13 @@ Fixed some bugs in TypeScript files.
 
 0.4.9 (2018-08-18)
 
-* Changed All
+* Changed All UI
 
 ```UI
 editorIndentGuide.activeBackground: #454963/#CED1D7 → #FF9070BF/#FC8357CC
 ```
 
-* Fixed All
+* Fixed All Sytax
 
 ```Sytax
 Fixed some bugs in TypeScript files.
@@ -265,7 +279,7 @@ Fixed some bugs in TypeScript files.
 
 0.4.8 (2018-08-16)
 
-* Changed All
+* Changed All UI
 
 ```UI
 menu.background: #282c34/#EBEEF5 → #21252B/#E1E4EB
@@ -273,7 +287,7 @@ menu.background: #282c34/#EBEEF5 → #21252B/#E1E4EB
 
 0.4.7 (2018-08-16)
 
-* Changed Light
+* Changed Light UI
 
 ```UI
 menu.background: #EEF1F8 → #EBEEF5
@@ -281,13 +295,13 @@ menu.background: #EEF1F8 → #EBEEF5
 
 0.4.6 (2018-08-16)
 
-* Changed Dark
+* Changed Dark UI
 
 ```UI
 titleBar.activeForeground: #676E95 → #8E99B1
 ```
 
-* Changed Light
+* Changed Light UI
 
 ```UI
 titleBar.inactiveForeground: #5D5D5F → #94969B
@@ -295,7 +309,7 @@ titleBar.inactiveForeground: #5D5D5F → #94969B
 
 0.4.5 (2018-08-16)
 
-* Changed All
+* Changed All UI
 
 ```UI
 breadcrumbPicker.background: #23272F/#E1E4EB → #252830/#E5E8EF
@@ -303,14 +317,14 @@ breadcrumbPicker.background: #23272F/#E1E4EB → #252830/#E5E8EF
 
 0.4.4 (2018-08-15)
 
-* Changed All
+* Changed All UI
 
 ```UI
 editorLink.activeForeground: #A78CFA/#7C4DFF → #D73BD5/#D365E5
 textLink.activeForeground: #A78CFA#7C4DFF → #D73BD5/#D365E5
 ```
 
-* Changed Light
+* Changed Light UI
 
 ```UI
 menu.background: #EBEEF5 → #EEF1F8
@@ -319,7 +333,7 @@ menu.foreground: #8E8E90 → #5D5D5F
 
 0.4.3 (2018-08-15)
 
-* Add All
+* Add All UI
 
 ```UI
 menu.background: #282C34/#EBEEF5
@@ -334,7 +348,7 @@ menubar.selectionForeground: #E1E4EA/#fff
 
 0.4.2 (2018-08-15)
 
-* Add All
+* Add All UI
 
 ```UI
 settings.checkboxBackground: #23272F/#F1F4FB
@@ -356,7 +370,7 @@ settings.textInputForeground: #9DA5B3/#5D5D5F
 
 0.4.1 (2018-08-15)
 
-* Add All
+* Add All UI
 
 ```UI
 breadcrumb.activeSelectionForeground: #D7DAE0/#5D5D5F
@@ -365,13 +379,13 @@ breadcrumb.focusForeground: #D7DAE0/#5D5D5F
 breadcrumbPicker.background: #23272F/#E5E8EF
 ```
 
-* Add Light
+* Add Light UI
 
 ```UI
 textLink.foreground: #5B87EB
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 button.hoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
@@ -381,7 +395,7 @@ notification.buttonHoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
 
 0.4.0 (2018-08-08)
 
-* Fixed All
+* Fixed All Sytax
 
 ```Sytax
 Fixed some bugs in JSX.
@@ -389,7 +403,7 @@ Fixed some bugs in JSX.
 
 0.3.9 (2018-07-19)
 
-* Fixed All
+* Fixed All Sytax
 
 ```Sytax
 Fixed some bugs in TypeScript files.
@@ -397,7 +411,7 @@ Fixed some bugs in TypeScript files.
 
 0.3.8 (2018-07-07)
 
-* Add All
+* Add All UI
 
 ```UI
 editorGroup.emptyBackground: #282c34/#EBEEF5
@@ -411,13 +425,13 @@ editorPane.background: #21252B/#E1E4EB
 
 0.3.6 (2018-06-18)
 
-* Add All
+* Add All UI
 
 ```UI
 textCodeBlock.background: #181A1F/#E5E8EF
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 editorGroup.dropBackground: #282C34/#EBEEF5 → #598DEF4C/#0065FF21
@@ -425,7 +439,7 @@ editorGroup.dropBackground: #282C34/#EBEEF5 → #598DEF4C/#0065FF21
 
 0.3.5 (2018-06-08)
 
-* Add All
+* Add All UI
 
 ```UI
 debugToolBar.border: #21252B/#E1E4EB
@@ -467,14 +481,14 @@ titleBar.border: #282c3400/#EBEEF500
 
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 加深5%
 list.dropBackground: #598DEF3F/0065FF19 → #598DEF4C/0065FF21
 ```
 
-* Changed Light
+* Changed Light UI
 
 ```UI
 scrollbarSlider.activeBackground: #00000022 → #00000033
@@ -486,14 +500,14 @@ scrollbarSlider.hoverBackground: #00000022 → #00000033
 
 Congratulations on Microsoft's acquisition of GitHub ! \\(≧▽≦)/
 
-* Add All
+* Add All UI
 
 ```UI
 tab.hoverBackground: #598DEF3F
 tab.unfocusedHoverBackground: #598DEF3F
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 statusBarItem.activeBackground: #4283F5/#4283F5 → #598DEFD8/#0065FFB2
@@ -503,7 +517,7 @@ statusBarItem.prominentHoverBackground: #598DEF/#598DEF → #598DEF59/#0065FF33
 
 0.3.3 (2018-05-27)
 
-* Add All
+* Add All UI
 
 ```UI
 editorWidget.border: #21252B/#E1E4EB
@@ -529,14 +543,14 @@ terminalCursor.background: #000/#000
 terminalCursor.foreground: #B0B7C3/#A0A1A7
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 notification.background: #1F222A/#C3C6CD → #21252b/#C3C6CD
 notification.foreground: #FFF/#FFF → #B0B7C3/#5D5D5F
 ```
 
-* Add Dark
+* Add Dark UI
 
 ```UI
 //白色背景系统默认link颜色就很好, 所以不加。
@@ -545,7 +559,7 @@ notificationLink.foreground: #598DEF
 
 0.3.2 (2018-05-27)
 
-* Changed All
+* Changed All UI
 
 ```UI
 editor.foreground: #B0B7C3E5/#5D5D5FE5 → #C5C5C5/#424242
@@ -553,7 +567,7 @@ editorGutter.modifiedBackground: #598DEF/#598DEF → #A78CFA/#9277E6
 editorMarkerNavigation.background": #598DEF/#598DEF → #40AD41/#44C145
 ```
 
-* Add All
+* Add All UI
 
 ```UI
 editorCursor.background: #000/#000
@@ -577,7 +591,7 @@ editorOverviewRuler.wordHighlightStrongForeground: #A78CFABF/#7C4DFF72
 
 0.3.1 (2018-05-25)
 
-* Changed Black
+* Changed Black UI
 
 ```UI
 //原透明色导致CSS属性名和注释文字 看不清, 反复调了下这个颜色。
@@ -589,7 +603,7 @@ editorBracketMatch.background: #FF907099 → #FF90708C
 
 0.2.7 (2018-05-21)
 
-* Fixed All
+* Fixed All Sytax
 
 ```Sytax
 Fixed some bugs in less files.
@@ -597,7 +611,7 @@ Fixed some bugs in less files.
 
 0.2.6 (2018-05-08)
 
-* Fixed All
+* Fixed All Sytax
 
 ```Sytax
 Fixed some bugs in Scss files.
@@ -605,7 +619,7 @@ Fixed some bugs in Scss files.
 
 0.2.5（2018-05-06）
 
-* Add All
+* Add All UI
 
 ```UI
 editorLineNumber.activeForeground: #9DA5B3/#5D5D5F
@@ -613,7 +627,7 @@ editorLineNumber.activeForeground: #9DA5B3/#5D5D5F
 
 0.2.4 (2018-05-04)
 
-* Add All
+* Add All UI
 
 ```UI
 //关掉VSCode 1.23.0 版本新增的 Highlighted indent guides - Helps visualize source code indenting.功能。
@@ -630,14 +644,14 @@ editorIndentGuide.activeBackground:#CED1D7
 
 * **Support C#**
 
-* Add All
+* Add All Sytax
 
 ```syntax
 //枚举里面的元素 每个都代表一个整数
 enum: #FF9070/#ff6500
 ```
 
-* Changed All
+* Changed All Sytax
 
 ```syntax
 //位运算符号
@@ -648,7 +662,7 @@ keyword.operator.bitwise: #CF68E1/#C838C6 → #56B7C3/#00BEC4
 
 * **Support PHP**
 
-* Add All
+* Add All UI
 
 ```UI
 editorGutter.modifiedBackground: #598DEF
@@ -656,7 +670,7 @@ editorGutter.addedBackground: #40AD41/#44C145
 editorGutter.deletedBackground: #e51400/#ff0000
 ```
 
-* Changed Light
+* Changed Light UI
 
 ```UI
 diffEditor.removedTextBackground: #e514004C → #ff000059
@@ -678,7 +692,7 @@ notification.errorBackground: #e51400 → #ff0000
 
 0.1.8 (2018-04-08)
 
-* Changed All
+* Changed All UI
 
 ```UI
 diffEditor.insertedTextBackground: #45B7463F/#45B7464C
@@ -702,7 +716,7 @@ peekViewTitleLabel.foreground: #9DA5B3/#626264
 peekViewTitleDescription.foreground: #9DA5B3BF/#888888
 ```
 
-* Add All
+* Add All UI
 
 ```UI
 //There are no following api, but them should be, maybe I should make a issue.
@@ -715,21 +729,21 @@ PHP -= += /= *= %= 与 = 区分开来, 给keyword.operator.string中的 . 单独
 
 0.1.7 (2018-04-04)
 
-* Add Dark
+* Add Dark UI
 
 ```UI
 list.focusForeground: #d7dae0
 list.hoverForeground: #d7dae0
 ```
 
-* Add Light
+* Add Light UI
 
 ```UI
 list.focusForeground: #5D5D5F
 list.hoverForeground: #5D5D5F
 ```
 
-* Changed Light
+* Changed Light Sytax
 
 ```syntax
 number、id: #F5625C → #FF6500
@@ -738,7 +752,7 @@ warning: #FF6500 → #F5625C
 
 0.1.6 (2018-04-01)
 
-* Add Dark
+* Add Dark UI
 
 ```UI
 descriptionForeground: #B0B7C3BF
@@ -751,14 +765,14 @@ textLink.foreground: #598DEF
 textPreformat.foreground: #E4BF7F
 ```
 
-* Changed Dark
+* Changed Dark UI
 
 ```UI
 foreground: #9DA5B3 → #B0B7C3
 editorLink.activeForeground: #6494ed → #A78CFA
 ```
 
-* Add Light
+* Add Light UI
 
 ```UI
 descriptionForeground: #626264BF
@@ -770,11 +784,13 @@ textLink.activeForeground: #7C4DFF
 textPreformat.foreground: #F5625C
 ```
 
-* Changed Light
+* Changed Light UI
 
 ```UI
 editorLink.activeForeground: #55ACF2 → #7C4DFF
 ```
+
+* Changed Light Sytax
 
 ```syntax
 number、id: #FF9070 → #F5625C
@@ -782,13 +798,13 @@ number、id: #FF9070 → #F5625C
 
 0.1.5 (2018-03-24)
 
-* Add Dark
+* Add Dark UI
 
 ```UI
 list.inactiveSelectionForeground: #d7dae0
 ```
 
-* Add Light
+* Add Light UI
 
 ```UI
 list.inactiveSelectionForeground: #5D5D5F
@@ -796,7 +812,7 @@ list.inactiveSelectionForeground: #5D5D5F
 
 0.1.4 (2018-02-11)
 
-* Changed Dark
+* Changed Dark UI
 
 ```UI
 statusBar.foreground: #676E95 → #9da5b3
@@ -806,7 +822,7 @@ statusBar.foreground: #676E95 → #9da5b3
 
 * **Support Python**
 
-* Changed Light
+* Changed Light Sytax
 
 ```syntax
 //Make COMMENT a little darker and clear.
@@ -819,13 +835,13 @@ support.type.property-name.css,meta.property-value.css: #94969B→#888888
 
 0.1.2 (2017-08-02)
 
-* Add All
+* Add All UI
 
 ```UI
 selection.background: #598DEF59/#0065FF3F
 ```
 
-* Fixed All
+* Fixed All Sytax
 
 ```syntax
 keyword.operator.css, entity.name.tag.wildcard.scss = #56B7C3/#00BEC4
@@ -837,13 +853,13 @@ source.css.scss = #79859D/#A0A1A7F2
 
 0.1.1 (2017-07-12)
 
-* Changed All
+* Changed All Sytax
 
 ```syntax
 entity.other.inherited-class,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
 ```
 
-* Add All
+* Add All UI
 
 ```UI
 notification.buttonBackground: #676E9599/#A0A1A7E5,
@@ -858,19 +874,19 @@ notification.errorForeground: #FFF,
 
 0.1.0 (2017-07-03)
 
-* Changed Eva Light & Bold
+* Changed Eva Light & Bold Sytax
 
 ```syntax
 variable.language.this = #FA278C
 ```
 
-* Changed All
+* Changed All Sytax
 
 ```syntax
 variable.parameter = #E4BF7F/#F0AA0B
 ```
 
-* Changed Eva Dark/Light
+* Changed Eva Dark/Light Sytax
 
 ```syntax
 markup.bold.markdown bold → normal
@@ -878,17 +894,19 @@ markup.bold.markdown bold → normal
 
 0.0.9 (2017-06-30)
 
-* Changed All
-
-```syntax
-variable.parameter  italic → normal;
-```
+* Changed All UI
 
 ```UI
 editor.foreground = #B0B7C3E5/#5D5D5FE5;
 ```
 
-* Added All
+* Changed All Sytax
+
+```syntax
+variable.parameter  italic → normal;
+```
+
+* Added All Sytax
 
 ```syntax
 entity.name.type.enum = #B0B7C3/#5D5D5F;
@@ -897,13 +915,13 @@ variable.other.enummember = #E06C75/#CD6069;
 
 0.0.8 (2017-06-29)
 
-* Deleted All
+* Deleted All Sytax
 
 ```syntax
 entity.name.type.ts
 ```
 
-* Add All
+* Add All Sytax
 
 ```syntax
 {
@@ -915,7 +933,7 @@ foreground: #FF6AB3/#EF8ED8
 
 0.0.7 (2017-06-28)
 
-* Changed All
+* Changed All Sytax
 
 ```syntax
 {
@@ -925,14 +943,14 @@ foreground: #FF6AB3/#EF8ED8
 }
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 //Changed All red as the same to panel default red color.
 terminal.ansiRed: #e51400
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 terminal.ansiBrightMagenta:#C838C6/#CF68E1
@@ -941,7 +959,7 @@ terminal.ansiMagenta:#C838C6/#CF68E1
 
 0.0.6 (2017-06-27)
 
-* Changed All
+* Changed All UI
 
 ```UI
 terminal.foreground = editor.foreground
@@ -949,13 +967,15 @@ terminal.ansiBrightBlue = terminal.ansiBlue
 terminal.ansiBrightBlack = terminal.ansiBlack
 ```
 
+* Changed All Sytax
+
 ```syntax
 variable.parameter // improve 2° lighter
 ```
 
 0.0.5 (2017-06-24)
 
-* Changed All
+* Changed All UI
 
 ```UI
 terminal.ansiBrightCyan = terminal.ansiCyan
@@ -966,7 +986,7 @@ terminal.ansiBrightYellow = terminal.ansiYellow
 
 0.0.4 (2017-06-23)
 
-* Changed All
+* Changed All Sytax
 
 ```syntax
 //Inorder to differentiate variable from text in jsx.
@@ -975,18 +995,20 @@ meta.jsx.children.tsx
 
 0.0.3 (2017-06-22)
 
-* Changed Eva Light
+* Changed Eva Light UI
+
+```UI
+editorSuggestWidget.foreground
+```
+
+* Changed Eva Light Sytax
 
 ```syntax
 markup.bold.markdown
 variable.parameter
 ```
 
-```UI
-editorSuggestWidget.foreground
-```
-
-* Fixed All
+* Fixed All Sytax
 
 ```syntax
 support.class.component
@@ -994,13 +1016,13 @@ support.class.component
 
 0.0.2 (2017-06-19)
 
-* Changed Eva Dark
+* Changed Eva Dark UI
 
 ```UI
 tab.activeForeground
 ```
 
-* Changed All
+* Changed All UI
 
 ```UI
 debugExceptionWidget.background
@@ -1010,7 +1032,7 @@ debugExceptionWidget.border
 debugToolBar.background
 ```
 
-* Add All
+* Add All UI
 
 ```UI
 walkThrough.embeddedEditorBackground
@@ -1026,15 +1048,7 @@ welcomePage.buttonHoverBackground
 
 ---
 
-* Avoid Using API
-
-```syntax
-//覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
-
-storage.type =  #A78CFA/#7C4DFF
-
-entity.name.type = #FF6AB3/#EF8ED8
-```
+* Avoid Using API UI
 
 ```UI
 sideBarSectionHeader.border 不用加, 加了会使文字向下靠, 不居中
@@ -1045,7 +1059,17 @@ editorWarning.border
 editorError.border
 ```
 
-* Unknown Location API
+* Avoid Using API Sytax
+
+```syntax
+//覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
+
+storage.type =  #A78CFA/#7C4DFF
+
+entity.name.type = #FF6AB3/#EF8ED8
+```
+
+* Unknown Location API UI
 
 ```UI
 //待自己测试
@@ -1072,7 +1096,7 @@ editorError.border
 "statusBarItem.prominentHoverBackground": "#598DEF"/"#598DEF",
 ```
 
-* Issue wanted
+* Issue wanted UI
 
 ```UI
 

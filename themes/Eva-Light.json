@@ -813,7 +813,7 @@
     {
       "name": "text",
       "nameCN": "HTML标签里的文字;Markdown里书写的普通文字",
-      "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown,text.html.php,text.html.derivative, text.html.wxml",
+      "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown,text.html.php,text.html.derivative, text.html.wxml, text.xml, text.html",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#626264"
