@@ -1,3 +1,20 @@
+0.6.7 (2018-11-24)
+
+* Add All Sytax
+
+```Sytax
+storage.type.const: #A78CFA/#7C4DFF
+constant.other.js: #FF9070/#FF6500
+meta.delimiter.object.comma: #79859D/#A0A1A7F2
+source.js, source.ignore, source.nginx: #B0B7C3/#626264
+meta.arguments: #E4BF7F/#F0AA0B
+meta.delimiter.property.period: #838FA7/#5D5D5FD8
+variable.language.import-all: #56B7C3/#00BEC4
+variable: #B0B7C3/#5D5D5F
+
+punctuation.definition.function.body.begin.bracket, punctuation.definition.function.body.end.bracket, punctuation.definition.modules.begin, punctuation.definition.modules.end, constant.character.brace: #838FA7/#5D5D5FD8
+```
+
 0.6.6 (2018-11-23)
 
 * Add All Sytax
