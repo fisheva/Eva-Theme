@@ -1,19 +1,19 @@
 {
-	"name": "eva-theme",
-	"displayName": "Eva Theme",
-	"description": "A colorful and semantic coloring code theme. Dark | Light. Regular | Bold",
+	"name": "white-eva-theme",
+	"displayName": "White Eva Theme",
+	"description": "A colorful and semantic coloring code theme. Dark | Light. Regular | Italic",
 	"version": "0.6.7",
-	"publisher": "fisheva",
+	"publisher": "Superpencil",
 	"preview": true,
 	"license": "SEE LICENSE IN<LICENSE.md>",
-	"icon": "eva.png",
-	"homepage": "https://github.com/fisheva/Eva-Theme/blob/master/README.md",
+	"icon": "white-eva.png",
+	"homepage": "https://github.com/Superpencil/White-Eva-Theme/blob/master/README.md",
 	"bugs": {
-		"url": "https://github.com/fisheva/Eva-Theme/issues"
+		"url": "https://github.com/Superpencil/White-Eva-Theme/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/fisheva/Eva-Theme.git"
+		"url": "https://github.com/Superpencil/White-Eva-Theme.git"
 	},
 	"engines": {
 		"vscode": "^1.12.0"
@@ -29,24 +29,24 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Eva Dark",
+				"label": "White Eva Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Eva-Dark.json"
+				"path": "./themes/White-Eva-Dark.json"
 			},
 			{
-				"label": "Eva Dark Bold",
+				"label": "White Eva Dark Italic",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Eva-Dark-Bold.json"
+				"path": "./themes/White-Eva-Dark-Italic.json"
 			},
 			{
-				"label": "Eva Light",
+				"label": "White Eva Light",
 				"uiTheme": "vs",
-				"path": "./themes/Eva-Light.json"
+				"path": "./themes/White-Eva-Light.json"
 			},
 			{
-				"label": "Eva Light Bold",
+				"label": "White Eva Light Italic",
 				"uiTheme": "vs",
-				"path": "./themes/Eva-Light-Bold.json"
+				"path": "./themes/White-Eva-Light-Italic.json"
 			}
 		]
 	},
@@ -56,13 +56,5 @@
 		"light",
 		"theme",
 		"atom"
-	],
-	"scripts": {
-		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
-	},
-	"__metadata": {
-		"id": "a6761011-549f-4561-ae6d-cc9c7a040710",
-		"publisherDisplayName": "fisheva",
-		"publisherId": "ff69a8bd-aad3-463d-9859-8ecfb1484873"
-	}
+	]
 }

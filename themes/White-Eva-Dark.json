@@ -1,5 +1,5 @@
 {
-  "name": "Eva Dark Bold",
+  "name": "White Eva Dark",
   "type": "dark",
   "colors": {
     "activityBar.background": "#282c34",
@@ -60,7 +60,7 @@
     "editorGroup.border": "#181A1F",
     "editorGroup.dropBackground": "#598DEF4C",
     "editorGroup.emptyBackground": "#282c34",
-    "editorGroup.focusedEmptyBorder": "#5889EA",
+    "editorGroup.focusedEmptyBorder": "#6495EE",
     "editorGroupHeader.tabsBackground": "#21252B",
     "editorGroupHeader.tabsBorder": "#21252B",
     "editorGroupHeader.noTabsBackground": "#21252B",
@@ -97,7 +97,7 @@
     "editorOverviewRuler.wordHighlightForeground": "#008099BF",
     "editorOverviewRuler.wordHighlightStrongForeground": "#A78CFABF",
     "editorPane.background": "#21252B",
-    "editorRuler.foreground": "#6495EE",
+    "editorRuler.foreground": "#6494ed",
     "editorSuggestWidget.background": "#23272F",
     "editorSuggestWidget.border": "#181A1F",
     "editorSuggestWidget.foreground": "#8E99B1",
@@ -176,11 +176,11 @@
     "notification.infoForeground": "#FFF",
     "notification.warningBackground": "#F5625C",
     "notification.warningForeground": "#FFF",
-    "notificationCenter.border": "#181A1F",
-    "notificationCenterHeader.background": "#21252b",
+    "notificationCenter.border": "#181A1F",    
+    "notificationCenterHeader.background": "#21252b", 
     "notificationCenterHeader.foreground": "#B0B7C3",
-    "notificationLink.foreground": "#598DEF",  
-    "notificationToast.border": "#181A1F",
+    "notificationLink.foreground": "#598DEF",   
+    "notificationToast.border": "#181A1F", 
     "panel.background": "#282c34",
     "panel.border": "#21252B",
     "panel.dropBackground": "#598DEF4C",
@@ -331,7 +331,7 @@
       "scope": "variable.other.readwrite.alias, entity.name.type.module,entity.name.package",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -376,7 +376,7 @@
       "scope": "variable.other.property",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -385,7 +385,7 @@
       "scope": "variable.other.object.property,variable.other.constant.property",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -475,7 +475,7 @@
       "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional,support.type.map.key,meta.at-rule.each.scss,meta.property-value.scss",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -492,7 +492,7 @@
       "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,variable.other.object.cs,entity.name.type.namespace,variable.other.member.c,meta.using-namespace-declaration.cpp entity.name.type.cpp,meta.class-struct-block.cpp meta.namespace-block.cpp entity.name.type.cpp, variable.other.source.dart",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -532,7 +532,7 @@
     },
     {
       "name": "keyword Operators increment decrement",
-      "nameCN": "keyword.operator,关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
+      "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
       "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all",
       "settings": {
         "fontStyle": "normal",
@@ -544,7 +544,7 @@
       "nameCN": "php的string操作符 .(主要为了这个点加粗) .=(这个被迫加粗 需要提issue将二者区分)",
       "scope": "keyword.operator.string.php",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#56B7C3"
       }
     },
@@ -553,7 +553,7 @@
       "nameCN": "三元运算符 ? :;logical;== === != !==;< > <= >=;正则表达式里的 或|;波浪号~",
       "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.class,keyword.operator.type,keyword.operator.other.ruby,keyword.operator.conditional,punctuation.separator.question-mark,keyword.operator.null-coalescing,punctuation.tilde,punctuation.separator.pointer-access,punctuation.separator.namespace, keyword.operator.dart",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CF68E1"
       }
     },
@@ -561,7 +561,7 @@
       "name": "instanceof",
       "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CF68E1"
       }
     },
@@ -570,8 +570,8 @@
       "nameCN": "单独的函数,C++线程",
       "scope": "entity.name.function,support.type.pthread",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#6495EE"
+        "fontStyle": "normal",
+        "foreground": "#6494ed"
       }
     },
     {
@@ -611,7 +611,7 @@
       "name": "url.css,rgb(),transform,calc",
       "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#6495EE"
       }
     },
@@ -619,7 +619,7 @@
       "name": "Classes",
       "scope": "entity.name.type.class",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#FF6AB3"
       }
     },
@@ -627,8 +627,8 @@
       "name": "support.class",
       "scope": "support.class",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#6495EE"
+        "fontStyle": "normal",
+        "foreground": "#6494ed"
       }
     },
     {
@@ -637,31 +637,31 @@
       "scope": "support.class.console,support.class.component",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
       "name": "support.class.builtin",
       "scope": "support.class.builtin",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#6495EE"
+        "fontStyle": "normal",
+        "foreground": "#6494ed"
       }
     },
     {
       "name": "Class name",
       "scope": "entity.name.class",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#6495EE"
+        "fontStyle": "normal",
+        "foreground": "#6494ed"
       }
     },
     {
       "name": "declaration",
       "scope": "meta.method.declaration",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#6495EE"
+        "fontStyle": "normal",
+        "foreground": "#6494ed"
       }
     },
     {
@@ -669,7 +669,7 @@
       "nameCN": "箭头函数",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#A78CFA"
       }
     },
@@ -677,7 +677,7 @@
       "name": "new",
       "scope": "keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#A78CFA"
       }
     },
@@ -685,7 +685,7 @@
       "name": "in of",
       "scope": "keyword.operator.expression.in,keyword.operator.expression.of",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CF68E1"
       }
     },
@@ -693,7 +693,7 @@
       "name": "Keyword Control,Using",
       "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.control.export, keyword.operator.expression.delete, keyword.control.import,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.other.import,keyword.import,keyword.package, keyword.control.flow,keyword.other.special-method.ruby",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CF68E1"
       }
     },
@@ -701,7 +701,7 @@
       "name": "CSS from to, js from",
       "scope": "keyword.control.from,entity.other.keyframe-offset",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CF68E1"
       }
     },
@@ -709,7 +709,7 @@
       "name": "Keyword: return(flow), interface",
       "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.modifier, storage.type.modifier.cpp",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#A78CFA"
       }
     },
@@ -717,25 +717,16 @@
       "name": "default",
       "scope": "keyword.control.default",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CF68E1"
       }
     },
     {
-      "name": "support type ts",
-      "nameCN": "ts里默认数据类型;自定义数据类型",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts",
+      "name": "support type ts; class",
+      "nameCN": "ts里默认数据类型;自定义数据类型; interface; class",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#FF6AB3"
-      }
-    },
-    {
-      "name": "inherited-class;interface;class",
-      "nameCN": "自定义class;interface;class",
-      "scope": "entity.other.inherited-classentity.name.type.interface,meta.return.type,keyword.interface,entity.name.type.interface,entity.other.inherited-class,entity.name.type.struct,entity.name.type.delegate, meta.class-struct-block.cpp entity.name.type.cpp",
-      "settings": {
-        "fontStyle": "bold",
         "foreground": "#FF6AB3"
       }
     },
@@ -744,7 +735,7 @@
       "nameCN": "构造函数",
       "scope": "entity.name.type.js,new.expr.ts",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#6495EE"
       }
     },
@@ -761,25 +752,16 @@
       "nameCN": "语言常量,包含 true false null undefined等; void",
       "scope": "constant.language,constant.language.boolean,keyword.operator.expression.void",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#CF68E1"
       }
     },
     {
-      "name": "number,unit,constant,Math,enum",
-      "nameCN": "数字;单位;值为数字的常量;Math对象;enum枚举里的元素",
-      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js",
+      "name": "number,unit,constant,id,Math,enum,symbol in C#",
+      "nameCN": "数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象;enum枚举里的元素;C#中预处理器指令创建符号常量",
+      "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.variable.preprocessor.symbol,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#FF9070"
-      }
-    },
-    {
-      "name": "id,symbol in C#",
-      "nameCN": "HTML行间的id和CSS里的id名;C#中预处理器指令创建符号常量",
-      "scope": "meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, entity.name.variable.preprocessor.symbol",
-      "settings": {
-        "fontStyle": "bold",
         "foreground": "#FF9070"
       }
     },
@@ -788,7 +770,7 @@
       "nameCN": "Markdown里的bold",
       "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#E4BF7F"
       }
     },
@@ -807,7 +789,7 @@
       "scope": "beginning.punctuation.definition.quote.markdown",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#6495EE"
+        "foreground": "#6494ed"
       }
     },
     {
@@ -825,7 +807,7 @@
       "scope": "entity.name.tag,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -904,8 +886,8 @@
       "nameCN": "less sass里的自定义的代码块名 类似函数",
       "scope": "entity.other.attribute-name.class.mixin",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#6495EE"
+        "fontStyle": "normal",
+        "foreground": "#6494ed"
       }
     },
     {
@@ -932,7 +914,7 @@
       "scope": "entity.other.attribute-name.pseudo-element.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -940,8 +922,8 @@
       "nameCN": "Markdown里的标题 和 定义标题的#",
       "scope": "entity.name.section.markdown,markup.heading,punctuation.definition.heading.markdown",
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#E06C75"
+        "fontStyle": "normal",
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -959,7 +941,7 @@
       "scope": "beginning.punctuation.definition.list.markdown,beginning.punctuation.definition.quote.markdown",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#6495EE"
+        "foreground": "#6494ed"
       }
     },
     {
@@ -1009,7 +991,7 @@
       "scope": "keyword.other",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -1061,7 +1043,7 @@
       "scope": "source.json meta.structure.dictionary.json > string.quoted.json",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
@@ -1077,14 +1059,14 @@
       "scope": "support.type.property-name.json",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#E06C75"
+        "foreground": "#B0B7C3"
       }
     },
     {
       "name": "js ts this super, python self",
       "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#F02B77"
       }
     },
@@ -1092,7 +1074,7 @@
       "scope": "token.info-token",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#6495EE"
+        "foreground": "#6494ed"
       }
     },
     {
@@ -1120,7 +1102,7 @@
       "name": "keyword",
       "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,storage.type.primitive.dart, keyword.declaration, keyword.operator.closure.dart, storage.type.enum, storage.type.type,keyword.control.at-rule.function,keyword.control.at-rule.mixin, storage.type.const",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#A78CFA"
       }
     },
@@ -1128,7 +1110,7 @@
       "name": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc",
       "scope": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc,keyword.ccontrol.at-rule.keyframes.css,keyword.control.at-rule.keyframes.css",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#A78CFA"
       }
     },
@@ -1136,7 +1118,7 @@
       "name": "js module",
       "scope": "support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts",
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "normal",
         "foreground": "#A78CFA"
       }
     }
