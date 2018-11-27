@@ -1,3 +1,20 @@
+0.6.8 (2018-11-27)
+
+* Changed All UI
+
+```UI
+//Dark提亮2°, Light调暗2°, 都是变得更显眼。
+editor.lineHighlightBackground: #2D3039/#E5E8EF → #2F323B/#E3E6ED
+editor.lineHighlightBorder: #2D3039/#E5E8EF → #2F323B00/#E3E6ED00
+editor.rangeHighlightBackground: #2D3039/#E5E8EF → #2F323B/#E3E6ED
+```
+
+* Add All Sytax
+
+```Sytax
+constant.language.import-export-all: #56B7C3/#00BEC4
+```
+
 0.6.7 (2018-11-24)
 
 * Add All Sytax

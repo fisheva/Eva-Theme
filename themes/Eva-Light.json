@@ -36,9 +36,9 @@
     "editor.findRangeHighlightBackground": "#F8F9004C",
     "editor.foreground": "#5D5D5F",
     "editor.hoverHighlightBackground": "#CFD2D98C",
-    "editor.lineHighlightBackground": "#E5E8EF",
-    "editor.lineHighlightBorder": "#E5E8EF00",
-    "editor.rangeHighlightBackground": "#E5E8EF",
+    "editor.lineHighlightBackground": "#E3E6ED",
+    "editor.lineHighlightBorder": "#E3E6ED00",
+    "editor.rangeHighlightBackground": "#E3E6ED",
     "editor.selectionBackground": "#0065FF3F",
     "editor.selectionHighlightBackground": "#00BEC459",
     "editor.selectionHighlightBorder": "#00BEC400",
@@ -533,7 +533,7 @@
     {
       "name": "keyword Operators increment decrement",
       "nameCN": "关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-      "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all",
+      "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all",
       "settings": {
         "fontStyle": "normal",
         "foreground": "#00BEC4"

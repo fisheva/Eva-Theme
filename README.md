@@ -1,7 +1,3 @@
-### Interim Advert
-
-[My favorite Cloud Studio plugins selection contest](https://studio.dev.tencent.com/campaign/favorite-plugins/) is being held, friends who like [Eva Theme](https://studio.dev.tencent.com/plugins/detail/239), would you please give me some praise? Thanks so much! O(∩_∩)O~
-
 <p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Dark.png"></p>
 <p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Light.png"></p>
 

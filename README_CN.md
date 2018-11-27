@@ -1,7 +1,3 @@
-### 临时广告
-
-[我最喜爱的Cloud Studio插件评选大赛](https://studio.dev.tencent.com/campaign/favorite-plugins/)正在进行中, 喜欢[Eva Theme](https://studio.dev.tencent.com/plugins/detail/239)的朋友们, 给我一些好评可好? 非常感谢! O(∩_∩)O~
-
 <p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Dark.png"></p>
 <p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Light.png"></p>
 
