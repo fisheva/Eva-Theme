@@ -1,3 +1,12 @@
+0.7.0 (2018-11-30)
+
+* Changed All UI
+
+```UI
+terminalCursor.background: #000000/#000000 → #FFF/#FFF
+terminalCursor.foreground: #B0B7C3/#A0A1A7 → #FF9070/#FC8357
+```
+
 0.6.9 (2018-11-27)
 
 * Add All Sytax
