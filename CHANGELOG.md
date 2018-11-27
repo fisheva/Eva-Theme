@@ -1,3 +1,11 @@
+0.6.9 (2018-11-27)
+
+* Add All Sytax
+
+```Sytax
+punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js: #8792AA/#A0A1A7
+```
+
 0.6.8 (2018-11-27)
 
 * Changed All UI
