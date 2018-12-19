@@ -1,3 +1,17 @@
+0.7.1 (2018-12-19)
+
+* Changed All UI
+
+```UI
+//增加空格符透明度
+editorWhitespace.foreground: #535773/#BDBDBED8 → #535773BF/#BDBDBEB2
+
+//Dark滚动条透明度增加40%; Light滚动条透明度减少5%, 但色相更接近主题注释颜色。
+scrollbarSlider.activeBackground: #676E9599/#00000033 → #A2ABE54C/#4F4F504C
+scrollbarSlider.background: #676E9566/#00000022 → #A2ABE533/#4F4F5033
+scrollbarSlider.hoverBackground: #676E9599/#00000033 → #A2ABE54C/#4F4F504C
+```
+
 0.7.0 (2018-11-30)
 
 * Changed All UI
