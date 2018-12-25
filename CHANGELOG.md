@@ -1,3 +1,21 @@
+0.7.2 (2018-12-21)
+
+* Add All Sytax
+
+```Sytax
+invalid.broken, invalid.deprecated, punctuation.colon: #8E99B1/#8E8E90
+support.type.graphql: #FF6AB3/#EF8ED8
+keyword.input, keyword.type.graphql: #CF68E1/#C838C6
+punctuation.operation.graphql: #838FA7/#5D5D5FD8
+```
+
+* Add All System
+
+```System
+//这句命令可以查看所有API释义。同时这次通过这个指令, 发现字体样式填normal是警报的, 都替换成了空字符; 并且去掉了警报提示已经启用的UI API, 放在下面。
+"$schema": "vscode://schemas/color-theme",
+```
+
 0.7.1 (2018-12-19)
 
 * Changed All UI
@@ -1159,6 +1177,24 @@ entity.name.type = #FF6AB3/#EF8ED8
 
 "statusBarItem.prominentBackground": "#21252B"/"#E1E4EB",
 "statusBarItem.prominentHoverBackground": "#598DEF"/"#598DEF",
+```
+
+* New version VSCode no longer used API
+
+```UI
+"editorGroup.background": "#282c34"/"#EBEEF5",
+
+"notification.buttonBackground": "#676E9599"/"#A0A1A7E5",
+"notification.buttonHoverBackground": "#598DEFE6"/"#0065FFA8",
+"notification.errorBackground": "#e51400"/"#ff0000",
+"notification.errorForeground": "#FFF"/"#FFF",
+"notification.infoBackground": "#598DEF"/"#598DEF",
+"notification.infoForeground": "#FFF"/"FFF",
+"notification.warningBackground": "#F5625C"/"#F5625C",
+"notification.warningForeground": "#FFF"/"#FFF",
+
+"settings.inactiveSelectedItemBorder": "#1D1F23"/"#D3D6DC",
+"settings.modifiedItemForeground": "#A78CFA"/"#7C4DFF",
 ```
 
 * Issue wanted UI
