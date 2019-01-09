@@ -1,0 +1,136 @@
+\documentclass{beamer}
+
+\mode<presentation> {\usetheme{Madrid}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{flexisym}
+\graphicspath{{./img/}}
+
+\title[T2K Experiment]{Neutrino Physics: The T2K Experiment}
+\author{Wei-Chih Huang}
+\institute[NTHU]{
+National Tsing Hua University \\
+\medskip
+}
+\date{today}
+
+\begin{document}
+\begin{frame}
+	\titlepage % Print the title page as the first slide
+\end{frame}
+\begin{frame}{Overview}
+	\tableofcontent
+\end{frame}
+
+\section{Physics Behind the Experiment}
+
+\begin{frame}{Physics Behind the Experiment}
+	\begin{itemize}
+		\item 3-Flavor Neutrino Oscillation
+		\item The Probability of the Oscillation
+	\end{itemize}
+	\begin{figure}[h]
+		\includegraphics[width=310px]{neu2.png}
+	\end{figure}
+\end{frame}
+
+the second term and third term
+$\alpha b^2 + \beta x^2 \ln(\frac{x}{h^2})$ show $- 2 \Lambda(1 - e^{-\frac{x}{\Lambda}})$
+\cite{Odintsov:2017qif}
+During $x\gg1$ so $e^{-\frac{x}{\Lambda}} \approx 0$ , thus $- 2 \Lambda(1 - e^{-\frac{h}{\Lambda}}) \approx -2 \Lambda \approx 0 $
+
+\begin{align}
+	\kappa^2 \rho_{a11}
+	& = \frac{1}{2}(\alpha+\beta)x + \frac{\beta}{2} y - \ln(\frac{R}{h^2}) - 3H\dot{R}
+	\left[
+	(2\alpha + 3\beta) + 2\beta \ln(\frac{x}{h^2})
+	\right],
+	\\
+	\kappa^2 \rho_{b12}
+	& = \Lambda -
+	\left(
+	x + \Lambda + \frac{6}{\Lambda}h\dot{h}
+	\right)
+	e^{-\frac{R}{\Lambda}}.
+\end{align}
+
+\begin{align}
+	x_1 & = x_{11} + x_{12},
+	\\
+	x_2 & = x_{21} + x_{22},
+	\\
+	x_3 & = x_{31} + x_{32}.
+\end{align}
+
+
+\begin{align*}
+	& \text{low/high energy neutrino oscillate in short/long distance}
+	\\
+	& 600 MeV \Rightarrow 295 km
+\end{align*}
+
+\begin{align}
+	\mathscr{A} & = f(x) = x + \alpha x^2 + \beta y^2 \ln(\frac{z}{m^2})- 2 e^{\Lambda}\label{fr},
+	\\
+	F           & = \frac{\partial f}{\partial i}= 1 + (2\alpha + \beta)x + 2\beta y \ln(\frac{z}{m^2}) - 2e^{-\frac{R}{\Lambda}},
+\end{align}
+
+
+\begin{itemize}
+	\item abc $\nu_\mu \rightarrow \nu_e \theta_{13} > 0$ )
+\end{itemize}
+
+
+\begin{equation*}
+	\nu_{\mu} + \, \, \text{water} \, \, \rightarrow \mu^- \, \, \text{or} \, \, e^- \rightarrow \text{Cherenkov radiation}
+\end{equation*}
+
+\subsection{$\nu_\mu$ Disappearance}
+\begin{frame}{$\nu_\mu$ Disappearance}
+	Survival probability of $\nu_\mu \rightarrow$
+
+	$(sin^22\theta_{23} , \Delta m^2_{23}) = (1.0 , 2.7 \times 10^{-3} \text{eV}^2) \pm (0.009, 5 \times 10^{-5} \text{eV}^2)$
+
+	\begin{figure}[h]
+		\includegraphics[width=270px]{result0.png}
+	\end{figure}
+\end{frame}
+
+Best fit: $\delta_{CP} = -1.87(-1.43)$ for normal(inverted) ordering
+
+C.L. $2\sigma$: cl
+
+\begin{thebibliography}{9}
+	%\cite{Nojiri:2010wj}
+	\bibitem{Nojiri:2010wj}
+	  S.~Nojiri and S.~D.~Odintsov,
+	  %``Unified cosmic history in modified gravity: from F(R) theory to Lorentz non-invariant models,''
+	  Phys.\ Rept.\  {\bf 505}, 59 (2011)
+	  % doi:10.1016/j.physrep.2011.04.001
+	  % [arXiv:1011.0544 [gr-qc]].
+	  %%CITATION = doi:10.1016/j.physrep.2011.04.001;%%
+	  %1812 citations counted in INSPIRE as of 07 Nov 2018
+
+	%\cite{Yashiki:2017gar}
+	\bibitem{Yashiki:2017gar}
+	  M.~Yashiki,
+	  %``Inflation and cosmological dynamics in $f(R)$ gravity,''
+	  Phys.\ Rev.\ D {\bf 96}, no. 10, 103518 (2017)
+	  % Erratum: [Phys.\ Rev.\ D {\bf 98}, no. 2, 029902 (2018)].
+	  % doi:10.1103/PhysRevD.96.103518, 10.1103/PhysRevD.98.029902
+	  %%CITATION = doi:10.1103/PhysRevD.96.103518, 10.1103/PhysRevD.98.029902;%%
+
+	%\cite{Hossain:2014zma}
+	\bibitem{Hossain:2014zma}
+	  M.~Wali Hossain, R.~Myrzakulov, M.~Sami and E.~N.~Saridakis,
+	  %``Unification of inflation and dark energy à la quintessential inflation,''
+	  Int.\ J.\ Mod.\ Phys.\ D {\bf 24}, no. 05, 1530014 (2015)
+	  %doi:10.1142/S0218271815300141
+	  %[arXiv:1410.6100 [gr-qc]].
+	  %%CITATION = doi:10.1142/S0218271815300141;%%
+	  %43 citations counted in INSPIRE as of 07 Nov 2018
+\end{thebibliography}
+
+
+\end{document}
