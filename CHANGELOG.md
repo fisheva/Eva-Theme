@@ -1,3 +1,11 @@
+0.7.3 (2019-04-06)
+
+* Add All Sytax
+
+```Sytax
+storage.type.language.primitive.cpp, storage.type.built-in.primitive.c, storage.type.struct.cpp: #A78CFA/#7C4DFF
+```
+
 0.7.2 (2018-12-21)
 
 * Add All Sytax
