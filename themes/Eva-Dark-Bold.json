@@ -683,7 +683,7 @@
     },
     {
       "name": "support type ts;ts里默认数据类型;自定义数据类型",
-      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, support.type.graphql",
+      "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,keyword.type,storage.type.cs,entity.name.type.type-parameter,meta.type.parameters,storage.type.generic,storage.type.object.array,storage.type.java,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, support.type.graphql, meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp",
       "settings": {
         "fontStyle": "",
         "foreground": "#FF6AB3"

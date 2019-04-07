@@ -1,3 +1,11 @@
+0.7.4 (2019-04-07)
+
+* Add All Sytax
+
+```Sytax
+meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp: #FF6AB3/#EF8ED8
+```
+
 0.7.3 (2019-04-06)
 
 * Add All Sytax
