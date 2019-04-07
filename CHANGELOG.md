@@ -1,3 +1,11 @@
+0.7.6 (2019-04-07)
+
+* Fix All UI
+
+```Sytax
+editorUnnecessaryCode.opacity: #676E9500/#A9A9AA00 → #676E95FF/#A9A9AAFF
+```
+
 0.7.5 (2019-04-07)
 
 * Add All Sytax
