@@ -1,3 +1,17 @@
+0.7.7 (2019-06-14)
+
+* Fix All UI
+
+```UI
+editorMarkerNavigation.background: #40AD41/#44C145 → #2F323B/#E3E6ED
+```
+
+* Add All UI
+
+```UI
+tab.unfocusedActiveBackground: #282c34/#EBEEF5
+```
+
 0.7.6 (2019-04-07)
 
 * Fix All UI
@@ -45,7 +59,7 @@ punctuation.operation.graphql: #838FA7/#5D5D5FD8
 
 ```System
 //这句命令可以查看所有API释义。同时这次通过这个指令, 发现字体样式填normal是警报的, 都替换成了空字符; 并且去掉了警报提示已经启用的UI API, 放在下面。
-"$schema": "vscode://schemas/color-theme",
+$schema: vscode://schemas/color-theme,
 ```
 
 0.7.1 (2018-12-19)
@@ -585,7 +599,7 @@ editor.wordHighlightStrongBorder: #A78CFA00/#7C4DFF00
 
 peekViewEditor.matchHighlightBorder: #598DEF00/#0065FF00
 
-tab.activeBorder": #282c3400/#EBEEF500
+tab.activeBorder: #282c3400/#EBEEF500
 tab.activeBorderTop: #282c3400/#EBEEF500
 tab.hoverBorder: #598DEF00/#0065FF00
 tab.unfocusedActiveBorder: #282c3400/#EBEEF500
@@ -679,7 +693,7 @@ notificationLink.foreground: #598DEF
 ```UI
 editor.foreground: #B0B7C3E5/#5D5D5FE5 → #C5C5C5/#424242
 editorGutter.modifiedBackground: #598DEF/#598DEF → #A78CFA/#9277E6
-editorMarkerNavigation.background": #598DEF/#598DEF → #40AD41/#44C145
+editorMarkerNavigation.background: #598DEF/#598DEF → #40AD41/#44C145
 ```
 
 * Add All UI
@@ -1188,45 +1202,45 @@ entity.name.type = #FF6AB3/#EF8ED8
 
 ```UI
 //待自己测试
-"editorHint.foreground": "#0000ff",
-"editorHint.border": "#00ff00",
-"textSeparator.foreground": "#0000ff",
-"gitDecoration.submoduleResourceForeground": "#ff0000"/"#ff0000",
+editorHint.foreground: #0000ff,
+editorHint.border: #00ff00,
+textSeparator.foreground: #0000ff,
+gitDecoration.submoduleResourceForeground: #ff0000/#ff0000,
 
 //已经写进主题
-"editorOverviewRuler.commonContentForeground": "#2D3039"/"#E5E8EF",
-"editorOverviewRuler.currentContentForeground": "#FFF"/"000",
-"editorOverviewRuler.incomingContentForeground": "#45B7463F"/"#45B7464C",
-"editorOverviewRuler.rangeHighlightForeground": "#2D3039"/"#E5E8EF",
+editorOverviewRuler.commonContentForeground: #2D3039/#E5E8EF,
+editorOverviewRuler.currentContentForeground: #FFF/000,
+editorOverviewRuler.incomingContentForeground: #45B7463F/#45B7464C,
+editorOverviewRuler.rangeHighlightForeground: #2D3039/#E5E8EF,
 
-"gitDecoration.addedResourceForeground": "#40AD41"/"#44C145",
+gitDecoration.addedResourceForeground: #40AD41/#44C145,
 
-"merge.commonContentBackground": "#2D3039"/"#E5E8EF",
-"merge.commonHeaderBackground": "#2D3039"/"#E5E8EF",
+merge.commonContentBackground: #2D3039/#E5E8EF,
+merge.commonHeaderBackground: #2D3039/#E5E8EF,
 
-"pickerGroup.border": "#4480F4"/"#4283F5",
-"pickerGroup.foreground": "#4480F4"/"#4283F5",
+pickerGroup.border: #4480F4/#4283F5,
+pickerGroup.foreground: #4480F4/#4283F5,
 
-"statusBarItem.prominentBackground": "#21252B"/"#E1E4EB",
-"statusBarItem.prominentHoverBackground": "#598DEF"/"#598DEF",
+statusBarItem.prominentBackground: #21252B/#E1E4EB,
+statusBarItem.prominentHoverBackground: #598DEF/#598DEF,
 ```
 
 * New version VSCode no longer used API
 
 ```UI
-"editorGroup.background": "#282c34"/"#EBEEF5",
+editorGroup.background: #282c34/#EBEEF5,
 
-"notification.buttonBackground": "#676E9599"/"#A0A1A7E5",
-"notification.buttonHoverBackground": "#598DEFE6"/"#0065FFA8",
-"notification.errorBackground": "#e51400"/"#ff0000",
-"notification.errorForeground": "#FFF"/"#FFF",
-"notification.infoBackground": "#598DEF"/"#598DEF",
-"notification.infoForeground": "#FFF"/"FFF",
-"notification.warningBackground": "#F5625C"/"#F5625C",
-"notification.warningForeground": "#FFF"/"#FFF",
+notification.buttonBackground: #676E9599/#A0A1A7E5,
+notification.buttonHoverBackground: #598DEFE6/#0065FFA8,
+notification.errorBackground: #e51400/#ff0000,
+notification.errorForeground: #FFF/#FFF,
+notification.infoBackground: #598DEF/#598DEF,
+notification.infoForeground: #FFF/FFF,
+notification.warningBackground: #F5625C/#F5625C,
+notification.warningForeground: #FFF/#FFF,
 
-"settings.inactiveSelectedItemBorder": "#1D1F23"/"#D3D6DC",
-"settings.modifiedItemForeground": "#A78CFA"/"#7C4DFF",
+settings.inactiveSelectedItemBorder: #1D1F23/#D3D6DC,
+settings.modifiedItemForeground: #A78CFA/#7C4DFF,
 ```
 
 * Issue wanted UI
@@ -1234,21 +1248,21 @@ entity.name.type = #FF6AB3/#EF8ED8
 ```UI
 
 //Windows下点击链接会有个边框是暗金色, 想定义它的颜色。
-"editorLink.activeForeground": "#D365E5"/"#D73BD5",
+editorLink.activeForeground: #D365E5/#D73BD5,
 
 //面包屑里的选择项背景色
-"breadcrumbPicker.activeSelectionBackground": "#ff0000",
+breadcrumbPicker.activeSelectionBackground: #ff0000,
 
 //面包屑选框里的文字颜色目前不能定义
-"breadcrumbPicker.foreground"
+breadcrumbPicker.foreground
 
 //原本设置这个属性是透明的,这里存在一个VSCode二个属性editor.selectionHighlightBackground 和 editor.wordHighlightBackground区分不严的问题，值得提issue。
-"editor.selectionHighlightBackground": "#00BEC499"/"#00BEC459",
+editor.selectionHighlightBackground: #00BEC499/#00BEC459,
 
 //在搜索时, 右侧色块看不到当前目标, 故应该添加2个API
-"editorOverviewRuler.findMatchHighlightForeground": "#ff0000",
-"editorOverviewRuler.findRangeHighlightForeground": "#0000ff",
+editorOverviewRuler.findMatchHighlightForeground: #ff0000,
+editorOverviewRuler.findRangeHighlightForeground: #0000ff,
 
-"tab.hoverForeground": "#d7dae0",
-"tab.unfocusedHoverForeground": "#d7dae0",
+tab.hoverForeground: #d7dae0,
+tab.unfocusedHoverForeground: #d7dae0,
 ```
