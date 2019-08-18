@@ -1,3 +1,19 @@
+0.7.8 (2019-08-19)
+
+* Changed All UI
+
+```UI
+//左侧按键图标由实心图标变成了线框图标, 所以需要加深下颜色
+activityBar.foreground: #8792BD/#94969B → #96A4CD/#85878C
+activityBar.inactiveForeground:#8792BD99/#94969B99 → #8792BDA5/#94969BA5
+```
+
+* Fix All UI
+
+```UI
+statusBar.debuggingForeground: #9DA5B3/#9DA5B3 → #DDE0E6/#E1E4Eb
+```
+
 0.7.7 (2019-06-14)
 
 * Fix All UI
