@@ -104,7 +104,7 @@ VSCode → 首选项 → 颜色主题 → 选择Eva Theme
 
 同时按下"Ctrl+Shift+P"(Windows)或"Command+Shift+P"(Mac), 选择"检查TM作用域", 您可以查看到所有字符的Scope值。
 
-部分插件会改变语法高亮规则, 然后改变部分字符的Scope值, 进而改变其颜色。已知的有Babel, JavaScript Atom Grammar。
+部分插件会改变语法高亮规则, 然后改变部分字符的Scope值, 进而改变其颜色。目前发现的有[Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)。
 
 ### Issue
 

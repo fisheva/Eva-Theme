@@ -1,3 +1,52 @@
+0.7.9 (2019-12-06)
+
+* Add All UI
+
+```UI
+activityBar.activeBackground: #282c34/#EBEEF5
+activityBar.activeBorder: #282c34/#EBEEF5
+```
+
+* Changed All UI
+
+```UI
+//调整非当前功能区按钮键色调与linenumber色调相同
+activityBar.inactiveForeground: #8792BDA5/#94969BA5 → #5C617D/#B3B3B4
+
+//将字数限制尺颜色由蓝色调为暗灰
+editorRuler.foreground: #6495EE/#55ACF2 → #676E95/#B3B3B4
+
+//Eva-Theme issue 28
+terminal.ansiWhite: #FFFFFF → #676E95/#A0A1A7
+terminal.ansiBrightWhite: #FFFFFF → #676E95/#A0A1A7
+```
+
+* Changed Light UI
+
+```UI
+//略微加深当前功能区按钮键颜色
+activityBar.foreground: #85878C → #7D7F84
+
+//调整非当前窗口标题颜色与面包屑颜色相同
+titleBar.inactiveForeground: #94969B → #8E8E90
+```
+
+* Add All Sytax
+
+```Sytax
+source: #B0B7C3/#5D5D5F
+entity.name.namespace.cpp: #E06C75/#CD6069
+entity.name.type.template: #E4BF7F/#F0AA0B
+storage.type.template.argument: #FF6AB3/#EF8ED8
+storage.modifier.reference, storage.modifier.pointer: #56B7C3/#00BEC4
+punctuation.separator.initializers: #8E99B1/#8E8E90
+storage.type.template,support.type.built-in.posix-reserved.pthread: #A78CFA/#7C4DFF
+entity.name.function.definition.special.constructor.cpp,keyword.cmake: #CF68E1/#C838C6
+entity.name.scope-resolution.function, meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp: #6494ed/#437AED
+punctuation.section.angle-brackets, keyword.operator.delete.array.bracket: #838FA7/#5D5D5FD8
+keyword.operator.delete, keyword.operator.expression.delete: #F02B77/#FA278E
+```
+
 0.7.8 (2019-08-19)
 
 * Changed All UI
@@ -1202,6 +1251,10 @@ sideBarSectionHeader.border 不用加, 加了会使文字向下靠, 不居中
 editorInfo.border
 editorWarning.border
 editorError.border
+
+//外边缘线, 因底部色块与其它三个方向不同, 故不宜添加此项
+window.activeBorder
+window.inactiveBorder
 ```
 
 * Avoid Using API Sytax

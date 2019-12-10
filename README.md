@@ -106,7 +106,7 @@ All theme plugins add color to characters based on its scope value.
 
 You can check the scope value of all characters by pressing "Ctrl+Shift+P" (Windows) or "Cmd+Shift+P" (Mac) and selecting "Inspect TM Scopes".
 
-Any plugin that changes the syntax highlighting rules will change the scope value of some characters and then change their color. e.g. "Babel", "JavaScript Atom Grammar".
+Any plugin that changes the syntax highlighting rules will change the scope value of some characters and then change their color. Currently found such plugins are [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
 
 ### Issue
 
