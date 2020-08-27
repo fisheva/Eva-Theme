@@ -5,7 +5,7 @@
 
 ### 介绍
 
-Eva Theme 是一款色彩丰富的语义化着色 VSCode 主题。
+Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地进行编程。
 
 内置四套样式: Dark, Dark Bold, Light, Light Bold。Bold样式加粗了许多关键字和函数名。
 
@@ -42,69 +42,9 @@ ext install eva-theme
 
 VSCode → 首选项 → 颜色主题 → 选择Eva Theme
 
-### 字体
-
-上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode)，如果您喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
-
-```json
-"editor.fontFamily": "CamingoCode",
-```
-
-### 图标
-
-在尝试多款图标主题后, 我觉得[file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)是和Eva Theme最搭配的。
-
-### 进阶
-
-为了更好的体验, 我向您推荐一款非常优秀的插件 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)。
-
-下面是我的 Bracket Pair Colorizer 设置:
-
-- 配合 Eva Dark theme
-
-```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-        "#838FA7",
-        "#A78CFA",
-        "#56B7C3",
-        "#FF9070"
-        ],
-        "#e51400"
-    ]
-```
-
-- 配合 Eva Light theme
-
-```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-        "#5D5D5FD8",
-        "#7C4DFF",
-        "#00BEC4",
-        "#ff6500"
-        ],
-        "#e51400"
-    ]
-```
-
 ### 冲突
 
-所有主题插件都是基于字符的Scope值给字符分配颜色。
-
-同时按下"Ctrl+Shift+P"(Windows)或"Command+Shift+P"(Mac), 选择"检查TM作用域", 您可以查看到所有字符的Scope值。
-
-部分插件会改变语法高亮规则, 然后改变部分字符的Scope值, 进而改变其颜色。目前发现的有[Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)。
+有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭C_Cpp.enhancedColorization项来禁用此功能。目前发现的有[Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)。
 
 ### Issue
 

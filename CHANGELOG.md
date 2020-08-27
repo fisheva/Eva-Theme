@@ -1,3 +1,233 @@
+0.8.0(2020-08-27)
+
+* Add All UI
+
+```UI
+button.foreground: #DCDFE5/#fff
+tab.hoverForeground: #d7dae0/#5D5D5F
+tab.unfocusedHoverForeground: #d7dae0/#5D5D5F
+icon.foreground:#c5c5c5/#424242
+inputOption.activeBackground: #282c3400/#EBEEF500,
+inputOption.activeBorder: #282c3400/#EBEEF500,
+inputOption.activeForeground: #fff/#000,
+
+minimap.background: #282c34/#EBEEF5,
+minimap.errorHighlight: #e5140059/#e5140059,
+minimap.findMatchHighlight: #6A707DE5/#BBBEC5,
+minimap.selectionHighlight: #5F97FFF2/#0065FFB2,
+minimap.warningHighlight: #F5625C59/#F5625C,
+minimapGutter.addedBackground: #40AD41/#44C145,
+minimapGutter.deletedBackground: #e51400/#e51400,
+minimapGutter.modifiedBackground: #A78CFA/#9277E6,
+minimapSlider.activeBackground: #A2ABE533/#4F4F5033,
+minimapSlider.background: #A2ABE519/#4F4F5019,
+minimapSlider.hoverBackground: #A2ABE533/#4F4F5033,
+```
+
+* Changed All UI
+
+```UI
+//消除标题栏下边沿边框
+editorGroupHeader.tabsBorder: #21252B/#EBEEF5 → #21252B00/#EBEEF500
+
+//提高标题栏hover背景色
+tab.hoverBackground: #598DEF3F/#0065FF19 → #598DEF66/#0065FF33
+
+//提亮输入框激活边框颜色
+focusBorder: #598DEFB2/#598DEFA5 → #598DEF/#598DEF
+
+//这条API只能设置透明色或不设置, 任何颜色都会挡住零任务启动页文字
+editorGroup.emptyBackground:#282c34/#EBEEF5 → #282c3400/#EBEEF500
+
+//将Dark主题该色块由微蓝色改为灰色, Light主题该色块颜色加深。目前受限于minimap的一些API缺失, 未来该色块还需要调得更显眼。
+editorOverviewRuler.findMatchForeground: #598DEF59/#CFD2D9 → #6A707D7F/#C3C6CD
+
+//统一修改项border颜色, 去掉透明度
+tab.inactiveModifiedBorder: #A78CFAA5/#7C4DFFA5 → #A78CFA/#7C4DFF
+tab.unfocusedActiveModifiedBorder: #A78CFAD8/#7C4DFFD8 → #A78CFA/#7C4DFF
+tab.unfocusedInactiveModifiedBorder: #A78CFAA5/#7C4DFF7F → #A78CFA/#7C4DFF
+
+//给这组颜色后缀后加了33, 即80%透明度
+terminal.ansiBlack: #676E9533/#A0A1A733
+terminal.ansiBlue: #56B7C333/#00BEC433
+terminal.ansiCyan: #6494ed33/#55ACF233
+terminal.ansiGreen: #45B74633/#45B74633
+terminal.ansiMagenta: #CF68E133/#C838C633
+terminal.ansiRed: #E06C7533/#CD606933
+terminal.ansiWhite: #676E9533/#A0A1A733
+terminal.ansiYellow: #FF907033/#FF650033
+```
+
+* Changed All Sytax
+
+```Sytax
+//提亮=号颜色, 提到和各种括号{} ()一致
+keyword.operator.assignment, meta.property-value.css keyword.operator.less: #7C88B4/#888 → #838FA7/#5D5D5FD8
+```
+
+//这条最终没改, 留着, 如果未来要改再改成下面这样
+<!-- * Changed Dark UI
+
+```UI
+//改变后的颜色和框选颜色区分度更大, 但#324464是个不错的背景色, 未来可能有别的用
+editor.findMatchHighlightBackground: #324464 → #6A707D59
+editor.findMatchHighlightBorder: #32446400 → #6A707D00
+``` -->
+
+* Changed Light UI
+
+```UI
+//略微调淡滚轮滑块
+scrollbarSlider.activeBackground: #4F4F503F
+scrollbarSlider.background: #4F4F502E
+scrollbarSlider.hoverBackground: #4F4F503F
+```
+
+* Changed README.md
+
+```md
+Eva Theme is a colorful and semantic coloring code theme meet Visual Studio Code. →
+Eva theme is a semantic coloring code theme dedicated to making you more comfortable programming.
+```
+
+* Changed README_CN.md
+
+```md
+Eva Theme是一款色彩丰富的语义化着色VSCode主题。 →
+Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地进行编程。
+```
+
+* Changed package.json
+
+```json
+"description":"A colorful and semantic coloring code theme. Dark | Light. Regular | Bold" →
+"description": "A semantic coloring code theme dedicated to making you more comfortable programming."
+```
+
+* Delete README.md
+
+<!-- ### Font
+
+The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
+
+```json
+"editor.fontFamily": "CamingoCode",
+```
+
+### Icons
+
+After trying multiple icon themes, I think [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) is the best match for Eva Theme.
+
+### Advanced
+
+For a better experience, I recommend an awesome plugin [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) for you.
+
+Here is my Bracket Pair Colorizer setting:
+
+- Match Eva Dark theme
+
+```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
+"bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+        "#838FA7",
+        "#A78CFA",
+        "#56B7C3",
+        "#FF9070"
+        ],
+        "#e51400"
+    ]
+```
+
+- Match Eva Light theme
+
+```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
+"bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+        "#5D5D5FD8",
+        "#7C4DFF",
+        "#00BEC4",
+        "#ff6500"
+        ],
+        "#e51400"
+    ]
+```
+
+### Conflicts
+
+All theme plugins add color to characters based on its scope value. You can check the scope value of all characters by pressing "Ctrl+Shift+P" (Windows) or "Cmd+Shift+P" (Mac) and selecting "Inspect TM Scopes". -->
+
+* Delete README_CN.md
+<!-- 
+### 字体
+
+上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode)，如果您喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
+
+```json
+"editor.fontFamily": "CamingoCode",
+```
+
+### 图标
+
+在尝试多款图标主题后, 我觉得[file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)是和Eva Theme最搭配的。
+
+### 进阶
+
+为了更好的体验, 我向您推荐一款非常优秀的插件 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)。
+
+下面是我的 Bracket Pair Colorizer 设置:
+
+- 配合 Eva Dark theme
+
+```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
+"bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+        "#838FA7",
+        "#A78CFA",
+        "#56B7C3",
+        "#FF9070"
+        ],
+        "#e51400"
+    ]
+```
+
+- 配合 Eva Light theme
+
+```json
+"bracketPairColorizer.showHorizontalScopeLine": false,
+"bracketPairColorizer.showVerticalScopeLine": false,
+"bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+        "#5D5D5FD8",
+        "#7C4DFF",
+        "#00BEC4",
+        "#ff6500"
+        ],
+        "#e51400"
+    ]
+``` 
+
+### 冲突
+
+所有主题插件都是基于字符的Scope值给字符分配颜色。同时按下"Ctrl+Shift+P"(Windows)或"Command+Shift+P"(Mac), 选择"检查TM作用域", 您可以查看到所有字符的Scope值。 -->
+
 0.7.9 (2019-12-06)
 
 * Add All UI

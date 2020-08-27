@@ -7,7 +7,7 @@
 
 ### Description
 
-Eva Theme is a colorful and semantic coloring code theme meet Visual Studio Code.
+Eva theme is a semantic coloring code theme dedicated to making you more comfortable programming.
 
 There are four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker.
 
@@ -44,69 +44,9 @@ ext install eva-theme
 
 VSCode → Preferences → Color themes → Select Eva theme
 
-### Font
-
-The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
-
-```json
-"editor.fontFamily": "CamingoCode",
-```
-
-### Icons
-
-After trying multiple icon themes, I think [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) is the best match for Eva Theme.
-
-### Advanced
-
-For a better experience, I recommend an awesome plugin [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) for you.
-
-Here is my Bracket Pair Colorizer setting:
-
-- Match Eva Dark theme
-
-```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-        "#838FA7",
-        "#A78CFA",
-        "#56B7C3",
-        "#FF9070"
-        ],
-        "#e51400"
-    ]
-```
-
-- Match Eva Light theme
-
-```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-        "#5D5D5FD8",
-        "#7C4DFF",
-        "#00BEC4",
-        "#ff6500"
-        ],
-        "#e51400"
-    ]
-```
-
 ### Conflicts
 
-All theme plugins add color to characters based on its scope value.
-
-You can check the scope value of all characters by pressing "Ctrl+Shift+P" (Windows) or "Cmd+Shift+P" (Mac) and selecting "Inspect TM Scopes".
-
-Any plugin that changes the syntax highlighting rules will change the scope value of some characters and then change their color. Currently found such plugins are [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
+Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off C_Cpp.enhancedColorization in the settings. Currently found such extensions are [Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
 
 ### Issue
 
