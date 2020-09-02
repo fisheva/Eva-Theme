@@ -1,3 +1,7 @@
+0.8.2(2020-09-02)
+
+添加Screenshots文件夹, 放入插件截图, 修改Markdown图片索引路径
+
 0.8.1(2020-09-02)
 
 * Delete README.md
