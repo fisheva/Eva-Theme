@@ -1,5 +1,5 @@
-<p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Dark2.png"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/fisheva/Things/master/Static/Eva-Theme/Screenshot/Eva-Light2.png"></p>
+<p align="center"><img src="screenshots/Eva-Dark.png"></p>
+<p align="center"><img src="screenshots/Eva-Light.png"></p>
 
 [![install](https://vsmarketplacebadge.apphb.com/installs/fisheva.eva-theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme) [![rating](https://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.eva-theme)    [![GitHub stars](https://img.shields.io/github/stars/fisheva/eva-theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/eva-theme)
 
@@ -30,21 +30,9 @@ VSCode版本要求 ≥ 1.12.0。
 
 其它语言也有语法高亮，但暂时不能保证全部语义化。
 
-### 安装
-
-将下列指令复制进VSCode的扩展输入框，并按下回车`Enter`：
-
-```shell
-ext install eva-theme
-```
-
-### 使用
-
-VSCode → 首选项 → 颜色主题 → 选择Eva Theme
-
 ### 冲突
 
-有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭C_Cpp.enhancedColorization项来禁用此功能。目前发现的有[Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)。
+有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有[Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)。
 
 ### Issue
 

@@ -1,3 +1,33 @@
+0.8.1(2020-09-02)
+
+* Delete README.md
+
+<!-- ### Installing
+
+Paste the following command into VSCode extension input and press `Enter`:
+
+```shell
+ext install eva-theme
+```
+
+### Activate
+
+VSCode → Preferences → Color themes → Select Eva theme -->
+
+* Delete README_CN.md
+
+<!-- ### 安装
+
+将下列指令复制进VSCode的扩展输入框，并按下回车`Enter`：
+
+```shell
+ext install eva-theme
+```
+
+### 使用
+
+VSCode → 首选项 → 颜色主题 → 选择Eva Theme -->
+
 0.8.0(2020-08-27)
 
 * Add All UI
@@ -7,21 +37,21 @@ button.foreground: #DCDFE5/#fff
 tab.hoverForeground: #d7dae0/#5D5D5F
 tab.unfocusedHoverForeground: #d7dae0/#5D5D5F
 icon.foreground:#c5c5c5/#424242
-inputOption.activeBackground: #282c3400/#EBEEF500,
-inputOption.activeBorder: #282c3400/#EBEEF500,
-inputOption.activeForeground: #fff/#000,
+inputOption.activeBackground: #282c3400/#EBEEF500
+inputOption.activeBorder: #282c3400/#EBEEF500
+inputOption.activeForeground: #fff/#000
 
-minimap.background: #282c34/#EBEEF5,
-minimap.errorHighlight: #e5140059/#e5140059,
-minimap.findMatchHighlight: #6A707DE5/#BBBEC5,
-minimap.selectionHighlight: #5F97FFF2/#0065FFB2,
-minimap.warningHighlight: #F5625C59/#F5625C,
-minimapGutter.addedBackground: #40AD41/#44C145,
-minimapGutter.deletedBackground: #e51400/#e51400,
-minimapGutter.modifiedBackground: #A78CFA/#9277E6,
-minimapSlider.activeBackground: #A2ABE533/#4F4F5033,
-minimapSlider.background: #A2ABE519/#4F4F5019,
-minimapSlider.hoverBackground: #A2ABE533/#4F4F5033,
+minimap.background: #282c34/#EBEEF5
+minimap.errorHighlight: #e5140059/#e5140059
+minimap.findMatchHighlight: #6A707DE5/#BBBEC5
+minimap.selectionHighlight: #5F97FFF2/#0065FFB2
+minimap.warningHighlight: #F5625C59/#F5625C
+minimapGutter.addedBackground: #40AD41/#44C145
+minimapGutter.deletedBackground: #e51400/#e51400
+minimapGutter.modifiedBackground: #A78CFA/#9277E6
+minimapSlider.activeBackground: #A2ABE533/#4F4F5033
+minimapSlider.background: #A2ABE519/#4F4F5019
+minimapSlider.hoverBackground: #A2ABE533/#4F4F5033
 ```
 
 * Changed All UI
