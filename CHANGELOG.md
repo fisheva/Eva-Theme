@@ -1,3 +1,18 @@
+0.8.6 (2020-09-03)
+
+* Changed All UI
+
+```UI
+inputOption.activeBackground: #282c3400/#EBEEF500 → #598DEFE6/#0065FFA8
+inputOption.activeBorder: #282c3400/#EBEEF500 → #598DEF00/#0065FF00
+```
+
+* Changed Light UI
+
+```UI
+inputOption.activeForeground: #000 → #fff
+```
+
 0.8.2~0.8.5(2020-09-03)
 
 添加截图文件夹, 修改图片索引路径, 改来改去发现只能用https的绝对路径
