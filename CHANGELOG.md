@@ -1,4 +1,13 @@
-0.8.6 (2020-09-03)
+0.8.7(2020-09-04)
+
+* Changed All UI
+
+```UI
+//消除标题栏下边沿边框
+editorGroupHeader.tabsBorder: #21252B/#E1E4EB → #282c3400/#EBEEF500
+```
+
+0.8.6(2020-09-03)
 
 * Changed All UI
 
@@ -76,9 +85,6 @@ minimapSlider.hoverBackground: #A2ABE533/#4F4F5033
 * Changed All UI
 
 ```UI
-//消除标题栏下边沿边框
-editorGroupHeader.tabsBorder: #21252B/#EBEEF5 → #21252B00/#EBEEF500
-
 //提高标题栏hover背景色
 tab.hoverBackground: #598DEF3F/#0065FF19 → #598DEF66/#0065FF33
 

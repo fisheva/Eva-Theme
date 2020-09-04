@@ -3,6 +3,8 @@
 
 [![install](https://vsmarketplacebadge.apphb.com/installs/fisheva.eva-theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme) [![rating](https://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.eva-theme)    [![GitHub stars](https://img.shields.io/github/stars/fisheva/eva-theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/eva-theme)
 
+简体中文 | [English](https://github.com/fisheva/Eva-Theme/blob/master/README.md)
+
 ### 介绍
 
 Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地进行编程。

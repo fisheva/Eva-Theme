@@ -64,7 +64,7 @@
         "editorGroup.emptyBackground": "#282c3400",
         "editorGroup.focusedEmptyBorder": "#5889EA",
         "editorGroupHeader.tabsBackground": "#21252B",
-        "editorGroupHeader.tabsBorder": "#21252B00",
+        "editorGroupHeader.tabsBorder": "#282c3400",
         "editorGroupHeader.noTabsBackground": "#21252B",
         "editorGutter.background": "#282c34",
         "editorGutter.modifiedBackground": "#A78CFA",
