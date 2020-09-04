@@ -1,4 +1,4 @@
 ---
-name: Feature_request
-about: Give me some suggestions
+name: Feature request
+about: Give me some suggestions.
 ---

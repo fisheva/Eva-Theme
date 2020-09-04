@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report some code color or UI display error
+about: Report some code color or UI display error.
 ---
 <!-- It is strongly recommended to upgrade Eva Theme to the latest version first and then see if the problem persists. -->
 
