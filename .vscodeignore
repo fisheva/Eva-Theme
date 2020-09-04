@@ -1,0 +1,7 @@
+.git/**
+.github/**
+.vscode/**
+.gitignore
+screenshots/**
+italic.md
+README_CN.md
