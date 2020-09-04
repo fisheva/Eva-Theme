@@ -8,7 +8,7 @@ about: Report some code color or UI display error.
 <!-- Cut the error screenshot here. -->
 
 ### Code Snippet
-<!-- Copy the error code snippet below, please note what the programming language is. -->
+<!-- Copy the error code snippet below, please indicate what programming language it is. -->
 
 ```
 
