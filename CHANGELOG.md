@@ -1,5 +1,9 @@
 0.8.9(2020-09-05)
 
+README图片由Github图床换到微博图床,github图床国内太慢
+
+<!-- 微博图床403解决办法 https://www.jianshu.com/p/e410a332a504 -->
+
 <!-- ### Italic 斜体
 
 Eva Theme doesn't have a built-in italic version directly now, but I have made a [VSCode setting]() for users who like the italic version.
