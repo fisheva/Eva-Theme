@@ -1,3 +1,14 @@
+0.8.9(2020-09-05)
+
+<!-- ### Italic 斜体
+
+Eva Theme doesn't have a built-in italic version directly now, but I have made a [VSCode setting]() for users who like the italic version.
+
+Eva Theme目前没有内置斜体版, 但我为喜欢斜体版的用户准备了一份[VSCode设置](). 
+
+(这个想法目前失败了, 因为"fontStyle": "italic"会覆盖Bold样式里的"fontStyle": "bold", 而不是添加上去。如果哪天实现了添加设置, 记得.gitignore里删除italic.md)
+-->
+
 0.8.8(2020-09-04)
 
 * Delete README.md
