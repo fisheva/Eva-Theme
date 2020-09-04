@@ -1,3 +1,27 @@
+0.8.8(2020-09-04)
+
+* Delete README.md
+
+<!-- ### Issue
+
+(It is great to attach a case code, screenshot & copy) -->
+
+* Delete README_CN.md
+
+<!-- ### Issue
+
+(最好附上案例代码, 截图+拷贝) -->
+
+* Add File .vscodeignore
+
+```.vscodeignore
+.git/**
+.vscode/**
+screenshots/**
+README_CN.md
+issue_template.md
+```
+
 0.8.7(2020-09-04)
 
 * Changed All UI
@@ -121,6 +145,7 @@ keyword.operator.assignment, meta.property-value.css keyword.operator.less: #7C8
 ```
 
 //这条最终没改, 留着, 如果未来要改再改成下面这样
+
 <!-- * Changed Dark UI
 
 ```UI
@@ -222,6 +247,7 @@ Here is my Bracket Pair Colorizer setting:
 All theme plugins add color to characters based on its scope value. You can check the scope value of all characters by pressing "Ctrl+Shift+P" (Windows) or "Cmd+Shift+P" (Mac) and selecting "Inspect TM Scopes". -->
 
 * Delete README_CN.md
+
 <!-- 
 ### 字体
 

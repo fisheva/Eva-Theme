@@ -38,7 +38,7 @@ Some extensions add some of their own semantic coloring to cover the theme file,
 
 ### Issue
 
-This theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-Theme/issues)(It is great to attach a case code, screenshot & copy), or leave me a comment on [Marketplace](https://marketplace.visualstudio.com/items/fisheva.eva-theme). Thanks for your issues! I will keep updating!
+This theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues [here](https://github.com/fisheva/Eva-Theme/issues), or leave me a comment on [Marketplace](https://marketplace.visualstudio.com/items/fisheva.eva-theme). Thanks for your issues! I will keep updating!
 
 ### Encourage
 
