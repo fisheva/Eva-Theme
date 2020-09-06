@@ -2,7 +2,7 @@
     "name": "eva-theme",
     "displayName": "Eva Theme",
     "description": "A semantic coloring code theme dedicated to making you more comfortable programming.",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "publisher": "fisheva",
     "preview": true,
     "license": "SEE LICENSE IN<LICENSE.md>",
@@ -18,6 +18,10 @@
     "engines": {
         "vscode": "^1.12.0"
     },
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
     "categories": ["Themes", "Other"],
     "galleryBanner": {
         "color": "#EBEEF5",
@@ -42,7 +46,7 @@
             "path": "./themes/Eva-Light-Bold.json"
         }]
     },
-    "keywords": ["eva", "dark", "light", "theme", "atom"],
+    "keywords": ["eva", "dark", "light", "theme", "vscode"],
     "scripts": {
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
     },

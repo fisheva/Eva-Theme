@@ -1,3 +1,16 @@
+0.9.1 (2020-09-06)
+
+* Add All UI
+
+```UI
+debugConsole.errorForeground: #e51400
+debugConsole.infoForeground: #598DEF
+debugConsole.warningForeground: #F5625C
+quickInput.background: #21252B/#E1E4EB
+quickInput.foreground: #B0B7C3/#626264
+quickInputTitle.background: #21252B/#E1E4EB
+```
+
 0.8.9~0.9.0(2020-09-05)
 
 README图片由Github图床换到微博图床,github图床国内太慢
