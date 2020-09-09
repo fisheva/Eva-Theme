@@ -1,3 +1,26 @@
+0.9.2 (2020-09-10)
+
+* Delete README.md
+
+<!-- ### Conflicts
+
+Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are [Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). -->
+
+<!-- ### Encourage
+
+If you do like this theme, would you please give me a [Github Star ☆](https://github.com/fisheva/Eva-Theme) and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.eva-theme) as reward. Thanks so much! O(∩_∩)O~ -->
+
+* Delete README_CN.md
+
+
+<!-- ### 冲突
+
+有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有[Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) -->
+
+<!-- ### 鼓励
+
+如果您喜欢这款主题, 可以给我一颗[Github Star ☆](https://github.com/fisheva/Eva-Theme)和[好评](https://marketplace.visualstudio.com/items/fisheva.eva-theme)以示鼓励吗? 感谢! O(∩_∩)O~ -->
+
 0.9.1 (2020-09-06)
 
 * Add All UI
@@ -16,15 +39,6 @@ quickInputTitle.background: #21252B/#E1E4EB
 README图片由Github图床换到微博图床,github图床国内太慢
 
 <!-- 微博图床403解决办法 https://www.jianshu.com/p/e410a332a504 https://blog.gobyte.cn/post/cfce32d8.html -->
-
-<!-- ### Italic 斜体
-
-Eva Theme doesn't have a built-in italic version directly now, but I have made a [VSCode setting]() for users who like the italic version.
-
-Eva Theme目前没有内置斜体版, 但我为喜欢斜体版的用户准备了一份[VSCode设置](). 
-
-(这个想法目前失败了, 因为"fontStyle": "italic"会覆盖Bold样式里的"fontStyle": "bold", 而不是添加上去。如果哪天实现了添加设置, 记得.gitignore里删除italic.md)
--->
 
 0.8.8(2020-09-04)
 

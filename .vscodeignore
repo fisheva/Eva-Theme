@@ -1,7 +1,6 @@
+.gitignore
 .git/**
 .github/**
 .vscode/**
-.gitignore
+markdowns/**
 screenshots/**
-italic.md
-README_CN.md
