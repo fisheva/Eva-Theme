@@ -930,8 +930,8 @@
             "foreground": "#E06C75"
         }
     }, {
-        "name": "SourceJsonMetaStructureDictionaryJson>ValueJson>StringQuotedJson,sourceJsonMetaStructureArrayJson>ValueJson>StringQuotedJson,sourceJsonMetaStructureDictionaryJson>ValueJson>StringQuotedJson>Punctuation,sourceJsonMetaStructureArrayJson>ValueJson>StringQuotedJson>Punctuation",
-        "scope": "source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation",
+        "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
+        "scope": "source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source",
         "settings": {
             "fontStyle": "",
             "foreground": "#98c379"

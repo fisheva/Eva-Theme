@@ -685,13 +685,20 @@
             "foreground": "#C838C6"
         }
     }, {
-        "name": "number,unit,constant,id,Math,enum,symbol in C#;数字;单位;值为数字的常量;HTML行间的id和CSS里的id名;Math对象;enum枚举里的元素;C#中预处理器指令创建符号常量",
-        "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,meta.attribute.id.html entity.other.attribute-name.html,entity.other.attribute-name.id, support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.variable.preprocessor.symbol,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js",
+        "name": "number,unit,constant,Math,enum;数字;单位;值为数字的常量;Math对象;enum枚举里的元素",
+        "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js",
         "settings": {
             "fontStyle": "",
-            "foreground": "#FF6500"
+            "foreground": "#ff6500"
         }
     }, {
+        "name": "id,symbol in C#;HTML行间的id和CSS里的id名;C#中预处理器指令创建符号常量",
+        "scope": "meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, entity.name.variable.preprocessor.symbol",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#ff6500"
+        }
+    },{
         "name": "markup bold;Markdown里的bold",
         "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
         "settings": {
@@ -910,7 +917,7 @@
         }
     }, {
         "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
-        "scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
+        "scope": "source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source",
         "settings": {
             "fontStyle": "",
             "foreground": "#53A053"

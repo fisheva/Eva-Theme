@@ -36,6 +36,10 @@
             "label": "Eva Dark Bold",
             "uiTheme": "vs-dark",
             "path": "./themes/Eva-Dark-Bold.json"
+        },{
+            "label": "Eva Dark Italic",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Eva-Dark-Italic.json"
         }, {
             "label": "Eva Light",
             "uiTheme": "vs",
@@ -44,6 +48,10 @@
             "label": "Eva Light Bold",
             "uiTheme": "vs",
             "path": "./themes/Eva-Light-Bold.json"
+        }, {
+            "label": "Eva Light Italic",
+            "uiTheme": "vs",
+            "path": "./themes/Eva-Light-Italic.json"
         }]
     },
     "keywords": ["eva", "dark", "light", "theme", "vscode"],

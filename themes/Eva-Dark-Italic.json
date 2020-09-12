@@ -317,7 +317,7 @@
         "name": "variable.parameter",
         "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c, punctuation.vararg-ellipses,variable.other.block.ruby, meta.arguments, entity.name.type.template",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#E4BF7F"
         }
     }, {
@@ -331,7 +331,7 @@
         "name": "variable.other.less,variable.other.sass,keyframe-list;sass,less里的变量;css3里的关键帧",
         "scope": "variable.other.less,variable.other.sass,variable.scss,meta.function.calc.css, source.sass variable.other",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#E4BF7F"
         }
     }, {
@@ -520,7 +520,7 @@
         "name": "instanceof",
         "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#CF68E1"
         }
     }, {
@@ -562,7 +562,7 @@
         "name": "Classes",
         "scope": "entity.name.type.class",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#FF6AB3"
         }
     }, {
@@ -611,28 +611,28 @@
         "name": "new",
         "scope": "keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#A78CFA"
         }
     }, {
         "name": "in of",
         "scope": "keyword.operator.expression.in,keyword.operator.expression.of",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#CF68E1"
         }
     }, {
         "name": "Keyword Control,Using",
         "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.control.export, keyword.control.import,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.other.import,keyword.import,keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql, entity.name.function.definition.special.constructor.cpp,keyword.cmake",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#CF68E1"
         }
     }, {
         "name": "CSS from to, js from",
         "scope": "keyword.control.from,entity.other.keyframe-offset",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#CF68E1"
         }
     }, {
@@ -646,21 +646,21 @@
         "name": "Keyword: (flow), interface",
         "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.modifier, storage.type.modifier.cpp, storage.type.language.primitive.cpp, storage.type.built-in.primitive.c, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#A78CFA"
         }
     }, {
         "name": "default",
         "scope": "keyword.control.default",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#CF68E1"
         }
     }, {
         "name": "support type ts; class;ts里默认数据类型;自定义数据类型; interface; class",
         "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, support.type.graphql, meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#FF6AB3"
         }
     }, {
@@ -681,10 +681,10 @@
         "name": "Constant;语言常量,包含 true false null undefined等; void",
         "scope": "constant.language,constant.language.boolean,keyword.operator.expression.void",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#CF68E1"
         }
-    },{
+    },  {
         "name": "number,unit,constant,Math,enum;数字;单位;值为数字的常量;Math对象;enum枚举里的元素",
         "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js",
         "settings": {
@@ -695,10 +695,10 @@
         "name": "id,symbol in C#;HTML行间的id和CSS里的id名;C#中预处理器指令创建符号常量",
         "scope": "meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, entity.name.variable.preprocessor.symbol",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#ff9070"
         }
-    },{
+    }, {
         "name": "markup bold;Markdown里的bold",
         "scope": "markup.bold.markdown, punctuation.definition.bold.markdown",
         "settings": {
@@ -940,7 +940,7 @@
         "name": "jststhissuper,pythonself,C++delete",
         "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart,keyword.operator.delete,keyword.operator.expression.delete",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#F02B77"
         }
     }, {
@@ -971,21 +971,21 @@
         "name": "keyword",
         "scope": "meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,storage.type.primitive.dart,keyword.declaration,keyword.operator.closure.dart,storage.type.enum,storage.type.type,keyword.control.at-rule.function,keyword.control.at-rule.mixin,storage.type.const",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#A78CFA"
         }
     }, {
         "name": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc",
         "scope": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc,keyword.ccontrol.at-rule.keyframes.css,keyword.control.at-rule.keyframes.css",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#A78CFA"
         }
     }, {
         "name": "jsmodule",
         "scope": "support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#A78CFA"
         }
     }]

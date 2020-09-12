@@ -1,5 +1,3 @@
-### Languages
-
 Tested with the following languages in native environment, except derived frameworks:
 
 - HTML / XML / JSX / WXML

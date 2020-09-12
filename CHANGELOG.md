@@ -2,6 +2,14 @@
 
 * Delete README.md
 
+<!-- Eva Theme's ongoing development is inseparable from the support of all generous supporters. If you'd like to join them, please consider: -->
+
+<!-- There are four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker. -->
+
+<!-- ### Italic
+
+Eva Theme doesn't have a built-in italic version directly now, but I have made a <a href="https://github.com/fisheva/Eva-Theme/blob/master/italic.md" target="_blank">VSCode setting</a> for users who like the italic version. -->
+
 <!-- ### Conflicts
 
 Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are [Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). -->
@@ -12,6 +20,9 @@ If you do like this theme, would you please give me a [Github Star ☆](https://
 
 * Delete README_CN.md
 
+<!-- ### Italic 斜体
+
+Eva Theme目前没有内置斜体版, 但我为喜欢斜体版的用户准备了一份[VSCode设置]() 。-->
 
 <!-- ### 冲突
 
