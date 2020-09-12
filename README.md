@@ -46,7 +46,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
       <tr></tr>
       <tr>
         <td>Age</td>
-        <td>16</td>
+        <td></td>
         <td>9</td>
         <td>10</td>
         <td>5</td>
@@ -57,7 +57,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td>Age</td>
         <td>16</td>
         <td>9</td>
-        <td>10</td>
+        <td></td>
         <td>5</td>
         <td>Eats everyone's leftovers</td>
       </tr>
@@ -73,7 +73,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
       <tr></tr>
       <tr>
         <td>Eating Habits</td>
-        <td>Eats everyone's leftovers</td>
+        <td></td>
         <td>Nibbles at food</td>
         <td>Keisuke Kita</td>
         <td>Shawn Wildermuth</td>
