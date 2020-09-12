@@ -6,30 +6,30 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 <h2>Introduction</h2>
 
-<h3 style="font-weight:normal">
+<h3 style="font-weight:lighter">
     <a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">Eva Theme</a> is a semantic coloring code theme dedicated to making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
 </h3>
 
-<h4 style="font-weight:normal">
+<h4 style="font-weight:lighter">
     There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic. The Bold styles make keywords and function names bolder. The Italic styles make keywords italic.
 </h4>
 
 <h2>Conflicts</h2>
 
-<h5 style="font-weight:normal">
+<h5 style="font-weight:300">
     Some extensions add some of their semantic colorings to cover the theme file, which will make some characters' colors look 'wrong'. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>.
 </h5>
 
 <h2>Issue</h2>
 
-<h6 style="font-weight:normal">
+<h6 style="font-weight:lighter">
     This theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme&ssr=false#review-details" target="_blank">Marketplace</a>.
 </h6>
 ---
 
 <h2 align="center">Supporting Eva Theme</h2>
 
-<h6 style="font-weight:normal">
+<h6 style="font-weight:300">
 It has taking a lot of time and effort to develop and maintain Eva Theme. If it really helps you, please consider:
 
 - Become a backer or sponsor on Patreon or Open Collective.
