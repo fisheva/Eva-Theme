@@ -33,6 +33,9 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
   <tr>
     <th colspan="5"><h3>Backers</h3></th>
   </tr>
+  <tr>
+  
+  </tr>
   <td>
     <div>Guilherme</div>
     <div>L de Souza</div>
@@ -64,7 +67,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 </table>
 
 
-<!-- <table>
+<table>
     <tr>
       <th colspan="5"><h3>Backers</h3></th>
     </tr>
@@ -76,11 +79,6 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
       <td>Juan</td>
     </tr>
     <tr>
-      <td>Breed</td>
-      <td>Jack Russell</td>
-      <td>Poodle</td>
-      <td>Streetdog</td>
-      <td>Cocker Spaniel</td>
     </tr>
     <tr>
       <td>Age</td>
@@ -90,11 +88,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
       <td>5</td>
     </tr>
     <tr>
-      <td>Owner</td>
-      <td>Mother-in-law</td>
-      <td>Me</td>
-      <td>Me</td>
-      <td>Sister-in-law</td>
+      <td colspan="5"></td>
     </tr>
     <tr>
       <td>Eating Habits</td>
@@ -103,7 +97,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
       <td>Keisuke Kita</td>
       <td>Shawn Wildermuth</td>
     </tr>
-</table> -->
+</table>
 
 <!--
 - Victor Tolbert
