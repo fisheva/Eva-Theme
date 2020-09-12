@@ -6,7 +6,7 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 ### Introduction
 
-<b style="padding:50px;display:block">
+<b>
     <a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">Eva Theme</a> is a semantic coloring code theme dedicated to making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
 </b>
 
@@ -33,17 +33,16 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <h3 align="center">Backers</h3>
 
-<div style="font-size:18px;">
-    <span style="padding-right:30px;white-space:nowrap;">Masahiro Tanaka</span>
-    <span style="padding-right:30px;white-space:nowrap;">Shawn Wildermuth</span>
-    <a style="padding-right:30px;white-space:nowrap;" href="https://github.com/fisheva">Keisuke Kita</a>
-    <span style="padding-right:30px;white-space:nowrap;">Benjamin Listwon</span>
-    <span style="padding-right:30px;white-space:nowrap;">Lars Andreas Ness</span>
-    <span style="padding-right:30px;white-space:nowrap;">Kirk Lewis</span>
-    <span style="padding-right:30px;white-space:nowrap;">Wen-Tien Chang</span>
-    <span style="padding-right:30px;white-space:nowrap;">Stephen Michael Hartley</span>
+<div>
+    <span style="display:block">Masahiro Tanaka</span>
+    <span>Shawn Wildermuth   </span>
+    <a href="https://github.com/fisheva">Keisuke Kita   </a>
+    <span>Benjamin Listwon   </span>
+    <span style="display:inline-block;width:100px">Lars Andreas Ness   </span>
+    <span>Kirk Lewis   </span>
+    <span>Wen-Tien Chang   </span>
+    <span>Stephen Michael Hartley   </span>
 </div>
-
 
 <!--
 - Victor Tolbert
