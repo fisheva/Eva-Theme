@@ -32,7 +32,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <table>
   <tr>
-    <td><a href="https://bbs.csdn.net/topics/350228111">Masahiro Tanaka</a></td>
+    <td><a href="https://bbs.csdn.net/topics/350228111" target="_blank">Masahiro Tanaka</a></td>
     <td bgcolor="#000">Knocky</td>
     <td>Flor</td>
     <td bgcolor="#000">Ella</td>
