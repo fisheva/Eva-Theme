@@ -34,11 +34,11 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 <h3 align="center">Backers</h3>
 
 <div>
-    <span style="display:block">Masahiro Tanaka</span>
+    <div style="width:100px;display:inline-block">Masahiro Tanaka</div>
     <span>Shawn Wildermuth   </span>
-    <a href="https://github.com/fisheva">Keisuke Kita   </a>
+    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita   </a>
     <span>Benjamin Listwon   </span>
-    <span style="display:inline-block;width:100px">Lars Andreas Ness   </span>
+    <span>Lars Andreas Ness   </span>
     <span>Kirk Lewis   </span>
     <span>Wen-Tien Chang   </span>
     <span>Stephen Michael Hartley   </span>
