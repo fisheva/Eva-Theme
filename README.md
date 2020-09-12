@@ -27,84 +27,50 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
 
-<h3 align="center">Backers</h3>
+<!-- <h3 align="center">Backers</h3> -->
 
 
 <table>
-  <tr>
-    <td><a href="https://bbs.csdn.net/topics/350228111" target="_blank">Masahiro Tanaka</a></td>
-    <td bgcolor="#000">Knocky</td>
-    <td>Flor</td>
-    <td bgcolor="#000">Ella</td>
-    <td>Juan</td>
-  </tr>
-  <tr bgcolor="#000">
-    <td>Breed</td>
-    <td bgcolor="#000">Jack Russell</td>
-    <td>Poodle</td>
-    <td bgcolor="#000">Streetdog</td>
-    <td>Cocker Spaniel</td>
-  </tr>
-  <tr>
-    <td>Age</td>
-    <td>16</td>
-    <td>9</td>
-    <td>10</td>
-    <td>5</td>
-  </tr>
-  <tr bgcolor="#ff0000">
-    <td>Owner</td>
-    <td>Mother-in-law</td>
-    <td>Me</td>
-    <td>Me</td>
-    <td>Sister-in-law</td>
-  </tr>
-  <tr>
-    <td>Eating Habits</td>
-    <td bgcolor="#fff">Eats everyone's leftovers</td>
-    <td>Nibbles at food</td>
-    <td bgcolor="#fff">Keisuke Kita</td>
-    <td>Shawn Wildermuth</td>
-  </tr>
+    <tr>
+      <th colspan="5"><h3>Backers</h3></th>
+    </tr>
+    <tr>
+      <td><a href="https://bbs.csdn.net/topics/350228111" target="_blank">Masahiro Tanaka</a></td>
+      <td><a href="" target="_blank">Knocky</a></td>
+      <td>Flor</td>
+      <td>Ella</td>
+      <td>Juan</td>
+    </tr>
+    <tr>
+      <td>Breed</td>
+      <td>Jack Russell</td>
+      <td>Poodle</td>
+      <td>Streetdog</td>
+      <td>Cocker Spaniel</td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td>16</td>
+      <td>9</td>
+      <td>10</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Owner</td>
+      <td>Mother-in-law</td>
+      <td>Me</td>
+      <td>Me</td>
+      <td>Sister-in-law</td>
+    </tr>
+    <tr>
+      <td>Eating Habits</td>
+      <td>Eats everyone's leftovers</td>
+      <td>Nibbles at food</td>
+      <td>Keisuke Kita</td>
+      <td>Shawn Wildermuth</td>
+    </tr>
 </table>
 
-<table>
-  <tr>
-    <td>Masahiro Tanaka</td>
-    <td>Knocky</td>
-    <td>Flor</td>
-    <td>Ella</td>
-    <td>Juan</td>
-  </tr>
-  <tr>
-    <td>Breed</td>
-    <td>Jack Russell</td>
-    <td>Poodle</td>
-    <td>Streetdog</td>
-    <td>Cocker Spaniel</td>
-  </tr>
-  <tr>
-    <td>Age</td>
-    <td>16</td>
-    <td>9</td>
-    <td>10</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Owner</td>
-    <td>Mother-in-law</td>
-    <td>Me</td>
-    <td>Me</td>
-    <td>Sister-in-law</td>
-  </tr>
-  <tr>
-    <td>Eating Habits</td>
-    <td><a>Eats everyone's leftovers</a></td>
-    <td>Nibbles at food</td>
-    <td>Keisuke Kita</td>
-    <td>Shawn Wildermuth</td>
-  </tr>
-</table>
 <!--
 - Victor Tolbert
 - username 
