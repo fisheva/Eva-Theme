@@ -30,7 +30,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 <h3 align="center">Backers</h3>
 
 
-<table rule="none" frame="void" border="0" cellpadding="0" cellspacing="0">
+<table bgcolor="#fff">
   <tr>
     <td><a>Masahiro Tanaka</a></td>
     <td>Knocky</td>
