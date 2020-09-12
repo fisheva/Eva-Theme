@@ -6,11 +6,11 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 ### Introduction
 
-<div style="font-weight:bold">
+<div style="padding:50px">
     <a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">Eva Theme</a> is a semantic coloring code theme dedicated to making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
 </div>
 
-<div style="font-size:30px">
+<div style="height:15px;overflow:hidden">
     There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic. The Bold styles make keywords and function names bolder. The Italic styles make keywords italic.
 </div>
 
