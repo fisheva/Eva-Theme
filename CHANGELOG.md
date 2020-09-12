@@ -1,5 +1,58 @@
 0.9.2 (2020-09-10)
 
+<!-- <div align="center">
+  <table>
+      <tr>
+        <th colspan="6"><h3>Backers</h3></th>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+  </table>
+</div> -->
+
 * Delete README.md
 
 <!-- Eva Theme's ongoing development is inseparable from the support of all generous supporters. If you'd like to join them, please consider: -->
