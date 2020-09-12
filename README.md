@@ -32,7 +32,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 <div align="center">
   <table>
       <tr>
-        <th colspan="5"><h3>Backers</h3></th>
+        <th colspan="6"><h3>Backers</h3></th>
       </tr>
       <tr></tr>
       <tr>
@@ -41,6 +41,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td>Flor</td>
         <td>Ella</td>
         <td>Juan</td>
+        <td>Eats everyone's leftovers</td>
       </tr>
       <tr></tr>
       <tr>
@@ -49,6 +50,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td>9</td>
         <td>10</td>
         <td>5</td>
+        <td>Eats everyone's leftovers</td>
       </tr>
       <tr></tr>
       <tr>
@@ -57,6 +59,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td>9</td>
         <td>10</td>
         <td>5</td>
+        <td>Eats everyone's leftovers</td>
       </tr>
       <tr></tr>
       <tr>
@@ -65,6 +68,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td>9</td>
         <td>10</td>
         <td>5</td>
+        <td>Eats everyone's leftovers</td>
       </tr>
       <tr></tr>
       <tr>
@@ -73,6 +77,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td>Nibbles at food</td>
         <td>Keisuke Kita</td>
         <td>Shawn Wildermuth</td>
+        <td>Eats everyone's leftovers</td>
       </tr>
   </table>
 </div>
