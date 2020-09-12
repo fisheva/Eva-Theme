@@ -6,13 +6,9 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 ### Introduction
 
-<b>
-    <a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">Eva Theme</a> is a semantic coloring code theme dedicated to making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
-</b>
+<a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">Eva Theme</a> is a semantic coloring code theme dedicated to making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
 
-<div style="height:15px;overflow:hidden">
-    There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic. The Bold styles make keywords and function names bolder. The Italic styles make keywords italic.
-</div>
+There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic. The Bold styles make keywords and function names bolder. The Italic styles make keywords italic.
 
 ### Conflicts
 
@@ -31,19 +27,61 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
 
-<h3 align="center">Backers</h3>
+<!-- <h3 align="center">Backers</h3>
 
 <div>
-    <span>Masahiro Tanaka</span>&#12288;&#12288;&#12288;
-    <span>Shawn Wildermuth</span>&#12288;&#12288;&#12288;
-    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita</a>&#12288;&#12288;&#12288;
-    <span>Benjamin Listwon</span>&#12288;&#12288;&#12288;
-    <span>Lars Andreas Ness</span>&#12288;&#12288;&#12288;
-    <span>Kirk Lewis</span>&#12288;&#12288;&#12288;
-    <span>Wen-Tien Chang</span>&#12288;&#12288;&#12288;
-    <span>Stephen Michael Hartley</span>&#12288;&#12288;&#12288;
-</div>
+    <span>Masahiro Tanaka</span>
+    <br />
+    <span>Shawn Wildermuth</span>
+    <br />
+    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita</a>
+    <br />
+    <span>Benjamin Listwon</span>
+    <br />
+    <span>Lars Andreas Ness</span>
+    <br />
+    <span>Kirk Lewis</span>
+    <br />
+    <span>Wen-Tien Chang</span>
+    <br />
+    <span>Stephen Michael Hartley</span>
+</div>&#12288;
 
+<div>
+    <span>Masahiro Tanaka</span>
+    <br />
+    <span>Shawn Wildermuth</span>
+    <br />
+    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita</a>
+    <br />
+    <span>Benjamin Listwon</span>
+    <br />
+    <span>Lars Andreas Ness</span>
+    <br />
+    <span>Kirk Lewis</span>
+    <br />
+    <span>Wen-Tien Chang</span>
+    <br />
+    <span>Stephen Michael Hartley</span>
+</div>&#12288;&#12288;
+
+<div>
+    <span>Masahiro Tanaka</span>
+    <br />
+    <span>Shawn Wildermuth</span>
+    <br />
+    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita</a>
+    <br />
+    <span>Benjamin Listwon</span>
+    <br />
+    <span>Lars Andreas Ness</span>
+    <br />
+    <span>Kirk Lewis</span>
+    <br />
+    <span>Wen-Tien Chang</span>
+    <br />
+    <span>Stephen Michael Hartley</span>
+</div>&#12288;&#12288; -->
 <!--
 - Victor Tolbert
 - username 
