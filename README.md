@@ -30,19 +30,19 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 <h3 align="center">Backers</h3>
 
 
-<table bgcolor="#fff">
+<table>
   <tr>
-    <td><a>Masahiro Tanaka</a></td>
-    <td>Knocky</td>
+    <td>Masahiro Tanaka</td>
+    <td bgcolor="#fff">Knocky</td>
     <td>Flor</td>
-    <td>Ella</td>
+    <td bgcolor="#fff">Ella</td>
     <td>Juan</td>
   </tr>
   <tr>
     <td>Breed</td>
-    <td><a>Jack Russell</a></td>
+    <td bgcolor="#fff">Jack Russell</td>
     <td>Poodle</td>
-    <td>Streetdog</td>
+    <td bgcolor="#fff">Streetdog</td>
     <td>Cocker Spaniel</td>
   </tr>
   <tr>
@@ -61,24 +61,24 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
   </tr>
   <tr>
     <td>Eating Habits</td>
-    <td><a>Eats everyone's leftovers</a></td>
+    <td bgcolor="#fff">Eats everyone's leftovers</td>
     <td>Nibbles at food</td>
-    <td>Keisuke Kita</td>
+    <td bgcolor="#fff">Keisuke Kita</td>
     <td>Shawn Wildermuth</td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><a>Masahiro Tanaka</a></td>
+    <td onclick="window.open('http://www.baidu.com');">Masahiro Tanaka</td>
     <td>Knocky</td>
     <td>Flor</td>
-    <td>Ella</td>
+    <td onclick="window.open('http://www.baidu.com');">Ella</td>
     <td>Juan</td>
   </tr>
   <tr>
     <td>Breed</td>
-    <td><a>Jack Russell</a></td>
+    <td>Jack Russell</td>
     <td>Poodle</td>
     <td>Streetdog</td>
     <td>Cocker Spaniel</td>
