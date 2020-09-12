@@ -32,17 +32,17 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <table>
   <tr>
-    <td>Masahiro Tanaka</td>
-    <td bgcolor="#fff">Knocky</td>
+    <td><a href="https://bbs.csdn.net/topics/350228111">Masahiro Tanaka</a></td>
+    <td bgcolor="#000">Knocky</td>
     <td>Flor</td>
-    <td bgcolor="#fff">Ella</td>
+    <td bgcolor="#000">Ella</td>
     <td>Juan</td>
   </tr>
-  <tr>
+  <tr bgcolor="#000">
     <td>Breed</td>
-    <td bgcolor="#fff">Jack Russell</td>
+    <td bgcolor="#000">Jack Russell</td>
     <td>Poodle</td>
-    <td bgcolor="#fff">Streetdog</td>
+    <td bgcolor="#000">Streetdog</td>
     <td>Cocker Spaniel</td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td>10</td>
     <td>5</td>
   </tr>
-  <tr>
+  <tr bgcolor="#ff0000">
     <td>Owner</td>
     <td>Mother-in-law</td>
     <td>Me</td>
@@ -70,10 +70,10 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <table>
   <tr>
-    <td onclick="window.open('http://www.baidu.com');">Masahiro Tanaka</td>
+    <td>Masahiro Tanaka</td>
     <td>Knocky</td>
     <td>Flor</td>
-    <td onclick="window.open('http://www.baidu.com');">Ella</td>
+    <td>Ella</td>
     <td>Juan</td>
   </tr>
   <tr>
