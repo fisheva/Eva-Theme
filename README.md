@@ -31,45 +31,46 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <table>
   <tr>
-    <th colspan="5"><h3>Backers</h3></th>
+    <th colspan="5"><h3>&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;Backers&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;</h3></th>
   </tr>
+  <tr></tr>
   <tr>
-  
+    <td>Guilherme</td>
+    <td>L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
   </tr>
-  <td>
-    <div>Guilherme</div>
-    <div>L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-  </td>
-  <td>
-    <div>Guilherme</div>
-    <div>L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-  </td>
-  <td>
-    <div>Guilherme</div>
-    <div>L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-  </td>
-  <td>
-    <div>Guilherme</div>
-    <div>L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-    <div>Guilherme S L de Souza</div>
-  </td>
+  <tr></tr>
+  <tr>
+    <td>Guilherme</td>
+    <td>L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Guilherme</td>
+    <td>L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Guilherme</td>
+    <td>L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+    <td>Guilherme S L de Souza</td>
+  </tr>
 </table>
 
 
 <table>
     <tr>
-      <th colspan="5"><h3>Backers</h3></th>
+      <th colspan="5"><h3>&ensp;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;Backers&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&#12288;&ensp;</h3></th>
     </tr>
     <tr></tr>
     <tr>
