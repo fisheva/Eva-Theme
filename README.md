@@ -27,61 +27,84 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
 
-<!-- <h3 align="center">Backers</h3>
+<h3 align="center">Backers</h3>
 
-<div>
-    <span>Masahiro Tanaka</span>
-    <br />
-    <span>Shawn Wildermuth</span>
-    <br />
-    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita</a>
-    <br />
-    <span>Benjamin Listwon</span>
-    <br />
-    <span>Lars Andreas Ness</span>
-    <br />
-    <span>Kirk Lewis</span>
-    <br />
-    <span>Wen-Tien Chang</span>
-    <br />
-    <span>Stephen Michael Hartley</span>
-</div>&#12288;
 
-<div>
-    <span>Masahiro Tanaka</span>
-    <br />
-    <span>Shawn Wildermuth</span>
-    <br />
-    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita</a>
-    <br />
-    <span>Benjamin Listwon</span>
-    <br />
-    <span>Lars Andreas Ness</span>
-    <br />
-    <span>Kirk Lewis</span>
-    <br />
-    <span>Wen-Tien Chang</span>
-    <br />
-    <span>Stephen Michael Hartley</span>
-</div>&#12288;&#12288;
+<table rule="none" frame="void" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a>Masahiro Tanaka</a></td>
+    <td>Knocky</td>
+    <td>Flor</td>
+    <td>Ella</td>
+    <td>Juan</td>
+  </tr>
+  <tr>
+    <td>Breed</td>
+    <td><a>Jack Russell</a></td>
+    <td>Poodle</td>
+    <td>Streetdog</td>
+    <td>Cocker Spaniel</td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td>16</td>
+    <td>9</td>
+    <td>10</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Owner</td>
+    <td>Mother-in-law</td>
+    <td>Me</td>
+    <td>Me</td>
+    <td>Sister-in-law</td>
+  </tr>
+  <tr>
+    <td>Eating Habits</td>
+    <td><a>Eats everyone's leftovers</a></td>
+    <td>Nibbles at food</td>
+    <td>Keisuke Kita</td>
+    <td>Shawn Wildermuth</td>
+  </tr>
+</table>
 
-<div>
-    <span>Masahiro Tanaka</span>
-    <br />
-    <span>Shawn Wildermuth</span>
-    <br />
-    <a href="https://github.com/fisheva" style="color:#000;text-decoration:underline">Keisuke Kita</a>
-    <br />
-    <span>Benjamin Listwon</span>
-    <br />
-    <span>Lars Andreas Ness</span>
-    <br />
-    <span>Kirk Lewis</span>
-    <br />
-    <span>Wen-Tien Chang</span>
-    <br />
-    <span>Stephen Michael Hartley</span>
-</div>&#12288;&#12288; -->
+<table>
+  <tr>
+    <td><a>Masahiro Tanaka</a></td>
+    <td>Knocky</td>
+    <td>Flor</td>
+    <td>Ella</td>
+    <td>Juan</td>
+  </tr>
+  <tr>
+    <td>Breed</td>
+    <td><a>Jack Russell</a></td>
+    <td>Poodle</td>
+    <td>Streetdog</td>
+    <td>Cocker Spaniel</td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td>16</td>
+    <td>9</td>
+    <td>10</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Owner</td>
+    <td>Mother-in-law</td>
+    <td>Me</td>
+    <td>Me</td>
+    <td>Sister-in-law</td>
+  </tr>
+  <tr>
+    <td>Eating Habits</td>
+    <td><a>Eats everyone's leftovers</a></td>
+    <td>Nibbles at food</td>
+    <td>Keisuke Kita</td>
+    <td>Shawn Wildermuth</td>
+  </tr>
+</table>
 <!--
 - Victor Tolbert
 - username 
