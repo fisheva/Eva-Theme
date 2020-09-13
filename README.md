@@ -30,18 +30,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 <!-- <h3 align="center">Backers</h3> -->
 
 
-<blockquote>
-Here is a long quotation here is a long quotation here is a long quotation
-
-here is a long quotation here is a long quotation here is a long quotation
-here is a long quotation here is a long quotation here is a long quotation.
-</blockquote>
-
-    Here is a long quotation here is a long quotation here is a long quotation 
-    here is a long quotation here is a long quotation here is a long quotation 
-    here is a long quotation here is a long quotation here is a long quotation.
-
-<div align="center">
+<!-- <div align="center">
   <table>
       <tr>
         <th colspan="6"><big>Backers</big></th>
@@ -92,4 +81,4 @@ here is a long quotation here is a long quotation here is a long quotation.
         <td></td>
       </tr>
   </table>
-</div>
+</div> -->
