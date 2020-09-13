@@ -31,7 +31,6 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <table>
   <caption><h3 align="center">Monthly savings</h3></caption>
-  <tr></tr>
   <tr>
     <th>Month</th>
     <th>Savings</th>
