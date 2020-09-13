@@ -28,3 +28,56 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - One-time donation via PayPal, AliPay or WeiXin.
 
 <!-- <h3 align="center">Backers</h3> -->
+
+<div align="center">
+  <table style="width:100%">
+      <tr>
+        <th colspan="6"><h3>Backers</h3></th>
+      </tr>
+      <tr></tr>
+      <tr style="white-space:nowrap;text-overflow:ellipsis;overflow:hidden;width:100%">
+        <td>Become a backer or sponsor on Patreon or Open Collective.</td>
+        <td>Become a backer or sponsor on Patreon or Open Collective.</td>
+        <td>Become a backer or sponsor on Patreon or Open Collective.</td>
+        <td>Become a backer or sponsor on Patreon or Open Collective.</td>
+        <td>Become a backer or sponsor on Patreon or Open Collective.</td>
+        <td>Become a backer or sponsor on Patreon or Open Collective.</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+  </table>
+</div>
