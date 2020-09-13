@@ -28,6 +28,8 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - One-time donation via PayPal, AliPay or WeiXin.
 
 
+<iframe src="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md"></iframe>
+
 <!-- <div align="center">
 <table>
   <caption><h3 align="center">Backers</h3></caption>
