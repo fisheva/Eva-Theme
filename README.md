@@ -29,7 +29,36 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <h3 align="center">Backers</h3>
 
-<!-- <div align="center">
+
+<table width="100%">
+  <colgroup span="5" align="left"></colgroup>
+  <colgroup align="right" style="color:#ff0000;"></colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+</table>
+
+<div align="center">
 <table>
   <caption><h3 align="center">Backers</h3></caption>
   <tr>
@@ -54,7 +83,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td></td>
   </tr>
 </table>
-</div> -->
+</div>
 
 <!-- <div align="center">
 <table>
