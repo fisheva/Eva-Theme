@@ -27,16 +27,6 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
 
-<html>
-<head>
-<link rel="stylesheet" href="css/index.css" />
-</head>
-<body class="xxx">
-
-这是一段文字
-</body>
-</html>
-
 <!-- <div align="center">
 <table>
   <caption><h3 align="center">Backers</h3></caption>
