@@ -29,19 +29,37 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <!-- <h3 align="center">Backers</h3> -->
 
-<div align="center" style="width:100%">
-  <table style="width:100%">
-      <tr style="width:100%">
-        <th colspan="6"><h3>Backers</h3></th>
+
+<blockquote>
+Here is a long quotation here is a long quotation here is a long quotation 
+here is a long quotation here is a long quotation here is a long quotation 
+here is a long quotation here is a long quotation here is a long quotation.
+</blockquote>
+
+<canvas id="myCanvas"></canvas>
+
+<script type="text/javascript">
+
+var canvas=document.getElementById('myCanvas');
+var ctx=canvas.getContext('2d');
+ctx.fillStyle='#FF0000';
+ctx.fillRect(0,0,80,100);
+
+</script>
+
+<div align="center">
+  <table>
+      <tr>
+        <th colspan="6"><big>Backers</big></th>
       </tr>
-      <tr style="width:100%"></tr>
-      <tr style="width:100%">
-        <td style="width:16%;"></td>
-        <td style="width:16%;"></td>
-        <td style="width:16%"></td>
-        <td style="width:16%"></td>
-        <td style="width:16%;"></td>
-        <td style="width:16%;"></td>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>
       <tr></tr>
       <tr>
