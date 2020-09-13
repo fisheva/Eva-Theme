@@ -36,12 +36,12 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
       </tr>
       <tr style="width:100%"></tr>
       <tr style="width:100%">
-        <td style="white-space:nowrap;width:16%;overflow:hidden;text-overflow:ellipsis;">One-time donation via PayPal, AliPay or WeiXin.</td>
-        <td>One-time donation via PayPal, AliPay or WeiXin.</td>
-        <td style="width:16%">One-time donation via PayPal, AliPay or WeiXin.</td>
-        <td style="width:16%">One-time donation via PayPal, AliPay or WeiXin.</td>
-        <td>One-time donation via PayPal, AliPay or WeiXin.</td>
-        <td>One-time donation via PayPal, AliPay or WeiXin.</td>
+        <td style="width:16%;"></td>
+        <td style="width:16%;"></td>
+        <td style="width:16%"></td>
+        <td style="width:16%"></td>
+        <td style="width:16%;"></td>
+        <td style="width:16%;"></td>
       </tr>
       <tr></tr>
       <tr>
