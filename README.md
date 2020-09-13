@@ -31,7 +31,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <!-- <div align="center"> -->
 <table>
-  <caption><h3 align="center">Backers</h3></caption>
+  <caption><strong>Backers</strong></caption>
   <tr>
     <td>&nbsp;</td>
     <td></td>
