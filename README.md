@@ -20,6 +20,9 @@ This theme is not perfect yet. If you find any inconsistency in any language, yo
 
 ---
 
+<hr />
+
+
 <h3 align="center">Supporting Eva Theme</h3>
 
 It has taking a lot of time and effort to develop and maintain Eva Theme. If it really helps you, please consider:
@@ -27,11 +30,12 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
 
-<h3 align="center">Backers</h3>
 
-<font size="10" color="red">This is some text!</font>
-<font size="2" color="blue">This is some text!</font>
-<font face="verdana" color="green">This is some text!</font>
+<h1>This is header 1</h1>
+
+<hr />
+
+<p>This is some text</p>
 
 <div align="center">
 <table>
