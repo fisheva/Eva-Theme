@@ -31,6 +31,34 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <div align="center">
 <table>
+  <caption><h3 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></caption>
+  <tr>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+
+
+<div align="center">
+<table>
   <caption><h3 align="center">Backers</h3></caption>
   <tr>
     <td>January</td>
@@ -53,69 +81,5 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td></td>
     <td></td>
   </tr>
-  <tr></tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
-</div>
-
-
-<div align="center">
-  <table cellpadding="0">
-      <tr>
-        <th colspan="8"><h3 align="center">Backers</h3></th>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-      </tr>
-  </table>
 </div>
