@@ -29,7 +29,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <!-- <h3 align="center">Backers</h3> -->
 
-<table border="1">
+<table border="0" rules="none" cellspacing="0" cellpadding="0" frame="void">
   <caption><h3>Monthly savings</h3></caption>
   <tr>
     <th>Month</th>
