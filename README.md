@@ -92,7 +92,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 </tr>
 <tr></tr>
 <tr>
-    <td>&nbsp;</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -103,7 +103,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 </tr>
 <tr></tr>
 <tr>
-    <td>&nbsp;</td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
