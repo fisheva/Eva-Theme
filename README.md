@@ -29,6 +29,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <!-- <h3 align="center">Backers</h3> -->
 
+<div align="center">
 <table>
   <caption><h3 align="center">Backers</h3></caption>
   <tr>
@@ -43,14 +44,25 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
   </tr>
   <tr></tr>
   <tr>
-    <td>January</td>
-    <td>January</td>
-    <td>January</td>
-    <td>January</td>
-    <td>January</td>
-    <td>January</td>
-    <td>January</td>
-    <td>January</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr></tr>
   <tr>
@@ -75,6 +87,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td></td>
   </tr>
 </table>
+</div>
 
 <div align="center">
   <table>
