@@ -30,15 +30,9 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 <!-- <h3 align="center">Backers</h3> -->
 
 <table>
-  <caption><h3 align="center">Monthly savings</h3></caption>
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr></tr>
+  <caption><h3 align="center">Backers</h3></caption>
   <tr>
     <td>January</td>
-    <td>$100</td>
     <td>January</td>
     <td>January</td>
     <td>January</td>
@@ -50,7 +44,6 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
   <tr></tr>
   <tr>
     <td>January</td>
-    <td>$100</td>
     <td>January</td>
     <td>January</td>
     <td>January</td>
@@ -58,13 +51,46 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td>January</td>
     <td>January</td>
     <td>January</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
-<!-- <div align="center">
+<div align="center">
   <table>
       <tr>
-        <th colspan="6"><big>Backers</big></th>
+        <th colspan="8"><h3 align="center">Backers</h3></th>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
       </tr>
       <tr></tr>
       <tr>
@@ -74,13 +100,6 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td></td>
         <td></td>
         <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
         <td></td>
         <td></td>
       </tr>
@@ -92,18 +111,24 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td></td>
         <td></td>
         <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr></tr>
       <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -112,4 +137,4 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
         <td></td>
       </tr>
   </table>
-</div> -->
+</div>
