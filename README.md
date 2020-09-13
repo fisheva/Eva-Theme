@@ -20,6 +20,10 @@ This theme is not perfect yet. If you find any inconsistency in any language, yo
 
 <h1></h1>
 
+#
+
+##
+
 <h3 align="center">Supporting Eva Theme</h3>
 
 It has taking a lot of time and effort to develop and maintain Eva Theme. If it really helps you, please consider:
