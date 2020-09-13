@@ -29,9 +29,9 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <html>
 <head>
-<link rel="stylesheet" href="https://github.com/fisheva/Eva-Theme/blob/master/index.css" />
+<link rel="stylesheet" href="css/index.css" />
 </head>
-<body class="red">
+<body class="xxx">
 
 这是一段文字
 </body>
