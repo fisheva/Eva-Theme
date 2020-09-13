@@ -29,7 +29,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <!-- <h3 align="center">Backers</h3> -->
 
-<div align="center">
+<!-- <div align="center"> -->
 <table style="width:100%">
     <tr></tr>
     <th colspan="6"><h3>Backers</h3></th>
@@ -80,4 +80,4 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td></td>
     </tr>
 </table>
-</div>
+<!-- </div> -->
