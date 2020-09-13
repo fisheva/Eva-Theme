@@ -36,16 +36,9 @@ here is a long quotation here is a long quotation here is a long quotation
 here is a long quotation here is a long quotation here is a long quotation.
 </blockquote>
 
-<canvas id="myCanvas"></canvas>
-
-<script type="text/javascript">
-
-var canvas=document.getElementById('myCanvas');
-var ctx=canvas.getContext('2d');
-ctx.fillStyle='#FF0000';
-ctx.fillRect(0,0,80,100);
-
-</script>
+    Here is a long quotation here is a long quotation here is a long quotation 
+    here is a long quotation here is a long quotation here is a long quotation 
+    here is a long quotation here is a long quotation here is a long quotation.
 
 <div align="center">
   <table>
