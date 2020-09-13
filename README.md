@@ -32,7 +32,8 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <blockquote>
 Here is a long quotation here is a long quotation here is a long quotation 
-here is a long quotation here is a long quotation here is a long quotation 
+
+here is a long quotation here is a long quotation here is a long quotation
 here is a long quotation here is a long quotation here is a long quotation.
 </blockquote>
 
