@@ -29,34 +29,9 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <h3 align="center">Backers</h3>
 
-
-<table width="100%">
-  <colgroup span="5" align="left"></colgroup>
-  <colgroup align="right" style="color:#ff0000;"></colgroup>
-  <tr>
-    <th>ISBN</th>
-    <th>Title</th>
-    <th>Price</th>
-  </tr>
-  <tr>
-    <td>3476896</td>
-    <td>My first HTML</td>
-    <td>$53</td>
-  </tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <th>ISBN</th>
-    <th>Title</th>
-    <th>Price</th>
-  </tr>
-  <tr>
-    <td>3476896</td>
-    <td>My first HTML</td>
-    <td>$53</td>
-  </tr>
-</table>
+<font size="10" color="red">This is some text!</font>
+<font size="2" color="blue">This is some text!</font>
+<font face="verdana" color="green">This is some text!</font>
 
 <div align="center">
 <table>
