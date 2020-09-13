@@ -1,5 +1,31 @@
 0.9.2 (2020-09-10)
 
+* **Add Italic Style**
+
+注释掉这些项是因为从issue35来看terminal.ansiBrightColor是影响Terminal里的特殊行背景色的, 但打开zsh, 又发现这几项会影响头部的系统文字, 而且这种影响是 只要不是填的完全非透明颜色, 颜色的指定设置就会无效, 切相应系统颜色变成似乎是特定的另一种颜色。
+
+* Comment Dark UI
+
+```UI
+// "terminal.ansiBrightBlue": "#56B7C333"
+// "terminal.ansiBrightCyan": "#6495EE33"
+// "terminal.ansiBrightRed": "#E06C7533"
+```
+
+* Comment Light UI
+
+```UI
+// "terminal.ansiBrightBlue": "#00BEC433"
+// "terminal.ansiBrightCyan": "#55ACF233"
+// "terminal.ansiBrightYellow": "#FF650033"
+// "terminal.ansiBrightGreen": "#53A05333"
+```
+
+* Add All Sytax
+
+```Sytax
+string.quoted source: #98C379/#53A053
+```
 
 <!-- <div align="center">
   <table>

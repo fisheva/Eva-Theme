@@ -18,9 +18,9 @@
 
 这款主题目前还不完善, 如果您在任何语言发现前后颜色不一致的的情况, 可以向我提 <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">issue</a>, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言。
 
-### 赞助
+<!-- ### 赞助
 
 Eva Theme的持续开发离不开所有慷慨的赞助者们。如果您想加入他们, 可以通过:
 
 - 在Patreon或Open Collective上每月赞助
-- 通过微信、支付宝或PayPal打赏(一次性)
+- 通过微信、支付宝或PayPal打赏(一次性) -->

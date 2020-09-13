@@ -18,14 +18,14 @@ Some extensions add some of their semantic colorings to cover the theme file, wh
 
 This theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme&ssr=false#review-details" target="_blank">Marketplace</a>.
 
-#
+<!-- #
 
 <h3 align="center">Supporting Eva Theme</h3>
 
 It has taking a lot of time and effort to develop and maintain Eva Theme. If it really helps you, please consider:
 
 - Become a backer or sponsor on Patreon or Open Collective.
-- One-time donation via PayPal, AliPay or WeiXin.
+- One-time donation via PayPal, AliPay or WeiXin. -->
 
 <!-- <div align="center">
 <table>
