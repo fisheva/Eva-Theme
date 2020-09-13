@@ -30,54 +30,107 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 <!-- <h3 align="center">Backers</h3> -->
 
 <div align="center">
-    <table>
-        <tr></tr>
+  <table>
+      <tr>
         <th colspan="6"><h3>Backers</h3></th>
-        </tr>
-        <tr></tr>
-        <tr>
+      </tr>
+      <tr></tr>
+      <tr>
         <td>One-time donation via PayPal, AliPay or WeiXin.</td>
         <td>One-time donation via PayPal, AliPay or WeiXin.</td>
         <td>One-time donation via PayPal, AliPay or WeiXin.</td>
         <td>One-time donation via PayPal, AliPay or WeiXin.</td>
         <td>One-time donation via PayPal, AliPay or WeiXin.</td>
         <td>One-time donation via PayPal, AliPay or WeiXin.</td>
-        </tr>
-        <tr></tr>
-        <tr>
+      </tr>
+      <tr></tr>
+      <tr>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        </tr>
-        <tr></tr>
-        <tr>
+      </tr>
+      <tr></tr>
+      <tr>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        </tr>
-        <tr></tr>
-        <tr>
+      </tr>
+      <tr></tr>
+      <tr>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        </tr>
-        <tr></tr>
-        <tr>
+      </tr>
+      <tr></tr>
+      <tr>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        </tr>
-    </table>
+      </tr>
+  </table>
+</div>
+
+<div align="center">
+<table>
+    <tr></tr>
+    <th colspan="6"><h3>Backers</h3></th>
+    </tr>
+    <tr></tr>
+    <tr>
+    <td>One-time donation via PayPal, AliPay or WeiXin.</td>
+    <td>One-time donation via PayPal, AliPay or WeiXin.</td>
+    <td>One-time donation via PayPal, AliPay or WeiXin.</td>
+    <td>One-time donation via PayPal, AliPay or WeiXin.</td>
+    <td>One-time donation via PayPal, AliPay or WeiXin.</td>
+    <td>One-time donation via PayPal, AliPay or WeiXin.</td>
+    </tr>
+    <tr></tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr></tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr></tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr></tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+</table>
 </div>
