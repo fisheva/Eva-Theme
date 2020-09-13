@@ -29,9 +29,9 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <!-- <h3 align="center">Backers</h3> -->
 
-<!-- <div align="center"> -->
+<div align="center">
 <table>
-  <caption><strong align="center">Backers</strong></caption>
+  <caption><h3 align="center">Backers</h3></caption>
   <tr>
     <td>&nbsp;</td>
     <td></td>
@@ -54,7 +54,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td></td>
   </tr>
 </table>
-<!-- </div> -->
+</div>
 
 
 <!-- <div align="center">
@@ -85,7 +85,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 </div> -->
 
 
-<!-- <div align="center"> -->
+<div align="center">
 <table>
 <tr>
     <th colspan="8"><h3 align="center">Backers</h3></th>
@@ -113,4 +113,4 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
     <td></td>
 </tr>
 </table>
-<!-- </div> -->
+</div>
