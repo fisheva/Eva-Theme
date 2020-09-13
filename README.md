@@ -29,16 +29,29 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <!-- <h3 align="center">Backers</h3> -->
 
-<table border="0" rules="none" cellspacing="0" cellpadding="0" frame="void">
-  <caption><h3>Monthly savings</h3></caption>
+<table>
+  <caption><h3 align="center">Monthly savings</h3></caption>
+  <tr></tr>
   <tr>
     <th>Month</th>
     <th>Savings</th>
   </tr>
+  <tr></tr>
   <tr>
     <td>January</td>
     <td>$100</td>
     <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+    <td>January</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
     <td>January</td>
     <td>January</td>
     <td>January</td>
