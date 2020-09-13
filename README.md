@@ -20,8 +20,9 @@ This theme is not perfect yet. If you find any inconsistency in any language, yo
 
 ---
 
-<hr />
+<h1>&nbsp;</h1>
 
+<h2>&nbsp;</h2>
 
 <h3 align="center">Supporting Eva Theme</h3>
 
@@ -30,12 +31,6 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
 
-
-<h1>This is header 1</h1>
-
-<hr />
-
-<p>This is some text</p>
 
 <div align="center">
 <table>
