@@ -1,54 +1,32 @@
 0.9.2 (2020-09-10)
 
+
 <!-- <div align="center">
   <table>
       <tr>
-        <th colspan="6"><h3>Backers</h3></th>
+        <th colspan="8"><h3 align="center">Backers</h3></th>
       </tr>
       <tr></tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
       </tr>
       <tr></tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
       </tr>
   </table>
 </div> -->

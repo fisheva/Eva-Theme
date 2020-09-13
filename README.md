@@ -89,8 +89,9 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 </table>
 </div>
 
+
 <div align="center">
-  <table cellpadding="0px">
+  <table cellpadding="0">
       <tr>
         <th colspan="8"><h3 align="center">Backers</h3></th>
       </tr>
@@ -107,47 +108,14 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
       </tr>
       <tr></tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
       </tr>
   </table>
 </div>
