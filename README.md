@@ -29,18 +29,18 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 <h3 align="center">Backers</h3>
 
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
-<a><img src="1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
+<a><img src="https://github.com/fisheva/Eva-Theme/blob/master/1.png"></a>
 
 <!-- <div align="center">
 <table>
