@@ -27,6 +27,13 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
 
+<html>
+<head>
+<link rel="stylesheet" href="https://github.com/fisheva/Eva-Theme/blob/master/index.css" />
+</head>
+<body class="red">
+</body>
+</html>
 
 <!-- <div align="center">
 <table>
