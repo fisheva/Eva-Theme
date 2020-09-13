@@ -90,7 +90,7 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 </div>
 
 <div align="center">
-  <table>
+  <table cellpadding="0px">
       <tr>
         <th colspan="8"><h3 align="center">Backers</h3></th>
       </tr>
