@@ -1,3 +1,24 @@
+0.9.3 (2020-09-15)
+
+* Renewal All UI
+
+```UI
+terminal.ansiBlack: #000/#fff
+terminal.ansiBlue: #FF6AB3/#EF8ED8
+terminal.ansiBrightBlack: #A78CFA/#7C4DFF
+terminal.ansiBrightBlue: #6495EE/#437AED
+terminal.ansiBrightCyan: #56B7C3/#00BEC4
+terminal.ansiBrightGreen: #98C379/#53A053
+terminal.ansiBrightMagenta: #CF68E1/#C838C6
+terminal.ansiBrightRed: #f14c4c#f14c4c
+terminal.ansiBrightWhite: #fff/#000
+terminal.ansiBrightYellow: #E4BF7F/#F0AA0B
+terminal.ansiCyan: #F02B77/#FA278E
+terminal.ansiGreen: #98C379/#53A053
+terminal.ansiMagenta: #F8F900
+terminal.ansiWhite: #676E95/#A9A9AA
+```
+
 0.9.2 (2020-09-10)
 
 * **Add Italic Style**
@@ -7,18 +28,18 @@
 * Comment Dark UI
 
 ```UI
-// "terminal.ansiBrightBlue": "#56B7C333"
-// "terminal.ansiBrightCyan": "#6495EE33"
-// "terminal.ansiBrightRed": "#E06C7533"
+// terminal.ansiBrightBlue: #56B7C333
+// terminal.ansiBrightCyan: #6495EE33
+// terminal.ansiBrightRed: #E06C7533
 ```
 
 * Comment Light UI
 
 ```UI
-// "terminal.ansiBrightBlue": "#00BEC433"
-// "terminal.ansiBrightCyan": "#55ACF233"
-// "terminal.ansiBrightYellow": "#FF650033"
-// "terminal.ansiBrightGreen": "#53A05333"
+// terminal.ansiBrightBlue: #00BEC433
+// terminal.ansiBrightCyan: #55ACF233
+// terminal.ansiBrightYellow: #FF650033
+// terminal.ansiBrightGreen: #53A05333
 ```
 
 * Add All Sytax
@@ -198,7 +219,7 @@ VSCode → 首选项 → 颜色主题 → 选择Eva Theme -->
 button.foreground: #DCDFE5/#fff
 tab.hoverForeground: #d7dae0/#5D5D5F
 tab.unfocusedHoverForeground: #d7dae0/#5D5D5F
-icon.foreground:#c5c5c5/#424242
+icon.foreground: #c5c5c5/#424242
 inputOption.activeBackground: #282c3400/#EBEEF500
 inputOption.activeBorder: #282c3400/#EBEEF500
 inputOption.activeForeground: #fff/#000
@@ -226,7 +247,7 @@ tab.hoverBackground: #598DEF3F/#0065FF19 → #598DEF66/#0065FF33
 focusBorder: #598DEFB2/#598DEFA5 → #598DEF/#598DEF
 
 //这条API只能设置透明色或不设置, 任何颜色都会挡住零任务启动页文字
-editorGroup.emptyBackground:#282c34/#EBEEF5 → #282c3400/#EBEEF500
+editorGroup.emptyBackground: #282c34/#EBEEF5 → #282c3400/#EBEEF500
 
 //将Dark主题该色块由微蓝色改为灰色, Light主题该色块颜色加深。目前受限于minimap的一些API缺失, 未来该色块还需要调得更显眼。
 editorOverviewRuler.findMatchForeground: #598DEF59/#CFD2D9 → #6A707D7F/#C3C6CD
@@ -291,7 +312,7 @@ Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地�
 
 ```json
 "description":"A colorful and semantic coloring code theme. Dark | Light. Regular | Bold" →
-"description": "A semantic coloring code theme dedicated to making you more comfortable programming."
+"description:A semantic coloring code theme dedicated to making you more comfortable programming."
 ```
 
 * Delete README.md
@@ -301,7 +322,7 @@ Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地�
 The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
 
 ```json
-"editor.fontFamily": "CamingoCode",
+"editor.fontFamily:CamingoCode",
 ```
 
 ### Icons
@@ -326,7 +347,7 @@ Here is my Bracket Pair Colorizer setting:
         [
         "#838FA7",
         "#A78CFA",
-        "#56B7C3",
+        "#56B7C3,
         "#FF9070"
         ],
         "#e51400"
@@ -364,7 +385,7 @@ All theme plugins add color to characters based on its scope value. You can chec
 上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode)，如果您喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
 
 ```json
-"editor.fontFamily": "CamingoCode",
+"editor.fontFamily:CamingoCode",
 ```
 
 ### 图标
@@ -389,7 +410,7 @@ All theme plugins add color to characters based on its scope value. You can chec
         [
         "#838FA7",
         "#A78CFA",
-        "#56B7C3",
+        "#56B7C3,
         "#FF9070"
         ],
         "#e51400"
@@ -475,7 +496,7 @@ keyword.operator.delete, keyword.operator.expression.delete: #F02B77/#FA278E
 ```UI
 //左侧按键图标由实心图标变成了线框图标, 所以需要加深下颜色
 activityBar.foreground: #8792BD/#94969B → #96A4CD/#85878C
-activityBar.inactiveForeground:#8792BD99/#94969B99 → #8792BDA5/#94969BA5
+activityBar.inactiveForeground: #8792BD99/#94969B99 → #8792BDA5/#94969BA5
 ```
 
 * Fix All UI
@@ -1246,7 +1267,7 @@ editorLineNumber.activeForeground: #9DA5B3/#5D5D5F
 
 ```UI
 //关掉VSCode 1.23.0 版本新增的 Highlighted indent guides - Helps visualize source code indenting.功能。
-editorIndentGuide.activeBackground:#CED1D7
+editorIndentGuide.activeBackground: #CED1D7
 ```
 
 0.2.3 (2018-04-22)
@@ -1568,8 +1589,8 @@ terminal.ansiRed: #e51400
 * Changed All UI
 
 ```UI
-terminal.ansiBrightMagenta:#C838C6/#CF68E1
-terminal.ansiMagenta:#C838C6/#CF68E1
+terminal.ansiBrightMagenta: #C838C6/#CF68E1
+terminal.ansiMagenta: #C838C6/#CF68E1
 ```
 
 0.0.6 (2017-06-27)
