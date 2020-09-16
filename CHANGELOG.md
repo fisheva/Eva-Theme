@@ -1,3 +1,11 @@
+0.9.7 (2020-09-17)
+
+* Changed Light UI
+
+```UI
+terminal.ansiBlue: #598DEF → #4d91f8
+```
+
 0.9.6 (2020-09-17)
 
 * Changed All UI
