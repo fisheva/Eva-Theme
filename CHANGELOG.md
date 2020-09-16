@@ -1,3 +1,11 @@
+0.9.5 (2020-09-16)
+
+* Renewal All UI
+
+```UI
+terminal.ansiWhite: #B0B7C3/#5D5D5F
+```
+
 0.9.4 (2020-09-15)
 
 * Renewal All UI
