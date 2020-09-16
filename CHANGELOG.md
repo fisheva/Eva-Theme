@@ -1,3 +1,15 @@
+0.9.4 (2020-09-15)
+
+* Renewal All UI
+
+```UI
+terminal.ansiBlue: #598DEF/#0065FF
+terminal.ansiBrightWhite: #FF6AB3/#EF8ED8
+terminal.ansiMagenta: #FF9070/#FF6500
+terminal.ansiRed: #f14c4c/#f14c4c
+terminal.ansiYellow: #F8F900/#F8F900
+```
+
 0.9.3 (2020-09-15)
 
 * Renewal All UI
