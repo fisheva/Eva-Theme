@@ -1,3 +1,18 @@
+0.9.8 (2020-09-17)
+
+* Changed All UI
+
+```UI
+terminal.ansiRed: #e51400 → #EB0000
+```
+
+* Changed Light UI
+
+```UI
+//调暗了5°
+terminal.ansiYellow: #EFED68 → #EAE868
+```
+
 0.9.7 (2020-09-17)
 
 * Changed Light UI
