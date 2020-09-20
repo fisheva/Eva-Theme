@@ -1,3 +1,15 @@
+0.9.9 (2020-09-20)
+
+* Changed All UI
+
+```UI
+//这行代表Terminal里的Warning字符 (Red代表错误字符)
+terminal.ansiBrightYellow: #E4BF7F/#F0AA0B → #F5625C/#F5625C
+
+terminal.ansiMagenta: #FF9070/#FF6500 → #E4BF7F/#F0AA0B
+terminal.ansiRed: #EB0000/#EB0000 → #E06C75/#CD6069
+```
+
 0.9.8 (2020-09-17)
 
 * Changed All UI

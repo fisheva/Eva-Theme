@@ -25,9 +25,9 @@ This theme is not perfect yet. If you find any inconsistency in any language, yo
 It has taking a lot of time and effort to develop and maintain Eva Theme. If it really helps you, please consider:
 
 - Become a backer or sponsor on Patreon or Open Collective.
-- One-time donation via PayPal, AliPay or WeiXin. -->
+- One-time donation via PayPal, AliPay or WeiXin.
 
-<!-- <div align="center">
+<div align="center">
 <table>
   <caption><h3 align="center">Backers</h3></caption>
   <tr>
