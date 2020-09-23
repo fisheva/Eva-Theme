@@ -1,3 +1,12 @@
+1.0.0 (2020-09-22)
+
+* Changed All UI
+
+```UI
+terminal.ansiBrightRed: #EB0000/#EB0000 → #f14c4c/#f14c4c
+terminal.ansiRed: #E06C75/#CD6069 → #EB0000/#EB0000
+```
+
 0.9.9 (2020-09-20)
 
 * Changed All UI

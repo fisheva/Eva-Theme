@@ -1,6 +1,6 @@
 <p align="center"><img src="https://tva1.sinaimg.cn/large/007jMFbEgy1gieydd8fboj33fg1mc1kx.jpg" referrerpolicy="no-referrer"></p>
 
-[![install](https://vsmarketplacebadge.apphb.com/installs/fisheva.eva-theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme) [![rating](https://vsmarketplacebadge.apphb.com/rating-short/fisheva.eva-theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.eva-theme)  [![GitHub stars](https://img.shields.io/github/stars/fisheva/eva-theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/eva-theme)
+[![install](https://img.shields.io/vscode-marketplace/i/fisheva.eva-theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.eva-theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.eva-theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/eva-theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/eva-theme)
 
 <a title="Go to the English README." href="https://github.com/fisheva/Eva-Theme/blob/master/README.md" target="_blank">English</a> | 简体中文
 
