@@ -1,3 +1,11 @@
+1.0.1 (2020-11-01)
+
+* Add All Sytax
+
+```Sytax
+storage.type.built-in.c: #FF6AB3/#EF8ED8
+```
+
 1.0.0 (2020-09-22)
 
 * Changed All UI
