@@ -1,3 +1,21 @@
+1.0.2 (2021-01-05)
+
+* Add All Sytax
+
+```Sytax
+support.function.builtin.python,meta.function-call.arguments.python support.function.builtin.python: #B0B7C3/#5D5D5F
+
+meta.function-call.python support.function.builtin.python: #56B7C3/#00BEC4
+
+keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.typedef: #A78CFA/#7C4DFF
+```
+
+* Changed All Sytax
+
+```Sytax
+storage.type.built-in.primitive.c: #A78CFA/#7C4DFF → #FF6AB3/#EF8ED8
+```
+
 1.0.1 (2020-11-01)
 
 * Add All Sytax

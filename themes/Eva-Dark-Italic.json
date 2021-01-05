@@ -343,7 +343,7 @@
         }
     }, {
         "name": "Variable;变量",
-        "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, source.css.less, variable",
+        "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, source.css.less, variable, support.function.builtin.python,meta.function-call.arguments.python support.function.builtin.python",
         "settings": {
             "fontStyle": "",
             "foreground": "#B0B7C3"
@@ -525,7 +525,7 @@
         }
     }, {
         "name": "support.function",
-        "scope": "support.function,meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css",
+        "scope": "support.function,meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css, meta.function-call.python support.function.builtin.python",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"
@@ -609,7 +609,7 @@
         }
     }, {
         "name": "new",
-        "scope": "keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs",
+        "scope": "keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs, keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#A78CFA"
@@ -644,7 +644,7 @@
         }
     }, {
         "name": "Keyword: (flow), interface",
-        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.modifier, storage.type.modifier.cpp, storage.type.language.primitive.cpp, storage.type.built-in.primitive.c, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread",
+        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.modifier, storage.type.modifier.cpp, storage.type.language.primitive.cpp, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread,keyword.other.typedef",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#A78CFA"
@@ -658,7 +658,7 @@
         }
     }, {
         "name": "support type ts; class;ts里默认数据类型;自定义数据类型; interface; class",
-        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, support.type.graphql, meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, storage.type.built-in.c",
+        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, support.type.graphql, meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, storage.type.built-in.c, storage.type.built-in.primitive.c",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#FF6AB3"
