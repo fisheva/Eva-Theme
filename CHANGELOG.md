@@ -1,3 +1,24 @@
+1.0.3 (2021-01-17)
+
+* Add All Sytax
+
+```Sytax
+meta.function-call.c: #B0B7C3/#5D5D5F
+meta.function-call.c entity.name.function.c: #56B7C3/#00BEC4, italic
+```
+
+* Delete All Sytax
+
+```Sytax
+entity.name.function.definition.special.constructor.cpp: #CF68E1/#C838C6
+```
+
+* Changed All Sytax
+
+```Sytax
+support.function:#56B7C3/#00BEC4, italic → #6495EE/#437AED
+```
+
 1.0.2 (2021-01-05)
 
 * Add All Sytax
