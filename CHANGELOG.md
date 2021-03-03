@@ -1,3 +1,11 @@
+1.0.4 (2021-03-03)
+
+* Delete All Sytax
+
+```Sytax
+meta.function-call.c entity.name.function.c: #56B7C3/#00BEC4
+```
+
 1.0.3 (2021-01-17)
 
 * Add All Sytax
