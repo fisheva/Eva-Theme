@@ -1,3 +1,22 @@
+1.0.5 (2021-03-09)
+
+* Add All UI
+
+```UI
+//cmd+shift+p窗口打开默认选项背景色
+quickInput.list.focusBackground:#598DEF3F/0065FF19
+```
+
+* Changed All UI
+
+```UI
+//加深，和Tab框hover颜色保持一致
+list.hoverBackground: #598DEF3F/0065FF19 → #598DEF66/#0065FF33
+
+//点击文件列表时的某一文件时，这个框也会出现，所以不好看
+focusBorder: #598DEF/#598DEF → #2C313A/#EDF0F7
+```
+
 1.0.4 (2021-03-03)
 
 * Delete All Sytax
