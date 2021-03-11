@@ -1,3 +1,12 @@
+1.0.6 (2021-03-11)
+
+* Changed Dark UI
+
+```UI
+//调淡一点
+editorBracketMatch.background: #FF90708C → #FF90707F
+```
+
 1.0.5 (2021-03-09)
 
 * Add All UI
