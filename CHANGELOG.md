@@ -1,3 +1,15 @@
+1.0.7 (2021-03-15)
+
+* Changed All UI
+
+```UI
+//把color和BrightColor颜色对调了下,并把BrightYellow颜色改为鼠标竖杆颜色，取消了亮黄色#F8F900/#EAE868在Terminal里的使用
+terminal.ansiBrightGreen: #3FB93F/#3FB93F
+terminal.ansiBrightYellow: #FF9070/#FC8357
+terminal.ansiGreen: #98c379/#53A053
+terminal.ansiYellow: #F5625C/#F5625C
+```
+
 1.0.6 (2021-03-11)
 
 * Changed Dark UI
