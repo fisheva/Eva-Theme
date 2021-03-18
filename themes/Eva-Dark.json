@@ -323,7 +323,7 @@
         }
     }, {
         "name": "variable.parameter;css里url文件引用的链接",
-        "scope": "variable.parameter.url.css",
+        "scope": "variable.parameter.url",
         "settings": {
             "fontStyle": "",
             "foreground": "#98C379"

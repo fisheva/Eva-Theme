@@ -1,3 +1,11 @@
+1.0.8 (2021-03-18)
+
+* Changed All Sytax
+
+```json
+variable.parameter.url.css → variable.parameter.url
+```
+
 1.0.7 (2021-03-15)
 
 * Changed All UI
