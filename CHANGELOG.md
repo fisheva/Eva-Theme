@@ -1,3 +1,11 @@
+1.0.9 (2021-03-19)
+
+* Changed All UI
+
+```UI
+//改了所有与delete有关项的色块和文字颜色，和error做了区分，#e51400→#f14c4c
+```
+
 1.0.8 (2021-03-18)
 
 * Changed All Sytax
