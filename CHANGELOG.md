@@ -1,3 +1,17 @@
+1.1.0 (2021-03-20)
+
+* Changed All UI
+
+```UI
+gitDecoration.addedResourceForeground: #40AD41/#44C145 → #98C379/#53A053
+```
+
+* Add All Sytax
+
+```Sytax
+source.vue: #8792AA/#A0A1A7
+```
+
 1.0.9 (2021-03-19)
 
 * Changed All UI
@@ -10,7 +24,7 @@
 
 * Changed All Sytax
 
-```json
+```Sytax
 variable.parameter.url.css → variable.parameter.url
 ```
 
