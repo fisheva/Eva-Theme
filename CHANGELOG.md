@@ -1,3 +1,11 @@
+1.1.1 (2021-03-21)
+
+* Add All Sytax
+
+```Sytax
+punctuation.section.property-list.begin.bracket.curly.scss,punctuation.section.property-list.end.bracket.curly.scss,punctuation.section.function.scss: #838FA7CC/#888888D9
+```
+
 1.1.0 (2021-03-20)
 
 * Changed All UI
