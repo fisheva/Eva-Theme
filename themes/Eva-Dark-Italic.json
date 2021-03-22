@@ -147,6 +147,8 @@
         "list.activeSelectionForeground": "#d7dae0",
         "list.dropBackground": "#598DEF4C",
         "list.errorForeground": "#E51400",
+        "list.filterMatchBorder": "#fff",
+        "list.filterMatchBackground": "#fff",
         "list.focusBackground": "#598DEF66",
         "list.focusForeground": "#d7dae0",
         "list.highlightForeground": "#5889EA",

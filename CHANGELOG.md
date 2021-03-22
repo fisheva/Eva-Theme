@@ -1,3 +1,11 @@
+1.1.4 (2021-03-22)
+
+```UI
+//这个border的颜色如果不是透明或者跟底色相同，border的样子会呈现点状线。
+list.filterMatchBorder: #fff
+list.filterMatchBackground: #fff
+```
+
 1.1.3 (2021-03-22)
 
 * Changed All UI
