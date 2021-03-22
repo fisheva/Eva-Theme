@@ -1,3 +1,12 @@
+1.1.3 (2021-03-22)
+
+* Changed All UI
+
+```UI
+listFilterWidget.background: #F5F8FF → #FFF
+listFilterWidget.outline: #F5F8FF → #FFF
+```
+
 1.1.2 (2021-03-22)
 
 * Add All UI
