@@ -1,3 +1,13 @@
+1.1.2 (2021-03-22)
+
+* Add All UI
+
+```UI
+listFilterWidget.background: #F5F8FF
+listFilterWidget.outline: #F5F8FF
+listFilterWidget.noMatchesOutline: #ff0000
+```
+
 1.1.1 (2021-03-21)
 
 * Add All Sytax
