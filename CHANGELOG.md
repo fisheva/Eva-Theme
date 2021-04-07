@@ -1,4 +1,20 @@
+1.1.5(2021-03-)
+
+* Add All UI
+
+```UI
+tree.indentGuidesStroke: #454963/#CED1D7
+```
+
+* Add All Sytax
+
+```Sytax
+keyword.other.important:#F02B77/#FA278E
+```
+
 1.1.4 (2021-03-22)
+
+* Add All UI
 
 ```UI
 //这个border的颜色如果不是透明或者跟底色相同，border的样子会呈现点状线。

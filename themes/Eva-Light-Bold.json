@@ -314,6 +314,7 @@
         "titleBar.border": "#EBEEF500",
         "titleBar.inactiveBackground": "#EBEEF5",
         "titleBar.inactiveForeground": "#8E8E90",
+        "tree.indentGuidesStroke": "#CED1D7",
         "walkThrough.embeddedEditorBackground": "#E1E4EB",
         "welcomePage.buttonBackground": "#E1E4EB",
         "welcomePage.buttonHoverBackground": "#0065FF33",
@@ -944,7 +945,7 @@
         }
     }, {
         "name": "js ts this super, python self, C++ delete",
-        "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart,keyword.operator.delete, keyword.operator.expression.delete",
+        "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart,keyword.operator.delete, keyword.operator.expression.delete,keyword.other.important",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#FA278E"

@@ -314,6 +314,7 @@
         "titleBar.border": "#282c3400",
         "titleBar.inactiveBackground": "#282C34",
         "titleBar.inactiveForeground": "#676E95",
+        "tree.indentGuidesStroke": "#454963",
         "walkThrough.embeddedEditorBackground": "#21252B",
         "welcomePage.buttonBackground": "#21252B",
         "welcomePage.buttonHoverBackground": "#598DEF66",
@@ -944,7 +945,7 @@
         }
     }, {
         "name": "jststhissuper,pythonself,C++delete",
-        "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart,keyword.operator.delete,keyword.operator.expression.delete",
+        "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart,keyword.operator.delete,keyword.operator.expression.delete,keyword.other.important",
         "settings": {
             "fontStyle": "",
             "foreground": "#F02B77"
