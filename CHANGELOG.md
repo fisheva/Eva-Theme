@@ -1,3 +1,11 @@
+1.1.7(2021-04-18)
+
+* Changed Italic Sytax
+
+```Sytax
+Italic all (function names,HTML className, CSS property & value) into italic style.
+```
+
 1.1.6(2021-04-18)
 
 * Add All Sytax
