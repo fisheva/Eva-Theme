@@ -878,7 +878,7 @@
         "scope": "string.other.link.title.markdown,string.other.link.description.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Regular Expressions;正则表达式",

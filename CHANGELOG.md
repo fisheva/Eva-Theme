@@ -1,3 +1,11 @@
+1.1.8(2021-04-18)
+
+* Changed Italic Sytax
+
+```Sytax
+Reset italic function names to nomal.
+```
+
 1.1.7(2021-04-18)
 
 * Changed Italic Sytax

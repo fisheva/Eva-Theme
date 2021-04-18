@@ -583,8 +583,8 @@
         "name": "support.class",
         "scope": "support.class",
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#6494ed"
+            "fontStyle": "",
+            "foreground": "#6495EE"
         }
     }, {
         "name": "support.class.console,support.class.component;console输出台,react组件",
@@ -597,22 +597,22 @@
         "name": "support.class.builtin",
         "scope": "support.class.builtin",
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#6494ed"
+            "fontStyle": "",
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Class name",
         "scope": "entity.name.class",
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#6494ed"
+            "fontStyle": "",
+            "foreground": "#6495EE"
         }
     }, {
         "name": "declaration",
         "scope": "meta.method.declaration",
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#6494ed"
+            "fontStyle": "",
+            "foreground": "#6495EE"
         }
     }, {
         "name": "arrow;箭头函数",
@@ -653,8 +653,8 @@
         "name": "Functions,pthread;单独的函数,C++线程",
         "scope": "entity.name.function,support.type.pthread, entity.name.scope-resolution.function, meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function",
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#6494ed"
+            "fontStyle": "",
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Keyword: (flow), interface",
@@ -681,7 +681,7 @@
         "name": "type name;构造函数",
         "scope": "entity.name.type.js,new.expr.ts",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#6495EE"
         }
     }, {
@@ -731,7 +731,7 @@
         "scope": "beginning.punctuation.definition.quote.markdown",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "fenced_code.block.language;Markdown里引用语言声明",
@@ -807,8 +807,8 @@
         "name": "class.mixin;less sass里的自定义的代码块名 类似函数",
         "scope": "entity.other.attribute-name.class.mixin",
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#6494ed"
+            "fontStyle": "",
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Attribute class;css里的class名 和 &",
@@ -850,7 +850,7 @@
         "scope": "beginning.punctuation.definition.list.markdown,beginning.punctuation.definition.quote.markdown",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
@@ -878,7 +878,7 @@
         "scope": "string.other.link.title.markdown,string.other.link.description.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Regular Expressions;正则表达式",
@@ -968,7 +968,7 @@
         "scope": "token.info-token",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "scope": "token.warn-token",

@@ -577,7 +577,7 @@
         "scope": "support.class",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "support.class.console,support.class.component;console输出台,react组件",
@@ -591,21 +591,21 @@
         "scope": "support.class.builtin",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Class name",
         "scope": "entity.name.class",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "declaration",
         "scope": "meta.method.declaration",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "arrow;箭头函数",
@@ -647,7 +647,7 @@
         "scope": "entity.name.function,support.type.pthread, entity.name.scope-resolution.function, meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Keyword: (flow), interface",
@@ -724,7 +724,7 @@
         "scope": "beginning.punctuation.definition.quote.markdown",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "fenced_code.block.language;Markdown里引用语言声明",
@@ -801,7 +801,7 @@
         "scope": "entity.other.attribute-name.class.mixin",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Attribute class;css里的class名 和 &",
@@ -843,7 +843,7 @@
         "scope": "beginning.punctuation.definition.list.markdown,beginning.punctuation.definition.quote.markdown",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
@@ -871,7 +871,7 @@
         "scope": "string.other.link.title.markdown,string.other.link.description.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "name": "Regular Expressions;正则表达式",
@@ -961,7 +961,7 @@
         "scope": "token.info-token",
         "settings": {
             "fontStyle": "",
-            "foreground": "#6494ed"
+            "foreground": "#6495EE"
         }
     }, {
         "scope": "token.warn-token",

@@ -569,14 +569,14 @@
         "name": "url.css,rgb(),transform,calc",
         "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
         "name": "support.class.builtin",
         "scope": "support.class.builtin",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
@@ -590,7 +590,7 @@
         "name": "support.class",
         "scope": "support.class",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
@@ -604,14 +604,14 @@
         "name": "Class name",
         "scope": "entity.name.class",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
         "name": "declaration",
         "scope": "meta.method.declaration",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
@@ -653,7 +653,7 @@
         "name": "Functions,pthread;单独的函数,C++线程",
         "scope": "entity.name.function,support.type.pthread, entity.name.scope-resolution.function, meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
@@ -681,7 +681,7 @@
         "name": "type name;构造函数",
         "scope": "entity.name.type.js,new.expr.ts",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
@@ -807,7 +807,7 @@
         "name": "class.mixin;less sass里的自定义的代码块名 类似函数",
         "scope": "entity.other.attribute-name.class.mixin",
         "settings": {
-            "fontStyle": "italic",
+            "fontStyle": "",
             "foreground": "#437AED"
         }
     }, {
