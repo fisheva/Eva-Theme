@@ -956,7 +956,15 @@
             "fontStyle": "",
             "foreground": "#437AED"
         }
-    }, {
+    },
+    {
+       "scope": "keyword.other.debugger",
+       "settings": {
+           "fontStyle": "bold",
+           "foreground": "#e51400"
+       }
+   },
+     {
         "scope": "token.error-token",
         "settings": {
             "fontStyle": "",

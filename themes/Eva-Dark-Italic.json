@@ -950,7 +950,14 @@
             "fontStyle": "italic",
             "foreground": "#F02B77"
         }
-    }, {
+    }, 
+    {
+        "scope": "keyword.other.debugger",
+        "settings": {
+            "fontStyle": "italic",
+            "foreground": "#e51400"
+        }
+    },{
         "scope": "token.info-token",
         "settings": {
             "fontStyle": "",

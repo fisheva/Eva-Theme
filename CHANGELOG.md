@@ -1,4 +1,12 @@
-1.1.5(2021-03-)
+1.1.6(2021-04-18)
+
+* Add All Sytax
+
+```Sytax
+keyword.other.debugger: #e51400
+```
+
+1.1.5(2021-03-25)
 
 * Add All UI
 

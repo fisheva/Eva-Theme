@@ -950,6 +950,13 @@
             "fontStyle": "",
             "foreground": "#F02B77"
         }
+    },
+    {
+        "scope": "keyword.other.debugger",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#e51400"
+        }
     }, {
         "scope": "token.info-token",
         "settings": {
