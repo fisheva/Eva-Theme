@@ -1,3 +1,20 @@
+1.1.9(2021-05-05)
+
+* Changed All UI
+
+```UI
+focusBorder: #2C313A/#EDF0F7 → #4480F4/#4480F4
+
+```
+
+* Add All UI
+
+```UI
+list.focusOutline: #598DEF00/#0065FF00
+//#5e9cfb由#0065FF99截图取色而来
+sash.hoverBorder:#598DEF/#5e9cfb
+```
+
 1.1.8(2021-04-18)
 
 * Changed Italic Sytax

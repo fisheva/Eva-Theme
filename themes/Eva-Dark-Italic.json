@@ -118,7 +118,7 @@
         "extensionButton.prominentForeground": "#fff",
         "extensionButton.prominentBackground": "#499149",
         "extensionButton.prominentHoverBackground": "#377337",
-        "focusBorder": "#2C313A",
+        "focusBorder": "#4480F4",
         "foreground": "#B0B7C3",
         "gitDecoration.addedResourceForeground": "#98C379",
         "gitDecoration.conflictingResourceForeground": "#E4BF7F",
@@ -151,6 +151,7 @@
         "list.filterMatchBackground": "#fff",
         "list.focusBackground": "#598DEF66",
         "list.focusForeground": "#d7dae0",
+        "list.focusOutline": "#598DEF00",
         "list.highlightForeground": "#5889EA",
         "list.hoverBackground": "#598DEF66",
         "list.hoverForeground": "#d7dae0",
@@ -223,6 +224,7 @@
         "quickInput.foreground": "#B0B7C3",
         "quickInputList.focusBackground": "#598DEF3F",
         "quickInputTitle.background": "#21252B",
+        "sash.hoverBorder":"#598DEF",
         "scrollbar.shadow": "#000",
         "scrollbarSlider.activeBackground": "#A2ABE54C",
         "scrollbarSlider.background": "#A2ABE533",
@@ -350,7 +352,7 @@
         }
     }, {
         "name": "Variable;变量",
-        "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, source.css.less, variable, support.function.builtin.python,meta.function-call.arguments.python support.function.builtin.python, meta.function-call.c",
+        "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, meta.property-value.scss, entity.name.tag.custom, entity.name.function.scss, source.css.less, variable, support.function.builtin.python,meta.function-call.arguments.python support.function.builtin.python, meta.function-call.c",
         "settings": {
             "fontStyle": "",
             "foreground": "#B0B7C3"
@@ -455,7 +457,7 @@
         }
     }, {
         "name": "js object-literal.key;对象属性名 js和ts不一样,可选属性符号?",
-        "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional,support.type.map.key,meta.at-rule.each.scss,meta.property-value.scss",
+        "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional,support.type.map.key,meta.at-rule.each.scss",
         "settings": {
             "fontStyle": "",
             "foreground": "#E06C75"
@@ -700,7 +702,7 @@
         }
     },  {
         "name": "number,unit,constant,Math,enum;数字;单位;值为数字的常量;Math对象;enum枚举里的元素",
-        "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js",
+        "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss",
         "settings": {
             "fontStyle": "",
             "foreground": "#ff9070"
@@ -997,7 +999,7 @@
         }
     }, {
         "name": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc",
-        "scope": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc,keyword.ccontrol.at-rule.keyframes.css,keyword.control.at-rule.keyframes.css",
+        "scope": "punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc,keyword.control.at-rule.keyframes",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#A78CFA"
