@@ -1,10 +1,31 @@
+1.2.2 (2021-05-20)
+
+Add some rust Syntax settings.
+
+1.2.1 (2021-05-15)
+
+* Add All Syntax
+
+```Syntax
+markup.inline.raw.string: #98c379/#53A053
+```
+
+1.2.0 (2021-05-09)
+
+* Add Rust Support
+
+* Add All UI
+
+```UI
+imagePreview.border: #282c3400/#EBEEF500
+```
+
 1.1.9(2021-05-05)
 
 * Changed All UI
 
 ```UI
 focusBorder: #2C313A/#EDF0F7 → #4480F4/#4480F4
-
 ```
 
 * Add All UI
@@ -17,27 +38,29 @@ sash.hoverBorder:#598DEF/#5e9cfb
 
 1.1.8(2021-04-18)
 
-* Changed Italic Sytax
+* Changed Italic Syntax
 
-```Sytax
+```Syntax
 Reset italic function names to nomal.
 ```
 
 1.1.7(2021-04-18)
 
-* Changed Italic Sytax
+* Changed Italic Syntax
 
-```Sytax
+```Syntax
 Italic all (function names,HTML className, CSS property & value) into italic style.
 ```
 
 1.1.6(2021-04-18)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 keyword.other.debugger: #e51400
 ```
+
+'printf("hello, world");' 是非常著名的一段代码
 
 1.1.5(2021-03-25)
 
@@ -47,9 +70,9 @@ keyword.other.debugger: #e51400
 tree.indentGuidesStroke: #454963/#CED1D7
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 keyword.other.important:#F02B77/#FA278E
 ```
 
@@ -84,9 +107,9 @@ listFilterWidget.noMatchesOutline: #ff0000
 
 1.1.1 (2021-03-21)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 punctuation.section.property-list.begin.bracket.curly.scss,punctuation.section.property-list.end.bracket.curly.scss,punctuation.section.function.scss: #838FA7CC/#888888D9
 ```
 
@@ -98,9 +121,9 @@ punctuation.section.property-list.begin.bracket.curly.scss,punctuation.section.p
 gitDecoration.addedResourceForeground: #40AD41/#44C145 → #98C379/#53A053
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 source.vue: #8792AA/#A0A1A7
 ```
 
@@ -114,9 +137,9 @@ source.vue: #8792AA/#A0A1A7
 
 1.0.8 (2021-03-18)
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 variable.parameter.url.css → variable.parameter.url
 ```
 
@@ -162,38 +185,38 @@ focusBorder: #598DEF/#598DEF → #2C313A/#EDF0F7
 
 1.0.4 (2021-03-03)
 
-* Delete All Sytax
+* Delete All Syntax
 
-```Sytax
+```Syntax
 meta.function-call.c entity.name.function.c: #56B7C3/#00BEC4
 ```
 
 1.0.3 (2021-01-17)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 meta.function-call.c: #B0B7C3/#5D5D5F
 meta.function-call.c entity.name.function.c: #56B7C3/#00BEC4, italic
 ```
 
-* Delete All Sytax
+* Delete All Syntax
 
-```Sytax
+```Syntax
 entity.name.function.definition.special.constructor.cpp: #CF68E1/#C838C6
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 support.function:#56B7C3/#00BEC4, italic → #6495EE/#437AED
 ```
 
 1.0.2 (2021-01-05)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 support.function.builtin.python,meta.function-call.arguments.python support.function.builtin.python: #B0B7C3/#5D5D5F
 
 meta.function-call.python support.function.builtin.python: #56B7C3/#00BEC4
@@ -201,17 +224,17 @@ meta.function-call.python support.function.builtin.python: #56B7C3/#00BEC4
 keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.typedef: #A78CFA/#7C4DFF
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 storage.type.built-in.primitive.c: #A78CFA/#7C4DFF → #FF6AB3/#EF8ED8
 ```
 
 1.0.1 (2020-11-01)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 storage.type.built-in.c: #FF6AB3/#EF8ED8
 ```
 
@@ -339,9 +362,9 @@ terminal.ansiWhite: #676E95/#A9A9AA
 // terminal.ansiBrightGreen: #53A05333
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 string.quoted source: #98C379/#53A053
 ```
 
@@ -387,7 +410,7 @@ Eva Theme doesn't have a built-in italic version directly now, but I have made a
 
 <!-- ### Conflicts
 
-Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are [Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). -->
+Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are [Babel JavasScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). -->
 
 <!-- ### Encourage
 
@@ -401,7 +424,7 @@ Eva Theme目前没有内置斜体版, 但我为喜欢斜体版的用户准备了
 
 <!-- ### 冲突
 
-有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有[Babel JavasSript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) -->
+有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有[Babel JavasScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) -->
 
 <!-- ### 鼓励
 
@@ -565,9 +588,9 @@ terminal.ansiWhite: #676E9533/#A0A1A733
 terminal.ansiYellow: #FF907033/#FF650033
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 //提亮=号颜色, 提到和各种括号{} ()一致
 keyword.operator.assignment, meta.property-value.css keyword.operator.less: #7C88B4/#888 → #838FA7/#5D5D5FD8
 ```
@@ -770,9 +793,9 @@ activityBar.foreground: #85878C → #7D7F84
 titleBar.inactiveForeground: #94969B → #8E8E90
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 source: #B0B7C3/#5D5D5F
 entity.name.namespace.cpp: #E06C75/#CD6069
 entity.name.type.template: #E4BF7F/#F0AA0B
@@ -820,39 +843,39 @@ tab.unfocusedActiveBackground: #282c34/#EBEEF5
 
 * Fix All UI
 
-```Sytax
+```Syntax
 editorUnnecessaryCode.opacity: #676E9500/#A9A9AA00 → #676E95FF/#A9A9AAFF
 ```
 
 0.7.5 (2019-04-07)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp: #FF6AB3/#EF8ED8
 ```
 
 0.7.4 (2019-04-07)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp: #FF6AB3/#EF8ED8
 ```
 
 0.7.3 (2019-04-06)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 storage.type.language.primitive.cpp, storage.type.built-in.primitive.c, storage.type.struct.cpp: #A78CFA/#7C4DFF
 ```
 
 0.7.2 (2018-12-21)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 invalid.broken, invalid.deprecated, punctuation.colon: #8E99B1/#8E8E90
 support.type.graphql: #FF6AB3/#EF8ED8
 keyword.input, keyword.type.graphql: #CF68E1/#C838C6
@@ -891,9 +914,9 @@ terminalCursor.foreground: #B0B7C3/#A0A1A7 → #FF9070/#FC8357
 
 0.6.9 (2018-11-27)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js: #8792AA/#A0A1A7
 ```
 
@@ -908,17 +931,17 @@ editor.lineHighlightBorder: #2D3039/#E5E8EF → #2F323B00/#E3E6ED00
 editor.rangeHighlightBackground: #2D3039/#E5E8EF → #2F323B/#E3E6ED
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 constant.language.import-export-all: #56B7C3/#00BEC4
 ```
 
 0.6.7 (2018-11-24)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 storage.type.const: #A78CFA/#7C4DFF
 constant.other.js: #FF9070/#FF6500
 meta.delimiter.object.comma: #79859D/#A0A1A7F2
@@ -933,34 +956,34 @@ punctuation.definition.function.body.begin.bracket, punctuation.definition.funct
 
 0.6.6 (2018-11-23)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 text.xml, text.html: #B0B7C3/#626264
 ```
 
 0.6.5 (2018-11-21)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 //支持微信小程序
 text.html.wxml: #B0B7C3/#626264
 ```
 
 0.6.4 (2018-11-19)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 punctuation.definition.string.begin.html, punctuation.definition.string.end.html: #98c379/#53A053
 punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html: #838FA7/#5D5D5FD8
 meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace: #8792AA/#A0A1A7
 ```
 
-* Delete All Sytax
+* Delete All Syntax
 
-```Sytax
+```Syntax
 meta.tag.attributes.js punctuation.section.embedded.begin, meta.tag.attributes.js punctuation.section.embedded.end: #8792AA/#A0A1A7
 //删除这二项后, 对应符号颜色控制由punctuation.section.embedded.begin, punctuation.section.embedded.end: #838FA7/#5D5D5FD8
 ```
@@ -976,17 +999,17 @@ tab.unfocusedActiveModifiedBorder: #A78CFAD8/#7C4DFFD8
 tab.unfocusedInactiveModifiedBorder: #A78CFA7F/#7C4DFF7F
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 text.html.derivative: #B0B7C3/#626264
 ```
 
 0.6.2 (2018-11-12)
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 //Improve the experience in VIM mode.
 editorCursor.background: #fff/#fff
 editorCursor.foreground: #B0B7C3/#A0A1A7 → #FF9070/#FC8357
@@ -994,9 +1017,9 @@ editorCursor.foreground: #B0B7C3/#A0A1A7 → #FF9070/#FC8357
 
 0.6.1 (2018-11-09)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 //JSX里的= 和 { }
 meta.tag.attributes.js keyword.operator.assignment,
 meta.tag.attributes.js punctuation.section.embedded.begin,
@@ -1005,9 +1028,9 @@ meta.tag.attributes.js punctuation.section.embedded.end: #8792AA/#A0A1A7
 
 0.6.0 (2018-11-02)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 //less里的基础文字颜色
 source.css.less: #8A97C3/#888888
 
@@ -1021,9 +1044,9 @@ entity.other.keyframe-offset.percentage.css: #FF9070/#FF6500
 support.constant.color.w3c-extented-color-name.css: #B0B7C3/#5D5D5F
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 variable.parameter.keyframe-list.css: #E4BF7F/#F0AA0B → #B0B7C3/#5D5D5F
 
 meta.property-value.css: #8A97C3/#888888 → #B0B7C3/#5D5D5F
@@ -1031,17 +1054,17 @@ meta.property-value.css: #8A97C3/#888888 → #B0B7C3/#5D5D5F
 variable.other.constant: #B0B7C3/#5D5D5F → #FF9070/#FF6500
 ```
 
-* Delete All Sytax
+* Delete All Syntax
 
-```Sytax
+```Syntax
 variable.other.constant.object: #B0B7C3/#5D5D5F
 ```
 
 0.5.9 (2018-10-31)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 punctuation.section.keyframes.begin.bracket.curly.css,punctuation.section.keyframes.end.bracket.curly.css: #838FA7CC/#888888D9
 
 meta.at-rule.extend.scss: #98C379/#53A053
@@ -1058,15 +1081,15 @@ sass-script-maps: #8E99B1/#8E8E90
 comment.punctuation.comma.sass: #79859D/#A0A1A7F2
 ```
 
-* Add Light Sytax
+* Add Light Syntax
 
-```Sytax
+```Syntax
 meta.function.calc.css: #F0AA0B
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 source.css.scss: #79859D/#A0A1A7F2 → #8A97C3/#888888
 ```
 
@@ -1078,9 +1101,9 @@ source.css.scss: #79859D/#A0A1A7F2 → #8A97C3/#888888
 editorInfo.foreground: #598DEF/#598DEF
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 punctuation.definition.list.begin.markdown: #56B7C3/#00BEC4
 ```
 
@@ -1119,9 +1142,9 @@ editorWhitespace.foreground: #BDBDBE → #BDBDBED8
 
 0.5.6 (2018-09-27)
 
-* Changed All Sytax
+* Changed All Syntax
 
-```Sytax
+```Syntax
 //这一版改变了许多, 关键词
 public, static, extends, module: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
 return: #A78CFA/#7C4DFF → #CF68E1/#C838C6
@@ -1132,17 +1155,17 @@ return: #A78CFA/#7C4DFF → #CF68E1/#C838C6
 
 0.5.5 (2018-09-26)
 
-* Fixed All Sytax
+* Fixed All Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in C++, ruby, css files.
 ```
 
 0.5.4 (2018-09-25)
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 //修复了HTML里id与class同色的问题, 这一条特殊在于它是二个Scope值叠加, 区分了单独entity.other.attribute-name.html选中的单位。
 //Scope值叠加精细选中目标, 以后大有用处。
 
@@ -1157,9 +1180,9 @@ meta.attribute.id.html entity.other.attribute-name.html: #FF9070
 gitDecoration.addedResourceForeground: #40AD41/#44C145
 ```
 
-* Fixed All Sytax
+* Fixed All Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in Python files.
 ```
 
@@ -1182,17 +1205,17 @@ editorUnnecessaryCode.border: #676E95/#A9A9AA
 editorUnnecessaryCode.opacity: 0
 ```
 
-* Add All Sytax
+* Add All Syntax
 
-```Sytax
+```Syntax
 meta.type.declaration, meta.block.ts : #FF6AB3/#EF8ED8
 ```
 
 0.5.0 (2018-08-28)
 
-* Fixed Dark Bold Sytax
+* Fixed Dark Bold Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in TypeScript files.
 ```
 
@@ -1204,9 +1227,9 @@ Fixed some bugs in TypeScript files.
 editorIndentGuide.activeBackground: #454963/#CED1D7 → #FF9070BF/#FC8357CC
 ```
 
-* Fixed All Sytax
+* Fixed All Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in TypeScript files.
 ```
 
@@ -1328,17 +1351,17 @@ notification.buttonHoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
 
 0.4.0 (2018-08-08)
 
-* Fixed All Sytax
+* Fixed All Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in JSX.
 ```
 
 0.3.9 (2018-07-19)
 
-* Fixed All Sytax
+* Fixed All Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in TypeScript files.
 ```
 
@@ -1536,17 +1559,17 @@ editorBracketMatch.background: #FF907099 → #FF90708C
 
 0.2.7 (2018-05-21)
 
-* Fixed All Sytax
+* Fixed All Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in less files.
 ```
 
 0.2.6 (2018-05-08)
 
-* Fixed All Sytax
+* Fixed All Syntax
 
-```Sytax
+```Syntax
 Fixed some bugs in Scss files.
 ```
 
@@ -1577,14 +1600,14 @@ editorIndentGuide.activeBackground: #CED1D7
 
 * **Support C#**
 
-* Add All Sytax
+* Add All Syntax
 
 ```syntax
 //枚举里面的元素 每个都代表一个整数
 enum: #FF9070/#ff6500
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
 ```syntax
 //位运算符号
@@ -1676,7 +1699,7 @@ list.focusForeground: #5D5D5F
 list.hoverForeground: #5D5D5F
 ```
 
-* Changed Light Sytax
+* Changed Light Syntax
 
 ```syntax
 number、id: #F5625C → #FF6500
@@ -1723,7 +1746,7 @@ textPreformat.foreground: #F5625C
 editorLink.activeForeground: #55ACF2 → #7C4DFF
 ```
 
-* Changed Light Sytax
+* Changed Light Syntax
 
 ```syntax
 number、id: #FF9070 → #F5625C
@@ -1755,7 +1778,7 @@ statusBar.foreground: #676E95 → #9da5b3
 
 * **Support Python**
 
-* Changed Light Sytax
+* Changed Light Syntax
 
 ```syntax
 //Make COMMENT a little darker and clear.
@@ -1774,7 +1797,7 @@ support.type.property-name.css,meta.property-value.css: #94969B→#888888
 selection.background: #598DEF59/#0065FF3F
 ```
 
-* Fixed All Sytax
+* Fixed All Syntax
 
 ```syntax
 keyword.operator.css, entity.name.tag.wildcard.scss = #56B7C3/#00BEC4
@@ -1786,7 +1809,7 @@ source.css.scss = #79859D/#A0A1A7F2
 
 0.1.1 (2017-07-12)
 
-* Changed All Sytax
+* Changed All Syntax
 
 ```syntax
 entity.other.inherited-class,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
@@ -1807,19 +1830,19 @@ notification.errorForeground: #FFF,
 
 0.1.0 (2017-07-03)
 
-* Changed Eva Light & Bold Sytax
+* Changed Eva Light & Bold Syntax
 
 ```syntax
 variable.language.this = #FA278C
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
 ```syntax
 variable.parameter = #E4BF7F/#F0AA0B
 ```
 
-* Changed Eva Dark/Light Sytax
+* Changed Eva Dark/Light Syntax
 
 ```syntax
 markup.bold.markdown bold → normal
@@ -1833,13 +1856,13 @@ markup.bold.markdown bold → normal
 editor.foreground = #B0B7C3E5/#5D5D5FE5;
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
 ```syntax
 variable.parameter  italic → normal;
 ```
 
-* Added All Sytax
+* Added All Syntax
 
 ```syntax
 entity.name.type.enum = #B0B7C3/#5D5D5F;
@@ -1848,13 +1871,13 @@ variable.other.enummember = #E06C75/#CD6069;
 
 0.0.8 (2017-06-29)
 
-* Deleted All Sytax
+* Deleted All Syntax
 
 ```syntax
 entity.name.type.ts
 ```
 
-* Add All Sytax
+* Add All Syntax
 
 ```syntax
 {
@@ -1866,7 +1889,7 @@ foreground: #FF6AB3/#EF8ED8
 
 0.0.7 (2017-06-28)
 
-* Changed All Sytax
+* Changed All Syntax
 
 ```syntax
 {
@@ -1900,7 +1923,7 @@ terminal.ansiBrightBlue = terminal.ansiBlue
 terminal.ansiBrightBlack = terminal.ansiBlack
 ```
 
-* Changed All Sytax
+* Changed All Syntax
 
 ```syntax
 variable.parameter // improve 2° lighter
@@ -1919,7 +1942,7 @@ terminal.ansiBrightYellow = terminal.ansiYellow
 
 0.0.4 (2017-06-23)
 
-* Changed All Sytax
+* Changed All Syntax
 
 ```syntax
 //Inorder to differentiate variable from text in jsx.
@@ -1934,14 +1957,14 @@ meta.jsx.children.tsx
 editorSuggestWidget.foreground
 ```
 
-* Changed Eva Light Sytax
+* Changed Eva Light Syntax
 
 ```syntax
 markup.bold.markdown
 variable.parameter
 ```
 
-* Fixed All Sytax
+* Fixed All Syntax
 
 ```syntax
 support.class.component
@@ -1996,7 +2019,7 @@ window.activeBorder
 window.inactiveBorder
 ```
 
-* Avoid Using API Sytax
+* Avoid Using API Syntax
 
 ```syntax
 //覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
