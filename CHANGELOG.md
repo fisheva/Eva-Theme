@@ -1,3 +1,50 @@
+1.2.3 (2021-05-21)
+
+* Add All UI
+
+```UI
+diffEditor.diagonalFill: #5F668B/#C9CCD2
+```
+<!-- 另外发现加了反而不好看的一条api: diffEditor.border, 加了之后对比文件的页面中间会有条分割线，切断了二边的改动颜色条连接。 -->
+
+* Changed Dark UI
+
+```UI
+//略微替提亮点这根线的亮度
+editorOverviewRuler.border: #535773 → #5F668B
+
+//这条暂不知道是什么，颜色修改和Light保持一致
+textPreformat.foreground: #E4BF7F → #F5625C
+```
+
+* Changed Light UI
+
+```UI
+error #e51000 → #EB0000
+```
+
+* Changed All UI
+
+```UI
+//因很多用户反应说#F5625C看着太接近红色了，warning的地方容易让人以为是error。
+warning #F5625C/#F5625C → #FF9070/#FC8357（改为与光标颜色相同）
+
+infoForeground #598DEF → #4480F4
+
+gitDecoration.conflictingResourceForeground: #E4BF7F/#F0AA0B → #F5625C/#FC8357
+gitDecoration.deletedResourceForeground: #f14c4c/#f14c4c → #EB0000/#EB0000
+
+inputValidation.errorBackground: #E5140059/#e5140059 → #21252B/#EBEEF5
+inputValidation.errorBorder: #E51400/#e51400 → #EB0000/#EB0000
+inputValidation.errorForeground: #F5F8FF
+inputValidation.infoBackground: #598DEF59/#598DEF59 → #21252B/#EBEEF5
+inputValidation.infoBorder: #598DEF/#598DEF → #4480F4/#4480F4
+inputValidation.infoForeground: #F5F8FF
+inputValidation.warningBackground: #F5625C59/#efbdbf → #21252B/#EBEEF5
+inputValidation.warningBorder: #F5625C/#F5625C → #F5625C/#FC8357
+inputValidation.warningForeground: #F5F8FF
+```
+
 1.2.2 (2021-05-20)
 
 Add some rust Syntax settings.
@@ -110,7 +157,6 @@ listFilterWidget.noMatchesOutline: #ff0000
 * Add All Syntax
 
 ```Syntax
-punctuation.section.property-list.begin.bracket.curly.scss,punctuation.section.property-list.end.bracket.curly.scss,punctuation.section.function.scss: #838FA7CC/#888888D9
 ```
 
 1.1.0 (2021-03-20)
@@ -402,25 +448,15 @@ string.quoted source: #98C379/#53A053
 
 <!-- Eva Theme's ongoing development is inseparable from the support of all generous supporters. If you'd like to join them, please consider: -->
 
-<!-- There are four styles in it: Dark, Dark Bold, Light, Light Bold. The Bold styles make keywords and function names thicker. -->
-
-<!-- ### Italic
-
-Eva Theme doesn't have a built-in italic version directly now, but I have made a <a href="https://github.com/fisheva/Eva-Theme/blob/master/italic.md" target="_blank">VSCode setting</a> for users who like the italic version. -->
-
 <!-- ### Conflicts
 
 Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are [Babel JavasScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). -->
 
 <!-- ### Encourage
 
-If you do like this theme, would you please give me a [Github Star ☆](https://github.com/fisheva/Eva-Theme) and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.eva-theme) as reward. Thanks so much! O(∩_∩)O~ -->
+If you do like this theme, would you please give me a [Github Star ☆] and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) as reward. Thanks so much! O(∩_∩)O~ -->
 
 * Delete README_CN.md
-
-<!-- ### Italic 斜体
-
-Eva Theme目前没有内置斜体版, 但我为喜欢斜体版的用户准备了一份[VSCode设置]() 。-->
 
 <!-- ### 冲突
 
@@ -428,7 +464,7 @@ Eva Theme目前没有内置斜体版, 但我为喜欢斜体版的用户准备了
 
 <!-- ### 鼓励
 
-如果您喜欢这款主题, 可以给我一颗[Github Star ☆](https://github.com/fisheva/Eva-Theme)和[好评](https://marketplace.visualstudio.com/items/fisheva.eva-theme)以示鼓励吗? 感谢! O(∩_∩)O~ -->
+如果您喜欢这款主题, 可以给我一颗[Github Star ☆]和[好评](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme)以示鼓励吗? 感谢! O(∩_∩)O~ -->
 
 0.9.1 (2020-09-06)
 
@@ -510,7 +546,7 @@ inputOption.activeForeground: #000 → #fff
 Paste the following command into VSCode extension input and press `Enter`:
 
 ```shell
-ext install eva-theme
+ext install Eva-Theme
 ```
 
 ### Activate
@@ -524,7 +560,7 @@ VSCode → Preferences → Color themes → Select Eva theme -->
 将下列指令复制进VSCode的扩展输入框，并按下回车`Enter`：
 
 ```shell
-ext install eva-theme
+ext install Eva-Theme
 ```
 
 ### 使用

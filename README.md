@@ -1,12 +1,12 @@
 <p align="center"><img src="https://tva1.sinaimg.cn/large/007jMFbEgy1gieydd8fboj33fg1mc1kx.jpg" referrerpolicy="no-referrer"></p>
 
-[![install](https://img.shields.io/vscode-marketplace/i/fisheva.eva-theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.eva-theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.eva-theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/eva-theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/eva-theme)
+[![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 
-English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/README_CN.md" target="_blank">简体中文</a>
+English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/README_CN" target="_blank">简体中文</a>
 
 ### Introduction
 
-<a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">Eva Theme</a> is a semantic coloring code theme dedicated to making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
+<a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> is a semantic coloring code theme dedicated to making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
 
 There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic. The Bold styles make keywords and function names bolder. The Italic styles make keywords italic.
 
@@ -16,7 +16,7 @@ Some extensions add some of their semantic colorings to cover the theme file, wh
 
 ### Issue
 
-This theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme&ssr=false#review-details" target="_blank">Marketplace</a>.
+This theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.
 
 <!-- #
 
