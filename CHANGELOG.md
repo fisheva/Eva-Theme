@@ -1,3 +1,11 @@
+1.2.4 (2021-05-22)
+
+* Changed All UI
+
+```UI
+gitDecoration.deletedResourceForeground: #EB0000/#EB0000 → #f14c4c/#f14c4
+```
+
 1.2.3 (2021-05-21)
 
 * Add All UI
@@ -454,7 +462,7 @@ Some extensions add some of their own semantic coloring to cover the theme file,
 
 <!-- ### Encourage
 
-If you do like this theme, would you please give me a [Github Star ☆] and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) as reward. Thanks so much! O(∩_∩)O~ -->
+If you do like this theme, would you please give me a [Github Star ☆](https://github.com/fisheva/Eva-Theme) and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) as reward. Thanks so much! O(∩_∩)O~ -->
 
 * Delete README_CN.md
 
@@ -464,7 +472,7 @@ If you do like this theme, would you please give me a [Github Star ☆] and [Nic
 
 <!-- ### 鼓励
 
-如果您喜欢这款主题, 可以给我一颗[Github Star ☆]和[好评](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme)以示鼓励吗? 感谢! O(∩_∩)O~ -->
+如果您喜欢这款主题, 可以给我一颗[Github Star ☆](https://github.com/fisheva/Eva-Theme)和[好评](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme)以示鼓励吗? 感谢! O(∩_∩)O~ -->
 
 0.9.1 (2020-09-06)
 
