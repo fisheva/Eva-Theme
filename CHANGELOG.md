@@ -1,3 +1,36 @@
+1.2.6 (2021-05-30)
+
+* Changed Light UI
+
+```UI
+//调淡
+minimapSlider.activeBackground: #4F4F5033 → #4F4F5022
+minimapSlider.hoverBackground: #4F4F5033 → #4F4F5022
+
+scrollbarSlider.activeBackground: #4F4F503F → #4F4F502E
+scrollbarSlider.background: #4F4F502E → #4F4F5022
+scrollbarSlider.hoverBackground: #4F4F503F → #4F4F502E
+```
+
+1.2.5 (2021-05-26)
+
+* Changed All UI
+
+//透明化
+
+```UI
+minimapGutter.addedBackground
+minimapGutter.deletedBackground
+minimapGutter.modifiedBackground
+```
+
+//对调
+
+```UI
+terminal.ansiBrightYellow
+terminal.ansiYellow
+```
+
 1.2.4 (2021-05-22)
 
 * Changed All UI

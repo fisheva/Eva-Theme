@@ -186,9 +186,9 @@
         "minimap.findMatchHighlight": "#6A707DE5",
         "minimap.selectionHighlight": "#5F97FFF2",
         "minimap.warningHighlight": "#FF907059",
-        "minimapGutter.addedBackground": "#40AD41",
-        "minimapGutter.deletedBackground": "#f14c4c",
-        "minimapGutter.modifiedBackground": "#A78CFA",
+        "minimapGutter.addedBackground": "#40AD4100",
+        "minimapGutter.deletedBackground": "#f14c4c00",
+        "minimapGutter.modifiedBackground": "#A78CFA00",
         "minimapSlider.activeBackground": "#A2ABE533",
         "minimapSlider.background": "#A2ABE519",
         "minimapSlider.hoverBackground": "#A2ABE533",
@@ -294,13 +294,13 @@
         "terminal.ansiBrightMagenta": "#CF68E1",
         "terminal.ansiBrightRed": "#f14c4c",
         "terminal.ansiBrightWhite": "#FF6AB3",
-        "terminal.ansiBrightYellow": "#FF9070",
+        "terminal.ansiBrightYellow": "#F5625C",
         "terminal.ansiCyan": "#F02B77",
         "terminal.ansiGreen": "#98c379",
         "terminal.ansiMagenta": "#E4BF7F",
         "terminal.ansiRed": "#E51400",
         "terminal.ansiWhite": "#B0B7C3",
-        "terminal.ansiYellow": "#F5625C",
+        "terminal.ansiYellow": "#FF9070",
         "terminal.background": "#282c34",
         "terminal.border": "#21252B",
         "terminal.foreground": "#B0B7C3",
@@ -501,7 +501,7 @@
         }
     }, {
         "name": "punctuation;html标签里的</> =",
-        "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace, punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js, punctuation.definition.tag source,source.vue",
+        "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace, punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js, punctuation.definition.tag source,source.vue, meta.attribute-selector.scss keyword.operator.scss",
         "settings": {
             "fontStyle": "",
             "foreground": "#8792AA"
@@ -515,7 +515,7 @@
         }
     }, {
         "name": "keyword Operators increment decrement;关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-        "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust",
+        "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust,meta.directive.vue",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"
@@ -718,7 +718,7 @@
         }
     }, {
         "name": "id,symbol in C#;HTML行间的id和CSS里的id名;C#中预处理器指令创建符号常量",
-        "scope": "meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, entity.name.variable.preprocessor.symbol",
+        "scope": "meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, entity.name.variable.preprocessor.symbol, entity.other.attribute-name.id.css punctuation.definition.entity.css",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#ff9070"
@@ -781,7 +781,7 @@
         }
     }, {
         "name": "curly;CSS里的大括号 {} ()",
-        "scope": "meta.brace.round.css,punctuation.section.property-list.begin.bracket.curly.css,punctuation.section.property-list.end.bracket.curly.css,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,punctuation.section.media.begin.bracket.curly.css,punctuation.section.media.end.bracket.curly.css,punctuation.definition.parameters.begin.bracket.round.css,punctuation.definition.parameters.end.bracket.round.css,punctuation.section.keyframes.begin.bracket.curly.css,punctuation.section.keyframes.end.bracket.curly.css, punctuation.definition.entity.end.bracket.square.css,punctuation.definition.entity.begin.bracket.square.css,punctuation.section.property-list.begin.bracket.curly.scss,punctuation.section.property-list.end.bracket.curly.scss,punctuation.section.function.scss",
+        "scope": "meta.brace.round.css,punctuation.section.property-list.begin.bracket.curly.css,punctuation.section.property-list.end.bracket.curly.css,punctuation.section.function.begin.bracket.round.css,punctuation.section.function.end.bracket.round.css,punctuation.section.media.begin.bracket.curly.css,punctuation.section.media.end.bracket.curly.css,punctuation.definition.parameters.begin.bracket.round.css,punctuation.definition.parameters.end.bracket.round.css,punctuation.section.keyframes.begin.bracket.curly.css,punctuation.section.keyframes.end.bracket.curly.css, punctuation.definition.entity.end.bracket.square.css,punctuation.definition.entity.begin.bracket.square.css,punctuation.section.property-list.begin.bracket.curly.scss,punctuation.section.property-list.end.bracket.curly.scss,punctuation.section.function.scss, punctuation.definition.attribute-selector.begin.bracket.square.scss, punctuation.definition.attribute-selector.end.bracket.square.scss, punctuation.definition.pseudo-class.begin.bracket.round.css, punctuation.definition.pseudo-class.end.bracket.round.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#838FA7CC"
@@ -822,7 +822,7 @@
             "foreground": "#6495EE"
         }
     }, {
-        "name": "Attribute class;css里的class名 和 &",
+        "name": "Attribute class;css里的class名",
         "scope": "entity.other.attribute-name.class.css,selector.sass,entity.other.attribute-name.parent-selector.css, meta.at-rule.extend.scss",
         "settings": {
             "fontStyle": "",
@@ -830,14 +830,14 @@
         }
     }, {
         "name": "pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child()",
-        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css",
+        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"
         }
     }, {
         "name": "pseudo-element;css里的伪元素 before after",
-        "scope": "entity.other.attribute-name.pseudo-element.css",
+        "scope": "entity.other.attribute-name.pseudo-element.css,entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#E06C75"
@@ -949,7 +949,7 @@
         }
     }, {
         "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
-        "scope": "source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source",
+        "scope": "source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css, meta.attribute-selector.scss",
         "settings": {
             "fontStyle": "",
             "foreground": "#98c379"
