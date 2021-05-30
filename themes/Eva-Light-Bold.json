@@ -87,7 +87,7 @@
         "editorMarkerNavigationInfo.background": "#598DEF",
         "editorMarkerNavigationWarning.background": "#FC8357",
         "editorOverviewRuler.addedForeground": "#44C145",
-        "editorOverviewRuler.border": "#B3B3B4",
+        "editorOverviewRuler.border": "#B3B3B400",
         "editorOverviewRuler.bracketMatchForeground": "#FC835700",
         "editorOverviewRuler.commonContentForeground": "#E5E8EF",
         "editorOverviewRuler.currentContentForeground": "#000",

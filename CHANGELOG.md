@@ -1,3 +1,12 @@
+1.2.7 (2021-05-31)
+
+* Changed All UI
+
+```UI
+//透明化
+editorOverviewRuler.border: #5F668B/#B3B3B4 → #5F668B00/#B3B3B400
+```
+
 1.2.6 (2021-05-30)
 
 * Changed Light UI
