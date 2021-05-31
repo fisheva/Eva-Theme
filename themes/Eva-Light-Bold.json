@@ -189,9 +189,9 @@
         "minimapGutter.addedBackground": "#44C14500",
         "minimapGutter.deletedBackground": "#F14C4C00",
         "minimapGutter.modifiedBackground": "#9277E600",
-        "minimapSlider.activeBackground": "#4F4F5022",
+        "minimapSlider.activeBackground": "#4F4F5020",
         "minimapSlider.background": "#4F4F5019",
-        "minimapSlider.hoverBackground": "#4F4F5022",
+        "minimapSlider.hoverBackground": "#4F4F5020",
         "notifications.background": "#E1E4EB",
         "notifications.border": "#AAADB499",
         "notifications.foreground": "#5D5D5F",
@@ -229,7 +229,7 @@
         "sash.hoverBorder":"#5e9cfb",
         "scrollbar.shadow": "#AAADB4",
         "scrollbarSlider.activeBackground": "#4F4F502E",
-        "scrollbarSlider.background": "#4F4F5022",
+        "scrollbarSlider.background": "#4F4F5020",
         "scrollbarSlider.hoverBackground": "#4F4F502E",
         "selection.background": "#0065FF3F",
         "settings.checkboxBackground": "#F1F4FB",
@@ -831,7 +831,7 @@
         }
     }, {
         "name": "pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child()",
-        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css",
+        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#00BEC4"

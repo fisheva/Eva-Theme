@@ -1,3 +1,14 @@
+1.2.8 (2021-06-01)
+
+* Changed Light UI
+
+```UI
+//调淡
+minimapSlider.activeBackground: #4F4F5022 → #4F4F5020
+minimapSlider.hoverBackground: #4F4F5022 → #4F4F5020
+scrollbarSlider.background: #4F4F5022 → #4F4F5020
+```
+
 1.2.7 (2021-05-31)
 
 * Changed All UI
