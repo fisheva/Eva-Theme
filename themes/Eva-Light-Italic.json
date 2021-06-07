@@ -312,7 +312,7 @@
         "textCodeBlock.background": "#E5E8EF",
         "textLink.activeForeground": "#D73BD5",
         "textLink.foreground": "#5B87EB",
-        "textPreformat.foreground": "#F5625C",
+        "textPreformat.foreground": "#FC8357",
         "titleBar.activeBackground": "#EBEEF5",
         "titleBar.activeForeground": "#5D5D5F",
         "titleBar.border": "#EBEEF500",
@@ -324,6 +324,9 @@
         "welcomePage.buttonHoverBackground": "#0065FF33",
         "widget.shadow": "#AAADB4"
     },
+    "semanticHighlighting": false,
+    // "semanticTokenColors": {
+    // },
     "tokenColors": [{
         "name": "variable.parameter",
         "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c, punctuation.vararg-ellipses,variable.other.block.ruby, meta.arguments, entity.name.type.template",

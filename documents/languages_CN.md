@@ -6,6 +6,7 @@
 - C / C++ / C#
 - Java
 - PHP
+- Rust
 - Ruby
 - Pyhton
 - Golang

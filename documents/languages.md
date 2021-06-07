@@ -6,6 +6,7 @@ Tested with the following languages in native environment, except derived framew
 - C / C++ / C#
 - Java
 - PHP
+- Rust
 - Ruby
 - Pyhton
 - Golang

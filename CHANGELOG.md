@@ -1,3 +1,11 @@
+1.2.9 (2021-06-07)
+
+* Changed All UI
+
+```UI
+textPreformat.foreground: #F5625C/#F5625C → #FF9070/#FC8357
+```
+
 1.2.8 (2021-06-01)
 
 * Changed Light UI
