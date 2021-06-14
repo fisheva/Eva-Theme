@@ -2,7 +2,7 @@
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 
-English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/README_CN" target="_blank">简体中文</a>
+English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/README_CN.md" target="_blank">简体中文</a>
 
 ### Introduction
 

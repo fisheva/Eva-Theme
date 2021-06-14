@@ -19,11 +19,15 @@
         "breadcrumb.focusForeground": "#d7dae0",
         "breadcrumbPicker.background": "#252830",
         "button.background": "#676E9599",
+        "button.border": "#676E9500",
         "button.foreground": "#DCDFE5",
         "button.hoverBackground": "#598DEFE6",
+        "button.secondaryBackground": "#676E9599",
+        "button.secondaryForeground": "#DCDFE5",
+        "button.secondaryHoverBackground": "#598DEFE6",
         "debugConsole.errorForeground": "#E51400",
         "debugConsole.infoForeground": "#598DEF",
-        "debugConsole.warningForeground": "#FF9070",
+        "debugConsole.warningForeground": "#FF8441",
         "debugExceptionWidget.background": "#a3151533",
         "debugExceptionWidget.border": "#a31515",
         "debugToolBar.background": "#21252B",
@@ -85,10 +89,10 @@
         "editorMarkerNavigation.background": "#2F323B",
         "editorMarkerNavigationError.background": "#E51400",
         "editorMarkerNavigationInfo.background": "#598DEF",
-        "editorMarkerNavigationWarning.background": "#FF9070",
+        "editorMarkerNavigationWarning.background": "#FF8441",
         "editorOverviewRuler.addedForeground": "#40AD41",
         "editorOverviewRuler.border": "#5F668B00",
-        "editorOverviewRuler.bracketMatchForeground": "#FF907000",
+        "editorOverviewRuler.bracketMatchForeground": "#FF90707F",
         "editorOverviewRuler.commonContentForeground": "#2D3039",
         "editorOverviewRuler.currentContentForeground": "#FFF",
         "editorOverviewRuler.deletedForeground": "#F14C4C",
@@ -99,7 +103,7 @@
         "editorOverviewRuler.modifiedForeground": "#A78CFA",
         "editorOverviewRuler.rangeHighlightForeground": "#2D3039",
         "editorOverviewRuler.selectionHighlightForeground": "#008099BF",
-        "editorOverviewRuler.warningForeground": "#FF9070",
+        "editorOverviewRuler.warningForeground": "#FF8441",
         "editorOverviewRuler.wordHighlightForeground": "#008099BF",
         "editorOverviewRuler.wordHighlightStrongForeground": "#A78CFABF",
         "editorPane.background": "#21252B",
@@ -111,7 +115,7 @@
         "editorSuggestWidget.selectedBackground": "#598DEF64",
         "editorUnnecessaryCode.border": "#676E95",
         "editorUnnecessaryCode.opacity": "#676E95FF",
-        "editorWarning.foreground": "#FF9070",
+        "editorWarning.foreground": "#FF8441",
         "editorWhitespace.foreground": "#535773BF",
         "editorWidget.background": "#21252B",
         "editorWidget.border": "#21252B",
@@ -122,13 +126,12 @@
         "focusBorder": "#4480F4",
         "foreground": "#B0B7C3",
         "gitDecoration.addedResourceForeground": "#98C379",
-        "gitDecoration.conflictingResourceForeground": "#FF9070",
+        "gitDecoration.conflictingResourceForeground": "#FF8441",
         "gitDecoration.deletedResourceForeground": "#f14c4c",
         "gitDecoration.ignoredResourceForeground": "#676E95",
         "gitDecoration.modifiedResourceForeground": "#A78CFA",
         "gitDecoration.untrackedResourceForeground": "#8E99B1",
         "icon.foreground": "#c5c5c5",
-        "imagePreview.border":"#282c3400",
         "input.background": "#282c34",
         "input.border": "#21252B",
         "input.foreground": "#9DA5B3",
@@ -143,8 +146,8 @@
         "inputValidation.infoBorder": "#4480F4",
         "inputValidation.infoForeground": "#4480F4",
         "inputValidation.warningBackground": "#21252B",
-        "inputValidation.warningBorder": "#FF9070",
-        "inputValidation.warningForeground": "#FF9070",
+        "inputValidation.warningBorder": "#FF8441",
+        "inputValidation.warningForeground": "#FF8441",
         "list.activeSelectionBackground": "#2C313A",
         "list.activeSelectionForeground": "#d7dae0",
         "list.dropBackground": "#598DEF4C",
@@ -161,7 +164,7 @@
         "list.inactiveSelectionBackground": "#2C313A",
         "list.inactiveSelectionForeground": "#d7dae0",
         "list.invalidItemForeground": "#676E95",
-        "list.warningForeground": "#FF9070",
+        "list.warningForeground": "#FF8441",
         "listFilterWidget.background": "#fff",
         "listFilterWidget.outline": "#fff",
         "listFilterWidget.noMatchesOutline": "#ff0000",
@@ -182,10 +185,10 @@
         "merge.incomingHeaderBackground": "#45B7463F",
         "merge.incomingContentBackground": "#45B7463F",
         "minimap.background": "#282c34",
-        "minimap.errorHighlight": "#E51400BF",
+        "minimap.errorHighlight": "#E514007F",
         "minimap.findMatchHighlight": "#6A707DE5",
         "minimap.selectionHighlight": "#5F97FFF2",
-        "minimap.warningHighlight": "#FF907059",
+        "minimap.warningHighlight": "#FF84417F",
         "minimapGutter.addedBackground": "#40AD4100",
         "minimapGutter.deletedBackground": "#F14C4C00",
         "minimapGutter.modifiedBackground": "#A78CFA00",
@@ -300,7 +303,7 @@
         "terminal.ansiMagenta": "#E4BF7F",
         "terminal.ansiRed": "#E51400",
         "terminal.ansiWhite": "#B0B7C3",
-        "terminal.ansiYellow": "#FF9070",
+        "terminal.ansiYellow": "#FF8441",
         "terminal.background": "#282c34",
         "terminal.border": "#21252B",
         "terminal.foreground": "#B0B7C3",
@@ -705,19 +708,26 @@
             "fontStyle": "",
             "foreground": "#CF68E1"
         }
-    },{
-        "name": "number,unit,constant,Math,enum;数字;单位;值为数字的常量;Math对象;enum枚举里的元素",
-        "scope": "constant.numeric,keyword.other.unit,support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,entity.name.function.preprocessor.c, entity.other.keyframe-offset.percentage.css,variable.other.constant, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant",
+    }, {
+        "name": "number,unit,数字;单位",
+        "scope": "constant.numeric, entity.other.keyframe-offset.percentage.css,keyword.other.unit,",
         "settings": {
             "fontStyle": "",
-            "foreground": "#ff9070"
+            "foreground": "#FF9070"
+        }
+    }, {
+        "name": "constant,Math,值为数字的常量;Math对象;enum枚举里的元素",
+        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, variable.other.constant, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#FF9070"
         }
     }, {
         "name": "id,symbol in C#;HTML行间的id和CSS里的id名;C#中预处理器指令创建符号常量",
         "scope": "meta.attribute.id.html entity.other.attribute-name.html, entity.other.attribute-name.id, entity.name.variable.preprocessor.symbol, entity.other.attribute-name.id.css punctuation.definition.entity.css",
         "settings": {
             "fontStyle": "",
-            "foreground": "#ff9070"
+            "foreground": "#FF9070"
         }
     },{
         "name": "markup bold;Markdown里的bold",
@@ -981,7 +991,7 @@
         "scope": "token.warn-token",
         "settings": {
             "fontStyle": "",
-            "foreground": "#FF9070"
+            "foreground": "#FF8441"
         }
     }, {
         "scope": "token.error-token",

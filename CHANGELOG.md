@@ -1,3 +1,23 @@
+1.3.0（2021-06-14）
+
+* Add All UI
+
+```UI
+button.border: #676E9500/#A0A1A700
+button.secondaryBackground: #676E9599/#A0A1A7E5
+button.secondaryForeground: #DCDFE5/#fff
+button.secondaryHoverBackground: #598DEFE6/#0065FFA8
+editorOverviewRuler.bracketMatchForeground: #FF907000/#FC835700 → #FF90707F/#FC835762
+warning: #FF9070/#FC8357 → #FF8441/#FF6D12
+```
+
+* Changed Light UI
+
+```Syntax
+number,unit,enum,Math,symbol,id,constant: #FF6500 → #FF6D12
+error: #EB0000 → #EC0000
+```
+
 1.2.9 (2021-06-07)
 
 * Changed All UI
@@ -96,7 +116,7 @@ error #e51000 → #EB0000
 
 ```UI
 //因很多用户反应说#F5625C看着太接近红色了，warning的地方容易让人以为是error。
-warning #F5625C/#F5625C → #FF9070/#FC8357（改为与光标颜色相同）
+warning: #F5625C/#F5625C → #FF9070/#FC8357（改为与光标颜色相同）
 
 infoForeground #598DEF → #4480F4
 
