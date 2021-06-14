@@ -1,3 +1,11 @@
+1.3.1 (2021-06-15)
+
+* Changed Light UI
+
+```UI
+editorOverviewRuler.warningForeground: #FF6D12 → #FC8357
+```
+
 1.3.0（2021-06-14）
 
 * Add All UI

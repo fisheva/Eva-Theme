@@ -103,7 +103,7 @@
         "editorOverviewRuler.modifiedForeground": "#9277E6",
         "editorOverviewRuler.rangeHighlightForeground": "#E5E8EF",
         "editorOverviewRuler.selectionHighlightForeground": "#00BEC4AD",
-        "editorOverviewRuler.warningForeground": "#FF6D12",
+        "editorOverviewRuler.warningForeground": "#FC8357",
         "editorOverviewRuler.wordHighlightForeground": "#00BEC4AD",
         "editorOverviewRuler.wordHighlightStrongForeground": "#7C4DFF72",
         "editorPane.background": "#E1E4EB",
