@@ -188,7 +188,7 @@
         "minimap.errorHighlight": "#EC00007F",
         "minimap.findMatchHighlight": "#BBBEC5",
         "minimap.selectionHighlight": "#0065FFB2",
-        "minimap.warningHighlight": "#FF6D127F",
+        "minimap.warningHighlight": "#FC835799",
         "minimapGutter.addedBackground": "#44C14500",
         "minimapGutter.deletedBackground": "#F14C4C00",
         "minimapGutter.modifiedBackground": "#9277E600",

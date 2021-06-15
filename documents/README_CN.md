@@ -6,7 +6,7 @@
 
 ### 介绍
 
-<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a>是一款语义着色代码主题，使您可以更舒适地进行<a title="查看Eva Theme已提供语义化着色的编程语言。" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN" target="_blank">编程</a>。VSCode版本要求 ≥ 1.12.0。
+<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a>是一款语义着色代码主题，使您可以更舒适地进行<a title="查看Eva Theme已提供语义化着色的编程语言。" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">编程</a>。VSCode版本要求 ≥ 1.12.0。
 
 里面一共有6种样式: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic。Bold样式加粗了许多关键字和函数名。Italic样式则设置许多关键字为斜体。
 

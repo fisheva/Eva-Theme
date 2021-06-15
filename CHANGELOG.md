@@ -1,3 +1,11 @@
+1.3.2 (2021-06-15)
+
+* Changed Light UI
+
+```UI
+minimap.warningHighlight: #FF6D127F → #FC835799
+```
+
 1.3.1 (2021-06-15)
 
 * Changed Light UI
