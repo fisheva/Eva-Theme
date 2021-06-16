@@ -1,3 +1,11 @@
+1.3.3 (2021-06-16)
+
+* Changed Dark UI
+
+```UI
+warning: #FF8441 → #FF8A4C
+```
+
 1.3.2 (2021-06-15)
 
 * Changed Light UI
