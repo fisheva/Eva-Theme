@@ -25,6 +25,9 @@
         "button.secondaryBackground": "#676E9599",
         "button.secondaryForeground": "#DCDFE5",
         "button.secondaryHoverBackground": "#598DEFE6",
+        "checkbox.background":"#21252B",
+        "checkbox.border":"#181a1f",
+        "checkbox.foreground":"#B0B7C3",
         "debugConsole.errorForeground": "#E51400",
         "debugConsole.infoForeground": "#598DEF",
         "debugConsole.warningForeground": "#FF8A4C",
@@ -395,7 +398,7 @@
         }
     }, {
         "name": "Function Call Variable;对象属性名",
-        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option",
+        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option,support.constant.math",
         "settings": {
             "fontStyle": "",
             "foreground": "#E06C75"
@@ -716,8 +719,8 @@
             "foreground": "#FF9070"
         }
     }, {
-        "name": "constant,Math,值为数字的常量;Math对象;enum枚举里的元素",
-        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.math,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, variable.other.constant, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,",
+        "name": "constant,值为数字的常量;enum枚举里的元素,Infinity",
+        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, variable.other.constant, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity",
         "settings": {
             "fontStyle": "",
             "foreground": "#FF9070"

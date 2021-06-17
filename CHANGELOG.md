@@ -1,3 +1,20 @@
+1.3.4 (2021-06-17)
+
+* Add All UI
+
+```UI
+checkbox.background:#21252B/#EDF0F7
+checkbox.border:#181a1f/#CED1D7
+checkbox.foreground:#B0B7C3/#5D5D5F
+```
+
+* Changed All Syntax
+
+```Syntax
+constant.language.infinity: #CF68E1/#C838C6 → #FF9070/#FF6D12
+support.constant.math: #FF9070/#FF6D12 → #E06C75/#CD6069
+```
+
 1.3.3 (2021-06-16)
 
 * Changed Dark UI
