@@ -398,7 +398,7 @@
         }
     }, {
         "name": "Function Call Variable;对象属性名",
-        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option,support.constant.math",
+        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option",
         "settings": {
             "fontStyle": "",
             "foreground": "#E06C75"
@@ -720,7 +720,7 @@
         }
     }, {
         "name": "constant,值为数字的常量;enum枚举里的元素,Infinity",
-        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, variable.other.constant, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity",
+        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity",
         "settings": {
             "fontStyle": "",
             "foreground": "#FF9070"
@@ -971,8 +971,15 @@
             "foreground": "#E06C75"
         }
     }, {
-        "name": "jststhissuper,pythonself,C++delete",
-        "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart,keyword.operator.delete,keyword.operator.expression.delete,keyword.other.important",
+        "name": "important,math",
+        "scope": "variable.other.constant.object,support.constant.math",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#FF9070"
+        }
+    }, {
+        "name": "js ts this super, python self, C++ delete",
+        "scope": "variable.language.self,variable.language.this,variable.language.super,variable.language.special.self.python,variable.language.dart, keyword.operator.delete, keyword.operator.expression.delete,keyword.other.important,",
         "settings": {
             "fontStyle": "",
             "foreground": "#F02B77"

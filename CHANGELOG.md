@@ -1,3 +1,17 @@
+1.3.5 (2021-06-20)
+
+* Changed Bold/Italic Syntax
+
+```Syntax
+variable.other.constant.object,support.constant.math: bold/italic
+```
+
+* Changed Italic Syntax
+
+```Syntax
+Make Variable/String/CSS Class italic. 
+```
+
 1.3.4 (2021-06-17)
 
 * Add All UI
@@ -12,7 +26,6 @@ checkbox.foreground:#B0B7C3/#5D5D5F
 
 ```Syntax
 constant.language.infinity: #CF68E1/#C838C6 → #FF9070/#FF6D12
-support.constant.math: #FF9070/#FF6D12 → #E06C75/#CD6069
 ```
 
 1.3.3 (2021-06-16)
