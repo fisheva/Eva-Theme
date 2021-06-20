@@ -1,3 +1,21 @@
+1.3.8 (2021-06-21)
+
+* Added All UI
+
+```UI
+gitDecoration.renamedResourceForeground: #56B7C3/#00BEC4
+```
+
+1.3.7 (2021-06-21)
+
+* Changed All UI
+
+```UI
+gitDecoration.submoduleResourceForeground: #8E99B1/#626264D8 → #E4BF7F/#F0AA0B
+gitDecoration.stageDeletedResourceForeground: #f14c4c/#f14c4c → #E06C75/#CD6069
+gitDecoration.stageModifiedResourceForeground: #E4BF7F/#F0AA0B → #CF68E1/#C838C6
+```
+
 1.3.6 (2021-06-21)
 
 * Added All UI
