@@ -1,3 +1,22 @@
+1.3.6 (2021-06-21)
+
+* Added All UI
+
+```UI
+gitDecoration.submoduleResourceForeground: #8E99B1/#626264D8
+gitDecoration.stageDeletedResourceForeground: #f14c4c/#f14c4c
+gitDecoration.stageModifiedResourceForeground: #E4BF7F/#F0AA0B
+```
+
+* Fixed All UI
+
+```UI
+//已提交的文件
+gitDecoration.addedResourceForeground: #8E99B1/#626264D8
+//新添加的文件
+gitDecoration.untrackedResourceForeground: #7BBE54/#3CAD3C
+```
+
 1.3.5 (2021-06-20)
 
 * Changed Bold/Italic Syntax
