@@ -1,3 +1,12 @@
+1.3.9 (2021-06-21)
+
+* Changed All UI
+
+```UI
+//和warning颜色区分开，因为可能同时出现这二种情况
+gitDecoration.conflictingResourceForeground: #FF9070/#FF6D12 → #F02B77/#FA278E
+```
+
 1.3.8 (2021-06-21)
 
 * Added All UI

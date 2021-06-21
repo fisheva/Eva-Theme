@@ -129,7 +129,7 @@
         "focusBorder": "#4480F4",
         "foreground": "#626264",
         "gitDecoration.addedResourceForeground": "#626264D8",
-        "gitDecoration.conflictingResourceForeground": "#FF6D12",
+        "gitDecoration.conflictingResourceForeground": "#FA278E",
         "gitDecoration.deletedResourceForeground": "#f14c4c",
         "gitDecoration.ignoredResourceForeground": "#A9A9AA",
         "gitDecoration.modifiedResourceForeground": "#7C4DFF",
