@@ -6,17 +6,20 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 ### Introduction
 
-<a title="Go to the marketplace of Eva Theme from Github." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> is a semantic coloring code theme making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>. Requires a minimum of 1.12.0 VSCode version.
+<a title="Go to the marketplace page of Eva Theme." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> is a semantic coloring code theme making you more comfortable <a title="To see those programming languages that Eva Theme has provided semantic coloring." href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming</a>.
+<br>
+
+> Requires VS Code >=1.12.0.
 
 There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic. The Bold styles make keywords and function names bolder. The Italic styles make keywords italic.
 
 ### Conflicts
 
-Some extensions add some of their semantic colorings to cover the theme file, which will make some characters' colors look 'wrong'. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>.
+Some extensions add their own semantic colorings that override the theme colors, which will make some characters' colors look 'wrong'. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Such extensions are: <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>.
 
 ### Issue
 
-This theme is not perfect yet. If you find any inconsistency in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.
+This theme is not perfect yet. If you find any inconsistencies in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.
 
 <!-- #
 
