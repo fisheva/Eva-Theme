@@ -128,12 +128,12 @@
         "extensionButton.prominentHoverBackground": "#377337",
         "focusBorder": "#4480F4",
         "foreground": "#B0B7C3",
-        "gitDecoration.addedResourceForeground": "#56B7C3",
-        "gitDecoration.conflictingResourceForeground": "#E4BF7F",
-        "gitDecoration.deletedResourceForeground": "#F02B77",
+        "gitDecoration.addedResourceForeground": "#98C379",
+        "gitDecoration.conflictingResourceForeground": "#E51400",
+        "gitDecoration.deletedResourceForeground": "#F14C4C",
         "gitDecoration.ignoredResourceForeground": "#676E95",
         "gitDecoration.modifiedResourceForeground": "#A78CFA",
-        "gitDecoration.renamedResourceForeground": "#518DFF",
+        "gitDecoration.renamedResourceForeground": "#E4BF7F",/*518DFF蓝色*/
         "gitDecoration.submoduleResourceForeground": "#FF6AB3",
         "gitDecoration.stageDeletedResourceForeground": "#E06C75",
         "gitDecoration.stageModifiedResourceForeground": "#D365E5",
@@ -196,9 +196,9 @@
         "minimap.findMatchHighlight": "#6A707DE5",
         "minimap.selectionHighlight": "#5F97FFF2",
         "minimap.warningHighlight": "#FF8A4C7F",
-        "minimapGutter.addedBackground": "#40AD4100",
-        "minimapGutter.deletedBackground": "#f14c4c00",
-        "minimapGutter.modifiedBackground": "#A78CFA00",
+        "minimapGutter.addedBackground": "#40AD41",
+        "minimapGutter.deletedBackground": "#F14C4C",
+        "minimapGutter.modifiedBackground": "#A78CFA",
         "minimapSlider.activeBackground": "#A2ABE533",
         "minimapSlider.background": "#A2ABE519",
         "minimapSlider.hoverBackground": "#A2ABE533",
@@ -360,7 +360,7 @@
         }
     }, {
         "name": "module;模块",
-        "scope": "variable.other.readwrite.alias, entity.name.type.module,entity.name.package",
+        "scope": "entity.name.type.module,entity.name.package",
         "settings": {
             "fontStyle": "",
             "foreground": "#E06C75"
@@ -661,17 +661,17 @@
         }
     }, {
         "name": "Keyword Control,Using",
-        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.control.export, keyword.control.import,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.other.import,keyword.import,keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust",
+        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#CF68E1"
         }
     }, {
         "name": "CSS from to, js from",
-        "scope": "keyword.control.from,entity.other.keyframe-offset",
+        "scope": "keyword.control.from,entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import,keyword.control.default",
         "settings": {
             "fontStyle": "italic",
-            "foreground": "#CF68E1"
+            "foreground": "#56B7C3"
         }
     }, {
         "name": "Functions,pthread;单独的函数,C++线程",
@@ -686,13 +686,6 @@
         "settings": {
             "fontStyle": "italic",
             "foreground": "#A78CFA"
-        }
-    }, {
-        "name": "default",
-        "scope": "keyword.control.default",
-        "settings": {
-            "fontStyle": "italic",
-            "foreground": "#CF68E1"
         }
     }, {
         "name": "support type ts; class;ts里默认数据类型;自定义数据类型; interface; class",

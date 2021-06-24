@@ -128,16 +128,16 @@
         "extensionButton.prominentHoverBackground": "#377337",
         "focusBorder": "#4480F4",
         "foreground": "#626264",
-        "gitDecoration.addedResourceForeground": "#00BEC4",
-        "gitDecoration.conflictingResourceForeground": "#F0AA0B",
-        "gitDecoration.deletedResourceForeground": "#FA278E",
+        "gitDecoration.addedResourceForeground": "#83C654",
+        "gitDecoration.conflictingResourceForeground": "#EC0000",
+        "gitDecoration.deletedResourceForeground": "#f14c4c",
         "gitDecoration.ignoredResourceForeground": "#A9A9AA",
         "gitDecoration.modifiedResourceForeground": "#7C4DFF",
-        "gitDecoration.renamedResourceForeground": "#2276FF",
+        "gitDecoration.renamedResourceForeground": "#F3AD01",/*2276FF蓝色*/
         "gitDecoration.submoduleResourceForeground": "#F183DA",
         "gitDecoration.stageDeletedResourceForeground": "#CD6069",
         "gitDecoration.stageModifiedResourceForeground": "#d73bd5",
-        "gitDecoration.untrackedResourceForeground": "#3CAD3C",
+        "gitDecoration.untrackedResourceForeground": "#3EC141",
         "icon.foreground": "#424242",
         "input.background": "#EBEEF5",
         "input.border": "#E1E4EB",
@@ -196,9 +196,9 @@
         "minimap.findMatchHighlight": "#BBBEC5",
         "minimap.selectionHighlight": "#0065FFB2",
         "minimap.warningHighlight": "#FC835799",
-        "minimapGutter.addedBackground": "#44C14500",
-        "minimapGutter.deletedBackground": "#f14c4c00",
-        "minimapGutter.modifiedBackground": "#9277E600",
+        "minimapGutter.addedBackground": "#44C145",
+        "minimapGutter.deletedBackground": "#f14c4c",
+        "minimapGutter.modifiedBackground": "#9277E6",
         "minimapSlider.activeBackground": "#4F4F5020",
         "minimapSlider.background": "#4F4F5019",
         "minimapSlider.hoverBackground": "#4F4F5020",
@@ -360,7 +360,7 @@
         }
     }, {
         "name": "module;模块",
-        "scope": "variable.other.readwrite.alias, entity.name.type.module,entity.name.package",
+        "scope": "entity.name.type.module,entity.name.package",
         "settings": {
             "fontStyle": "",
             "foreground": "#CD6069"
@@ -654,17 +654,17 @@
         }
     }, {
         "name": "Keyword Control,Using",
-        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.control.export, keyword.control.import,keyword.control.at-rule.import.css,keyword.control.at-rule.import.less,keyword.control.at-rule.import.sass,keyword.other.import,keyword.import,keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust",
+        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust",
         "settings": {
             "fontStyle": "",
             "foreground": "#C838C6"
         }
     }, {
         "name": "CSS from to, js from",
-        "scope": "keyword.control.from,entity.other.keyframe-offset",
+        "scope": "keyword.control.from,entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import,keyword.control.default",
         "settings": {
             "fontStyle": "",
-            "foreground": "#C838C6"
+            "foreground": "#00BEC4"
         }
     }, {
         "name": "Functions,pthread;单独的函数,C++线程",
@@ -679,13 +679,6 @@
         "settings": {
             "fontStyle": "",
             "foreground": "#7C4DFF"
-        }
-    }, {
-        "name": "default",
-        "scope": "keyword.control.default",
-        "settings": {
-            "fontStyle": "",
-            "foreground": "#C838C6"
         }
     }, {
         "name": "support type ts; class;ts里默认数据类型;自定义数据类型; interface; class",

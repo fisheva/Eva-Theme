@@ -1,3 +1,36 @@
+1.4.1 (2021-06-22)
+
+* Changed All UI
+
+```UI
+gitDecoration.addedResourceForeground: #56B7C3/#00BEC4 → #98C379/#83C654
+gitDecoration.conflictingResourceForeground: #E4BF7F/#F0AA0B → #E51400/#EC0000
+gitDecoration.deletedResourceForeground: #F02B77/#FA278E → #f14c4c/#f14c4c
+
+
+minimapGutter.addedBackground: #40AD4100/#44C14500 → #40AD41/#44C145
+minimapGutter.deletedBackground: #F14C4C00/#F14C4C00 → #F14C4C/#F14C4C
+minimapGutter.modifiedBackground: #A78CFA00/#9277E600 → #A78CFA/#9277E6
+```
+
+* Changed Light UI
+
+```UI
+gitDecoration.untrackedResourceForeground: #3CAD3C → #3EC141
+```
+
+* Changed All Syntax
+
+```Syntax
+keyword.control.from,entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import,keyword.control.default: #CF68E1/#C838C6 → #56B7C3/#00BEC4
+```
+
+* Delete All Sytax
+
+```Syntax
+variable.other.readwrite.alias: #E06C75/#CD6069 
+```
+
 1.4.0 (2021-06-22)
 
 * Changed All UI
