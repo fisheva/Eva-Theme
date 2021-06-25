@@ -1,4 +1,24 @@
-1.4.1 (2021-06-22)
+1.4.2 (2021-06-25)
+
+* Add All Syntax
+
+```Syntax
+support.constant,support.constant.json: #FF9070/#FF6D12
+```
+
+* Changed All Syntax
+
+```Syntax
+typeof: #56B7C3/#00BEC4 → #6495EE/#437AED
+```
+
+* Changed bold Syntax
+
+```Syntax
+export default, import ... from "...": "" → "bold"
+```
+
+1.4.1 (2021-06-24)
 
 * Changed All UI
 

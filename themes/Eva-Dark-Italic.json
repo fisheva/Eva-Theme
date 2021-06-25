@@ -502,8 +502,8 @@
         "name": "typeof",
         "scope": "keyword.operator.expression.typeof,keyword.other.typeof",
         "settings": {
-            "fontStyle": "italic",
-            "foreground": "#56B7C3"
+            "fontStyle": "",
+            "foreground": "#6495EE"
         }
     }, {
         "name": "keyword Operators assignment;等号 = (不包括HTML标签里的=号, 把+= -=包含进来了,然后单独设)",
@@ -528,7 +528,7 @@
         }
     }, {
         "name": "keyword Operators increment decrement;关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-        "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust,meta.directive.vue",
+        "scope": "keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust,meta.directive.vue, punctuation.definition.quote.begin.markdown",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"
@@ -668,10 +668,10 @@
         }
     }, {
         "name": "CSS from to, js from",
-        "scope": "keyword.control.from,entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import,keyword.control.default",
+        "scope": "keyword.control.from,entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import, keyword.control.default",
         "settings": {
             "fontStyle": "italic",
-            "foreground": "#56B7C3"
+            "foreground": "#CF68E1"
         }
     }, {
         "name": "Functions,pthread;单独的函数,C++线程",
@@ -845,7 +845,7 @@
         "name": "pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child()",
         "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
         "settings": {
-            "fontStyle": "",
+            "fontStyle": "italic",
             "foreground": "#56B7C3"
         }
     }, {
@@ -975,8 +975,8 @@
             "foreground": "#E06C75"
         }
     }, {
-        "name": "important,math",
-        "scope": "variable.other.constant.object,support.constant.math",
+        "name": "URL,math",
+        "scope": "variable.other.constant.object,support.constant,support.constant.math,support.constant.json",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#FF9070"
