@@ -56,10 +56,10 @@
         "editor.selectionBackground": "#0065FF3F",
         "editor.selectionHighlightBackground": "#00BEC459",
         "editor.selectionHighlightBorder": "#00BEC400",
-        "editor.snippetFinalTabstopHighlightBackground": "#45B7464C",
-        "editor.snippetFinalTabstopHighlightBorder": "#BDBDBED8",
-        "editor.snippetTabstopHighlightBackground": "#45B7464C",
-        "editor.snippetTabstopHighlightBorder": "#45B74600",
+        "editor.snippetFinalTabstopHighlightBackground": "#CFD2D9",
+        "editor.snippetFinalTabstopHighlightBorder": "#BDBDBE",
+        "editor.snippetTabstopHighlightBackground": "#CFD2D9",
+        "editor.snippetTabstopHighlightBorder": "#CFD2D900",
         "editor.wordHighlightBackground": "#00BEC459",
         "editor.wordHighlightBorder": "#00BEC400",
         "editor.wordHighlightStrongBackground": "#7C4DFF3F",
@@ -845,7 +845,7 @@
         }
     }, {
         "name": "pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child()",
-        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#00BEC4"
@@ -915,7 +915,7 @@
         }
     }, {
         "name": "Escape Characters;转义符 \\ ",
-        "scope": "constant.character.escape",
+        "scope": "constant.character.escape, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#00BEC4"

@@ -56,10 +56,10 @@
         "editor.selectionBackground": "#598DEF59",
         "editor.selectionHighlightBackground": "#0080997F",
         "editor.selectionHighlightBorder": "#00809900",
-        "editor.snippetFinalTabstopHighlightBackground": "#45B7463F",
-        "editor.snippetFinalTabstopHighlightBorder": "#535773",
-        "editor.snippetTabstopHighlightBackground": "#45B7463F",
-        "editor.snippetTabstopHighlightBorder": "#45B74600",
+        "editor.snippetFinalTabstopHighlightBackground": "#324464",
+        "editor.snippetFinalTabstopHighlightBorder": "#5F668B",
+        "editor.snippetTabstopHighlightBackground": "#324464",
+        "editor.snippetTabstopHighlightBorder": "#32446400",
         "editor.wordHighlightBackground": "#0080997F",
         "editor.wordHighlightBorder": "#00809900",
         "editor.wordHighlightStrongBackground": "#A78CFA8C",
@@ -843,7 +843,7 @@
         }
     }, {
         "name": "pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child()",
-        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"
@@ -920,7 +920,7 @@
         }
     }, {
         "name": "Escape Characters; 转义符 \\",
-        "scope": "constant.character.escape",
+        "scope": "constant.character.escape, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"
