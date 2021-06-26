@@ -1,3 +1,12 @@
+1.4.4 (2021-06-26)
+
+* Changed All Syntax
+
+```Syntax
+trycatch: #CF68E1/#C838C6 → #6495EE/#437AED
+export , import : #CF68E1/#C838C6 → #A78CFA/#7C4DFF
+```
+
 1.4.3 (2021-06-25)
 
 * Changed All UI

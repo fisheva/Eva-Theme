@@ -501,7 +501,7 @@
         }
     }, {
         "name": "typeof",
-        "scope": "keyword.operator.expression.typeof,keyword.other.typeof",
+        "scope": "keyword.operator.expression.typeof,keyword.other.typeof, keyword.control.trycatch",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#437AED"
@@ -655,17 +655,17 @@
         }
     }, {
         "name": "Keyword Control,Using",
-        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust",
+        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive,punctuation.definition.directive,punctuation.separator.hash,storage.type.modifier, keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust, keyword.control.default, keyword.control.from",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#C838C6"
         }
     }, {
         "name": "CSS from to, js from",
-        "scope": "entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import, keyword.control.default, keyword.control.from",
+        "scope": "entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import",
         "settings": {
             "fontStyle": "bold",
-            "foreground": "#C838C6"
+            "foreground": "#7C4DFF"
         }
     }, {
         "name": "Functions,pthread;单独的函数,C++线程",
