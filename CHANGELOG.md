@@ -1,3 +1,23 @@
+1.4.5 (2021-06-27)
+
+* Changed All UI
+
+```UI
+editor.snippetFinalTabstopHighlightBackground: #324464 → #32446499/#CFD2D98C
+editor.snippetTabstopHighlightBackground: #324464/#CFD2D9 → #32446499/#CFD2D98C
+```
+
+* Changed All Syntax
+
+```Syntax
+from: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
+export: #A78CFA/#7C4DFF → #CF68E1/#C838C6
+{{}}: #838FA7/#5D5D5FD8 → #6495EE/#437AED
+=>: #CF68E1/#C838C6 → #6495EE/#437AED
+typeof: #6495EE/#437AED → #FF6AB3/#EF8ED8
+and many many others...
+```
+
 1.4.4 (2021-06-26)
 
 * Changed All Syntax
