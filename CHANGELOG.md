@@ -1,3 +1,25 @@
+1.4.6 (2021-06-28)
+
+* Add All UI
+
+```UI
+toolbar.hoverBackground:#4283F58C/#0065FF3F
+toolbar.hoverOutline:#4283F500/#0065FF00
+toolbar.activeBackground: #4283F58C/#0065FF3F
+
+welcomePage.background: #282c34/#EBEEF5
+welcomePage.progress.background: #2B2E36/#ebeef5
+welcomePage.progress.foreground: #4283F5/#4d91f8
+welcomePage.tileBackground: #21252B/#E1E4EB
+welcomePage.tileHoverBackground: #598DEF64/#0065FF33
+```
+
+* Changed All UI
+
+```UI
+textLink.foreground: #598DEF/#5B87EB → #4088F7/#4088F7
+```
+
 1.4.5 (2021-06-27)
 
 * Changed All UI
