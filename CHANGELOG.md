@@ -1,3 +1,12 @@
+1.4.7 (2021-06-28)
+
+* Changed Dark UI
+
+```UI
+toolbar.hoverBackground:#4283F58C → #4283F58F
+toolbar.activeBackground: #4283F58C → #4283F58F
+```
+
 1.4.6 (2021-06-28)
 
 * Add All UI
