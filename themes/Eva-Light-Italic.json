@@ -655,7 +655,7 @@
         }
     },{
         "name": "new",
-        "scope": "punctuation.definition.directive, keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs, keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.fn.rust, storage.type.rust, keyword.operator.arrow.skinny.rust, storage.modifier.extern",
+        "scope": "punctuation.definition.directive, keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs, keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.fn.rust, storage.type.rust, keyword.operator.arrow.skinny.rust, storage.modifier.extern, storage.modifier.const, keyword.control.directive.include punctuation.definition.directive",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#7C4DFF"
@@ -669,7 +669,7 @@
         }
     }, {
         "name": "Keyword Control,Using",
-        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive, punctuation.separator.hash, keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust, keyword.control.default, keyword.control.export, storage.modifier.ts",
+        "scope": "keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,storage.modifier.extends,keyword.control.directive, punctuation.separator.hash, keyword.package, keyword.control.flow,keyword.other.special-method.ruby, keyword.input, keyword.type.graphql,keyword.cmake, keyword.control.rust, keyword.other.rust, keyword.control.default, keyword.control.export, storage.modifier.ts, keyword.control.directive punctuation.definition.directive",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#C838C6"
@@ -690,7 +690,7 @@
         }
     }, {
         "name": "Keyword: (flow), interface",
-        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.type.modifier.cpp, storage.type.language.primitive.cpp, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread,keyword.other.typedef, storage.modifier.dart, meta.class.identifier.java storage.modifier.java, meta.enum.java storage.modifier.java",
+        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.type.modifier.cpp, storage.type.language.primitive.cpp, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread,keyword.other.typedef, storage.modifier.dart, meta.class.identifier.java storage.modifier.java, meta.enum.java storage.modifier.java, storage.type.built-in.cpp, storage.type.modifier.virtual",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#7C4DFF"
@@ -739,7 +739,7 @@
         }
     }, {
         "name": "constant,非数字的常量;enum枚举里的元素,Infinity",
-        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity, storage.type.built-in.cpp",
+        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#FF6D12"
@@ -858,7 +858,7 @@
         }
     }, {
         "name": "pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child()",
-        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css, storage.modifier.cs, storage.type.modifier.access.public, storage.type.modifier, storage.modifier.specifier.static, storage.modifier, storage.modifier.java",
+        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css, storage.modifier.cs, storage.type.modifier.access.public, storage.type.modifier, storage.modifier.specifier.static, storage.modifier, storage.modifier.java, storage.type.modifier.access.control.private, storage.type.modifier.access.control.public",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#00BEC4"

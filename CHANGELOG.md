@@ -1,3 +1,11 @@
+1.4.8 (2021-06-29)
+
+* Changed All Syntax
+
+```Syntax
+fied some Cpp syntax.
+```
+
 1.4.7 (2021-06-28)
 
 * Changed Dark UI
