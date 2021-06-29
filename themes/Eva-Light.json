@@ -36,12 +36,12 @@
         "debugToolBar.background": "#E1E4EB",
         "debugToolBar.border": "#E1E4EB",
         "descriptionForeground": "#626264BF",
-        "diffEditor.diagonalFill": "#C9CCD2",
+        "diffEditor.diagonalFill": "#C4C7CD",
         "dropdown.background": "#F1F4FB",
         "dropdown.foreground": "#5D5D5F",
         "dropdown.border": "#CED1D7",
         "diffEditor.insertedTextBackground": "#45B7464C",
-        "diffEditor.removedTextBackground": "#f14c4c4C",
+        "diffEditor.removedTextBackground": "#f14c4c3F",
         "editor.background": "#EBEEF5",
         "editor.findMatchBackground": "#F8F900",
         "editor.findMatchBorder": "#F8F90000",
@@ -321,7 +321,7 @@
         "textBlockQuote.border": "#598DEF",
         "textCodeBlock.background": "#E5E8EF",
         "textLink.activeForeground": "#D73BD5",
-        "textLink.foreground": "#4088F7",
+        "textLink.foreground": "#4d91f8",
         "textPreformat.foreground": "#FC8357",
         "titleBar.activeBackground": "#EBEEF5",
         "titleBar.activeForeground": "#5D5D5F",
@@ -711,7 +711,7 @@
         }
     }, {
         "name": "Strings",
-        "scope": "punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
+        "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
         "settings": {
             "fontStyle": "",
             "foreground": "#53A053"

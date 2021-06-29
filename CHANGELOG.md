@@ -1,9 +1,29 @@
+1.4.9 (2021-06-30)
+
+* Changed Dark UI
+
+```UI
+textLink.foreground: #4088F7 → #4283F5
+```
+
+* Changed All UI
+
+```UI
+diffEditor.removedTextBackground: #f14c4c4C/#4088F7 → #f14c4c3F/#4d91f8
+```
+
+* Changed Light UI
+
+```UI
+diffEditor.diagonalFill: #C9CCD2 → #C4C7CD
+```
+
 1.4.8 (2021-06-29)
 
 * Changed All Syntax
 
 ```Syntax
-fied some Cpp syntax.
+fixed some Cpp syntax.
 ```
 
 1.4.7 (2021-06-28)
