@@ -1,3 +1,8 @@
+1.5.0 (2021-07-01)
+
+```Syntax
+Fixed some Syntax.
+```
 1.4.9 (2021-06-30)
 
 * Changed Dark UI

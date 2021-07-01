@@ -480,7 +480,7 @@
         }
     }, {
         "name": "js object-literal.key;对象属性名 js和ts不一样,可选属性符号?",
-        "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional,support.type.map.key,meta.at-rule.each.scss",
+        "scope": "meta.object-literal.key, meta.object-literal.key string.quoted,variable.object.property,keyword.operator.optional,support.type.map.key,meta.at-rule.each.scss, meta.object-literal.key punctuation.definition.string",
         "settings": {
             "fontStyle": "",
             "foreground": "#E06C75"
@@ -690,7 +690,7 @@
         }
     }, {
         "name": "support type ts; class;ts里默认数据类型;自定义数据类型; interface; class",
-        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, support.type.graphql, meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, storage.type.built-in.c, storage.type.built-in.primitive.c, entity.name.type.numeric.rust, storage.modifier.mut.rust, entity.name.type.rust, entity.name.type.primitive.rust",
+        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.type.annotation,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,entity.name.type.interface,entity.other.inherited-class,storage.type.cs,entity.name.type.struct,keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, support.type.graphql, meta.function.definition.parameters storage.type.built-in.primitive.c, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, storage.type.built-in.c, storage.type.built-in.primitive.c, entity.name.type.numeric.rust, storage.modifier.mut.rust, entity.name.type.rust, entity.name.type.primitive.rust, meta.template.call.cpp storage.type.built-in.cpp, meta.arguments.operator.sizeof storage.type.built-in.cpp",
         "settings": {
             "fontStyle": "",
             "foreground": "#FF6AB3"
@@ -711,7 +711,7 @@
         }
     }, {
         "name": "Strings",
-        "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+        "scope": "punctuation.definition.string",
         "settings": {
             "fontStyle": "",
             "foreground": "#98c379"
