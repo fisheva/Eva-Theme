@@ -1,3 +1,9 @@
+1.5.1 (2021-07-02)
+
+```Syntax
+Changed many Syntax.
+```
+
 1.5.0 (2021-07-01)
 
 ```Syntax
