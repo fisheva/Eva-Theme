@@ -381,11 +381,18 @@
             "foreground": "#B0B7C3"
         }
     }, {
-        "name": "comment注释",
-        "scope": "comment,comment.markup.link,punctuation.definition.comment,markup.quote.markdown",
+        "name": "comment;注释",
+        "scope": "comment,comment markup.link,punctuation.definition.comment,markup.quote.markdown",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#676E95"
+        }
+    }, {
+        "name": "escape;转义字符",
+        "scope": "constant.character.escape, constant.character.entity",
+        "settings": {
+            "fontStyle": "italic",
+            "foreground": "#8A97C3"
         }
     }, {
         "name": "Illegal无效的",
@@ -557,7 +564,7 @@
         }
     }, {
         "name": "support.function",
-        "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css, meta.function-call.python support.function.builtin.python, support.function.go, entity.name.function.macro.rust, meta.attribute.rust",
+        "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css, meta.function-call.python support.function.builtin.python, support.function.go, entity.name.function.macro, meta.attribute.rust, keyword.operator.cast",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#6495EE"
@@ -599,7 +606,7 @@
         }
     }, {
         "name": "Classes",
-        "scope": "entity.name.type.class, entity.name.scope-resolution, entity.name.type.struct, new.expr entity.name.function",
+        "scope": "entity.name.type, entity.name.type.class, entity.name.scope-resolution, entity.name.type.struct, new.expr entity.name.function, entity.other.inherited-class, entity.name.type.interface, entity.name.type.ts, entity.other.inherited-classentity.name.type.interface,keyword.interface, entity.name.type.delegate, meta.class-struct-block.cpp entity.name.type.cpp",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#56B7C3"
@@ -641,7 +648,7 @@
         }
     }, {
         "name": "new",
-        "scope": "punctuation.definition.directive, keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs, keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.fn, storage.type.rust, keyword.operator.arrow.skinny, storage.modifier.extern, storage.modifier.const, keyword.control.directive.include punctuation.definition.directive, keyword.operator.cast, storage.modifier.extends, storage.modifier.ts,",
+        "scope": "punctuation.definition.directive, keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs, keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.fn, storage.type.rust, keyword.operator.arrow.skinny, storage.modifier.extern, storage.modifier.const, keyword.control.directive.include punctuation.definition.directive, storage.modifier.extends, storage.modifier.ts,",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#A78CFA"
@@ -683,16 +690,9 @@
         }
     }, {
         "name": "support type ts;ts里默认数据类型;自定义数据类型",
-        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, storage.type.cs, keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, support.type.graphql, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.rust, entity.name.type.primitive, storage.type.built-in",
+        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, storage.type.cs, keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c,support.class.dart,meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, support.type.graphql, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.rust, entity.name.type.primitive, storage.type.built-in, support.type.built-in.posix-reserved",
         "settings": {
             "fontStyle": "",
-            "foreground": "#FF6AB3"
-        }
-    }, {
-        "name": "inherited-class,interface,class;自定义class",
-        "scope": "entity.other.inherited-classentity.name.type.interface, keyword.interface, entity.name.type.struct,entity.name.type.delegate, meta.class-struct-block.cpp entity.name.type.cpp, entity.other.inherited-class, entity.name.type.interface, meta.type.annotation,",
-        "settings": {
-            "fontStyle": "bold",
             "foreground": "#FF6AB3"
         }
     }, {
@@ -732,7 +732,7 @@
         }
     }, {
         "name": "constant,值为数字的常量;enum枚举里的元素,Infinity",
-        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity",
+        "scope": "support.constant.dom,constant.other.character-class.regexp,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity, ",
         "settings": {
             "fontStyle": "",
             "foreground": "#FF9070"
@@ -934,8 +934,8 @@
             "foreground": "#E06C75"
         }
     }, {
-        "name": "Escape Characters; 转义符 \\",
-        "scope": "constant.character.escape, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "name": "",
+        "scope": "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"

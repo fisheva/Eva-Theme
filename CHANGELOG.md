@@ -1,14 +1,20 @@
-1.5.1 (2021-07-02)
+1.5.0 ~ 1.5.2 (2021-07-03)
+
+* Add All Syntax
 
 ```Syntax
-Changed many Syntax.
+entity.name.type: #56B7C3/#00BEC4
 ```
 
-1.5.0 (2021-07-01)
+* Changed All Syntax
 
 ```Syntax
-Fixed some Syntax.
+constant.character.escape, constant.character.entity: #FF9070/#FF6D12 → #8A97C3/#888
+keyword.operator.cast: #56B7C3/#00BEC4 → #6495EE/#437AED
+
+class, interface, struct: #FF6AB3/#EF8ED8  → #56B7C3/#00BEC4
 ```
+
 1.4.9 (2021-06-30)
 
 * Changed Dark UI
