@@ -1,3 +1,17 @@
+1.5.3 (2021-07-03)
+
+* Changed Bold Syntax
+
+```Syntax
+Class, Interface, Struct: "Bold" → ""
+```
+
+* Changed All Syntax
+
+```Syntax
+Fixed many Syntax.
+```
+
 1.5.0 ~ 1.5.2 (2021-07-03)
 
 * Add All Syntax
