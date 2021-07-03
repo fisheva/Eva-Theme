@@ -193,7 +193,7 @@
         "merge.incomingContentBackground": "#45B7464C",
         "minimap.background": "#EBEEF5",
         "minimap.errorHighlight": "#EC00007F",
-        "minimap.findMatchHighlight": "#BBBEC5",
+        "minimap.findMatchHighlight": "#878A917F",
         "minimap.selectionHighlight": "#0065FFB2",
         "minimap.warningHighlight": "#FC835799",
         "minimapGutter.addedBackground": "#44C14500",
@@ -348,7 +348,7 @@
     // },
     "tokenColors": [{
         "name": "variable.parameter",
-        "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c, punctuation.vararg-ellipses,variable.other.block.ruby, meta.arguments, entity.name.type.template, meta.type.parameters entity.name.type",
+        "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c, punctuation.vararg-ellipses,variable.other.block.ruby, meta.arguments, entity.name.type.template, meta.type.parameters entity.name.type, meta.parameters",
         "settings": {
             "fontStyle": "",
             "foreground": "#F0AA0B"
@@ -537,7 +537,7 @@
         }
     }, {
         "name": "keyword Operators increment decrement;关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-        "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust,meta.directive.vue, punctuation.definition.quote.begin.markdown",
+        "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust,meta.directive.vue, punctuation.definition.quote.begin.markdown, meta.format.brace constant",
         "settings": {
             "fontStyle": "",
             "foreground": "#00BEC4"
@@ -565,7 +565,7 @@
         }
     }, {
         "name": "support.function",
-        "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css, meta.function-call.python support.function.builtin.python, support.function.go, entity.name.function.macro, meta.attribute.rust, keyword.operator.cast",
+        "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css, meta.function-call.python support.function.builtin.python, support.function.go, entity.name.function.macro, meta.attribute.rust, keyword.operator.cast, meta.function-call support.class.builtin, meta.function-call support.class",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#437AED"
@@ -593,7 +593,7 @@
         }
     }, {
         "name": "url.css,rgb(),transform,calc",
-        "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math, entity.name.type.lifetime.rust, punctuation.definition.lifetime.rust, entity.name.scope-resolution.function",
+        "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math, entity.name.type.lifetime.rust, punctuation.definition.lifetime.rust",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#437AED"
@@ -684,7 +684,7 @@
         }
     }, {
         "name": "support type ts;ts里默认数据类型;自定义数据类型",
-        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance,entity.name.type.alias.ts,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c, meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.primitive, storage.type.built-in, support.type.built-in.posix-reserved, support.class.dart, ",
+        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance, storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c, meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.primitive, storage.type.built-in, support.type.built-in.posix-reserved, support.class.dart, ",
         "settings": {
             "fontStyle": "",
             "foreground": "#EF8ED8"

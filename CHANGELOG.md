@@ -1,3 +1,19 @@
+1.5.4(2021-07-03)
+
+* Changed Dark UI
+
+```UI
+minimap.findMatchHighlight: #6A707DE5/#BBBEC5 → #D0D5E17F/#878A917F
+terminal.ansiBrightGreen: #3FB93F → #3EC33E
+```
+
+* Add All Syntax
+
+```Syntax
+//加这条是因为 new 普通class 时，显示的是蓝色，而 new Number()这类语言内置class时，显示的是水蓝色，为了颜色统一加的这条。而且刚好有种调用了构造函数的感觉。
+meta.function-call support.class.builtin, meta.function-call support.class: #56B7C3/#00BEC4 → #6495EE/#437AED
+```
+
 1.5.3 (2021-07-03)
 
 * Changed Bold Syntax
