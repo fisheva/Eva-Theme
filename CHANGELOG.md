@@ -1,16 +1,51 @@
-1.5.4(2021-07-03)
+1.5.5 (2021-07-04)
+
+* Add All UI
+
+```UI
+activityBar.activeFocusBorder: #4480F4/#4480F4
+activityBar.dropBorder: #4480F4/#4480F4
+editor.foldBackground: #32446469/#598DEF21
+editorOverviewRuler.background: #282c34/#EBEEF5
+editorGutter.foldingControlForeground: #FFF/#444
+extensionIcon.starForeground: #FF8A4C/#FF6D12
+problemsErrorIcon.foreground: #E51400/#EC0000
+problemsInfoIcon.foreground: #4480F4/#4480F4
+problemsWarningIcon.foreground: #FF8A4C/#FF6D12
+```
 
 * Changed Dark UI
 
 ```UI
+statusBarItem.hoverBackground: #598DEF59 → #598DEF66
+statusBarItem.prominentHoverBackground: #598DEF59 → #598DEF66
+```
+
+* Changed Light UI
+
+```UI
+//加深颜色10°
+minimap.findMatchHighlight: #878A917F → #7D80877F
+```
+
+1.5.4 (2021-07-03)
+
+* Changed All UI
+
+```UI
 minimap.findMatchHighlight: #6A707DE5/#BBBEC5 → #D0D5E17F/#878A917F
+```
+
+* Changed Dark UI
+
+```UI
 terminal.ansiBrightGreen: #3FB93F → #3EC33E
 ```
 
 * Add All Syntax
 
 ```Syntax
-//加这条是因为 new 普通class 时，显示的是蓝色，而 new Number()这类语言内置class时，显示的是水蓝色，为了颜色统一加的这条。而且刚好有种调用了构造函数的感觉。
+//加这条是因为 new 普通class 时，显示的是蓝色，而 new Number()这类语言内置class时，显示的是水蓝色，为了颜色统一加的这条, 而且刚好有种调用了构造函数的感觉。
 meta.function-call support.class.builtin, meta.function-call support.class: #56B7C3/#00BEC4 → #6495EE/#437AED
 ```
 
