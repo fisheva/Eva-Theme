@@ -210,6 +210,7 @@
         "minimapSlider.activeBackground": "#4F4F5020",
         "minimapSlider.background": "#4F4F5019",
         "minimapSlider.hoverBackground": "#4F4F5020",
+        "notebook.focusedRowBorder": "#0065FF00",
         "notebook.rowHoverBackground": "#0065FF19",
         "notifications.background": "#E1E4EB",
         "notifications.border": "#AAADB499",

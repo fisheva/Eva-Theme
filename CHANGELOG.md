@@ -1,3 +1,11 @@
+1.5.7 (2021-07-08)
+
+* Add All UI
+
+```UI
+notebook.focusedRowBorder: #598DEF00/#0065FF00
+```
+
 1.5.6 (2021-07-06)
 
 * Add All UI
