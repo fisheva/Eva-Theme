@@ -1,3 +1,22 @@
+1.5.6 (2021-07-06)
+
+* Add All UI
+
+```UI
+dropdown.listBackground: #23272F/#F1F4FB
+editorHoverWidget.statusBarBackground:#23272F/#F1F4FB
+notebook.rowHoverBackground: #598DEF3F/#0065FF19
+settings.focusedRowBackground: #598DEF66/#0065FF33
+```
+
+* Changed Italic Syntax
+
+```Syntax
+class: "italic" → ""
+
+meta.function-call support.class.builtin, meta.function-call support.class → new.expr meta.function-call support.class.builtin, new.expr meta.function-call support.class
+```
+
 1.5.5 (2021-07-04)
 
 * Add All UI

@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/Eva-Theme2.png" referrerpolicy="no-referrer"></p>
+<p align="center"><img src="https://ws1.sinaimg.cn/large/007jMFbEgy1gs5gilk49pj63f71i9tuw02.jpg" referrerpolicy="no-referrer"/></p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 

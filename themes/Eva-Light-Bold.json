@@ -40,8 +40,9 @@
         "descriptionForeground": "#626264BF",
         "diffEditor.diagonalFill": "#C4C7CD",
         "dropdown.background": "#F1F4FB",
-        "dropdown.foreground": "#5D5D5F",
         "dropdown.border": "#CED1D7",
+        "dropdown.foreground": "#5D5D5F",
+        "dropdown.listBackground": "#F1F4FB",
         "diffEditor.insertedTextBackground": "#45B7464C",
         "diffEditor.removedTextBackground": "#f14c4c3F",
         "editor.background": "#EBEEF5",
@@ -73,6 +74,7 @@
         "editorCursor.background": "#FFFFFF",
         "editorCursor.foreground": "#FC8357",
         "editorError.foreground": "#EC0000",
+        "editorHoverWidget.statusBarBackground":"#F1F4FB",
         "editorGroup.border": "#CED1D7",
         "editorGroup.dropBackground": "#0065FF21",
         "editorGroup.emptyBackground": "#EBEEF500",
@@ -208,6 +210,7 @@
         "minimapSlider.activeBackground": "#4F4F5020",
         "minimapSlider.background": "#4F4F5019",
         "minimapSlider.hoverBackground": "#4F4F5020",
+        "notebook.rowHoverBackground": "#0065FF19",
         "notifications.background": "#E1E4EB",
         "notifications.border": "#AAADB499",
         "notifications.foreground": "#5D5D5F",
@@ -258,6 +261,7 @@
         "settings.dropdownBorder": "#CED1D7",
         "settings.dropdownForeground": "#5D5D5F",
         "settings.dropdownListBorder": "#CED1D7",
+        "settings.focusedRowBackground": "#0065FF33",
         "settings.headerForeground": "#5D5D5F",
         "settings.modifiedItemIndicator": "#7C4DFF",
         "settings.numberInputBackground": "#F1F4FB",
@@ -574,7 +578,7 @@
         }
     }, {
         "name": "support.function",
-        "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css, meta.function-call.python support.function.builtin.python, support.function.go, entity.name.function.macro, meta.attribute.rust, keyword.operator.cast, meta.function-call support.class.builtin, meta.function-call support.class",
+        "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css, meta.function-call.python support.function.builtin.python, support.function.go, entity.name.function.macro, meta.attribute.rust, new.expr meta.function-call support.class.builtin, new.expr meta.function-call support.class",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#437AED"
@@ -644,7 +648,7 @@
         }
     },{
         "name": "arrow;箭头函数;try...catch",
-        "scope": "storage.type.function.arrow, keyword.operator.arrow, keyword.control.trycatch, keyword.control.catch-exception, keyword.operator.closure",
+        "scope": "storage.type.function.arrow, keyword.operator.arrow, keyword.control.trycatch, keyword.control.catch-exception, keyword.operator.closure, keyword.operator.cast, ",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#437AED"
