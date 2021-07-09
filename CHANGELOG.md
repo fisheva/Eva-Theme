@@ -1,4 +1,33 @@
-1.5.7 (2021-07-08)
+1.5.9 (2021-07-10)
+
+* Delete All UI
+
+```UI
+//API被换成下面2个
+notebook.focusedRowBorder: #598DEF00/#0065FF00
+notebook.rowHoverBackground: #598DEF3F/#0065FF19
+```
+
+* Add All UI
+
+```UI
+settings.focusedRowBorder: #598DEF00/#0065FF00
+settings.rowHoverBackground: #598DEF3F/#0065FF19
+```
+
+* Changed Light UI
+
+```UI
+editorGutter.foldingControlForeground: #444 → #000
+```
+
+* Changed Dark UI
+
+```UI
+gitDecoration.untrackedResourceForeground: #7BBE54 → #69BE3E
+```
+
+1.5.7~1.5.8 (2021-07-08)
 
 * Add All UI
 
