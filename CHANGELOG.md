@@ -1,3 +1,11 @@
+1.6.0 (2021-07-10)
+
+* Add All Syntax
+
+```Syntax
+meta.selector invalid.deprecated.combinator: #56B7C3/#00BEC4
+```
+
 1.5.9 (2021-07-10)
 
 * Delete All UI
@@ -19,12 +27,6 @@ settings.rowHoverBackground: #598DEF3F/#0065FF19
 
 ```UI
 editorGutter.foldingControlForeground: #444 → #000
-```
-
-* Changed Dark UI
-
-```UI
-gitDecoration.untrackedResourceForeground: #7BBE54 → #69BE3E
 ```
 
 1.5.7~1.5.8 (2021-07-08)

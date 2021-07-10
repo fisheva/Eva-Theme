@@ -145,7 +145,7 @@
         "gitDecoration.submoduleResourceForeground": "#FF6AB3",
         "gitDecoration.stageDeletedResourceForeground": "#E06C75",
         "gitDecoration.stageModifiedResourceForeground": "#D365E5",
-        "gitDecoration.untrackedResourceForeground": "#69BE3E",
+        "gitDecoration.untrackedResourceForeground": "#7BBE54",
         "icon.foreground": "#c5c5c5",
         "input.background": "#282c34",
         "input.border": "#21252B",
@@ -550,7 +550,7 @@
         }
     }, {
         "name": "keyword Operators increment decrement, 关键字 运算符 + - * /;自增++ 自减--;+= -=;less sass里的关键字(用于+ -号)",
-        "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust,meta.directive.vue, punctuation.definition.quote.begin.markdown, meta.format.brace constant",
+        "scope": "keyword.operator, keyword.operator.arithmetic,keyword.operator.decrement, keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass, keyword.operator.increment-decrement, keyword.operator.css, entity.name.tag.wildcard.scss, keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby, keyword.operator.assignment.arithmetic, punctuation.definition.list.begin.markdown, variable.language.import-all, constant.language.import-export-all, storage.modifier.reference, storage.modifier.pointer, keyword.operator.assignment.rust,meta.directive.vue, punctuation.definition.quote.begin.markdown, meta.format.brace constant, meta.selector invalid.deprecated.combinator",
         "settings": {
             "fontStyle": "",
             "foreground": "#56B7C3"
