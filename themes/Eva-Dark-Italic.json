@@ -103,8 +103,7 @@
         "editorOverviewRuler.background": "#282c34",
         "editorOverviewRuler.border": "#5F668B00",
         "editorOverviewRuler.bracketMatchForeground": "#FF90707F",
-        "editorOverviewRuler.commonContentForeground": "#2D3039",
-        "editorOverviewRuler.currentContentForeground": "#FFF",
+        "editorOverviewRuler.currentContentForeground": "#598DEF59",
         "editorOverviewRuler.deletedForeground": "#f14c4c",
         "editorOverviewRuler.errorForeground": "#E51400",
         "editorOverviewRuler.findMatchForeground": "#EEF3FF7F",
@@ -184,6 +183,7 @@
         "listFilterWidget.outline": "#fff",
         "listFilterWidget.noMatchesOutline": "#ff0000",
         "menu.background": "#21252b",
+        "menu.border": "#21252b",
         "menu.foreground": "#8E99B1",
         "menu.selectionBackground": "#598DEFB3",
         "menu.selectionBorder": "#598DEF00",
@@ -193,8 +193,6 @@
         "menubar.selectionBorder": "#598DEF00",
         "menubar.selectionForeground": "#E1E4EA",
         "merge.border": "#181A1F",
-        "merge.commonContentBackground": "#2D3039",
-        "merge.commonHeaderBackground": "#2D3039",
         "merge.currentHeaderBackground": "#598DEF59",
         "merge.currentContentBackground": "#598DEF59",
         "merge.incomingHeaderBackground": "#45B7463F",
@@ -431,14 +429,14 @@
         }
     }, {
         "name": "Function Call Variable;对象属性名",
-        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option",
+        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option, entity.name.label",
         "settings": {
             "fontStyle": "",
             "foreground": "#E06C75"
         }
     }, {
         "name": "Punctuation colon 冒号 :",
-        "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value",
+        "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value, punctuation.separator.label",
         "settings": {
             "fontStyle": "",
             "foreground": "#8E99B1"

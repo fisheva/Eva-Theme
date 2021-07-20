@@ -103,8 +103,7 @@
         "editorOverviewRuler.background": "#EBEEF5",
         "editorOverviewRuler.border": "#B3B3B400",
         "editorOverviewRuler.bracketMatchForeground": "#FC835762",
-        "editorOverviewRuler.commonContentForeground": "#E5E8EF",
-        "editorOverviewRuler.currentContentForeground": "#000",
+        "editorOverviewRuler.currentContentForeground": "#0065FF33",
         "editorOverviewRuler.deletedForeground": "#f14c4c",
         "editorOverviewRuler.errorForeground": "#EC0000",
         "editorOverviewRuler.findMatchForeground": "#C3C6CD",
@@ -184,6 +183,7 @@
         "listFilterWidget.outline": "#FFF",
         "listFilterWidget.noMatchesOutline": "#ff0000",
         "menu.background": "#E1E4EB",
+        "menu.border": "#E1E4EB",
         "menu.foreground": "#5D5D5F",
         "menu.selectionBackground": "#0065FF99",
         "menu.selectionBorder": "#0065FF00",
@@ -193,8 +193,6 @@
         "menubar.selectionBorder": "#0065FF00",
         "menubar.selectionForeground": "#fff",
         "merge.border": "#CED1D7",
-        "merge.commonContentBackground": "#E5E8EF",
-        "merge.commonHeaderBackground": "#E5E8EF",
         "merge.currentHeaderBackground": "#0065FF33",
         "merge.currentContentBackground": "#0065FF33",
         "merge.incomingHeaderBackground": "#45B7464C",
@@ -438,7 +436,7 @@
         }
     }, {
         "name": "Punctuation colon 冒号 :",
-        "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value",
+        "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value, punctuation.separator.label",
         "settings": {
             "fontStyle": "",
             "foreground": "#8E8E90"
@@ -473,7 +471,7 @@
         }
     }, {
         "name": "Function Call Variable;对象属性名",
-        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option",
+        "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option, entity.name.label",
         "settings": {
             "fontStyle": "",
             "foreground": "#CD6069"

@@ -1,3 +1,20 @@
+1.6.1(2021-07-20)
+
+
+* Add All UI
+
+```UI
+menu.border: #21252b/#E1E4EB
+```
+
+* Delete All UI
+
+```UI
+editorOverviewRuler.commonContentForeground: #2D3039/#E5E8EF
+merge.commonContentBackground: #2D3039/#E5E8EF
+merge.commonHeaderBackground: #2D3039/#E5E8EF
+```
+
 1.6.0 (2021-07-10)
 
 * Add All Syntax
