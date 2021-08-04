@@ -1,3 +1,118 @@
+1.6.3 (2021-08-05)
+
+* Changed All UI
+
+```UI
+input.placeholderForeground: #9DA5B399/#5D5D5F99 → #545B81/#B4B7BE
+```
+
+* Changed Dark UI
+
+```UI
+terminal.ansiBrightWhite: #EBEEF5 → #AAADB4
+```
+
+1.6.2 (2021-08-04)
+
+* Add All UI
+
+```UI
+list.activeSelectionIconForeground: #D2D5DB/#464247
+```
+
+* Delete All UI
+
+```UI
+menu.border: #21252b/#E1E4EB
+```
+
+* Changed Dark UI
+
+```UI
+editorCodeLens.foreground: #535773 → #50567C
+```
+
+* Changed All UI
+
+```UI
+progressBar.background: #598DEF72/#0065FF4C → #4283F5/#4d91f8
+//input这条暂时没改
+
+//Dark New
+"terminal.ansiBlack": "#000",
+"terminal.ansiBlue": "#4283F5",
+"terminal.ansiGreen": "#98c379",
+"terminal.ansiCyan": "#56B7C3",
+"terminal.ansiRed": "#e51400",
+"terminal.ansiMagenta": "#CF68E1",
+"terminal.ansiYellow": "#E4BF7F",
+"terminal.ansiWhite": "#fff",
+"terminal.ansiBrightBlack": "#676E95",
+"terminal.ansiBrightBlue": "#6495EE",
+"terminal.ansiBrightGreen": "#3FB93F",
+"terminal.ansiBrightCyan": "#56B7C3",
+"terminal.ansiBrightRed": "#f14c4c",
+"terminal.ansiBrightMagenta": "#FF6AB3",
+"terminal.ansiBrightYellow": "#FF8A4C",
+"terminal.ansiBrightWhite": "#EBEEF5",
+
+//Dark Original
+"terminal.ansiBlack": "#000",
+"terminal.ansiBlue": "#598DEF",
+"terminal.ansiBrightBlack": "#A78CFA",
+"terminal.ansiBrightBlue": "#6495EE",
+"terminal.ansiBrightCyan": "#56B7C3",
+"terminal.ansiBrightGreen": "#3EC33E",
+"terminal.ansiBrightMagenta": "#CF68E1",
+"terminal.ansiBrightRed": "#f14c4c",
+"terminal.ansiBrightWhite": "#FF6AB3",
+"terminal.ansiBrightYellow": "#F5625C",
+"terminal.ansiCyan": "#F02B77",
+"terminal.ansiGreen": "#98c379",
+"terminal.ansiMagenta": "#E4BF7F",
+"terminal.ansiRed": "#E51400",
+"terminal.ansiWhite": "#B0B7C3",
+"terminal.ansiYellow": "#FF8A4C",
+```
+
+```UI
+//Light New
+"terminal.ansiBlack": "#000",
+"terminal.ansiBlue": "#4480F4",
+"terminal.ansiGreen": "#53A053",
+"terminal.ansiCyan": "#00BEC4",
+"terminal.ansiRed": "#EC0000",
+"terminal.ansiMagenta": "#C838C6",
+"terminal.ansiYellow": "#F0AA0B",
+"terminal.ansiWhite": "#fff",
+"terminal.ansiBrightBlack": "#676E95",
+"terminal.ansiBrightBlue": "#437AED",
+"terminal.ansiBrightGreen": "#44C145",
+"terminal.ansiBrightCyan": "#00BEC4",
+"terminal.ansiBrightRed": "#f14c4c",
+"terminal.ansiBrightMagenta": "#EF8ED8",
+"terminal.ansiBrightYellow": "#FF6D12",
+"terminal.ansiBrightWhite": "#AAADB4",
+
+//Light Original
+"terminal.ansiBlack": "#fff",
+"terminal.ansiBlue": "#4d91f8",
+"terminal.ansiBrightBlack": "#7C4DFF",
+"terminal.ansiBrightBlue": "#437AED",
+"terminal.ansiBrightCyan": "#00BEC4",
+"terminal.ansiBrightGreen": "#44C145",
+"terminal.ansiBrightMagenta": "#C838C6",
+"terminal.ansiBrightRed": "#f14c4c",
+"terminal.ansiBrightWhite": "#EF8ED8",
+"terminal.ansiBrightYellow": "#F5625C",
+"terminal.ansiCyan": "#FA278E",
+"terminal.ansiGreen": "#53A053",
+"terminal.ansiMagenta": "#F0AA0B",
+"terminal.ansiRed": "#EC0000",
+"terminal.ansiWhite": "#5D5D5F",
+"terminal.ansiYellow": "#FF6D12",
+```
+
 1.6.1(2021-07-20)
 
 
