@@ -1,3 +1,18 @@
+1.6.4 (2021-08-06)
+
+* Changed All UI
+
+```UI
+terminal.ansiBrightBlack: #676E95/#676E95 → #8A97C3/#888
+```
+
+* Changed Dark UI
+
+```UI
+terminal.ansiBrightWhite: #AAADB4 → #676E95
+input.placeholderForeground: #545B81 → #5E658B
+```
+
 1.6.3 (2021-08-05)
 
 * Changed All UI
