@@ -1,3 +1,12 @@
+1.6.8 (2021-08-09)
+
+* Changed All UI
+
+```UI
+terminal.ansiYellow: #FF8A4C/#FF6D12 → #E4BF7F/#F0AA0B
+terminal.ansiBrightYellow: #E4BF7F/#F0AA0B → #FF8A4C/#FF6D12
+```
+
 1.6.5 ~ 1.6.7 (2021-08-08)
 
 * Add All UI
