@@ -1,3 +1,30 @@
+1.6.5 ~ 1.6.7 (2021-08-08)
+
+* Add All UI
+
+```UI
+terminal.tab.activeBorder:#d7dae0/#5D5D5F
+panelSectionHeader.background:#21252B/#E1E4EB
+panelSection.border:#21252B/#E1E4EB
+panelSection.dropBackground:#598DEF4C/#0065FF21
+```
+
+* Changed All UI
+
+```UI
+terminal.ansiBrightBlack: #8A97C3/#888 → #676E95/#AAADB4
+terminal.ansiBrightWhite: #676E95/#AAADB4 → #8A97C3/#888
+terminal.ansiYellow: #E4BF7F/#F0AA0B → #FF8A4C/#FF6D12
+terminal.ansiBrightYellow: #FF8A4C/#FF6D12 → #E4BF7F/#F0AA0B
+```
+
+* Changed Light UI
+
+```UI
+terminal.ansiBlack: #000 → #fff
+terminal.ansiWhite: #fff → #000
+```
+
 1.6.4 (2021-08-06)
 
 * Changed All UI
