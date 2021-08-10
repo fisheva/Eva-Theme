@@ -1,3 +1,10 @@
+1.6.9 (2021-08-09)
+
+```UI
+//略微调得更透明一点(↓5%)
+editorBracketMatch.background: #FF90707F → #FF907072
+```
+
 1.6.8 (2021-08-09)
 
 * Changed All UI
