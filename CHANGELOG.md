@@ -1,3 +1,33 @@
+1.7.0 (2021-08-15)
+
+* Add All UI
+
+```UI
+charts.blue: #6495EE/#437AED
+charts.green: #98C379/#53A053
+charts.orange: #FF9070/#FF6D12
+charts.purple: #A78CFA/#7C4DFF
+charts.red: #f14c4c/#f14c4c
+charts.yellow: #E4BF7F/#F0AA0B
+charts.foreground: #B0B7C3/#5D5D5F
+charts.lines: #454963/#CED1D7
+gitlens.trailingLineBackgroundColor: #2F323B/#E3E6ED
+gitlens.trailingLineForegroundColor: #585D68/#C8CACE
+```
+
+* Changed All UI
+
+```UI
+//调回来了
+editorBracketMatch.background: #FF907072 → #FF90707F
+```
+
+* Add All Syntax
+
+```Syntax
+text.html.vue-html meta.object-literal.key: #98c379
+```
+
 1.6.9 (2021-08-09)
 
 ```UI
