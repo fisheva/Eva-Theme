@@ -153,7 +153,7 @@
         "gitDecoration.stageDeletedResourceForeground": "#CD6069",
         "gitDecoration.stageModifiedResourceForeground": "#d73bd5",
         "gitDecoration.untrackedResourceForeground": "#3EC141",
-        "gitlens.trailingLineBackgroundColor": "#E3E6ED",
+        "gitlens.trailingLineBackgroundColor": "#E3E6ED00",
         "gitlens.trailingLineForegroundColor": "#C8CACE",
         "icon.foreground": "#424242",
         "input.background": "#EBEEF5",
@@ -373,7 +373,7 @@
     // },
     "tokenColors": [{
         "name": "variable.parameter",
-        "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c, punctuation.vararg-ellipses,variable.other.block.ruby, meta.arguments, entity.name.type.template, meta.type.parameters entity.name.type, meta.parameters",
+        "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c, punctuation.vararg-ellipses,variable.other.block.ruby, meta.arguments, entity.name.type.template, meta.type.parameters entity.name.type, meta.parameters, meta.function.parameter variable.other",
         "settings": {
             "fontStyle": "",
             "foreground": "#F0AA0B"
@@ -555,7 +555,7 @@
         }
     }, {
         "name": "punctuation;html标签里的</> = ",
-        "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace, punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js, punctuation.definition.tag source,source.vue, meta.attribute-selector.scss keyword.operator.scss",
+        "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace, punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js, punctuation.definition.tag source,source.vue, meta.attribute-selector.scss keyword.operator.scss, punctuation.separator.equals",
         "settings": {
             "fontStyle": "",
             "foreground": "#A0A1A7"
@@ -608,13 +608,6 @@
         "settings": {
             "fontStyle": "",
             "foreground": "#437AED"
-        }
-    }, {
-        "name": "global variable in PHP;PHP里的超全局变量",
-        "scope": "variable.other.global.safer.php,variable.other.global.php",
-        "settings": {
-            "fontStyle": "",
-            "foreground": "#F0AA0B"
         }
     }, {
         "name": "url.css,rgb(),transform,calc",
@@ -702,14 +695,14 @@
         }
     }, {
         "name": "Keyword: (flow), interface",
-        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.type.language.primitive.cpp, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread,keyword.other.typedef, storage.modifier.dart, meta.class.identifier.java storage.modifier.java, meta.enum.java storage.modifier.java, storage.type.modifier, storage.modifier, keyword.control.as",
+        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.type.language.primitive.cpp, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread,keyword.other.typedef, storage.modifier.dart, meta.class.identifier.java storage.modifier.java, meta.enum.java storage.modifier.java, storage.type.modifier, storage.modifier, keyword.control.as, keyword.other.phpdoc, keyword.other.var",
         "settings": {
             "fontStyle": "",
             "foreground": "#7C4DFF"
         }
     }, {
         "name": "support type ts; class;ts里默认数据类型;自定义数据类型",
-        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance, storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c, meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.primitive, storage.type.built-in, support.type.built-in.posix-reserved, support.class.dart, ",
+        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance, storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c, meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.primitive, storage.type.built-in, support.type.built-in.posix-reserved, support.class.dart, keyword.other.type",
         "settings": {
             "fontStyle": "",
             "foreground": "#EF8ED8"

@@ -1,3 +1,11 @@
+1.7.1 (2021-08-20)
+
+* Changed All UI
+
+```
+gitlens.trailingLineBackgroundColor: #2F323B/#E3E6ED → #2F323B00/#E3E6ED00
+```
+
 1.7.0 (2021-08-15)
 
 * Add All UI
