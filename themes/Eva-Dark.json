@@ -716,7 +716,7 @@
         }
     }, {
         "name": "Strings",
-        "scope": "string, markup.inline.raw.string, text.html.vue-html meta.object-literal.key",
+        "scope": "string, markup.inline.raw.string, text.html.vue-html meta.object-literal.key, meta.preprocessor.cs",
         "settings": {
             "fontStyle": "",
             "foreground": "#98c379"
