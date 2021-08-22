@@ -1,3 +1,12 @@
+1.7.2 (2021-08-22)
+
+* Changed Light UI
+
+```UI
+minimap.selectionHighlight: #0065FFB2 → #5F97FFF2
+```
+
+
 1.7.1 (2021-08-20)
 
 * Changed All UI
