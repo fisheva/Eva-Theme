@@ -1,3 +1,7 @@
+1.7.3 (2021-09-05)
+
+* Add Haskell Support
+
 1.7.2 (2021-08-22)
 
 * Changed Light UI
@@ -5,7 +9,6 @@
 ```UI
 minimap.selectionHighlight: #0065FFB2 → #5F97FFF2
 ```
-
 
 1.7.1 (2021-08-20)
 
