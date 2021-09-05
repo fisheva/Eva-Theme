@@ -10,6 +10,7 @@ Tested with the following languages in native environment, except derived framew
 - Ruby
 - Pyhton
 - Golang
+- Haskell
 - Dart
 - JSON
 - Markdown

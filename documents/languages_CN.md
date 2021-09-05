@@ -10,6 +10,7 @@
 - Ruby
 - Pyhton
 - Golang
+- Haskell
 - Dart
 - JSON
 - Markdown

@@ -6,7 +6,7 @@
 
 ### 介绍
 
-<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a>是一款语义着色代码主题，使您可以更舒适地进行<a title="查看Eva Theme已提供语义化着色的编程语言。" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">编程</a>。
+<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a>是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些<a href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">编程语言</a>。
 
 <!-- > VSCode版本要求 ≥ 1.12.0。 -->
 
