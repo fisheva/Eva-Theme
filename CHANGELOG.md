@@ -1,6 +1,6 @@
 1.7.3~1.7.4 (2021-09-05)
 
-* Add Haskell Support
+* **Support Haskell**
 
 1.7.2 (2021-08-22)
 
@@ -793,7 +793,7 @@ markup.inline.raw.string: #98c379/#53A053
 
 1.2.0 (2021-05-09)
 
-* Add Rust Support
+* **Support Rust**
 
 * Add All UI
 
