@@ -1,10 +1,10 @@
-## Eva Theme
+### Eva Theme
 
 Eva Theme is a semantic coloring code theme making you more comfortable programming. Currently supported editors are VSCode & Visual Studio.
 
-<div style="border-bottom: solid 1px #d5d5d5"></div>
+<div style="width:100%; height: 1px; background-color:#d5d5d5;"></div>
 
-## Eva Theme for VSCode README
+### Eva Theme for VSCode README
 
 <p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/VSCode/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/VSCode/screenshots/eva-light-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
 
@@ -39,9 +39,9 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 - One-time donation via PayPal, AliPay or WeiXin.
 -->
 
-<div style="border-bottom: solid 1px #d5d5d5"></div>
+<div style="width:100%; height: 1px; background-color:#d5d5d5;"></div>
 
-## Eva Theme for Visual Studio README
+### Eva Theme for Visual Studio README
 
 <!--<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>-->
 
