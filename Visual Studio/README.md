@@ -1,4 +1,4 @@
-<!--<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>-->
+<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/screenshots/Eva%20Dark.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/screenshots/Eva%20Light.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
 
 <!--[![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)-->
 
@@ -13,7 +13,7 @@ There are 2 styles in it: Eva Dark, Eva Light. Bold style will be launched in th
 
 ### Setting
 
-Due to some technical reasons, currently Eva Theme for VS needs to be used with the import of my setting file. Here is the download address.
+Due to some technical reasons, currently Eva Theme for VS needs to be used with my font and colors setting file. Please [download](https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/font_and_colors.vssettings) and import it.
 
 ### Issue
 
