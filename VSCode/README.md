@@ -1,12 +1,12 @@
-<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
+<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/VSCode/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/VSCode/screenshots/eva-light-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 
-English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-Theme/blob/master/documents/README_CN.md" target="_blank">简体中文</a>
+English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/README_CN.md" target="_blank">简体中文</a>
 
 ### Introduction
 
-<a title="Go to the marketplace page of Eva Theme." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> is a semantic coloring code theme making you more comfortable programming, already supports these <a href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages.md" target="_blank">programming languages</a>.
+<a title="Go to the marketplace page of Eva Theme." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> is a semantic coloring code theme making you more comfortable programming, already supports these <a href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/languages.md" target="_blank">programming languages</a>.
 <br>
 
 <!-- > Requires VSCode version >=1.12.0. -->
@@ -29,3 +29,5 @@ It has taking a lot of time and effort to develop and maintain Eva Theme. If it 
 
 - Become a backer or sponsor on Patreon or Open Collective.
 - One-time donation via PayPal, AliPay or WeiXin.
+
+-->
