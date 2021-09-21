@@ -13,7 +13,7 @@ There are 2 styles in it: Eva Dark, Eva Light. Bold style will be launched in th
 
 ### Setting
 
-Due to some technical reasons, currently Eva Theme for VS needs to be used with my font and colors setting file. Please <a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/fonts-and-colors.vssettings" target="_blank" download>download</a> and import it.
+Due to some technical reasons, currently Eva Theme for VS needs to be used with my font and colors setting file(Latest update 2021-09-22). Please <a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/fonts-and-colors.vssettings" target="_blank" download>download</a> and import it.
 
 ### Issue
 
