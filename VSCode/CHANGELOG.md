@@ -1,3 +1,11 @@
+1.7.5 (2021-09-23)
+
+* Add All UI
+
+```UI
+editorInlayHint.foreground: #8A97C3/#888888
+```
+
 1.7.3~1.7.4 (2021-09-05)
 
 * **Support Haskell**

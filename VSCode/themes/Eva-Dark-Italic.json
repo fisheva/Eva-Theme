@@ -102,6 +102,7 @@
         "editorIndentGuide.activeBackground": "#FF9070BF",
         "editorIndentGuide.background": "#454963",
         "editorInfo.foreground": "#4480F4",
+        "editorInlayHint.foreground": "#8A97C3",
         "editorLineNumber.foreground": "#535773",
         "editorLineNumber.activeForeground": "#9DA5B3",
         "editorLink.activeForeground": "#D365E5",
@@ -754,7 +755,7 @@
         }
     }, {
         "name": "Strings",
-        "scope": "string, markup.inline.raw.string, text.html.vue-html meta.object-literal.key, meta.preprocessor.cs",
+        "scope": "string, markup.inline.raw.string, text.html.vue-html meta.object-literal.key, meta.preprocessor.cs, text.html.vue-html meta.object-literal.key string.quoted, text.html.vue-html meta.object-literal.key punctuation.definition.string",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#98c379"
@@ -829,6 +830,13 @@
         "settings": {
             "fontStyle": "",
             "foreground": "#FF6AB3"
+        }
+    }, {
+        "name": "正则表达式里的关键字",
+        "scope": "string.regexp keyword.other",
+        "settings": {
+            "fontStyle": "italic",
+            "foreground": "#E06C75"
         }
     }, {
         "name": "Tags;HTML的标签名",

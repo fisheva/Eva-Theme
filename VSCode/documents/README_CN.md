@@ -6,7 +6,7 @@
 
 ### 介绍
 
-<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a>是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些<a href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">编程语言</a>。
+<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a>是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些编程<a href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">语言</a>。
 
 <!-- > VSCode版本要求 ≥ 1.12.0。 -->
 
@@ -14,7 +14,9 @@
 
 ### 冲突
 
-有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 这会使得某些字符颜色看起来像出错了。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有<a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>。
+有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 这会使得某些字符颜色看起来像出错了。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。
+
+<!--目前发现的这类插件有<a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>。-->
 
 ### Issue
 
