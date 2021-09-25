@@ -1,0 +1,20 @@
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\Eva Dark.pkgdef
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\Eva Light.pkgdef
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\eva.png
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\LICENSE.txt
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\Eva Theme.dll
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\Eva Theme.pdb
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\Eva Theme.pkgdef
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\Eva Theme.vsix
+C:\Users\fisheva\Documents\Eva Theme\bin\Release\extension.vsixmanifest
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\_EmptyResource.resources
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\Eva Theme.csproj.GenerateResource.cache
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\Eva Theme.csproj.CoreCompileInputs.cache
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\Eva Theme.dll
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\Eva Theme.pdb
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\Eva Theme.pkgdef
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\Eva Theme.latest.pkgdef
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\extension.vsixmanifest
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\files.json
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\createTemplateManifests.cache
+C:\Users\fisheva\Documents\Eva Theme\obj\Release\Eva Theme.csproj.AssemblyReference.cache
