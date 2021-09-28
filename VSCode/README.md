@@ -6,7 +6,7 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 ### Introduction
 
-<a title="Go to the marketplace page of Eva Theme for VSCode." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> for VSCode is a semantic coloring code theme making you more comfortable programming, already supports these <a href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/languages.md" target="_blank">programming languages</a>.
+<a title="Go to the marketplace page of Eva Theme for VSCode." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> for VSCode is a semantic coloring code theme making you more comfortable programming, already supports these <a href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/languages.md" target="_blank">languages</a>.
 
 <!-- > Requires VSCode version >=1.12.0. -->
 

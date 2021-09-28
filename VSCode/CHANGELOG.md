@@ -1,3 +1,11 @@
+1.7.6 (2021-09-28)
+
+* Changed All UI
+
+```UI
+editorWhitespace.foreground: #535773BF/#A9A9AA → #60678E/#B3B3B4
+```
+
 1.7.5 (2021-09-23)
 
 * Add All UI
