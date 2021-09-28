@@ -62,7 +62,7 @@ There are 2 styles in it: Eva Dark, Eva Light. The bold style will be launched i
 
 ### Setting
 
-Currently Eva Theme for VS needs to be used with my <a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/fonts-and-colors.vssettings" target="_blank" download="fonts-and-colors.vssettings.txt">fonts-and-colors.vssetting</a> file(Latest update 2021-09-22). Please open and save it, remove the '.txt' suffix. Then open Visual Studio, click Tools → Import and Export Settings → Import selected environment settings → Next x2 → Browse → select fonts-and-colors.vssetting file → Next → Finish.
+Currently Eva Theme for VS needs to be used with my <a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/fonts-and-colors.vssettings" target="_blank" download="fonts-and-colors.vssettings.txt">fonts-and-colors.vssetting</a> file(Latest update 2021-09-22). Please open and save it (remove the '.txt' suffix in Mac), then open Visual Studio, click Tools → Import and Export Settings → Import selected environment settings → Next x2 → Browse → select fonts-and-colors.vssetting file → Next → Finish.
 
 ### Issue
 

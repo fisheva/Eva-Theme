@@ -12,7 +12,7 @@
 
 ### 设置
 
-目前Eva Theme for VS需要搭配我的<a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/fonts-and-colors.vssettings" target="_blank" download="fonts-and-colors.vssettings.txt">fonts-and-colors.vssetting</a>文件(最近更新 2021-09-22)一起使用。请打开并保存它，去掉'.txt'后缀，然后打开Visual Studio, 点击 工具 → 导入和导出设置 → 下一步 x2 → 浏览 → 选择fonts-and-colors.vssettings文件 → 下一步 → 完成。
+目前Eva Theme for VS需要搭配我的<a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/fonts-and-colors.vssettings" target="_blank" download="fonts-and-colors.vssettings.txt">fonts-and-colors.vssetting</a>文件(最近更新 2021-09-22)一起使用。请打开并保存它(Mac下需去掉'.txt'后缀)，然后打开Visual Studio, 点击 工具 → 导入和导出设置 → 下一步 x2 → 浏览 → 选择fonts-and-colors.vssettings文件 → 下一步 → 完成。
 
 ### Issue
 
