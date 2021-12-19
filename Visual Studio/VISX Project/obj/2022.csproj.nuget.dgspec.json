@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\fisheva\\Others\\Eva Theme for VS\\2022\\2022.csproj": {}
+  },
+  "projects": {
+    "E:\\fisheva\\Others\\Eva Theme for VS\\2022\\2022.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\fisheva\\Others\\Eva Theme for VS\\2022\\2022.csproj",
+        "projectName": "2022",
+        "projectPath": "E:\\fisheva\\Others\\Eva Theme for VS\\2022\\2022.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\fisheva\\Others\\Eva Theme for VS\\2022\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[17.0.5233, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[17.0.31902.203, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
