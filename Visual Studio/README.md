@@ -1,4 +1,4 @@
-<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/screenshots/Eva%20Dark.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/screenshots/Eva%20Light.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
+<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/screenshots/Eva%20Theme.png" referrerpolicy="no-referrer" style="max-width:100%;"></p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme-vs.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme-vs) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme-vs.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme-vs) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 
@@ -10,9 +10,15 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 There are 2 styles in it: Eva Dark, Eva Light. The bold style will be launched in the future.
 
+### Version
+
+This version is Eva Theme for Visual Studio 2022, if you want to install Eva Theme for Visual Studio 2019, please download <a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/VISX%20Project/2019/bin/Release/2019.vsix" target="_blank">here</a>.
+
 ### Setting
 
-Currently Eva Theme for VS needs to be used with my fonts-and-colors.vssetting file, <a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/fonts-and-colors-2022.vssettings" target="_blank" download="fonts-and-colors.vssettings.txt">2022 version</a>/<a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/fonts-and-colors-2019.vssettings" target="_blank" download="fonts-and-colors.vssettings.txt">2019 version</a>(Latest update 2021-09-22). Please open and save it (remove the '.txt' suffix in Mac), then open Visual Studio, click Tools → Import and Export Settings → Import selected environment settings → Next x2 → Browse → select fonts-and-colors.vssetting file → Next → Finish.
+Currently Eva Theme for VS needs to be used with my <a href="https://github.com/fisheva/Eva-Theme/tree/master/Visual%20Studio/Fonts%20and%20Colors/2019" target="_blank" download="fonts-and-colors.vssettings.txt">fonts-and-colors.vssettings</a> files(Latest update 2021-12-21). Please download this folder, then open Visual Studio, select the corresponding theme and import the corresponding fonts-and-colors.vssettings file. The Eva Dark and Eva Light fonts-and-colors.vssettings file need to be imported separately.
+
+click Tools → Import and Export Settings → Import selected environment settings → Next x2 → Browse → select fonts-and-colors.vssetting file → Next → Finish.
 
 ### Issue
 
