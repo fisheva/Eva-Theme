@@ -12,7 +12,7 @@
 
 ### 设置
 
-由于很难在转换主题时，直接编辑目标语法颜色，Eva Theme for VS需要搭配我的<a href="https://github.com/fisheva/Eva-Theme/tree/master/Visual%20Studio/Fonts%20and%20Colors" target="_blank">fonts-and-colors.vssettings</a>文件(最近更新 2021-09-22)使用。请下载这个文件夹后，打开Visual Studio, 然后选择Eva Dark/Light主题，并导入对应的fonts-and-colors.vssettings文件。Eva Dark/Light 的fonts-and-colors.vssettings文件需要分别切换导入。即 在Eva Dark主题下导入'Eva Dark.vssettings'文件，在Eva Light主题下导入'Eva Light.vssettings'文件。
+由于很难在转换主题时，直接编辑目标语法颜色，Eva Theme for VS需要搭配我的<a href="https://github.com/fisheva/Eva-Theme/tree/master/Visual%20Studio/Fonts%20and%20Colors" target="_blank">fonts-and-colors.vssettings</a>文件(最近更新 2021-12-21)使用。请下载这个文件夹后，打开Visual Studio, 然后选择Eva Dark/Light主题，并导入对应的fonts-and-colors.vssettings文件。Eva Dark/Light 的fonts-and-colors.vssettings文件需要分别切换导入。即 在Eva Dark主题下导入'Eva Dark.vssettings'文件，在Eva Light主题下导入'Eva Light.vssettings'文件。
 
 导入步骤：点击 工具 → 导入和导出设置 → 下一步 x2 → 浏览 → 选择fonts-and-colors.vssettings文件 → 下一步 → 完成。
 
