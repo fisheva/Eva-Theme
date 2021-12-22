@@ -8,7 +8,7 @@
 
 <a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> for VS 是由Eva Theme for VSCode通过<a title="去到theme-converter-for-vs项目页面。" href="https://github.com/microsoft/theme-converter-for-vs" target="_blank">theme-converter-for-vs</a>工具转换而来(很赞的工具!感谢他们!)。共有2种样式: Eva Dark, Eva Light。
 
-这个版本是Eva Theme for Visual Studio 2022, 如果您想安装Eva Theme for Visual Studio 2019, 请到<a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/VISX%20Project/2019/bin/Release/2019.vsix" target="_blank">这里</a>下载。
+这个版本是Eva Theme for Visual Studio 2022, 如果您想安装Eva Theme for Visual Studio 2019, 请到<a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/VISX%20Project/2019/bin/Release/2019.vsix" target="_blank">这里下载</a>。
 
 ### 设置
 
