@@ -12,7 +12,7 @@ This version is Eva Theme for Visual Studio 2022, if you want to install Eva The
 
 ### Setting
 
-Since it is hardly to directly edit the target syntax color when converting the theme, Eva Theme for VS needs to be used with my <a href="https://github.com/fisheva/Eva-Theme/tree/master/Visual%20Studio/Fonts%20and%20Colors/2019" target="_blank" download="fonts-and-colors.vssettings.txt">fonts-and-colors.vssettings</a> files(Latest update 2021-12-21). Please download this folder, then open Visual Studio, select Eva Dark/Light theme and import the corresponding fonts-and-colors.vssettings file. The Eva Dark/Light's fonts-and-colors.vssettings file needs to be imported separately.
+Since it is hardly to directly edit the target syntax color when converting the theme, Eva Theme for VS needs to be used with my <a href="https://github.com/fisheva/Eva-Theme/tree/master/Visual%20Studio/Fonts%20and%20Colors" target="_blank">fonts-and-colors.vssettings</a> files(Latest update 2021-12-21). Please download this folder, then open Visual Studio, select Eva Dark/Light theme and import the corresponding fonts-and-colors.vssettings file. The Eva Dark/Light's fonts-and-colors.vssettings file needs to be imported separately. Import 'Eva Dark.vssettings' file under Eva Dark Theme. Import 'Eva Light.vssettings' file under Eva Light Theme. 
 
 Import steps: Click Tools → Import and Export Settings → Import selected environment settings → Next x2 → Browse → select fonts-and-colors.vssettings file → Next → Finish.
 
@@ -20,4 +20,4 @@ Import steps: Click Tools → Import and Export Settings → Import selected env
 
 This theme is not perfect yet. You can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs&ssr=false#review-details" target="_blank">Marketplace</a>.
 
-How to make Eva Theme better?
+<a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/documents/How%20to%20make%20Eva%20Theme%20for%20VS%20better.md" target="_blank">How to make Eva Theme better?</a>

@@ -1,4 +1,4 @@
-<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/screenshots/Eva%20Dark.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/screenshots/Eva%20Light.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
+<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/screenshots/Eva%20Theme.png" referrerpolicy="no-referrer" style="max-width:100%;"></p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme-vs.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme-vs) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme-vs.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme-vs) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 
@@ -6,17 +6,21 @@
 
 ### 介绍
 
-<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> for VS 是由Eva Theme for VSCode通过<a title="去到theme-converter-for-vs项目页面。" href="https://github.com/microsoft/theme-converter-for-vs" target="_blank">theme-converter-for-vs</a>工具转换而来(很赞的工具!感谢他们!)。
+<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> for VS 是由Eva Theme for VSCode通过<a title="去到theme-converter-for-vs项目页面。" href="https://github.com/microsoft/theme-converter-for-vs" target="_blank">theme-converter-for-vs</a>工具转换而来(很赞的工具!感谢他们!)。共有2种样式: Eva Dark, Eva Light。
 
-里面一共有2种样式: Eva Dark, Eva Light。未来还将添加Bold样式。
+这个版本是Eva Theme for Visual Studio 2022, 如果您想安装Eva Theme for Visual Studio 2019, 请到<a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/VISX%20Project/2019/bin/Release/2019.vsix" target="_blank">这里</a>下载。
 
 ### 设置
 
-目前Eva Theme for VS需要搭配我的<a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/fonts-and-colors.vssettings" target="_blank" download="fonts-and-colors.vssettings.txt">fonts-and-colors.vssetting</a>文件(最近更新 2021-09-22)一起使用。请打开并保存它(Mac下需去掉'.txt'后缀)，然后打开Visual Studio, 点击 工具 → 导入和导出设置 → 下一步 x2 → 浏览 → 选择fonts-and-colors.vssettings文件 → 下一步 → 完成。
+由于很难在转换主题时，直接编辑目标语法颜色，Eva Theme for VS需要搭配我的<a href="https://github.com/fisheva/Eva-Theme/tree/master/Visual%20Studio/Fonts%20and%20Colors" target="_blank">fonts-and-colors.vssettings</a>文件(最近更新 2021-09-22)使用。请下载这个文件夹后，打开Visual Studio, 然后选择Eva Dark/Light主题，并导入对应的fonts-and-colors.vssettings文件。Eva Dark/Light 的fonts-and-colors.vssettings文件需要分别切换导入。即 在Eva Dark主题下导入'Eva Dark.vssettings'文件，在Eva Light主题下导入'Eva Light.vssettings'文件。
+
+导入步骤：点击 工具 → 导入和导出设置 → 下一步 x2 → 浏览 → 选择fonts-and-colors.vssettings文件 → 下一步 → 完成。
 
 ### Issue
 
 这款主题目前还不完善, 您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提 issue, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme-vs&ssr=false#review-details" target="_blank">插件商店</a>给我留言。
+
+<a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/documents/How%20to%20make%20Eva%20Theme%20for%20VS%20better_CN.md" target="_blank">如何使Eva Theme更好?</a>
 
 <!-- ### 赞助
 
