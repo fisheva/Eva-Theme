@@ -8,6 +8,34 @@ Eva Theme is a semantic coloring code theme making you more comfortable programm
 
 ### Eva Theme for VSCode README
 
+<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/VSCode/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/VSCode/screenshots/eva-light-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
+
+[![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
+
+English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/README_CN.md" target="_blank">简体中文</a>
+
+### Introduction
+
+<a title="Go to the marketplace page of Eva Theme for VSCode." href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a> for VSCode is a semantic coloring code theme making you more comfortable programming, already supports these <a href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/languages.md" target="_blank">languages</a>.
+
+<!-- > Requires VSCode version >=1.12.0. -->
+
+There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic. The Bold styles make keywords and function names bolder. The Italic styles make keywords italic.
+
+### Conflicts
+
+Some extensions add their own semantic colorings that override the theme colors, which will make some characters' colors look 'wrong'. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings.
+
+<!--Such extensions are: <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>.-->
+
+### Issue
+
+This theme is not perfect yet. If you find any inconsistencies in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.
+
+---
+
+### Eva Theme for Visual Studio README
+
 <p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/screenshots/Eva%20Theme.png" referrerpolicy="no-referrer" style="max-width:100%;"></p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme-vs.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme-vs) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme-vs.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme-vs) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
