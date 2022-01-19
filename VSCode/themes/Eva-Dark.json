@@ -337,7 +337,7 @@
 		"symbolIcon.unitForeground": "#FF9070",
 		"symbolIcon.variableForeground": "#B0B7C3",//颜色同变量
         "tab.activeBackground": "#282c34",
-        "tab.activeBorder": "#282c3400",
+        "tab.activeBorder": "#FF9070",
         "tab.activeBorderTop": "#282c3400",
         "tab.activeForeground": "#d7dae0",
         "tab.activeModifiedBorder": "#A78CFA",
