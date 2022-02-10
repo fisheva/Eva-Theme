@@ -14,10 +14,19 @@ There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Li
 
 ### Conflicts
 
-Some extensions add their own semantic colorings that override the theme colors, which will make some characters' colors look 'wrong'. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings.
-
-<!--Such extensions are: <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>.-->
+Some extensions add their own semantic colorings that override the theme colors, which will make some characters' colors look 'wrong'. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Such extensions are: <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>.
 
 ### Issue
 
 This theme is not perfect yet. If you find any inconsistencies in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.
+
+<!-- #
+
+<h3 align="center">Supporting Eva Theme</h3>
+
+It has taking a lot of time and effort to develop and maintain Eva Theme. If it really helps you, would you:
+
+- Become a backer or sponsor on Patreon or Open Collective.
+- One-time donation via PayPal, AliPay or WeiXin.
+
+-->

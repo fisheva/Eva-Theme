@@ -2,8 +2,6 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
-		"editor.selectionBackground": "#598def59",
-
 		"activityBar.activeBackground": "#282c34",
 		"activityBar.activeBorder": "#282c34",
 		"activityBar.activeFocusBorder": "#4480f4",

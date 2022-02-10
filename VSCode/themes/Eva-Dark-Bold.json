@@ -74,7 +74,7 @@
         "editor.snippetTabstopHighlightBorder": "#32446400",
         "editor.wordHighlightBackground": "#0080997F",
         "editor.wordHighlightBorder": "#00809900",
-        "editor.wordHighlightStrongBackground": "#A78CFA8C",
+        "editor.wordHighlightStrongBackground": "#A78CFA72",
         "editor.wordHighlightStrongBorder": "#A78CFA00",
         "editorBracketMatch.background": "#FF90707F",
         "editorBracketMatch.border": "#FF907000",
@@ -398,8 +398,6 @@
         "tree.indentGuidesStroke": "#454963",
         "walkThrough.embeddedEditorBackground": "#21252B",
         "welcomePage.background": "#282c34",
-        "welcomePage.buttonBackground": "#21252B",
-        "welcomePage.buttonHoverBackground": "#598DEF64",
         "welcomePage.progress.background": "#282c34",
         "welcomePage.progress.foreground": "#4283F5",
         "welcomePage.tileBackground": "#21252B",
@@ -488,7 +486,7 @@
         }
     }, {
         "name": "Punctuation colon冒号 :",
-        "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value, punctuation.separator.label, keyword.operator.colon",
+        "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value, punctuation.separator.label, keyword.operator.colon, variable.parameter.url.scss",
         "settings": {
             "fontStyle": "",
             "foreground": "#8E99B1"
@@ -1104,6 +1102,174 @@
         "settings": {
             "fontStyle": "bold",
             "foreground": "#A78CFA"
+        }
+    }, {
+        "name": "Tex: {}",
+        "scope": "punctuation.section.group.tex,punctuation.definition.arguments.begin.latex,punctuation.definition.arguments.end.latex,punctuation.definition.arguments.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#838FA7"
+        }
+    }, {
+        "name": "Tex: text",
+        "scope": "meta.text.normal.tex,entity.name.section.latex,text.tex.latex,meta.function.environment.frame.latex,meta.function.environment.general.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#8A97C3"
+        }
+    }, {
+        "name": "Tex: {}",
+        "scope": "meta.group.braces.tex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#B0B7C3"
+        }
+    }, {
+        "name": "Tex: Other Math",
+        "scope": "string.other.math.tex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#98c379"
+        }
+    }, {
+        "name": "Tex: {var}",
+        "scope": "variable.parameter.function.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#E4BF7F"
+        }
+    }, {
+        "name": "Tex: Math \\\\",
+        "scope": "punctuation.definition.constant.math.tex,constant.other.math.tex punctuation.definition.function.tex,support.class.math.block.environment.latex punctuation.definition.function.tex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#B0B7C3"
+        }
+    }, {
+        "name": "Tex: Constant Math",
+        "scope": "text.tex.latex constant.other.math.tex,constant.other.general.math.tex,constant.other.general.math.tex,constant.character.math.tex,constant.other.reference.citation.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#B0B7C3"
+        }
+    }, {
+        "name": "Tex: Other Math String",
+        "scope": "string.other.math.tex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#98c379"
+        }
+    }, {
+        "name": "Tex: $",
+        "scope": "punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#98c379"
+        }
+    }, {
+        "name": "Tex: \\label",
+        "scope": "keyword.control.label.latex",
+        "settings": {
+            "fontStyle": "bold",
+            "foreground": "#CF68E1"
+        }
+    }, {
+        "name": "Tex: \\label { }",
+        "scope": "variable.parameter.definition.label.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#E4BF7F"
+        }
+    }, {
+        "name": "Tex: Function",
+        "scope": "support.function.be.latex",
+        "settings": {
+            "fontStyle": "bold",
+            "foreground": "#6495EE"
+        }
+    }, {
+        "name": "Tex: punctuation.definition.function",
+        "scope": "punctuation.definition.function.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#6495EE"
+        }
+    }, {
+        "name": "Tex: punctuation.definition.function",
+        "scope": "keyword.control punctuation.definition.function.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#CF68E1"
+        }
+    }, {
+        "name": "Tex: punctuation.definition.keyword",
+        "scope": "punctuation.definition.keyword.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#A78CFA"
+        }
+    }, {
+        "name": "Tex: punctuation.definition.keyword",
+        "scope": "keyword.control punctuation.definition.function.latex,keyword.control punctuation.definition.keyword.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#A78CFA"
+        }
+    }, {
+        "name": "Tex: Support Function Section",
+        "scope": "support.function.section.latex,support.function.general.tex,support.function.general.tex punctuation.definition.function.tex,support.function.section.latex punctuation.definition.function.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#E06C75"
+        }
+    }, {
+        "name": "Tex: punctuation definition Function",
+        "scope": "punctuation.definition.function.tex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#6495EE"
+        }
+    }, {
+        "name": "Tex: operator",
+        "scope": "punctuation.math.operator.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#56B7C3"
+        }
+    }, {
+        "name": "Tex: Reference Label",
+        "scope": "keyword.control.ref.latex,keyword.other.item.latex",
+        "settings": {
+            "fontStyle": "bold",
+            "foreground": "#CF68E1"
+        }
+    }, {
+        "name": "Tex: Curly Brackets",
+        "scope": "punctuation.math.begin.bracket.curly,punctuation.math.end.bracket.curly",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#838FA7"
+        }
+    }, {
+        "name": "Tex: New Line Label \\",
+        "scope": "keyword.control.equation.newline.latex,keyword.control.newline.tex,keyword.other.item.latex punctuation.definition.keyword.latex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#CF68E1"
+        }
+    }, {
+        "name": "Tex: equation",
+        "scope": "keyword.control.equation.align.latex,keyword.control.preamble.latex,keyword.control.cite.latex,keyword.control.label.latex",
+        "settings": {
+            "fontStyle": "bold",
+            "foreground": "#A78CFA"
+        }
+    }, {
+        "name": "Tex: comma",
+        "scope": "meta.math.block.latex support.function.general.tex",
+        "settings": {
+            "fontStyle": "",
+            "foreground": "#79859D"
         }
     }]
 }

@@ -1,3 +1,23 @@
+1.7.8 (2022-01-21)
+
+* **Support Latex**
+
+* Delete All UI
+
+```UI
+//delete by VSCode
+welcomePage.buttonBackground: #21252B/#E1E4EB
+welcomePage.buttonHoverBackground: #598DEF64/#0065FF33
+```
+
+1.7.7 (2021-12-31)
+
+* Changed Dark UI
+
+```UI
+editor.wordHighlightStrongBackground: #A78CFA8C → #A78CFA72
+```
+
 1.7.6 (2021-09-28)
 
 * Changed All UI
