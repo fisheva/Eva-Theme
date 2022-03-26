@@ -13,7 +13,7 @@ Tested with the following languages in native environment, except derived framew
 - Haskell
 - Dart
 - JSON
-- LaTex
+- Latex
 - Markdown
 
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic yet.

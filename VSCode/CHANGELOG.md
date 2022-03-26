@@ -1,7 +1,5 @@
 1.7.8 (2022-01-21)
 
-* **Support Latex**
-
 * Delete All UI
 
 ```UI
@@ -9,6 +7,8 @@
 welcomePage.buttonBackground: #21252B/#E1E4EB
 welcomePage.buttonHoverBackground: #598DEF64/#0065FF33
 ```
+
+* **Support Latex**
 
 1.7.7 (2021-12-31)
 

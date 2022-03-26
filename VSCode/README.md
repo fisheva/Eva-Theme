@@ -20,6 +20,10 @@ Some extensions add their own semantic colorings that override the theme colors,
 
 This theme is not perfect yet. If you find any inconsistencies in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.
 
+### Others 
+
+Eva Theme on other platform: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
+
 <!-- #
 
 <h3 align="center">Supporting Eva Theme</h3>

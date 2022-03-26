@@ -6,7 +6,7 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 ### Introduction
 
-<a title="Go to the marketplace page of Eva Theme for VS." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs" target="_blank">Eva Theme for VS</a> is converted from Eva Theme for VSCode using <a title="Go to the theme-converter-for-vs." href="https://github.com/microsoft/theme-converter-for-vs" target="_blank">theme-converter-for-vs</a> (Excellent work! Thanks to them!). There are 2 styles in it: Eva Dark, Eva Light.
+<a title="Go to the marketplace page of Eva Theme for VS." href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs" target="_blank">Eva Theme for VS</a> is converted from [Eva Theme for VSCode](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme) using <a title="Go to the theme-converter-for-vs." href="https://github.com/microsoft/theme-converter-for-vs" target="_blank">theme-converter-for-vs</a> (Excellent work! Thanks to them!). There are 2 styles in it: Eva Dark, Eva Light.
 
 This version is Eva Theme for Visual Studio 2022, if you want to install Eva Theme for Visual Studio 2019, please download <a href="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/Visual%20Studio/VISX%20Project/2019/bin/Release/2019.vsix" target="_blank">here</a>.
 
@@ -21,3 +21,7 @@ Import steps: Click Tools → Import and Export Settings → Import selected env
 This theme is not perfect yet. You can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs&ssr=false#review-details" target="_blank">Marketplace</a>.
 
 <a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/documents/How%20to%20make%20Eva%20Theme%20for%20VS%20better.md" target="_blank">How to make Eva Theme better?</a>
+
+### Others 
+
+Eva Theme on other platform: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
