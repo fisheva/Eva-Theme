@@ -2,7 +2,9 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "light",
 	"colors": {
-		"menubar.selectionForeground":"#000000",
+		"editor.selectionBackground": "#0065ff3f",
+		"dropdown.background": "#f1f4fb",
+		"menubar.selectionForeground":"#ffffff",//影响assets里一些当前选项文字颜色
 
 		"activityBar.activeBackground": "#ebeef5",
 		"activityBar.activeBorder": "#ebeef5",

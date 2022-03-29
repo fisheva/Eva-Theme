@@ -1,0 +1,21 @@
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\Eva Dark.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\Eva Light.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\2019.dll
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\2019.pdb
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\2019.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\2019.vsix
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\2019.csproj.AssemblyReference.cache
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\_EmptyResource.resources
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\2019.csproj.GenerateResource.cache
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\2019.csproj.CoreCompileInputs.cache
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\2019.dll
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\2019.pdb
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\2019.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\2019.latest.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\files.json
+E:\fisheva\Others\Eva Theme for VS\2019\obj\Release\createTemplateManifests.cache
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\Eva Theme.png
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\eva.png
+E:\fisheva\Others\Eva Theme for VS\2019\bin\Release\LICENSE.txt

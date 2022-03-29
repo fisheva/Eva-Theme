@@ -3,6 +3,8 @@
 	"type": "dark",
 	"colors": {
 		"editor.selectionBackground": "#598def59",
+		"dropdown.background": "#23272f",
+		"menubar.selectionForeground":"#ffffff",
 
 		"activityBar.activeBackground": "#282c34",
 		"activityBar.activeBorder": "#282c34",
@@ -207,7 +209,6 @@
 		"menu.selectionForeground": "#e1e4ea",
 		"menu.separatorBackground": "#8e99b1",
 		"menubar.selectionBackground": "#598defb3",
-		"menubar.selectionForeground":"#ffffff",
 		"menubar.selectionBorder": "#598def00",
 		"merge.border": "#181a1f",
 		"merge.currentContentBackground": "#598def59",
