@@ -1,3 +1,12 @@
+1.7.9 ~ 1.8.0 (2022-04-01)
+
+* Changed Dark UI
+
+```UI
+terminal.ansiRed: #e51400 → #ff0000
+terminal.ansiBrightRed: #f14c4c → #ff0000
+```
+
 1.7.8 (2022-01-21)
 
 * Delete All UI
