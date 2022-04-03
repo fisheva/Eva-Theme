@@ -16,6 +16,11 @@
 
 有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 这会使得某些字符颜色看起来像出错了。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有<a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>。
 
+### 终端
+
+在 VSCode 1.66.0+ 中，如果您想在终端中显示主题原色，请在您的 VSCode settings.json 中添加以下行。
+`“terminal.integrated.minimumContrastRatio”：1`
+更多信息请看[issue](https://github.com/microsoft/vscode/issues/146406)。
 ### Issue
 
 这款主题目前还不完善, 您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提 issue, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言。

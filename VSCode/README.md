@@ -16,6 +16,11 @@ There are 6 styles in total: Dark, Dark Bold, Dark Italic; Light, Light Bold, Li
 
 Some extensions add their own semantic colorings that override the theme colors, which will make some characters' colors look 'wrong'. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Such extensions are: <a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" target="_blank">Babel JavasSript</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar" target="_blank">JavaScript Atom Grammar</a>, <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">MS-C/C++</a>.
 
+### Terminal
+
+In VSCode 1.66.0+, if you want to display theme original color in Terminal, please add the following line into your VSCode settings.json.
+`"terminal.integrated.minimumContrastRatio": 1`
+More detail in this [issue](https://github.com/microsoft/vscode/issues/146406).
 ### Issue
 
 This theme is not perfect yet. If you find any inconsistencies in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.
