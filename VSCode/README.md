@@ -18,9 +18,8 @@ Some extensions add their own semantic colorings that override the theme colors,
 
 ### Terminal
 
-In VSCode 1.66.0+, if you want to display theme original color in Terminal, please add the following line into your VSCode settings.json.
-`"terminal.integrated.minimumContrastRatio": 1`
-More detail in this [issue](https://github.com/microsoft/vscode/issues/146406).
+In VSCode 1.66.0+, if you want to display theme original color in Terminal, please add the following line into your VSCode settings.json: `"terminal.integrated.minimumContrastRatio": 1`
+<!--More details in this [issue](https://github.com/microsoft/vscode/issues/146406).-->
 ### Issue
 
 This theme is not perfect yet. If you find any inconsistencies in any language, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a>.

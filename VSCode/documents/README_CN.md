@@ -18,9 +18,8 @@
 
 ### 终端
 
-在 VSCode 1.66.0+ 中，如果您想在终端中显示主题原色，请在您的 VSCode settings.json 中添加以下行。
-`“terminal.integrated.minimumContrastRatio”：1`
-更多信息请看[issue](https://github.com/microsoft/vscode/issues/146406)。
+在 VSCode 1.66.0+ 中，如果您想在终端中显示主题原色，请在您的 VSCode settings.json 中添加这行: `“terminal.integrated.minimumContrastRatio”：1`
+<!--更多信息请看[issue](https://github.com/microsoft/vscode/issues/146406)。-->
 ### Issue
 
 这款主题目前还不完善, 您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提 issue, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言。
