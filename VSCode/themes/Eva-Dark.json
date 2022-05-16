@@ -181,7 +181,6 @@
         "list.activeSelectionIconForeground": "#D2D5DB",
         "list.dropBackground": "#598DEF4C",
         "list.errorForeground": "#E51400",
-        "list.filterMatchBorder": "#fff",
         "list.filterMatchBackground": "#fff",
         "list.focusBackground": "#598DEF66",
         "list.focusForeground": "#d7dae0",
@@ -416,7 +415,7 @@
         }
     }, {
         "name": "variable.other.less,variable.other.sass,keyframe-list;sass,less里的变量;css3里的关键帧",
-        "scope": "variable.other.less,variable.other.sass,variable.scss,meta.function.calc.css, source.sass variable.other",
+        "scope": "variable.other.less,variable.other.sass,variable.scss, source.sass variable.other, variable.argument.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#E4BF7F"

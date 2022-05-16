@@ -1,3 +1,26 @@
+1.8.4 (2022-05-08)
+
+* Add All Syntax
+
+```Syntax
+variable.argument.css: #E4BF7F/#F0AA0B
+```
+
+* Delete All Syntax
+
+```Syntax
+meta.function.calc.css: #E4BF7F/#F0AA0B
+```
+
+1.8.3 (2022-05-04)
+
+* Delete All UI
+
+```UI
+//issue 75
+list.filterMatchBorder: #fff
+```
+
 1.7.9 ~ 1.8.2 (2022-04-03)
 
 * Add README Terminal notes.

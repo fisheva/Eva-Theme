@@ -2,7 +2,7 @@
     "name": "eva-theme",
     "displayName": "Eva Theme",
     "description": "A comfortable and semantic theme.",
-    "version": "1.8.2",
+    "version": "1.8.4",
     "publisher": "fisheva",
     "preview": true,
     "license": "SEE LICENSE IN<LICENSE.md>",
@@ -57,7 +57,7 @@
             "path": "./themes/Eva-Light-Italic.json"
         }]
     },
-    "keywords": ["eva", "dark", "light", "theme", "vscode"],
+    "keywords": ["eva", "dark", "light", "theme", "vscode", "eva dark", "eva light", "eva theme"],
     "scripts": {
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
     },
