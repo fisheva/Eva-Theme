@@ -1,3 +1,12 @@
+1.8.7 (2022-06-01)
+
+* Changed All UI
+
+```UI
+statusBarItem.activeBackground: #598DEFD8/#0065FFB2 → #000/#fff,
+statusBarItem.compactHoverBackground:#000/#fff → #008099BF/#00BEC4AD,
+```
+
 1.8.6 (2022-06-01)
 
 * Add All UI
