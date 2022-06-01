@@ -1,3 +1,33 @@
+1.8.6 (2022-06-01)
+
+* Add All UI
+
+```UI
+statusBarItem.compactHoverBackground:#000/#fff,
+```
+
+1.8.5（2022-06-01）
+
+* Add All UI
+
+```UI
+editorBracketHighlight.foreground1:#E4BF7F/#FF6D12,
+editorBracketHighlight.foreground2:#CF68E1/#C838C6,
+editorBracketHighlight.foreground3:#6495EE/#C838C6,
+editorBracketHighlight.foreground4:#E4BF7F/#FF6D12,
+editorBracketHighlight.foreground5:#CF68E1/#C838C6,
+editorBracketHighlight.foreground6:#6495EE/#437AED,
+editorBracketHighlight.unexpectedBracket.foreground: #838FA7/#5D5D5FD8,
+editorBracketPairGuide.activeBackground1: #E4BF7Fcc/#FF6D12,
+editorBracketPairGuide.activeBackground2: #CF68E1cc/#C838C6,
+editorBracketPairGuide.activeBackground3: #6495EEcc/#437AED,
+editorBracketPairGuide.activeBackground4: #E4BF7Fcc/#FF6D12,
+editorBracketPairGuide.activeBackground5: #CF68E1cc/#C838C6,
+editorBracketPairGuide.activeBackground6: #6495EEcc/#437AED,
+
+statusBar.focusBorder:#4480F4/#4480F4,
+```
+
 1.8.4 (2022-05-08)
 
 * Add All Syntax
@@ -210,78 +240,78 @@ progressBar.background: #598DEF72/#0065FF4C → #4283F5/#4d91f8
 //input这条暂时没改
 
 //Dark New
-"terminal.ansiBlack": "#000",
-"terminal.ansiBlue": "#4283F5",
-"terminal.ansiGreen": "#98c379",
-"terminal.ansiCyan": "#56B7C3",
-"terminal.ansiRed": "#e51400",
-"terminal.ansiMagenta": "#CF68E1",
-"terminal.ansiYellow": "#E4BF7F",
-"terminal.ansiWhite": "#fff",
-"terminal.ansiBrightBlack": "#676E95",
-"terminal.ansiBrightBlue": "#6495EE",
-"terminal.ansiBrightGreen": "#3FB93F",
-"terminal.ansiBrightCyan": "#56B7C3",
-"terminal.ansiBrightRed": "#f14c4c",
-"terminal.ansiBrightMagenta": "#FF6AB3",
-"terminal.ansiBrightYellow": "#FF8A4C",
-"terminal.ansiBrightWhite": "#EBEEF5",
+terminal.ansiBlack: #000,
+terminal.ansiBlue: #4283F5,
+terminal.ansiGreen: #98c379,
+terminal.ansiCyan: #56B7C3,
+terminal.ansiRed: #e51400,
+terminal.ansiMagenta: #CF68E1,
+terminal.ansiYellow: #E4BF7F,
+terminal.ansiWhite: #fff,
+terminal.ansiBrightBlack: #676E95,
+terminal.ansiBrightBlue: #6495EE,
+terminal.ansiBrightGreen: #3FB93F,
+terminal.ansiBrightCyan: #56B7C3,
+terminal.ansiBrightRed: #f14c4c,
+terminal.ansiBrightMagenta: #FF6AB3,
+terminal.ansiBrightYellow: #FF8A4C,
+terminal.ansiBrightWhite: #EBEEF5,
 
 //Dark Original
-"terminal.ansiBlack": "#000",
-"terminal.ansiBlue": "#598DEF",
-"terminal.ansiBrightBlack": "#A78CFA",
-"terminal.ansiBrightBlue": "#6495EE",
-"terminal.ansiBrightCyan": "#56B7C3",
-"terminal.ansiBrightGreen": "#3EC33E",
-"terminal.ansiBrightMagenta": "#CF68E1",
-"terminal.ansiBrightRed": "#f14c4c",
-"terminal.ansiBrightWhite": "#FF6AB3",
-"terminal.ansiBrightYellow": "#F5625C",
-"terminal.ansiCyan": "#F02B77",
-"terminal.ansiGreen": "#98c379",
-"terminal.ansiMagenta": "#E4BF7F",
-"terminal.ansiRed": "#E51400",
-"terminal.ansiWhite": "#B0B7C3",
-"terminal.ansiYellow": "#FF8A4C",
+terminal.ansiBlack: #000,
+terminal.ansiBlue: #598DEF,
+terminal.ansiBrightBlack: #A78CFA,
+terminal.ansiBrightBlue: #6495EE,
+terminal.ansiBrightCyan: #56B7C3,
+terminal.ansiBrightGreen: #3EC33E,
+terminal.ansiBrightMagenta: #CF68E1,
+terminal.ansiBrightRed: #f14c4c,
+terminal.ansiBrightWhite: #FF6AB3,
+terminal.ansiBrightYellow: #F5625C,
+terminal.ansiCyan: #F02B77,
+terminal.ansiGreen: #98c379,
+terminal.ansiMagenta: #E4BF7F,
+terminal.ansiRed: #E51400,
+terminal.ansiWhite: #B0B7C3,
+terminal.ansiYellow: #FF8A4C,
 ```
 
 ```UI
 //Light New
-"terminal.ansiBlack": "#000",
-"terminal.ansiBlue": "#4480F4",
-"terminal.ansiGreen": "#53A053",
-"terminal.ansiCyan": "#00BEC4",
-"terminal.ansiRed": "#EC0000",
-"terminal.ansiMagenta": "#C838C6",
-"terminal.ansiYellow": "#F0AA0B",
-"terminal.ansiWhite": "#fff",
-"terminal.ansiBrightBlack": "#676E95",
-"terminal.ansiBrightBlue": "#437AED",
-"terminal.ansiBrightGreen": "#44C145",
-"terminal.ansiBrightCyan": "#00BEC4",
-"terminal.ansiBrightRed": "#f14c4c",
-"terminal.ansiBrightMagenta": "#EF8ED8",
-"terminal.ansiBrightYellow": "#FF6D12",
-"terminal.ansiBrightWhite": "#AAADB4",
+terminal.ansiBlack: #000,
+terminal.ansiBlue: #4480F4,
+terminal.ansiGreen: #53A053,
+terminal.ansiCyan: #00BEC4,
+terminal.ansiRed: #EC0000,
+terminal.ansiMagenta: #C838C6,
+terminal.ansiYellow: #F0AA0B,
+terminal.ansiWhite: #fff,
+terminal.ansiBrightBlack: #676E95,
+terminal.ansiBrightBlue: #437AED,
+terminal.ansiBrightGreen: #44C145,
+terminal.ansiBrightCyan: #00BEC4,
+terminal.ansiBrightRed: #f14c4c,
+terminal.ansiBrightMagenta: #EF8ED8,
+terminal.ansiBrightYellow: #FF6D12,
+terminal.ansiBrightWhite: #AAADB4,
 
 //Light Original
-"terminal.ansiBlack": "#fff",
-"terminal.ansiBlue": "#4d91f8",
-"terminal.ansiBrightBlack": "#7C4DFF",
-"terminal.ansiBrightBlue": "#437AED",
-"terminal.ansiBrightCyan": "#00BEC4",
-"terminal.ansiBrightGreen": "#44C145",
-"terminal.ansiBrightMagenta": "#C838C6",
-"terminal.ansiBrightRed": "#f14c4c",
-"terminal.ansiBrightWhite": "#EF8ED8",
-"terminal.ansiBrightYellow": "#F5625C",
-"terminal.ansiCyan": "#FA278E",
-"terminal.ansiGreen": "#53A053",
-"terminal.ansiMagenta": "#F0AA0B",
-"terminal.ansiRed": "#EC0000",
-"terminal.ansiWhite": "#5D5D5F",
-"terminal.ansiYellow": "#FF6D12",
+terminal.ansiBlack: #fff,
+terminal.ansiBlue: #4d91f8,
+terminal.ansiBrightBlack: #7C4DFF,
+terminal.ansiBrightBlue: #437AED,
+terminal.ansiBrightCyan: #00BEC4,
+terminal.ansiBrightGreen: #44C145,
+terminal.ansiBrightMagenta: #C838C6,
+terminal.ansiBrightRed: #f14c4c,
+terminal.ansiBrightWhite: #EF8ED8,
+terminal.ansiBrightYellow: #F5625C,
+terminal.ansiCyan: #FA278E,
+terminal.ansiGreen: #53A053,
+terminal.ansiMagenta: #F0AA0B,
+terminal.ansiRed: #EC0000,
+terminal.ansiWhite: #5D5D5F,
+terminal.ansiYellow: #FF6D12,
 ```
 
 1.6.1(2021-07-20)
@@ -354,7 +384,7 @@ settings.focusedRowBackground: #598DEF66/#0065FF33
 * Changed Italic Syntax
 
 ```Syntax
-class: "italic" → ""
+class: italic → 
 
 meta.function-call support.class.builtin, meta.function-call support.class → new.expr meta.function-call support.class.builtin, new.expr meta.function-call support.class
 ```
@@ -415,7 +445,7 @@ meta.function-call support.class.builtin, meta.function-call support.class: #56B
 * Changed Bold Syntax
 
 ```Syntax
-Class, Interface, Struct: "Bold" → ""
+Class, Interface, Struct: Bold → 
 ```
 
 * Changed All Syntax
@@ -557,7 +587,7 @@ typeof: #56B7C3/#00BEC4 → #6495EE/#437AED
 * Changed bold Syntax
 
 ```Syntax
-export default, import ... from "...": "" → "bold"
+export default, import ... from ...:  → bold
 ```
 
 1.4.1 (2021-06-24)
@@ -904,7 +934,7 @@ Italic all (function names,HTML className, CSS property & value) into italic sty
 keyword.other.debugger: #e51400
 ```
 
-'printf("hello, world");' 是非常著名的一段代码
+'printf(hello, world);' 是非常著名的一段代码
 
 1.1.5(2021-03-25)
 
@@ -1211,10 +1241,10 @@ terminal.ansiWhite: #676E95/#A9A9AA
 string.quoted source: #98C379/#53A053
 ```
 
-<!-- <div align="center">
+<!-- <div align=center>
   <table>
       <tr>
-        <th colspan="8"><h3 align="center">Backers</h3></th>
+        <th colspan=8><h3 align=center>Backers</h3></th>
       </tr>
       <tr></tr>
       <tr>
@@ -1464,8 +1494,8 @@ Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地�
 * Changed package.json
 
 ```json
-"description":"A colorful and semantic coloring code theme. Dark | Light. Regular | Bold" →
-"description:A semantic coloring code theme dedicated to making you more comfortable programming."
+description:A colorful and semantic coloring code theme. Dark | Light. Regular | Bold →
+description:A semantic coloring code theme dedicated to making you more comfortable programming.
 ```
 
 * Delete README.md
@@ -1475,7 +1505,7 @@ Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地�
 The above screenshots' font is [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode). If you like, download and add it into system font folder, then open VSCode → Preferences → Settings :
 
 ```json
-"editor.fontFamily:CamingoCode",
+editor.fontFamily:CamingoCode,
 ```
 
 ### Icons
@@ -1491,44 +1521,44 @@ Here is my Bracket Pair Colorizer setting:
 - Match Eva Dark theme
 
 ```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
+bracketPairColorizer.showHorizontalScopeLine: false,
+bracketPairColorizer.showVerticalScopeLine: false,
+bracketPairColorizer.consecutivePairColors: [
+        (),
+        [],
+        {},
         [
-        "#838FA7",
-        "#A78CFA",
-        "#56B7C3,
-        "#FF9070"
+        #838FA7,
+        #A78CFA,
+        #56B7C3,
+        #FF9070
         ],
-        "#e51400"
+        #e51400
     ]
 ```
 
 - Match Eva Light theme
 
 ```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
+bracketPairColorizer.showHorizontalScopeLine: false,
+bracketPairColorizer.showVerticalScopeLine: false,
+bracketPairColorizer.consecutivePairColors: [
+        (),
+        [],
+        {},
         [
-        "#5D5D5FD8",
-        "#7C4DFF",
-        "#00BEC4",
-        "#ff6500"
+        #5D5D5FD8,
+        #7C4DFF,
+        #00BEC4,
+        #ff6500
         ],
-        "#e51400"
+        #e51400
     ]
 ```
 
 ### Conflicts
 
-All theme plugins add color to characters based on its scope value. You can check the scope value of all characters by pressing "Ctrl+Shift+P" (Windows) or "Cmd+Shift+P" (Mac) and selecting "Inspect TM Scopes". -->
+All theme plugins add color to characters based on its scope value. You can check the scope value of all characters by pressing Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and selecting Inspect TM Scopes. -->
 
 * Delete README_CN.md
 
@@ -1538,7 +1568,7 @@ All theme plugins add color to characters based on its scope value. You can chec
 上面截图中的字体是 [CamingoCode](https://www.fontsquirrel.com/fonts/camingocode)，如果您喜欢，请下载并安装进系统的字体文件夹，然后 VSCode → 首选项 → 设置：
 
 ```json
-"editor.fontFamily:CamingoCode",
+editor.fontFamily:CamingoCode,
 ```
 
 ### 图标
@@ -1554,44 +1584,44 @@ All theme plugins add color to characters based on its scope value. You can chec
 - 配合 Eva Dark theme
 
 ```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
+bracketPairColorizer.showHorizontalScopeLine: false,
+bracketPairColorizer.showVerticalScopeLine: false,
+bracketPairColorizer.consecutivePairColors: [
+        (),
+        [],
+        {},
         [
-        "#838FA7",
-        "#A78CFA",
-        "#56B7C3,
-        "#FF9070"
+        #838FA7,
+        #A78CFA,
+        #56B7C3,
+        #FF9070
         ],
-        "#e51400"
+        #e51400
     ]
 ```
 
 - 配合 Eva Light theme
 
 ```json
-"bracketPairColorizer.showHorizontalScopeLine": false,
-"bracketPairColorizer.showVerticalScopeLine": false,
-"bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
+bracketPairColorizer.showHorizontalScopeLine: false,
+bracketPairColorizer.showVerticalScopeLine: false,
+bracketPairColorizer.consecutivePairColors: [
+        (),
+        [],
+        {},
         [
-        "#5D5D5FD8",
-        "#7C4DFF",
-        "#00BEC4",
-        "#ff6500"
+        #5D5D5FD8,
+        #7C4DFF,
+        #00BEC4,
+        #ff6500
         ],
-        "#e51400"
+        #e51400
     ]
 ``` 
 
 ### 冲突
 
-所有主题插件都是基于字符的Scope值给字符分配颜色。同时按下"Ctrl+Shift+P"(Windows)或"Command+Shift+P"(Mac), 选择"检查TM作用域", 您可以查看到所有字符的Scope值。 -->
+所有主题插件都是基于字符的Scope值给字符分配颜色。同时按下Ctrl+Shift+P(Windows)或Command+Shift+P(Mac), 选择检查TM作用域, 您可以查看到所有字符的Scope值。 -->
 
 0.7.9 (2019-12-06)
 
