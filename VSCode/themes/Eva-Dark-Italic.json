@@ -666,7 +666,7 @@
             "fontStyle": "",
             "foreground": "#6495EE"
         }
-    }, 
+    },
     {
         "name": "Classes",
         "scope": "entity.name.type, entity.name.type.class, entity.name.scope-resolution, entity.name.type.struct, entity.other.inherited-class, entity.name.type.interface, entity.other.inherited-classentity.name.type.interface,keyword.interface, entity.name.type.delegate, support.class, storage.type.cs, support.class.builtin, support.type.graphql",
@@ -800,7 +800,7 @@
             "fontStyle": "",
             "foreground": "#FF9070"
         }
-    }, 
+    },
     {
         "name": "constant,值为数字的常量;enum枚举里的元素,Infinity",
         "scope": "support.constant.dom,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity",
@@ -869,7 +869,7 @@
         "scope": "meta.jsx.children",
         "settings": {
             "fontStyle": "",
-            "foreground": "#8792AA"
+            "foreground": "#B0B7C3"
         }
     }, {
         "name": "block,embedded,definition,bracket,typeparameters;大括号 {}, 中括号[], 圆括号(), 尖括号<>",
@@ -1074,7 +1074,7 @@
             "fontStyle": "italic",
             "foreground": "#F02B77"
         }
-    }, 
+    },
     {
         "scope": "keyword.other.debugger",
         "settings": {

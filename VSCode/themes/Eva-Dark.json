@@ -860,7 +860,7 @@
         "scope": "meta.jsx.children",
         "settings": {
             "fontStyle": "",
-            "foreground": "#8792AA"
+            "foreground": "#B0B7C3"
         }
     }, {
         "name": "block,embedded,definition,bracket,typeparameters;大括号 {}, 中括号[], 圆括号(), 尖括号<>",
