@@ -1,3 +1,12 @@
+1.9.0 (2022-11-25)
+
+* Changed All UI
+
+```UI
+//Support jupyter notebook
+editorPane.background: #21252B/#E1E4EB → #282c34/#EBEEF5
+```
+
 1.8.9 (2022-11-24)
 
 * Changed Light UI

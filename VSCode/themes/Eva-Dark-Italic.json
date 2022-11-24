@@ -139,7 +139,7 @@
         "editorOverviewRuler.warningForeground": "#FF8A4C",
         "editorOverviewRuler.wordHighlightForeground": "#008099BF",
         "editorOverviewRuler.wordHighlightStrongForeground": "#A78CFABF",
-        "editorPane.background": "#21252B",
+        "editorPane.background": "#282c34",
         "editorRuler.foreground": "#676E95",
         "editorSuggestWidget.background": "#23272F",
         "editorSuggestWidget.border": "#181A1F",
