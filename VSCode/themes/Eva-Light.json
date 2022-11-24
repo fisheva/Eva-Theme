@@ -9,7 +9,7 @@
         "activityBar.background": "#EBEEF5",
         "activityBar.border": "#EBEEF500",
         "activityBar.dropBorder": "#4480F4",
-        "activityBar.foreground": "#7D7F84",
+        "activityBar.foreground": "#787A7F",
         "activityBar.inactiveForeground": "#B3B3B4",
         "activityBarBadge.background": "#598DEF",
         "activityBarBadge.foreground": "#fff",
@@ -194,7 +194,7 @@
         "list.activeSelectionIconForeground": "#464247",
         "list.dropBackground": "#0065FF21",
         "list.errorForeground": "#EC0000",
-        "list.filterMatchBackground": "#fff",
+        "list.filterMatchBackground": "#FFF",
         "list.focusBackground": "#0065FF33",
         "list.focusForeground": "#5D5D5F",
 		"list.focusHighlightForeground": "#598DEF",
@@ -209,7 +209,7 @@
 		"list.inactiveSelectionIconForeground": "#5D5D5F",
         "list.invalidItemForeground": "#A9A9AA",
         "list.warningForeground": "#FF6D12",
-        "listFilterWidget.background": "#FFF",
+        "listFilterWidget.background": "#E1E4EB",
         "listFilterWidget.outline": "#FFF",
         "listFilterWidget.noMatchesOutline": "#ff0000",
         "menu.background": "#E1E4EB",
@@ -393,6 +393,9 @@
         "terminal.foreground": "#5D5D5F",
         "terminal.selectionBackground": "#0065FF3F",
         "terminal.tab.activeBorder":"#5D5D5F",
+        "terminalCommandDecoration.defaultBackground": "#5D5D5F00",
+        "terminalCommandDecoration.successBackground": "#44C145",
+        "terminalCommandDecoration.errorBackground": "#EC0000",
         "terminalCursor.background": "#FFF",
         "terminalCursor.foreground": "#FC8357",
         "textBlockQuote.background": "#e0e3e9",
@@ -745,14 +748,14 @@
         }
     }, {
         "name": "Keyword: (flow), interface",
-        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.type.language.primitive.cpp, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread,keyword.other.typedef, storage.modifier.dart, meta.class.identifier.java storage.modifier.java, meta.enum.java storage.modifier.java, storage.type.modifier, storage.modifier, keyword.control.as, keyword.other.phpdoc, keyword.other.var",
+        "scope": "keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace, storage.type.language.primitive.cpp, storage.type.struct, storage.type.template, support.type.built-in.posix-reserved.pthread,keyword.other.typedef, storage.modifier.dart, meta.class.identifier.java storage.modifier.java, meta.enum.java storage.modifier.java, storage.type.modifier, storage.modifier, keyword.control.as, keyword.other.phpdoc, keyword.other.var, storage.modifier.java",
         "settings": {
             "fontStyle": "",
             "foreground": "#7C4DFF"
         }
     }, {
         "name": "support type ts; class;ts里默认数据类型;自定义数据类型",
-        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance, storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, keyword.type,entity.name.type.type-parameter,storage.type.object.array,storage.type.java,entity.name.type.delegate,storage.type.c, meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.primitive, storage.type.built-in, support.type.built-in.posix-reserved, support.class.dart, keyword.other.type, storage.type.haskell",
+        "scope": "support.type.primitive,support.type.builtin,entity.name.type.instance, storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive, meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic, keyword.type,entity.name.type.type-parameter,storage.type.object.array,entity.name.type.delegate,storage.type.c, meta.declaration.dart, meta.type.declaration, meta.block.ts, meta.class-struct-block.cpp entity.name.type.cpp, meta.function.definition.parameters.cpp storage.type.language.primitive.cpp, meta.function.definition.parameters.cpp storage.type.struct.cpp, meta.function.constructor.cpp storage.type.language.primitive.cpp, storage.type.template.argument, entity.name.type.numeric.rust, storage.modifier.mut, entity.name.type.primitive, storage.type.built-in, support.type.built-in.posix-reserved, support.class.dart, keyword.other.type, storage.type.haskell, meta.method.identifier.java storage.type.java",
         "settings": {
             "fontStyle": "",
             "foreground": "#EF8ED8"
@@ -920,7 +923,7 @@
         }
     }, {
         "name": "pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child()",
-        "scope": "entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css, storage.modifier.java",
+        "scope": "storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css",
         "settings": {
             "fontStyle": "",
             "foreground": "#00BEC4"

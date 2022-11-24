@@ -1,3 +1,31 @@
+1.8.9 (2022-11-24)
+
+* Changed Light UI
+
+```UI
+activityBar.foreground: #7D7F84 → #787A7F
+```
+
+* Fixed Some Java Syntax
+
+1.8.8 (2022-09-20)
+
+* Add All UI
+
+```UI
+terminalCommandDecoration.defaultBackground: #B0B7C300/#5D5D5F00
+terminalCommandDecoration.successBackground: #3FB93F/#44C145
+terminalCommandDecoration.errorBackground: #e51400/#EC0000
+```
+
+* Delete package.json `"preview": true,`.
+
+* Changed All UI
+
+```UI
+listFilterWidget.background: #FFF/#FFF → #21252B/#E1E4EB
+```
+
 1.8.7 (2022-06-01)
 
 * Changed All UI
@@ -1567,7 +1595,7 @@ bracketPairColorizer.consecutivePairColors: [
 
 ### Conflicts
 
-All theme plugins add color to characters based on its scope value. You can check the scope value of all characters by pressing Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and selecting Inspect TM Scopes. -->
+All theme plugins add color to characters based on their scope value. You can check the scope value of all characters by pressing Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and selecting Inspect Editor Tokens and Scopes. -->
 
 * Delete README_CN.md
 
