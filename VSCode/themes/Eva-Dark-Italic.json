@@ -316,10 +316,16 @@
         "statusBar.noFolderBackground": "#21252B",
         "statusBar.noFolderForeground": "#9DA5B3",
         "statusBarItem.activeBackground": "#000",
-        "statusBarItem.compactHoverBackground":"#008099BF",
+        "statusBarItem.compactHoverBackground":"#598defB3",
+		"statusBarItem.errorBackground": "#e51400",
+		"statusBarItem.errorForeground": "#ffffff",
         "statusBarItem.hoverBackground": "#598DEF66",
         "statusBarItem.prominentBackground": "#21252B",
         "statusBarItem.prominentHoverBackground": "#598DEF66",
+		"statusBarItem.remoteBackground": "#56B7C3",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"statusBarItem.warningBackground": "#ff8a4c",
+		"statusBarItem.warningForeground": "#ffffff",
         "symbolIcon.arrayForeground": "#B0B7C3",//颜色同变量
 		"symbolIcon.booleanForeground": "#CF68E1",
 		"symbolIcon.classForeground": "#56B7C3",
@@ -714,7 +720,7 @@
         }
     }, {
         "name": "new",
-        "scope": "punctuation.definition.directive, keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs, keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.fn, storage.type.rust, keyword.operator.arrow.skinny, storage.modifier.extern, storage.modifier.const, keyword.control.directive.include punctuation.definition.directive, storage.modifier.extends, storage.modifier.ts, keyword.control.at-rule, keyword.other.let, keyword.other.instance, keyword.other.newtype, keyword.other.data, keyword.other.module, keyword.other, keyword.other.preprocessor",
+        "scope": "punctuation.definition.directive, keyword.operator.new,keyword.other.new, storage.modifier.c, keyword.control.directive.define, keyword.control.def, keyword.control.class, keyword.control.directive.define punctuation.definition.directive, keyword.control.module, keyword.control.new,keyword.preprocessor.define, meta.preprocessor.cs punctuation.separator.hash.cs, keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.fn, storage.type.rust, keyword.operator.arrow.skinny, storage.modifier.extern, storage.modifier.const, keyword.control.directive.include punctuation.definition.directive, storage.modifier.extends, storage.modifier.ts, keyword.control.at-rule, keyword.other.let, keyword.other.instance, keyword.other.newtype, keyword.other.data, keyword.other.module, keyword.other, keyword.other.preprocessor, keyword.cs",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#A78CFA"

@@ -1,6 +1,33 @@
-1.9.0 (2022-11-25)
+1.9.2 (2022-12-03)
 
-* Changed All UI
+* Add All Semantic Textmate
+
+```Semantic Textmate
+keyword.cs: #A78CFA/#7C4DFF
+```
+
+1.9.1 (2022-11-28)
+
+* Add All UI
+
+```UI
+statusBarItem.errorBackground: #e51400/#ec0000
+statusBarItem.errorForeground: #fff/#fff
+statusBarItem.remoteBackground: #56B7C3/#00bec4
+statusBarItem.remoteForeground: #fff/#fff
+statusBarItem.warningBackground: #ff8a4c/#ff6d12
+statusBarItem.warningForeground: #fff/#fff
+```
+
+* Change All UI
+
+```UI
+statusBarItem.compactHoverBackground: #008099BF/#0065ff66 → #598defB3/#00BEC4AD
+```
+
+1.9.0 (2022-11-24)
+
+* Change All UI
 
 ```UI
 //Support jupyter notebook
@@ -9,7 +36,7 @@ editorPane.background: #21252B/#E1E4EB → #282c34/#EBEEF5
 
 1.8.9 (2022-11-24)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 activityBar.foreground: #7D7F84 → #787A7F
@@ -29,7 +56,7 @@ terminalCommandDecoration.errorBackground: #e51400/#EC0000
 
 * Delete package.json `"preview": true,`.
 
-* Changed All UI
+* Change All UI
 
 ```UI
 listFilterWidget.background: #FFF/#FFF → #21252B/#E1E4EB
@@ -37,7 +64,7 @@ listFilterWidget.background: #FFF/#FFF → #21252B/#E1E4EB
 
 1.8.7 (2022-06-01)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 statusBarItem.activeBackground: #598DEFD8/#0065FFB2 → #000/#fff,
@@ -115,7 +142,7 @@ welcomePage.buttonHoverBackground: #598DEF64/#0065FF33
 
 1.7.7 (2021-12-31)
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 editor.wordHighlightStrongBackground: #A78CFA8C → #A78CFA72
@@ -123,7 +150,7 @@ editor.wordHighlightStrongBackground: #A78CFA8C → #A78CFA72
 
 1.7.6 (2021-09-28)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editorWhitespace.foreground: #535773BF/#BDBDBEB2 → #60678E/#B3B3B4
@@ -143,7 +170,7 @@ editorInlayHint.foreground: #8A97C3/#888888
 
 1.7.2 (2021-08-22)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 minimap.selectionHighlight: #0065FFB2 → #5F97FFF2
@@ -151,7 +178,7 @@ minimap.selectionHighlight: #0065FFB2 → #5F97FFF2
 
 1.7.1 (2021-08-20)
 
-* Changed All UI
+* Change All UI
 
 ```
 gitlens.trailingLineBackgroundColor: #2F323B/#E3E6ED → #2F323B00/#E3E6ED00
@@ -174,7 +201,7 @@ gitlens.trailingLineBackgroundColor: #2F323B/#E3E6ED
 gitlens.trailingLineForegroundColor: #585D68/#C8CACE
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //调回来了
@@ -196,7 +223,7 @@ editorBracketMatch.background: #FF90707F → #FF907072
 
 1.6.8 (2021-08-09)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiYellow: #FF8A4C/#FF6D12 → #E4BF7F/#F0AA0B
@@ -214,7 +241,7 @@ panelSection.border:#21252B/#E1E4EB
 panelSection.dropBackground:#598DEF4C/#0065FF21
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiBrightBlack: #8A97C3/#888 → #676E95/#AAADB4
@@ -223,7 +250,7 @@ terminal.ansiYellow: #E4BF7F/#F0AA0B → #FF8A4C/#FF6D12
 terminal.ansiBrightYellow: #FF8A4C/#FF6D12 → #E4BF7F/#F0AA0B
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 terminal.ansiBlack: #000 → #fff
@@ -232,13 +259,13 @@ terminal.ansiWhite: #fff → #000
 
 1.6.4 (2021-08-06)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiBrightBlack: #676E95/#676E95 → #8A97C3/#888
 ```
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 terminal.ansiBrightWhite: #AAADB4 → #676E95
@@ -247,13 +274,13 @@ input.placeholderForeground: #545B81 → #5E658B
 
 1.6.3 (2021-08-05)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 input.placeholderForeground: #9DA5B399/#5D5D5F99 → #545B81/#B4B7BE
 ```
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 terminal.ansiBrightWhite: #EBEEF5 → #AAADB4
@@ -273,13 +300,13 @@ list.activeSelectionIconForeground: #D2D5DB/#464247
 menu.border: #21252b/#E1E4EB
 ```
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 editorCodeLens.foreground: #535773 → #50567C
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 progressBar.background: #598DEF72/#0065FF4C → #4283F5/#4d91f8
@@ -402,7 +429,7 @@ settings.focusedRowBorder: #598DEF00/#0065FF00
 settings.rowHoverBackground: #598DEF3F/#0065FF19
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 editorGutter.foldingControlForeground: #444 → #000
@@ -427,7 +454,7 @@ notebook.rowHoverBackground: #598DEF3F/#0065FF19
 settings.focusedRowBackground: #598DEF66/#0065FF33
 ```
 
-* Changed Italic Syntax
+* Change Italic Syntax
 
 ```Syntax
 class: italic → 
@@ -451,14 +478,14 @@ problemsInfoIcon.foreground: #4480F4/#4480F4
 problemsWarningIcon.foreground: #FF8A4C/#FF6D12
 ```
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 statusBarItem.hoverBackground: #598DEF59 → #598DEF66
 statusBarItem.prominentHoverBackground: #598DEF59 → #598DEF66
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 //加深颜色10°
@@ -467,13 +494,13 @@ minimap.findMatchHighlight: #878A917F → #7D80877F
 
 1.5.4 (2021-07-03)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 minimap.findMatchHighlight: #6A707DE5/#BBBEC5 → #D0D5E17F/#878A917F
 ```
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 terminal.ansiBrightGreen: #3FB93F → #3EC33E
@@ -488,13 +515,13 @@ meta.function-call support.class.builtin, meta.function-call support.class: #56B
 
 1.5.3 (2021-07-03)
 
-* Changed Bold Syntax
+* Change Bold Syntax
 
 ```Syntax
 Class, Interface, Struct: Bold → 
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 Fixed many Syntax.
@@ -508,7 +535,7 @@ Fixed many Syntax.
 entity.name.type: #56B7C3/#00BEC4
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 constant.character.escape, constant.character.entity: #FF9070/#FF6D12 → #8A97C3/#888
@@ -519,19 +546,19 @@ class, interface, struct: #FF6AB3/#EF8ED8  → #56B7C3/#00BEC4
 
 1.4.9 (2021-06-30)
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 textLink.foreground: #4088F7 → #4283F5
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 diffEditor.removedTextBackground: #f14c4c4C/#4088F7 → #f14c4c3F/#4d91f8
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 diffEditor.diagonalFill: #C9CCD2 → #C4C7CD
@@ -539,7 +566,7 @@ diffEditor.diagonalFill: #C9CCD2 → #C4C7CD
 
 1.4.8 (2021-06-29)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 fixed some Cpp syntax.
@@ -547,7 +574,7 @@ fixed some Cpp syntax.
 
 1.4.7 (2021-06-28)
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 toolbar.hoverBackground:#4283F58C → #4283F58F
@@ -570,7 +597,7 @@ welcomePage.tileBackground: #21252B/#E1E4EB
 welcomePage.tileHoverBackground: #598DEF64/#0065FF33
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 textLink.foreground: #598DEF/#5B87EB → #4088F7/#4088F7
@@ -578,14 +605,14 @@ textLink.foreground: #598DEF/#5B87EB → #4088F7/#4088F7
 
 1.4.5 (2021-06-27)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editor.snippetFinalTabstopHighlightBackground: #324464 → #32446499/#CFD2D98C
 editor.snippetTabstopHighlightBackground: #324464/#CFD2D9 → #32446499/#CFD2D98C
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 from: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
@@ -598,7 +625,7 @@ and many many others...
 
 1.4.4 (2021-06-26)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 trycatch: #CF68E1/#C838C6 → #6495EE/#437AED
@@ -607,7 +634,7 @@ export , import : #CF68E1/#C838C6 → #A78CFA/#7C4DFF
 
 1.4.3 (2021-06-25)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editor.snippetFinalTabstopHighlightBackground: #45B7463F/#45B7464C → #324464/#CFD2D9
@@ -624,13 +651,13 @@ editor.snippetTabstopHighlightBorder: #45B74600/#45B74600 → #32446400/#CFD2D9
 support.constant,support.constant.json: #FF9070/#FF6D12
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 typeof: #56B7C3/#00BEC4 → #6495EE/#437AED
 ```
 
-* Changed bold Syntax
+* Change bold Syntax
 
 ```Syntax
 export default, import ... from ...:  → bold
@@ -638,7 +665,7 @@ export default, import ... from ...:  → bold
 
 1.4.1 (2021-06-24)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 gitDecoration.addedResourceForeground: #56B7C3/#00BEC4 → #98C379/#83C654
@@ -651,13 +678,13 @@ minimapGutter.deletedBackground: #F14C4C00/#F14C4C00 → #F14C4C/#F14C4C
 minimapGutter.modifiedBackground: #A78CFA00/#9277E600 → #A78CFA/#9277E6
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 gitDecoration.untrackedResourceForeground: #3CAD3C → #3EC141
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 keyword.control.from,entity.other.keyframe-offset,keyword.control.export, keyword.control.import,keyword.control.at-rule.import, keyword.other.import,keyword.import,keyword.control.default: #CF68E1/#C838C6 → #56B7C3/#00BEC4
@@ -671,7 +698,7 @@ variable.other.readwrite.alias: #E06C75/#CD6069
 
 1.4.0 (2021-06-22)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 gitDecoration.addedResourceForeground: #8E99B1/#626264D8 → #56B7C3/#00BEC4
@@ -684,7 +711,7 @@ gitDecoration.stageModifiedResourceForeground: #CF68E1/#C838C6 → #D365E5/#d73b
 
 1.3.9 (2021-06-21)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //和warning颜色区分开，因为可能同时出现这二种情况
@@ -693,7 +720,7 @@ gitDecoration.conflictingResourceForeground: #FF9070/#FF6D12 → #F02B77/#FA278E
 
 1.3.8 (2021-06-21)
 
-* Added All UI
+* Add All UI
 
 ```UI
 gitDecoration.renamedResourceForeground: #56B7C3/#00BEC4
@@ -701,7 +728,7 @@ gitDecoration.renamedResourceForeground: #56B7C3/#00BEC4
 
 1.3.7 (2021-06-21)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 gitDecoration.submoduleResourceForeground: #8E99B1/#626264D8 → #E4BF7F/#F0AA0B
@@ -711,7 +738,7 @@ gitDecoration.stageModifiedResourceForeground: #E4BF7F/#F0AA0B → #CF68E1/#C838
 
 1.3.6 (2021-06-21)
 
-* Added All UI
+* Add All UI
 
 ```UI
 gitDecoration.submoduleResourceForeground: #8E99B1/#626264D8
@@ -730,13 +757,13 @@ gitDecoration.untrackedResourceForeground: #7BBE54/#3CAD3C
 
 1.3.5 (2021-06-20)
 
-* Changed Bold/Italic Syntax
+* Change Bold/Italic Syntax
 
 ```Syntax
 variable.other.constant.object,support.constant.math: bold/italic
 ```
 
-* Changed Italic Syntax
+* Change Italic Syntax
 
 ```Syntax
 Make Variable/String/CSS Class italic. 
@@ -752,7 +779,7 @@ checkbox.border:#181a1f/#CED1D7
 checkbox.foreground:#B0B7C3/#5D5D5F
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 constant.language.infinity: #CF68E1/#C838C6 → #FF9070/#FF6D12
@@ -760,7 +787,7 @@ constant.language.infinity: #CF68E1/#C838C6 → #FF9070/#FF6D12
 
 1.3.3 (2021-06-16)
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 warning: #FF8441 → #FF8A4C
@@ -768,7 +795,7 @@ warning: #FF8441 → #FF8A4C
 
 1.3.2 (2021-06-15)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 minimap.warningHighlight: #FF6D127F → #FC835799
@@ -776,7 +803,7 @@ minimap.warningHighlight: #FF6D127F → #FC835799
 
 1.3.1 (2021-06-15)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 editorOverviewRuler.warningForeground: #FF6D12 → #FC8357
@@ -795,7 +822,7 @@ editorOverviewRuler.bracketMatchForeground: #FF907000/#FC835700 → #FF90707F/#F
 warning: #FF9070/#FC8357 → #FF8441/#FF6D12
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```Syntax
 number,unit,enum,Math,symbol,id,constant: #FF6500 → #FF6D12
@@ -804,7 +831,7 @@ error: #EB0000 → #EC0000
 
 1.2.9 (2021-06-07)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 textPreformat.foreground: #F5625C/#F5625C → #FF9070/#FC8357
@@ -812,7 +839,7 @@ textPreformat.foreground: #F5625C/#F5625C → #FF9070/#FC8357
 
 1.2.8 (2021-06-01)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 //调淡
@@ -823,7 +850,7 @@ scrollbarSlider.background: #4F4F5022 → #4F4F5020
 
 1.2.7 (2021-05-31)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //透明化
@@ -832,7 +859,7 @@ editorOverviewRuler.border: #5F668B/#B3B3B4 → #5F668B00/#B3B3B400
 
 1.2.6 (2021-05-30)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 //调淡
@@ -846,7 +873,7 @@ scrollbarSlider.hoverBackground: #4F4F503F → #4F4F502E
 
 1.2.5 (2021-05-26)
 
-* Changed All UI
+* Change All UI
 
 //透明化
 
@@ -865,7 +892,7 @@ terminal.ansiYellow
 
 1.2.4 (2021-05-22)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 gitDecoration.deletedResourceForeground: #EB0000/#EB0000 → #f14c4c/#f14c4
@@ -880,7 +907,7 @@ diffEditor.diagonalFill: #5F668B/#C9CCD2
 ```
 <!-- 另外发现加了反而不好看的一条api: diffEditor.border, 加了之后对比文件的页面中间会有条分割线，切断了二边的改动颜色条连接。 -->
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 //略微替提亮点这根线的亮度
@@ -890,13 +917,13 @@ editorOverviewRuler.border: #535773 → #5F668B
 textPreformat.foreground: #E4BF7F → #F5625C
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 error #e51000 → #EB0000
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //因很多用户反应说#F5625C看着太接近红色了，warning的地方容易让人以为是error。
@@ -942,7 +969,7 @@ imagePreview.border: #282c3400/#EBEEF500
 
 1.1.9(2021-05-05)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 focusBorder: #2C313A/#EDF0F7 → #4480F4/#4480F4
@@ -958,7 +985,7 @@ sash.hoverBorder:#598DEF/#5e9cfb
 
 1.1.8(2021-04-18)
 
-* Changed Italic Syntax
+* Change Italic Syntax
 
 ```Syntax
 Reset italic function names to nomal.
@@ -966,7 +993,7 @@ Reset italic function names to nomal.
 
 1.1.7(2021-04-18)
 
-* Changed Italic Syntax
+* Change Italic Syntax
 
 ```Syntax
 Italic all (function names,HTML className, CSS property & value) into italic style.
@@ -1008,7 +1035,7 @@ list.filterMatchBackground: #fff
 
 1.1.3 (2021-03-22)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 listFilterWidget.background: #F5F8FF → #FFF
@@ -1034,7 +1061,7 @@ listFilterWidget.noMatchesOutline: #ff0000
 
 1.1.0 (2021-03-20)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 gitDecoration.addedResourceForeground: #40AD41/#44C145 → #98C379/#53A053
@@ -1048,7 +1075,7 @@ source.vue: #8792AA/#A0A1A7
 
 1.0.9 (2021-03-19)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //改了所有与delete有关项的色块和文字颜色，和error做了区分，#e51400→#f14c4c
@@ -1056,7 +1083,7 @@ source.vue: #8792AA/#A0A1A7
 
 1.0.8 (2021-03-18)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 variable.parameter.url.css → variable.parameter.url
@@ -1064,7 +1091,7 @@ variable.parameter.url.css → variable.parameter.url
 
 1.0.7 (2021-03-15)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //把color和BrightColor颜色对调了下,并把BrightYellow颜色改为鼠标竖杆颜色，取消了亮黄色#F8F900/#EAE868在Terminal里的使用
@@ -1076,7 +1103,7 @@ terminal.ansiYellow: #F5625C/#F5625C
 
 1.0.6 (2021-03-11)
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 //调淡一点
@@ -1092,7 +1119,7 @@ editorBracketMatch.background: #FF90708C → #FF90707F
 quickInput.list.focusBackground:#598DEF3F/0065FF19
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //加深，和Tab框hover颜色保持一致
@@ -1125,7 +1152,7 @@ meta.function-call.c entity.name.function.c: #56B7C3/#00BEC4, italic
 entity.name.function.definition.special.constructor.cpp: #CF68E1/#C838C6
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 support.function:#56B7C3/#00BEC4, italic → #6495EE/#437AED
@@ -1143,7 +1170,7 @@ meta.function-call.python support.function.builtin.python: #56B7C3/#00BEC4
 keyword.control.directive.undef, keyword.control.directive.undef punctuation.definition.directive, keyword.other.typedef: #A78CFA/#7C4DFF
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 storage.type.built-in.primitive.c: #A78CFA/#7C4DFF → #FF6AB3/#EF8ED8
@@ -1159,7 +1186,7 @@ storage.type.built-in.c: #FF6AB3/#EF8ED8
 
 1.0.0 (2020-09-22)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiBrightRed: #EB0000/#EB0000 → #f14c4c/#f14c4c
@@ -1168,7 +1195,7 @@ terminal.ansiRed: #E06C75/#CD6069 → #EB0000/#EB0000
 
 0.9.9 (2020-09-20)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //这行代表Terminal里的Warning字符 (Red代表错误字符)
@@ -1180,13 +1207,13 @@ terminal.ansiRed: #EB0000/#EB0000 → #E06C75/#CD6069
 
 0.9.8 (2020-09-17)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiRed: #e51400 → #EB0000
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 //调暗了5°
@@ -1195,7 +1222,7 @@ terminal.ansiYellow: #EFED68 → #EAE868
 
 0.9.7 (2020-09-17)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 terminal.ansiBlue: #598DEF → #4d91f8
@@ -1203,14 +1230,14 @@ terminal.ansiBlue: #598DEF → #4d91f8
 
 0.9.6 (2020-09-17)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiGreen: #98C379/#53A053 → #45B746/#44C145
 terminal.ansiRed: #f14c4c → #e51400
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 terminal.ansiBlue: #0065FF → #598DEF
@@ -1384,7 +1411,7 @@ issue_template.md
 
 0.8.7(2020-09-04)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //消除标题栏下边沿边框
@@ -1393,14 +1420,14 @@ editorGroupHeader.tabsBorder: #21252B/#E1E4EB → #282c3400/#EBEEF500
 
 0.8.6(2020-09-03)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 inputOption.activeBackground: #282c3400/#EBEEF500 → #598DEFE6/#0065FFA8
 inputOption.activeBorder: #282c3400/#EBEEF500 → #598DEF00/#0065FF00
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 inputOption.activeForeground: #000 → #fff
@@ -1466,7 +1493,7 @@ minimapSlider.background: #A2ABE519/#4F4F5019
 minimapSlider.hoverBackground: #A2ABE533/#4F4F5033
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //提高标题栏hover背景色
@@ -1497,7 +1524,7 @@ terminal.ansiWhite: #676E9533/#A0A1A733
 terminal.ansiYellow: #FF907033/#FF650033
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 //提亮=号颜色, 提到和各种括号{} ()一致
@@ -1506,7 +1533,7 @@ keyword.operator.assignment, meta.property-value.css keyword.operator.less: #7C8
 
 //这条最终没改, 留着, 如果未来要改再改成下面这样
 
-<!-- * Changed Dark UI
+<!-- * Change Dark UI
 
 ```UI
 //改变后的颜色和框选颜色区分度更大, 但#324464是个不错的背景色, 未来可能有别的用
@@ -1514,7 +1541,7 @@ editor.findMatchHighlightBackground: #324464 → #6A707D59
 editor.findMatchHighlightBorder: #32446400 → #6A707D00
 ``` -->
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 //略微调淡滚轮滑块
@@ -1523,21 +1550,21 @@ scrollbarSlider.background: #4F4F502E
 scrollbarSlider.hoverBackground: #4F4F503F
 ```
 
-* Changed README.md
+* Change README.md
 
 ```md
 Eva Theme is a colorful and semantic coloring code theme meet Visual Studio Code. →
 Eva theme is a semantic coloring code theme dedicated to making you more comfortable programming.
 ```
 
-* Changed README_CN.md
+* Change README_CN.md
 
 ```md
 Eva Theme是一款色彩丰富的语义化着色VSCode主题。 →
 Eva Theme是一款语义着色代码主题，致力于使您可以更舒适地进行编程。
 ```
 
-* Changed package.json
+* Change package.json
 
 ```json
 description:A colorful and semantic coloring code theme. Dark | Light. Regular | Bold →
@@ -1604,7 +1631,7 @@ bracketPairColorizer.consecutivePairColors: [
 
 ### Conflicts
 
-All theme plugins add color to characters based on their scope value. You can check the scope value of all characters by pressing Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and selecting Inspect Editor Tokens and Scopes. -->
+All theme plugins add color to characters based on their scope value. All characters's scope value is given by VSCode. You can check them by pressing Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and selecting Inspect Editor Tokens and Scopes. -->
 
 * Delete README_CN.md
 
@@ -1678,7 +1705,7 @@ activityBar.activeBackground: #282c34/#EBEEF5
 activityBar.activeBorder: #282c34/#EBEEF5
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //调整非当前功能区按钮键色调与linenumber色调相同
@@ -1692,7 +1719,7 @@ terminal.ansiWhite: #FFFFFF → #676E95/#A0A1A7
 terminal.ansiBrightWhite: #FFFFFF → #676E95/#A0A1A7
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 //略微加深当前功能区按钮键颜色
@@ -1720,7 +1747,7 @@ keyword.operator.delete, keyword.operator.expression.delete: #F02B77/#FA278E
 
 0.7.8 (2019-08-19)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //左侧按键图标由实心图标变成了线框图标, 所以需要加深下颜色
@@ -1800,7 +1827,7 @@ $schema: vscode://schemas/color-theme,
 
 0.7.1 (2018-12-19)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //增加空格符透明度
@@ -1814,7 +1841,7 @@ scrollbarSlider.hoverBackground: #676E9599/#00000033 → #A2ABE54C/#4F4F504C
 
 0.7.0 (2018-11-30)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminalCursor.background: #000000/#000000 → #FFF/#FFF
@@ -1831,7 +1858,7 @@ punctuation.definition.tag.begin source.js, punctuation.definition.tag.end sourc
 
 0.6.8 (2018-11-27)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 //Dark提亮2°, Light调暗2°, 都是变得更显眼。
@@ -1916,7 +1943,7 @@ text.html.derivative: #B0B7C3/#626264
 
 0.6.2 (2018-11-12)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 //Improve the experience in VIM mode.
@@ -1953,7 +1980,7 @@ entity.other.keyframe-offset.percentage.css: #FF9070/#FF6500
 support.constant.color.w3c-extented-color-name.css: #B0B7C3/#5D5D5F
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 variable.parameter.keyframe-list.css: #E4BF7F/#F0AA0B → #B0B7C3/#5D5D5F
@@ -1996,7 +2023,7 @@ comment.punctuation.comma.sass: #79859D/#A0A1A7F2
 meta.function.calc.css: #F0AA0B
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 source.css.scss: #79859D/#A0A1A7F2 → #8A97C3/#888888
@@ -2042,7 +2069,7 @@ menu.separatorBackground: #8E99B1/#626264
 editorWhitespace.foreground: #2C313A → #535773
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 //Make the color a little lighter.
@@ -2051,7 +2078,7 @@ editorWhitespace.foreground: #BDBDBE → #BDBDBED8
 
 0.5.6 (2018-09-27)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```Syntax
 //这一版改变了许多, 关键词
@@ -2130,7 +2157,7 @@ Fixed some bugs in TypeScript files.
 
 0.4.9 (2018-08-18)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editorIndentGuide.activeBackground: #454963/#CED1D7 → #FF9070BF/#FC8357CC
@@ -2144,7 +2171,7 @@ Fixed some bugs in TypeScript files.
 
 0.4.8 (2018-08-16)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 menu.background: #282c34/#EBEEF5 → #21252B/#E1E4EB
@@ -2152,7 +2179,7 @@ menu.background: #282c34/#EBEEF5 → #21252B/#E1E4EB
 
 0.4.7 (2018-08-16)
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 menu.background: #EEF1F8 → #EBEEF5
@@ -2160,13 +2187,13 @@ menu.background: #EEF1F8 → #EBEEF5
 
 0.4.6 (2018-08-16)
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 titleBar.activeForeground: #676E95 → #8E99B1
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 titleBar.inactiveForeground: #5D5D5F → #94969B
@@ -2174,7 +2201,7 @@ titleBar.inactiveForeground: #5D5D5F → #94969B
 
 0.4.5 (2018-08-16)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 breadcrumbPicker.background: #23272F/#E1E4EB → #252830/#E5E8EF
@@ -2182,14 +2209,14 @@ breadcrumbPicker.background: #23272F/#E1E4EB → #252830/#E5E8EF
 
 0.4.4 (2018-08-15)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editorLink.activeForeground: #A78CFA/#7C4DFF → #D73BD5/#D365E5
 textLink.activeForeground: #A78CFA#7C4DFF → #D73BD5/#D365E5
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 menu.background: #EBEEF5 → #EEF1F8
@@ -2250,7 +2277,7 @@ breadcrumbPicker.background: #23272F/#E5E8EF
 textLink.foreground: #5B87EB
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 button.hoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
@@ -2296,7 +2323,7 @@ editorPane.background: #21252B/#E1E4EB
 textCodeBlock.background: #181A1F/#E5E8EF
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editorGroup.dropBackground: #282C34/#EBEEF5 → #598DEF4C/#0065FF21
@@ -2346,14 +2373,14 @@ titleBar.border: #282c3400/#EBEEF500
 
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 加深5%
 list.dropBackground: #598DEF3F/0065FF19 → #598DEF4C/0065FF21
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 scrollbarSlider.activeBackground: #00000022 → #00000033
@@ -2372,7 +2399,7 @@ tab.hoverBackground: #598DEF3F
 tab.unfocusedHoverBackground: #598DEF3F
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 statusBarItem.activeBackground: #4283F5/#4283F5 → #598DEFD8/#0065FFB2
@@ -2408,7 +2435,7 @@ terminalCursor.background: #000/#000
 terminalCursor.foreground: #B0B7C3/#A0A1A7
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 notification.background: #1F222A/#C3C6CD → #21252b/#C3C6CD
@@ -2424,7 +2451,7 @@ notificationLink.foreground: #598DEF
 
 0.3.2 (2018-05-27)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editor.foreground: #B0B7C3E5/#5D5D5FE5 → #C5C5C5/#424242
@@ -2456,7 +2483,7 @@ editorOverviewRuler.wordHighlightStrongForeground: #A78CFABF/#7C4DFF72
 
 0.3.1 (2018-05-25)
 
-* Changed Black UI
+* Change Black UI
 
 ```UI
 //原透明色导致CSS属性名和注释文字 看不清, 反复调了下这个颜色。
@@ -2516,7 +2543,7 @@ editorIndentGuide.activeBackground: #CED1D7
 enum: #FF9070/#ff6500
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```syntax
 //位运算符号
@@ -2535,7 +2562,7 @@ editorGutter.addedBackground: #40AD41/#44C145
 editorGutter.deletedBackground: #e51400/#ff0000
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 diffEditor.removedTextBackground: #e514004C → #ff000059
@@ -2557,7 +2584,7 @@ notification.errorBackground: #e51400 → #ff0000
 
 0.1.8 (2018-04-08)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 diffEditor.insertedTextBackground: #45B7463F/#45B7464C
@@ -2608,7 +2635,7 @@ list.focusForeground: #5D5D5F
 list.hoverForeground: #5D5D5F
 ```
 
-* Changed Light Syntax
+* Change Light Syntax
 
 ```syntax
 number、id: #F5625C → #FF6500
@@ -2630,7 +2657,7 @@ textLink.foreground: #598DEF
 textPreformat.foreground: #E4BF7F
 ```
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 foreground: #9DA5B3 → #B0B7C3
@@ -2649,13 +2676,13 @@ textLink.activeForeground: #7C4DFF
 textPreformat.foreground: #F5625C
 ```
 
-* Changed Light UI
+* Change Light UI
 
 ```UI
 editorLink.activeForeground: #55ACF2 → #7C4DFF
 ```
 
-* Changed Light Syntax
+* Change Light Syntax
 
 ```syntax
 number、id: #FF9070 → #F5625C
@@ -2677,7 +2704,7 @@ list.inactiveSelectionForeground: #5D5D5F
 
 0.1.4 (2018-02-11)
 
-* Changed Dark UI
+* Change Dark UI
 
 ```UI
 statusBar.foreground: #676E95 → #9da5b3
@@ -2687,7 +2714,7 @@ statusBar.foreground: #676E95 → #9da5b3
 
 * **Support Python**
 
-* Changed Light Syntax
+* Change Light Syntax
 
 ```syntax
 //Make COMMENT a little darker and clear.
@@ -2718,7 +2745,7 @@ source.css.scss = #79859D/#A0A1A7F2
 
 0.1.1 (2017-07-12)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```syntax
 entity.other.inherited-class,entity.name.type.interface,meta.return.type = #6495EE/#437AED → #FF6AB3/#EF8ED8, normal → bold(Bold style)
@@ -2739,19 +2766,19 @@ notification.errorForeground: #FFF,
 
 0.1.0 (2017-07-03)
 
-* Changed Eva Light & Bold Syntax
+* Change Eva Light & Bold Syntax
 
 ```syntax
 variable.language.this = #FA278C
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```syntax
 variable.parameter = #E4BF7F/#F0AA0B
 ```
 
-* Changed Eva Dark/Light Syntax
+* Change Eva Dark/Light Syntax
 
 ```syntax
 markup.bold.markdown bold → normal
@@ -2759,13 +2786,13 @@ markup.bold.markdown bold → normal
 
 0.0.9 (2017-06-30)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 editor.foreground = #B0B7C3E5/#5D5D5FE5;
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```syntax
 variable.parameter  italic → normal;
@@ -2798,7 +2825,7 @@ foreground: #FF6AB3/#EF8ED8
 
 0.0.7 (2017-06-28)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```syntax
 {
@@ -2808,14 +2835,14 @@ foreground: #FF6AB3/#EF8ED8
 }
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
-//Changed All red as the same to panel default red color.
+//Change All red as the same to panel default red color.
 terminal.ansiRed: #e51400
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiBrightMagenta: #C838C6/#CF68E1
@@ -2824,7 +2851,7 @@ terminal.ansiMagenta: #C838C6/#CF68E1
 
 0.0.6 (2017-06-27)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.foreground = editor.foreground
@@ -2832,7 +2859,7 @@ terminal.ansiBrightBlue = terminal.ansiBlue
 terminal.ansiBrightBlack = terminal.ansiBlack
 ```
 
-* Changed All Syntax
+* Change All Syntax
 
 ```syntax
 variable.parameter // improve 2° lighter
@@ -2840,7 +2867,7 @@ variable.parameter // improve 2° lighter
 
 0.0.5 (2017-06-24)
 
-* Changed All UI
+* Change All UI
 
 ```UI
 terminal.ansiBrightCyan = terminal.ansiCyan
@@ -2851,7 +2878,7 @@ terminal.ansiBrightYellow = terminal.ansiYellow
 
 0.0.4 (2017-06-23)
 
-* Changed All Syntax
+* Change All Syntax
 
 ```syntax
 //Inorder to differentiate variable from text in jsx.
@@ -2860,13 +2887,13 @@ meta.jsx.children.tsx
 
 0.0.3 (2017-06-22)
 
-* Changed Eva Light UI
+* Change Eva Light UI
 
 ```UI
 editorSuggestWidget.foreground
 ```
 
-* Changed Eva Light Syntax
+* Change Eva Light Syntax
 
 ```syntax
 markup.bold.markdown
@@ -2881,13 +2908,13 @@ support.class.component
 
 0.0.2 (2017-06-19)
 
-* Changed Eva Dark UI
+* Change Eva Dark UI
 
 ```UI
 tab.activeForeground
 ```
 
-* Changed All UI
+* Change All UI
 
 ```UI
 debugExceptionWidget.background
