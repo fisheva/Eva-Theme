@@ -1,3 +1,25 @@
+1.9.6 (2023-03-16)
+
+* Add All UI
+
+```UI
+profileBadge.background: #676E95E5/#B3B3B4
+profileBadge.foreground: #CED5E1/#fff
+```
+
+* Change All UI
+
+```UI
+statusBarItem.warningBackground: #ff8a4c/#ff6d12 → #21252B/#E1E4EB
+statusBarItem.warningForeground: #ffffff/#ffffff → #ff8a4c/#ff6d12
+statusBarItem.errorBackground: #e51400/#ec0000 → #21252B/#E1E4EB
+statusBarItem.errorForeground: #ffffff/#ffffff → #e51400/#ec0000
+```
+
+1.9.3~1.9.5 (2022-12-14)
+
+* Fixed some python syntax.
+
 1.9.2 (2022-12-03)
 
 * Add All Semantic Textmate
