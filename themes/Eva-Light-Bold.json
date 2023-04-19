@@ -617,7 +617,7 @@
         }
     }, {
         "name": "punctuation;html标签里的</> = ",
-        "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace, punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js, punctuation.definition.tag source,source.vue, meta.attribute-selector.scss keyword.operator.scss, punctuation.separator.equals",
+        "scope": "punctuation.definition.tag, meta.tag.inline.any, meta.tag.block.any, meta.tag.any , meta.tag.structure.any, meta.tag.metadata.script, punctuation.definition.tag.begin, punctuation.definition.tag.end, meta.tag.preprocessor.xml,punctuation.separator.key-value.html, meta.tag.metadata.style.html, meta.tag.attributes.js keyword.operator.assignment, meta.tag.other.html, meta.tag.inline.any.html source.directive.vue meta.brace, punctuation.definition.tag.begin source.js, punctuation.definition.tag.end source.js, punctuation.definition.tag source,source.vue, meta.attribute-selector.scss keyword.operator.scss, punctuation.separator.equals, meta.tag.svg, text.xml.svg meta.tag.style",
         "settings": {
             "fontStyle": "",
             "foreground": "#A0A1A7"

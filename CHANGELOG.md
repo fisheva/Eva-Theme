@@ -1,3 +1,11 @@
+1.9.8 (2023-04-15)
+
+* Add All Syntax
+
+```Syntax
+meta.tag.svg, text.xml.svg meta.tag.style : #8792AA/#A0A1A7
+```
+
 1.9.7 (2023-03-27)
 
 * Split repository.
