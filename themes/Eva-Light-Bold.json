@@ -750,7 +750,7 @@
         }
     }, {
         "name": "Functions,pthread;单独的函数,C++线程",
-        "scope": "entity.name.function,support.type.pthread, meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function, keyword.operator.sizeof, meta.function-call.python support.type.python",
+        "scope": "entity.name.function,support.type.pthread, meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function, keyword.operator.sizeof, meta.function-call.python support.type.python, meta.function-call keyword.operator.expression.import",
         "settings": {
             "fontStyle": "bold",
             "foreground": "#437AED"

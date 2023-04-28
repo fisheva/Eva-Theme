@@ -1,3 +1,11 @@
+1.9.9
+
+* Add All Syntax
+
+```Syntax
+meta.function-call keyword.operator.expression.import : #A78CFA/#7C4DFF
+```
+
 1.9.8 (2023-04-15)
 
 * Add All Syntax
