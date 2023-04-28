@@ -4,6 +4,7 @@
 
 ```Syntax
 meta.function-call keyword.operator.expression.import : #A78CFA/#7C4DFF
+entity.name.tag.custom.css, entity.name.tag.custom.scss : #56B7C3/#00BEC4
 ```
 
 1.9.8 (2023-04-15)

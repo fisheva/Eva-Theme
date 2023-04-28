@@ -917,7 +917,7 @@
         }
     }, {
         "name": "Attributes",
-        "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name",
+        "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name, entity.name.tag.custom.css, entity.name.tag.custom.scss",
         "settings": {
             "fontStyle": "italic",
             "foreground": "#00BEC4"
