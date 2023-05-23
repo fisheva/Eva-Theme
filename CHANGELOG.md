@@ -1,9 +1,14 @@
 1.9.9
 
+* Add .vscodeignore file
+
 * Add All Syntax
 
 ```Syntax
-meta.function-call keyword.operator.expression.import : #A78CFA/#7C4DFF
+log.info: #4480F4/#4480F4
+log.warning: #FF8A4C/#FF6D12
+log.error: #E51400/#EC0000
+
 entity.name.tag.custom.css, entity.name.tag.custom.scss : #56B7C3/#00BEC4
 ```
 
