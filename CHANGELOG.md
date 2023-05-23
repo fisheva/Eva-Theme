@@ -1,4 +1,4 @@
-1.9.9
+1.9.9 ~ 2.0.0
 
 * Add .vscodeignore file
 
