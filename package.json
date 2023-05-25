@@ -2,10 +2,10 @@
     "name": "eva-theme",
     "displayName": "Eva Theme",
     "description": "A comfortable and semantic theme.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "publisher": "fisheva",
     "license": "SEE LICENSE IN<LICENSE.md>",
-    "icon": "eva.png",
+    "icon": "eva.jpg",
     "homepage": "https://github.com/fisheva/Eva-Theme",
     "bugs": {
         "url": "https://github.com/fisheva/Eva-Theme/issues"

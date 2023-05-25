@@ -1,3 +1,17 @@
+2.0.1
+
+* Change All Syntax
+
+```Syntax
+variable.other.object.property.cs: #B0B7C3/#5D5D5F → #E06C75/#CD6069
+```
+
+* Add All Syntax
+
+```Syntax
+entity.name.variable.tuple-element.cs: #E06C75/#CD6069
+```
+
 1.9.9 ~ 2.0.0
 
 * Add .vscodeignore file

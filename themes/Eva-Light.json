@@ -467,7 +467,7 @@
         },
         {
             "name": "Variable;变量",
-            "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable,variable.other.object.property.cs,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, meta.property-value.scss, entity.name.tag.custom, entity.name.function.scss, source.css.less, variable,  meta.function-call.c, entity.name.function.preprocessor, meta.parens",
+            "scope": "variable.other, support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite, entity.name.type.enum,meta.method.body,entity.name.variable, meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python, variable.parameter.keyframe-list.css, meta.property-value.css, meta.property-value.scss, entity.name.tag.custom, entity.name.function.scss, source.css.less, variable,  meta.function-call.c, entity.name.function.preprocessor, meta.parens",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#5D5D5F"
@@ -563,7 +563,7 @@
         },
         {
             "name": "Function Call Variable;对象属性名",
-            "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option, entity.name.label",
+            "scope": "variable.other.object.property,variable.other.constant.property, entity.name.type.option, entity.name.label, variable.other.object.property.cs, entity.name.variable.tuple-element.cs",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#CD6069"
