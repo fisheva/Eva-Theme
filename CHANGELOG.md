@@ -1,13 +1,12 @@
-2.0.2
+2.0.2~2.0.3 (2023-05-25)
 
 * Add All Syntax
 
 ```Syntax
-text.log log.constant: #E06C75/#CD6069
 text.log constant.language: #FF9070/#FF6D12
 ```
 
-2.0.1
+2.0.1 (2023-05-25)
 
 * Change All Syntax
 
@@ -21,7 +20,7 @@ variable.other.object.property.cs: #B0B7C3/#5D5D5F → #E06C75/#CD6069
 entity.name.variable.tuple-element.cs: #E06C75/#CD6069
 ```
 
-1.9.9 ~ 2.0.0
+1.9.9 ~ 2.0.0 (2023-05-24)
 
 * Add .vscodeignore file
 
