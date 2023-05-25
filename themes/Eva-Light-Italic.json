@@ -611,7 +611,7 @@
         },
         {
             "name": "js dom variable, C C++ C# namespace;dom, C系语言的命名空间",
-            "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php, entity.name.type.namespace,variable.other.member.c,meta.using-namespace-declaration.cpp entity.name.type.cpp,meta.class-struct-block.cpp meta.namespace-block.cpp entity.name.type.cpp, variable.other.source.dart, entity.name.namespace, entity.name.module, entity.name.type.result.rust, entity.name.scope-resolution.namespace",
+            "scope": "support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php, entity.name.type.namespace,variable.other.member.c,meta.using-namespace-declaration.cpp entity.name.type.cpp,meta.class-struct-block.cpp meta.namespace-block.cpp entity.name.type.cpp, variable.other.source.dart, entity.name.namespace, entity.name.module, entity.name.type.result.rust, entity.name.scope-resolution.namespace, text.log log.constant",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#CD6069"
@@ -867,7 +867,7 @@
         },
         {
             "name": "constant,非数字的常量;enum枚举里的元素,Infinity",
-            "scope": "support.constant.dom,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity",
+            "scope": "support.constant.dom,support.constant.property.math,support.constant.ext,support.constant.core, entity.name.function.preprocessor.c, constant.other.js, meta.at-rule.keyframes.scss entity.other.attribute-name.scss, constant,variable.other.enummember, constant.other.enum, entity.name.variable.enum-member,constant.language.infinity, text.log constant.language",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#FF6D12"

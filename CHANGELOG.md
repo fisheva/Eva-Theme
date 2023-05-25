@@ -1,3 +1,12 @@
+2.0.2
+
+* Add All Syntax
+
+```Syntax
+text.log log.constant: #E06C75/#CD6069
+text.log constant.language: #FF9070/#FF6D12
+```
+
 2.0.1
 
 * Change All Syntax
