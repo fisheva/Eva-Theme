@@ -1,4 +1,26 @@
+2.0.4 (2023-05-26)
+
+* Add All UI
+
+```UI
+extensionButton.background: #4b516a/#a6a7ae,
+extensionButton.foreground: #DCDFE5/#fff,
+extensionBadge.remoteBackground:#56B7C3/#00bec4,
+extensionBadge.remoteForeground:#ffffff/#ffffff,
+extensionButton.separator: #DCDFE5/#fff,
+extensionIcon.preReleaseForeground:#4b516a/#a6a7ae,
+extensionIcon.sponsorForeground:#F02B77/#FA278E,
+```
+
+* Change All UI
+
+```UI
+extensionButton.prominentHoverBackground: #377337/#377337 → #598DEFE6/#0065FFA8,
+```
+
 2.0.2~2.0.3 (2023-05-25)
+
+* **Add Sponsor Icon**
 
 * Add All Syntax
 
