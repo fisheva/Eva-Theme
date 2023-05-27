@@ -1,3 +1,13 @@
+2.0.5 (2023-05-27)
+
+* Add All Syntax
+
+```Syntax
+source.ts.embedded.html meta.block.ts: #8E99B1/#8E8E90
+punctuation.attribute-shorthand.event.html, punctuation.attribute-shorthand.bind.html: #56B7C3/#00BEC4
+punctuation.definition.interpolation.begin.html, punctuation.definition.interpolation.end.html: #6495EE/#437AED
+```
+
 2.0.4 (2023-05-26)
 
 * Add All UI

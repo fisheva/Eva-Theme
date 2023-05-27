@@ -530,7 +530,7 @@
         },
         {
             "name": "Punctuation colon 冒号 :",
-            "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value, punctuation.separator.label, keyword.operator.colon, variable.parameter.url.scss, punctuation.separator.annotation.python",
+            "scope": "punctuation.separator.key-value, keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value, keyword.operator.ternary.dart,punctuation.section.function.begin.python, meta.property-list.css.sass, sass-script-maps, punctuation.colon, punctuation.separator.initializers, keyword.operator.key-value, punctuation.separator.label, keyword.operator.colon, variable.parameter.url.scss, punctuation.separator.annotation.python, source.ts.embedded.html meta.block.ts",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#8E99B1"
@@ -594,7 +594,7 @@
         },
         {
             "name": "js template-expression;模板字符串里的${};vue里的{{}}",
-            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end, punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html, punctuation.definition.interpolation.begin.bracket, punctuation.definition.interpolation.end.bracket, support.constant.handlebars.wxml, constant.character.format.placeholder.other.python",
+            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end, punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html, punctuation.definition.interpolation.begin.bracket, punctuation.definition.interpolation.end.bracket, support.constant.handlebars.wxml, constant.character.format.placeholder.other.python, punctuation.definition.interpolation.begin.html, punctuation.definition.interpolation.end.html",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#6495EE"
@@ -1098,7 +1098,7 @@
         },
         {
             "name": "",
-            "scope": "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+            "scope": "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css, punctuation.attribute-shorthand.event.html, punctuation.attribute-shorthand.bind.html",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#56B7C3"
