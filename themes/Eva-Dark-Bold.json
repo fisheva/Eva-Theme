@@ -594,7 +594,7 @@
         },
         {
             "name": "js template-expression,模板字符串里的${};vue里的{{}}",
-            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end, punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html, punctuation.definition.interpolation.begin.bracket, punctuation.definition.interpolation.end.bracket, support.constant.handlebars.wxml, constant.character.format.placeholder.other.python, punctuation.definition.interpolation.begin.html, punctuation.definition.interpolation.end.html",
+            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end, punctuation.definition.generic.begin.html, punctuation.definition.generic.end.html, punctuation.definition.interpolation.begin.bracket, punctuation.definition.interpolation.end.bracket, support.constant.handlebars.wxml, constant.character.format.placeholder.other.python, punctuation.definition.interpolation.begin.html, punctuation.definition.interpolation.end.html, punctuation.definition.interpolation, punctuation.definition.lifetime.rust",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#6495EE"
@@ -668,7 +668,7 @@
             "name": "string operator in php; php的string操作符 .(主要为了这个点加粗) .=(这个被迫加粗 需要提issue将二者区分)",
             "scope": "keyword.operator.string.php",
             "settings": {
-                "fontStyle": "bold",
+                "fontStyle": "",
                 "foreground": "#56B7C3"
             }
         },
@@ -714,7 +714,7 @@
         },
         {
             "name": "url.css,rgb(),transform,calc",
-            "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math, entity.name.type.lifetime.rust, punctuation.definition.lifetime.rust",
+            "scope": "support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math, entity.name.type.lifetime.rust",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#6495EE"
