@@ -441,44 +441,45 @@
     //     "variable.parameter":{ "foreground": "","fontStyle": "" },
     // },
     "tokenColors": [
-        //#7C4DFF normal A78CFA
+        //All Color Style & Comparison: Light Style Dark (Reason for separate classification of the same style)
+        //#7C4DFF bold #A78CFA
         //#7C4DFF normal
-        //#437AED normal 6495EE
+        //#437AED bold #6495EE
         //#437AED normal
-        //#00BEC4 normal 56B7C3
+        //#00BEC4 normal #56B7C3 (In Italic : #00BEC4 Italic #56B7C3)
         //#00BEC4 normal
-        //#FA278E normal F02B77
-        //#EF8ED8 normal FF6AB3
-        //#FF6D12 normal FF9070
+        //#FA278E bold #F02B77
+        //#EF8ED8 normal #FF6AB3
+        //#FF6D12 normal #FF9070 (In Italic : #FF6D12 Italic #FF9070)
         //#FF6D12 normal
-        //#F0AA0B normal E4BF7F
+        //#F0AA0B normal #E4BF7F (In Italic : #F0AA0B Italic #E4BF7F)
         //#F0AA0B normal
-        //#53A053 normal 98C379
+        //#53A053 normal #98C379 (In Italic : #53A053 Italic #98C379)
         //#53A053 normal
-        //#CD6069 normal E06C75
-        //#CD6069 normal
-        //#C838C6 normal CF68E1
+        //#CD6069 normal #E06C75
+        //#C838C6 bold #CF68E1 (In Italic : #C838C6 Italic #CF68E1)
+        //#C838C6 bold
         //#C838C6 normal
         //#C57BDB normal
-        //#5D5D5F normal B0B7C3
+        //#C57BDB italic
+        //#5D5D5F normal #B0B7C3 (In Italic : #5D5D5F Italic #B0B7C3)
         //#5D5D5F normal
-        //#626264 normal B0B7C3
-        //#5D5D5FD8 bold 838FA7
+        //#626264 normal #B0B7C3
+        //#5D5D5FD8 bold #838FA7
         //#5D5D5FD8 normal
-        //#5D5D5FD8 normal
-        //#888888 normal 8A97C3
+        //#888888 normal #8A97C3 (In Italic : #888888 Italic #8A97C3)
         //#888888 normal
-        //#888888D9 normal 838FA7CC
-        //#8E8E90 normal 8E99B1
-        //#A0A1A7 normal 8792AA
-        //#A0A1A7F2 normal 79859D
-        //#A9A9AA normal 676E95
+        //#888888D9 normal #838FA7CC
+        //#8E8E90 normal #8E99B1
+        //#A0A1A7 normal #8792AA
+        //#A0A1A7F2 normal #79859D
+        //#A9A9AA italic #676E95
         //#A9A9AA normal
         //#A9A9AA underline
         //#4480F4 normal
-        //#FF6D12 normal FF8A4C
-        //#EC0000 normal E51400
-        //#EC0000 normal
+        //#FF6D12 normal #FF8A4C
+        //#EC0000 normal #E51400
+        //#EC0000 bold
 
         //#7C4DFF bold
         {
@@ -516,7 +517,7 @@
                 "foreground": "#437AED"
             }
         },
-        //#00BEC4 normal
+        //#00BEC4 normal (In Italic : #00BEC4 Italic)
         {
             "name": "Attributes | pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child() | ",
             "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name,entity.name.tag.custom.css,entity.name.tag.custom.scss,storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css,",
@@ -552,7 +553,7 @@
                 "foreground": "#EF8ED8"
             }
         },
-        //#FF6D12 normal
+        //#FF6D12 normal (In Italic : #FF6D12 Italic)
         {
             "name": "number,unit,数字 | 单位 | constant,非数字的常量 | enum枚举里的元素,Infinity | id,symbol in C# | HTML行间的id和CSS里的id名 | C#中预处理器指令创建符号常量",
             "scope": "constant.numeric,entity.other.keyframe-offset.percentage.css,keyword.other.unit,support.constant.dom,support.constant.property.math,support.constant.ext,support.constant.core,entity.name.function.preprocessor.c,constant.other.js,meta.at-rule.keyframes.scss entity.other.attribute-name.scss,constant,variable.other.enummember,constant.other.enum,entity.name.variable.enum-member,constant.language.infinity,text.log constant.language,meta.attribute.id.html entity.other.attribute-name.html,entity.other.attribute-name.id,entity.name.variable.preprocessor.symbol,entity.other.attribute-name.id.css punctuation.definition.entity.css,",
@@ -570,7 +571,7 @@
                 "foreground": "#FF6D12"
             }
         },
-        //#F0AA0B normal
+        //#F0AA0B normal (In Italic : #F0AA0B Italic)
         {
             "name": "variable.parameter,keyframe-list,sass,less里的变量 | css3里的关键帧 | Tex: \\label { } | ",
             "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c,punctuation.vararg-ellipses,variable.other.block.ruby,meta.arguments,entity.name.type.template,meta.type.parameters entity.name.type,meta.parameters,meta.function.parameter variable.other,variable.other.less,variable.other.sass,variable.scss,source.sass variable.other,variable.argument.css,variable.parameter.function.latex,variable.parameter.definition.label.latex,",
@@ -588,7 +589,7 @@
                 "foreground": "#F0AA0B"
             }
         },
-        //#53A053 normal
+        //#53A053 normal (In Italic : #53A053 Italic)
         {
             "name": "variable.parameter | css里url文件引用的链接 | Strings | Attribute class;css里的class名 | ",
             "scope": "variable.parameter.url,string,markup.inline.raw.string,text.html.vue-html meta.object-literal.key,meta.preprocessor.cs,text.html.vue-html meta.object-literal.key string.quoted,text.html.vue-html meta.object-literal.key punctuation.definition.string,entity.other.attribute-name.class.css,selector.sass,entity.other.attribute-name.parent-selector.css,meta.at-rule.extend.scss,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,",
@@ -615,7 +616,7 @@
                 "foreground": "#CD6069"
             }
         },
-        //#C838C6 bold
+        //#C838C6 bold (In Italic : #C838C6 Italic)
         {
             "name": "instanceof | Keyword Control,Using | Constant | 语言常量,包含 true false null undefined等 |  void | loop | ",
             "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.other.special-method.ruby,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.control.directive punctuation.definition.directive,keyword.other.where,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,",
@@ -660,7 +661,7 @@
                 "foreground": "#C57BDB"
             }
         },
-        //#5D5D5F normal
+        //#5D5D5F normal (In Italic : #5D5D5F Italic)
         {
             "name": "Variable | 变量 | css color standard name;css 颜色名词 red orange pink plum 等 | Tex: Constant Math | ",
             "scope": "variable.other,support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite,entity.name.type.enum,meta.method.body,entity.name.variable,meta.block.c,source,source.c,source.cpp,source.ruby,source.go,meta.class-struct-block,source.dart,source.python,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python,variable.parameter.keyframe-list.css,meta.property-value.css,meta.property-value.scss,entity.name.tag.custom,entity.name.function.scss,source.css.less,variable, meta.function-call.c,entity.name.function.preprocessor,meta.parens,support.constant.color.w3c-standard-color-name,support.constant.color.w3c-extended-color-name,constant.other.color.rgb-value.hex,constant.other.rgb-value,support.constant.color.w3c-extended-color-name.css,text.tex.latex constant.other.math.tex,constant.other.general.math.tex,constant.other.general.math.tex,constant.character.math.tex,constant.other.reference.citation.latex,",
@@ -705,7 +706,7 @@
                 "foreground": "#5D5D5FD8"
             }
         },
-        //#888888 normal
+        //#888888 normal (In Italic : #888888 Italic)
         {
             "name": "css Support type;css less sass属性名 如果不填就与support.type同色 | Tex: text | ",
             "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,entity.name.section.latex,text.tex.latex,meta.function.environment.frame.latex,meta.function.environment.general.latex,",
@@ -818,7 +819,7 @@
                 "foreground": "#EC0000"
             }
         },
-        //#EC0000 normal
+        //#EC0000 bold
         {
             "scope": "keyword.other.debugger",
             "settings": {

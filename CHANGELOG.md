@@ -1,4 +1,7 @@
-2.0.6 (2023-05-30)
+2.0.6 (2023-06-01)
+
+<!-- 对所有syntax值进行了归类 -->
+* **All syntax values have been classified**
 
 ```Syntax
 punctuation.definition.interpolation: #6495EE/#437AED;

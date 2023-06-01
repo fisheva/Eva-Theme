@@ -441,43 +441,44 @@
     //     "variable.parameter":{ "foreground": "","fontStyle": "" },
     // },
     "tokenColors": [
-        //#7C4DFF italic A78CFA
+        //All Color Style & Comparison: Light Style Dark (Reason for separate classification of the same style)
+        //#7C4DFF italic #A78CFA
         //#7C4DFF normal
-        //#437AED italic 6495EE
+        //#437AED normal #6495EE (In bold : #437AED bold #6495EE)
         //#437AED normal
-        //#00BEC4 italic 56B7C3
+        //#00BEC4 italic #56B7C3
         //#00BEC4 normal
-        //#FA278E italic F02B77
-        //#EF8ED8 italic FF6AB3
-        //#FF6D12 italic FF9070
+        //#FA278E italic #F02B77
+        //#EF8ED8 italic #FF6AB3
+        //#FF6D12 italic #FF9070
         //#FF6D12 normal
-        //#F0AA0B italic E4BF7F
+        //#F0AA0B italic #E4BF7F
         //#F0AA0B normal
-        //#53A053 italic 98C379
+        //#53A053 italic #98C379
         //#53A053 normal
-        //#CD6069 italic E06C75
-        //#CD6069 normal
-        //#C838C6 italic CF68E1
+        //#CD6069 normal #E06C75
+        //#C838C6 italic #CF68E1
+        //#C838C6 normal #CF68E1 (In bold : #C838C6 bold #CF68E1)
         //#C838C6 normal
+        //#C57BDB italic (In normal : #C57BDB normal)
         //#C57BDB italic
-        //#5D5D5F italic B0B7C3
+        //#5D5D5F italic #B0B7C3
         //#5D5D5F normal
-        //#626264 normal B0B7C3
-        //#5D5D5FD8 bold 838FA7
-        //#5D5D5FD8 italic
+        //#626264 normal #B0B7C3
+        //#5D5D5FD8 bold #838FA7
         //#5D5D5FD8 normal
-        //#888888 italic 8A97C3
+        //#888888 italic #8A97C3
         //#888888 normal
-        //#888888D9 normal 838FA7CC
-        //#8E8E90 normal 8E99B1
-        //#A0A1A7 normal 8792AA
-        //#A0A1A7F2 normal 79859D
-        //#A9A9AA italic 676E95
+        //#888888D9 normal #838FA7CC
+        //#8E8E90 normal #8E99B1
+        //#A0A1A7 normal #8792AA
+        //#A0A1A7F2 normal #79859D
+        //#A9A9AA italic #676E95
         //#A9A9AA normal
         //#A9A9AA underline
         //#4480F4 normal
-        //#FF6D12 normal FF8A4C
-        //#EC0000 normal E51400
+        //#FF6D12 normal #FF8A4C
+        //#EC0000 normal #E51400
         //#EC0000 italic
 
         //#7C4DFF italic
@@ -498,11 +499,19 @@
                 "foreground": "#7C4DFF"
             }
         },
-        //#437AED italic
+        //#437AED normal (In bold : #437AED bold)
+        {
+            "name": "support.function | arrow | 箭头函数 | try...catch | Functions,pthread | 单独的函数,C++线程 | less sass里的自定义的代码块名 类似函数 | ",
+            "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css,support.function.builtin.python,support.function.go,entity.name.function.macro,meta.attribute.rust,new.expr meta.function-call support.class.builtin,new.expr meta.function-call support.class,keyword.operator.function,support.function.dom,support.function.console,support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math,entity.name.type.lifetime.rust,entity.name.class,meta.method.declaration,storage.type.function.arrow,keyword.operator.arrow,keyword.control.trycatch,keyword.control.catch-exception,keyword.operator.closure,keyword.operator.cast,keyword.operator.big-arrow,entity.name.function,support.type.pthread,meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function,keyword.operator.sizeof,meta.function-call.python support.type.python,meta.function-call keyword.operator.expression.import,entity.name.type.js,new.expr.ts,entity.other.attribute-name.class.mixin,token.info-token,support.function.be.latex,",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#437AED"
+            }
+        },
         //#437AED normal
         {
-            "name": "js template-expression | 模板字符串里的${} | vue里的{{}} | support.function | arrow | 箭头函数 | try...catch | Functions,pthread | 单独的函数,C++线程 | beginning.punctuation.definition.quote.markdown | Markdown里引用块符号 > | beginning.punctuation.definition.quote.markdown;Markdown里引用块符号 > | less sass里的自定义的代码块名 类似函数 | [VSCODE-CUSTOM] Markdown List Punctuation Definition;Markdown里定义有序项和无序项的 - * + 1. 2.  | [VSCODE-CUSTOM] Markdown Link Title/Description | Tex: punctuation definition Function | ",
-            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end,punctuation.definition.generic.begin.html,punctuation.definition.generic.end.html,punctuation.definition.interpolation.begin.bracket,punctuation.definition.interpolation.end.bracket,support.constant.handlebars.wxml,constant.character.format.placeholder.other.python,punctuation.definition.interpolation.begin.html,punctuation.definition.interpolation.end.html,punctuation.definition.interpolation,punctuation.definition.lifetime.rust,meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css,support.function.builtin.python,support.function.go,entity.name.function.macro,meta.attribute.rust,new.expr meta.function-call support.class.builtin,new.expr meta.function-call support.class,keyword.operator.function,support.function.dom,support.function.console,support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math,entity.name.type.lifetime.rust,entity.name.class,meta.method.declaration,storage.type.function.arrow,keyword.operator.arrow,keyword.control.trycatch,keyword.control.catch-exception,keyword.operator.closure,keyword.operator.cast,keyword.operator.big-arrow,entity.name.function,support.type.pthread,meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function,keyword.operator.sizeof,meta.function-call.python support.type.python,meta.function-call keyword.operator.expression.import,entity.name.type.js,new.expr.ts,beginning.punctuation.definition.quote.markdown,beginning.punctuation.definition.quote.markdown,entity.other.attribute-name.class.mixin,beginning.punctuation.definition.list.markdown,string.other.link.title.markdown,string.other.link.description.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,token.info-token,support.function.be.latex,punctuation.definition.function.latex,punctuation.definition.function.tex,",
+            "name": "js template-expression;模板字符串里的${};vue里的{{}} | Markdown里引用块符号 > | [VSCODE-CUSTOM] Markdown List Punctuation Definition;Markdown里定义有序项和无序项的 - * + 1. 2. | [VSCODE-CUSTOM] Markdown Link Title/Description | Tex: punctuation definition Function | ",
+            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end,punctuation.definition.generic.begin.html,punctuation.definition.generic.end.html,punctuation.definition.interpolation.begin.bracket,punctuation.definition.interpolation.end.bracket,support.constant.handlebars.wxml,constant.character.format.placeholder.other.python,punctuation.definition.interpolation.begin.html,punctuation.definition.interpolation.end.html,punctuation.definition.interpolation,punctuation.definition.lifetime.rust,beginning.punctuation.definition.quote.markdown,beginning.punctuation.definition.list.markdown,string.other.link.title.markdown,string.other.link.description.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.function.latex,punctuation.definition.function.tex,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#437AED"
@@ -616,16 +625,25 @@
                 "foreground": "#C838C6"
             }
         },
-        //#C838C6 normal
+        //#C838C6 normal (In bold : #C838C6 bold)
         {
             "name": "keyword Operators ternary,logical,comparison,relational,tilde | 三元运算符 ? : | logical | == === != !== | < > <= >= | 正则表达式里的 或| | 波浪号~",
-            "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.class,keyword.operator.type,keyword.operator.other.ruby,keyword.operator.conditional,punctuation.separator.question-mark,keyword.operator.null-coalescing,punctuation.tilde,punctuation.separator.pointer-access,keyword.operator.dart,keyword.operator.nulltype,keyword.operator.bitwise.dart,keyword.operator.arrow.haskell,keyword.operator.arrow.left.haskell,token.debug-token,keyword.control.equation.newline.latex,keyword.control.newline.tex,keyword.other.item.latex punctuation.definition.keyword.latex,",
+            "scope": "keyword.operator.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.class,keyword.operator.type,keyword.operator.other.ruby,keyword.operator.conditional,punctuation.separator.question-mark,keyword.operator.null-coalescing,punctuation.tilde,punctuation.separator.pointer-access,keyword.operator.dart,keyword.operator.nulltype,keyword.operator.bitwise.dart,keyword.operator.arrow.haskell,keyword.operator.arrow.left.haskell,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#C838C6"
             }
         },
-        //#C57BDB italic
+        //#C838C6 normal
+        {
+            "name": "Tex: New Line Label \\",
+            "scope": "keyword.control.equation.newline.latex,keyword.control.newline.tex,keyword.other.item.latex punctuation.definition.keyword.latex,token.debug-token",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#C838C6"
+            }
+        },
+        //#C57BDB italic (In normal : #C57BDB normal)
         {
             "name": "support.constant.property-value.scss | css属性值常量 block inline inline-block none solid等 | ",
             "scope": "support.constant.property-value.scss,support.constant.property-value.css,support.constant.vendored.property-value.css,punctuation.definition.italic,",
@@ -634,6 +652,7 @@
                 "foreground": "#C57BDB"
             }
         },
+        //#C57BDB italic
         {
             "name": "Italic;Markdown里的斜体字 | ",
             "scope": "markup.italic",
@@ -678,7 +697,6 @@
                 "foreground": "#5D5D5FD8"
             }
         },
-        //#5D5D5FD8 italic
         //#5D5D5FD8 normal
         {
             "name": "meta.parameters;scope值不规则的点. 引号 | keyword Operators assignment;等号 = (不包括HTML标签里的=号,把+= -=包含进来了,然后单独设) | block,embedded,definition,bracket,typeparameters;大括号 {},中括号[],圆括号(),尖括号<> | ",
