@@ -438,6 +438,7 @@
     },
     "semanticHighlighting": false,
     // "semanticTokenColors": {
+    //     "variable.parameter":{ "foreground": "", "fontStyle": "" },
     // },
     "tokenColors": [
         //#A78CFA italic A78CFA
@@ -595,15 +596,6 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#98C379"
-            }
-        },
-        //#E06C75 italic
-        {
-            "name": "Tex: \\label",
-            "scope": "keyword.control.label.latex",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#E06C75"
             }
         },
         //#E06C75 normal

@@ -438,6 +438,7 @@
     },
     "semanticHighlighting": false,
     // "semanticTokenColors": {
+    //     "variable.parameter":{ "foreground": "", "fontStyle": "" },
     // },
     "tokenColors": [
         //#7C4DFF normal A78CFA
@@ -595,15 +596,6 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#53A053"
-            }
-        },
-        //#CD6069 normal
-        {
-            "name": "Tex: \\label",
-            "scope": "keyword.control.label.latex",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#CD6069"
             }
         },
         //#CD6069 normal
