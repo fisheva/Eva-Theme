@@ -781,14 +781,16 @@
         {
             "scope": "log.info",
             "settings": {
-                "foreground": "#4480F4",
+                "fontStyle": "",
+                "foreground": "#4480F4"
             }
         },
         //#FF8A4C normal
         {
             "scope": "token.warn-token,log.warning",
             "settings": {
-                "foreground": "#FF8A4C",
+                "fontStyle": "",
+                "foreground": "#FF8A4C"
             }
         },
         //#E51400 normal
