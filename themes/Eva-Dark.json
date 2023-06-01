@@ -460,8 +460,9 @@
         //#CF68E1 normal #C838C6 (In bold : #CF68E1 bold #C838C6, In Italic : #CF68E1 Italic #C838C6)
         //#CF68E1 normal #C838C6 (In bold : #CF68E1 bold #C838C6)
         //#CF68E1 normal
-        //#C57BDB normal
+        //#C57BDB normal (In italic : #C57BDB italic)
         //#C57BDB italic
+        //#C57BDB normal
         //#B0B7C3 normal #5D5D5F (In Italic : #B0B7C3 Italic #5D5D5F)
         //#B0B7C3 normal
         //#B0B7C3 normal #626264
@@ -643,10 +644,10 @@
                 "foreground": "#CF68E1"
             }
         },
-        //#C57BDB normal
+        //#C57BDB normal (In italic : #C57BDB italic)
         {
             "name": "support.constant.property-value.scss | css属性值常量 block inline inline-block none solid等 | ",
-            "scope": "support.constant.property-value.scss,support.constant.property-value.css,support.constant.vendored.property-value.css,punctuation.definition.italic,",
+            "scope": "support.constant.property-value.scss,support.constant.property-value.css,support.constant.vendored.property-value.css,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#C57BDB"
@@ -658,6 +659,15 @@
             "scope": "markup.italic",
             "settings": {
                 "fontStyle": "italic",
+                "foreground": "#C57BDB"
+            }
+        },
+        //#C57BDB normal
+        {
+            "name": "Markdown里的定义斜体字的符号",
+            "scope": "punctuation.definition.italic,",
+            "settings": {
+                "fontStyle": "",
                 "foreground": "#C57BDB"
             }
         },

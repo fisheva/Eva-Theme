@@ -9,7 +9,7 @@ punctuation.definition.interpolation: #6495EE/#437AED;
 
 2.0.5 (2023-05-27)
 
-* Add All Syntax
+* *Add All Syntax*
 
 ```Syntax
 source.ts.embedded.html meta.block.ts: #8E99B1/#8E8E90
