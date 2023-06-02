@@ -512,10 +512,19 @@
                 "foreground": "#437AED"
             }
         },
+        //#437AED normal (In Bold : #437AED bold)
+        {
+            "name": "arrow | 箭头函数 | ",
+            "scope": "storage.type.function.arrow,",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#437AED"
+            }
+        },
         //#437AED normal
         {
-            "name": "js template-expression;模板字符串里的${};vue里的{{}} | Markdown里引用块符号 > | [VSCODE-CUSTOM] Markdown List Punctuation Definition;Markdown里定义有序项和无序项的 - * + 1. 2. |Tex: punctuation definition Function | arrow | 箭头函数 | ",
-            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end,punctuation.definition.generic.begin.html,punctuation.definition.generic.end.html,punctuation.definition.interpolation.begin.bracket,punctuation.definition.interpolation.end.bracket,support.constant.handlebars.wxml,constant.character.format.placeholder.other.python,punctuation.definition.interpolation.begin.html,punctuation.definition.interpolation.end.html,punctuation.definition.interpolation,punctuation.definition.lifetime.rust,beginning.punctuation.definition.quote.markdown,beginning.punctuation.definition.list.markdown,string.other.link.title.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.function.latex,punctuation.definition.function.tex,punctuation.definition.link.description.begin.markdown,punctuation.definition.link.description.end.markdown,storage.type.function.arrow,",
+            "name": "js template-expression;模板字符串里的${};vue里的{{}} | Markdown里引用块符号 > | [VSCODE-CUSTOM] Markdown List Punctuation Definition;Markdown里定义有序项和无序项的 - * + 1. 2. |Tex: punctuation definition Function | ",
+            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end,punctuation.definition.generic.begin.html,punctuation.definition.generic.end.html,punctuation.definition.interpolation.begin.bracket,punctuation.definition.interpolation.end.bracket,support.constant.handlebars.wxml,constant.character.format.placeholder.other.python,punctuation.definition.interpolation.begin.html,punctuation.definition.interpolation.end.html,punctuation.definition.interpolation,punctuation.definition.lifetime.rust,beginning.punctuation.definition.quote.markdown,beginning.punctuation.definition.list.markdown,string.other.link.title.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.function.latex,punctuation.definition.function.tex,punctuation.definition.link.description.begin.markdown,punctuation.definition.link.description.end.markdown,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#437AED"

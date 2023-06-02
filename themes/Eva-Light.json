@@ -503,7 +503,7 @@
                 "foreground": "#7C4DFF"
             }
         },
-        //#437AED normal (In bold : #437AED bold, In Italic : #437AED Italic)
+        //#437AED normal (In Bold : #437AED bold, In Italic : #437AED italic)
         {
             "name": "support.function | try...catch | Functions,pthread | 单独的函数,C++线程 | less sass里的自定义的代码块名 类似函数 | [VSCODE-CUSTOM] Markdown Link Title/Description | ",
             "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css,support.function.builtin.python,support.function.go,entity.name.function.macro,meta.attribute.rust,new.expr meta.function-call support.class.builtin,new.expr meta.function-call support.class,keyword.operator.function,support.function.dom,support.function.console,support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math,entity.name.type.lifetime.rust,entity.name.class,meta.method.declaration,keyword.operator.arrow,keyword.control.trycatch,keyword.control.catch-exception,keyword.operator.closure,keyword.operator.cast,keyword.operator.big-arrow,entity.name.function,support.type.pthread,meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function,keyword.operator.sizeof,meta.function-call.python support.type.python,meta.function-call keyword.operator.expression.import,entity.name.type.js,new.expr.ts,entity.other.attribute-name.class.mixin,token.info-token,support.function.be.latex,string.other.link.description.markdown,",
@@ -512,10 +512,19 @@
                 "foreground": "#437AED"
             }
         },
+        //#437AED normal (In Bold : #437AED bold)
+        {
+            "name": "arrow | 箭头函数 | ",
+            "scope": "storage.type.function.arrow,",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#437AED"
+            }
+        },
         //#437AED normal
         {
-            "name": "js template-expression;模板字符串里的${};vue里的{{}} | Markdown里引用块符号 > | [VSCODE-CUSTOM] Markdown List Punctuation Definition;Markdown里定义有序项和无序项的 - * + 1. 2. | Tex: punctuation definition Function | arrow | 箭头函数 | ",
-            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end,punctuation.definition.generic.begin.html,punctuation.definition.generic.end.html,punctuation.definition.interpolation.begin.bracket,punctuation.definition.interpolation.end.bracket,support.constant.handlebars.wxml,constant.character.format.placeholder.other.python,punctuation.definition.interpolation.begin.html,punctuation.definition.interpolation.end.html,punctuation.definition.interpolation,punctuation.definition.lifetime.rust,beginning.punctuation.definition.quote.markdown,beginning.punctuation.definition.list.markdown,string.other.link.title.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.function.latex,punctuation.definition.function.tex,punctuation.definition.link.description.begin.markdown,punctuation.definition.link.description.end.markdown,storage.type.function.arrow,",
+            "name": "js template-expression;模板字符串里的${};vue里的{{}} | Markdown里引用块符号 > | [VSCODE-CUSTOM] Markdown List Punctuation Definition;Markdown里定义有序项和无序项的 - * + 1. 2. | Tex: punctuation definition Function | ",
+            "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end,punctuation.definition.generic.begin.html,punctuation.definition.generic.end.html,punctuation.definition.interpolation.begin.bracket,punctuation.definition.interpolation.end.bracket,support.constant.handlebars.wxml,constant.character.format.placeholder.other.python,punctuation.definition.interpolation.begin.html,punctuation.definition.interpolation.end.html,punctuation.definition.interpolation,punctuation.definition.lifetime.rust,beginning.punctuation.definition.quote.markdown,beginning.punctuation.definition.list.markdown,string.other.link.title.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.function.latex,punctuation.definition.function.tex,punctuation.definition.link.description.begin.markdown,punctuation.definition.link.description.end.markdown,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#437AED"
