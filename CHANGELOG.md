@@ -1,3 +1,7 @@
+2.0.7 (2023-06-02)
+
+* **Add many italic Syntax**
+
 2.0.6 (2023-06-01)
 
 <!-- 对所有syntax值进行了归类 -->
@@ -9,7 +13,7 @@ punctuation.definition.interpolation: #6495EE/#437AED;
 
 2.0.5 (2023-05-27)
 
-* *Add All Syntax*
+* Add All Syntax
 
 ```Syntax
 source.ts.embedded.html meta.block.ts: #8E99B1/#8E8E90
