@@ -1,7 +1,21 @@
-2.0.7~2.1.1 (2023-06-02~2023-06-16)
+2.0.1 (2023-06-19)
+
+* Add All UI
+
+```UI
+mergeEditor.conflict.handledFocused.border: #e51400/#EC0000,
+mergeEditor.conflict.handledUnfocused.border: #e51400/#EC0000,
+mergeEditor.conflict.handled.minimapOverViewRuler: #e51400/#EC0000,
+mergeEditor.conflict.unhandled.minimapOverViewRuler: #e51400/#EC0000,
+mergeEditor.conflict.unhandledFocused.border: #e51400/#EC0000,
+mergeEditor.conflict.unhandledUnfocused.border: #e51400/#EC0000,
+mergeEditor.change.background: #45B7462E/#45B7462E,
+mergeEditor.change.word.background: #45B74666/#45B74666,
+```
+
+2.0.7~2.1.0 (2023-06-02~2023-06-16)
 
 * **Add many italic Syntax**
-<!--* **Add many italic Syntax**-->
 
 2.0.6 (2023-06-01)
 
