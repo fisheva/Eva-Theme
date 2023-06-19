@@ -893,5 +893,27 @@
                 "foreground": "#E51400"
             }
         },
+        {
+            "name": "diff",
+            "scope": "meta.diff.range.unified,meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#A860D8"
+            }
+        },
+        {
+            "name": "inserted.diff",
+            "scope": "markup.inserted.diff",
+            "settings": {
+                "foreground": "#30C060"
+            }
+        },
+        {
+            "name": "deleted.diff",
+            "scope": "markup.deleted.diff",
+            "settings": {
+                "foreground": "#D87878"
+            }
+        },
     ]
 }
