@@ -13,6 +13,14 @@ mergeEditor.change.background: #45B7462E/#45B7462E,
 mergeEditor.change.word.background: #45B74666/#45B74666,
 ```
 
+* Add All Syntax
+
+```Syntax
+meta.diff.range.unified,meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff: #A78CFA/#9277E6
+markup.inserted.diff: #40AD41/#44C145
+markup.deleted.diff: #F14C4C/#f14c4c
+```
+
 2.0.7~2.1.0 (2023-06-02~2023-06-16)
 
 * **Add many italic Syntax**

@@ -246,9 +246,9 @@
         "minimap.findMatchHighlight": "#7D80877F",
         "minimap.selectionHighlight": "#5F97FFF2",
         "minimap.warningHighlight": "#FC835799",
-        "minimapGutter.addedBackground": "#44C14500",
-        "minimapGutter.deletedBackground": "#f14c4c00",
-        "minimapGutter.modifiedBackground": "#9277E600",
+        "minimapGutter.addedBackground": "#44C145",
+        "minimapGutter.deletedBackground": "#f14c4c",
+        "minimapGutter.modifiedBackground": "#9277E6",
         "minimapSlider.activeBackground": "#4F4F5020",
         "minimapSlider.background": "#4F4F5019",
         "minimapSlider.hoverBackground": "#4F4F5020",
@@ -897,22 +897,21 @@
             "name": "diff",
             "scope": "meta.diff.range.unified,meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff",
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#A860D8"
+                "foreground": "#9277E6"
             }
         },
         {
             "name": "inserted.diff",
             "scope": "markup.inserted.diff",
             "settings": {
-                "foreground": "#30C060"
+                "foreground": "#44C145"
             }
         },
         {
             "name": "deleted.diff",
             "scope": "markup.deleted.diff",
             "settings": {
-                "foreground": "#C01818"
+                "foreground": "#f14c4c"
             }
         },
     ]

@@ -897,21 +897,21 @@
             "name": "diff",
             "scope": "meta.diff.range.unified,meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff",
             "settings": {
-                "foreground": "#A860D8"
+                "foreground": "#9277E6"
             }
         },
         {
             "name": "inserted.diff",
             "scope": "markup.inserted.diff",
             "settings": {
-                "foreground": "#30C060"
+                "foreground": "#44C145"
             }
         },
         {
             "name": "deleted.diff",
             "scope": "markup.deleted.diff",
             "settings": {
-                "foreground": "#C01818"
+                "foreground": "#f14c4c"
             }
         },
     ]
