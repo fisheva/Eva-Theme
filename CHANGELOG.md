@@ -1,4 +1,13 @@
-2.0.1 (2023-06-19)
+2.1.2 (2023-06-20)
+
+* Change All UI
+
+```UI
+diffEditor.insertedTextBackground": #45B7463F/#45B7464C → #45B7464F/#45B74666,
+diffEditor.removedTextBackground": #f14c4c21/#f14c4c3F → #f14c4c54/#f14c4c4C,
+```
+
+2.1.1~2.1.2 (2023-06-19~2023-06-20)
 
 * Add All UI
 
@@ -9,8 +18,8 @@ mergeEditor.conflict.handled.minimapOverViewRuler: #e51400/#EC0000,
 mergeEditor.conflict.unhandled.minimapOverViewRuler: #e51400/#EC0000,
 mergeEditor.conflict.unhandledFocused.border: #e51400/#EC0000,
 mergeEditor.conflict.unhandledUnfocused.border: #e51400/#EC0000,
-mergeEditor.change.background: #45B7462E/#45B7462E,
-mergeEditor.change.word.background: #45B74666/#45B74666,
+mergeEditor.change.background: #45B7461A/#45B7462E,
+mergeEditor.change.word.background: #45B7464D/#45B74666,
 ```
 
 * Add All Syntax
