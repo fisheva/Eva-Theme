@@ -1,3 +1,7 @@
+2.1.4 (2023-06-27)
+
+* Fixed Some latex color.
+
 2.1.3 (2023-06-26)
 
 * Add All Syntax

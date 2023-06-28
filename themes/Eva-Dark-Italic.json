@@ -731,7 +731,7 @@
         //#B0B7C3 italic (In Light : #626264)
         {
             "name": "text;HTML标签里的文字;Markdown里书写的普通文字",
-            "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown,text.html.php,text.html.derivative,text.html.wxml,text.xml,text.html,source.ignore,source.nginx,text,text.tex.latex,",
+            "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown,text.html.php,text.html.derivative,text.html.wxml,text.xml,text.html,source.ignore,source.nginx,text,text.tex.latex,entity.name.section.latex,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#B0B7C3"
@@ -758,7 +758,7 @@
         //#8A97C3 italic
         {
             "name": "css Support type;css less sass属性名 如果不填就与support.type同色 | Tex: text | ",
-            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,entity.name.section.latex,meta.function.environment.frame.latex,",
+            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,meta.function.environment.frame.latex,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#8A97C3"
