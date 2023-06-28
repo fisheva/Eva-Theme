@@ -1,3 +1,11 @@
+2.1.3 (2023-06-26)
+
+* Add All Syntax
+
+```Syntax
+meta.attribute.directive.vue: #56B7C3/#00BEC4
+```
+
 2.1.2 (2023-06-20)
 
 * Change All UI

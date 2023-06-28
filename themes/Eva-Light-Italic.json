@@ -560,7 +560,7 @@
         //#00BEC4 normal
         {
             "name": "keyword Operators increment decrement | 关键字 运算符 + - * / | 自增++ 自减-- | += -= | less sass里的关键字(用于+ -号) | string operator in php | php的string操作符 | 定义namespace符号 | ",
-            "scope": "keyword.operator,keyword.operator.arithmetic,keyword.operator.decrement,keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass,keyword.operator.increment-decrement,keyword.operator.css,entity.name.tag.wildcard.scss,keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby,keyword.operator.assignment.arithmetic,punctuation.definition.list.begin.markdown,variable.language.import-all,constant.language.import-export-all,storage.modifier.reference,storage.modifier.pointer,keyword.operator.assignment.rust,meta.directive.vue,punctuation.definition.quote.begin.markdown,meta.format.brace constant,meta.selector invalid.deprecated.combinator,meta.selector,storage.type.operator,entity.name.function.infix.haskell,constant.other.operator.infix.haskell,punctuation.separator.annotation.result.python,keyword.operator.string.php,entity.name.type.struct,keyword.interface,entity.name.type.delegate,storage.type.cs,support.class.builtin,support.type.graphql,punctuation.separator.namespace,keyword.operator.namespace,entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css,entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css,punctuation.attribute-shorthand.event.html,punctuation.attribute-shorthand.bind.html,punctuation.math.operator.latex,support.constant.mathematical-symbols.scss,",
+            "scope": "keyword.operator,keyword.operator.arithmetic,keyword.operator.decrement,keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass,keyword.operator.increment-decrement,keyword.operator.css,entity.name.tag.wildcard.scss,keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby,keyword.operator.assignment.arithmetic,punctuation.definition.list.begin.markdown,variable.language.import-all,constant.language.import-export-all,storage.modifier.reference,storage.modifier.pointer,keyword.operator.assignment.rust,meta.directive.vue,punctuation.definition.quote.begin.markdown,meta.format.brace constant,meta.selector invalid.deprecated.combinator,meta.selector,storage.type.operator,entity.name.function.infix.haskell,constant.other.operator.infix.haskell,punctuation.separator.annotation.result.python,keyword.operator.string.php,entity.name.type.struct,keyword.interface,entity.name.type.delegate,storage.type.cs,support.class.builtin,support.type.graphql,punctuation.separator.namespace,keyword.operator.namespace,entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css,entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css,punctuation.attribute-shorthand.event.html,punctuation.attribute-shorthand.bind.html,punctuation.math.operator.latex,support.constant.mathematical-symbols.scss,meta.attribute.directive.vue,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#00BEC4"
@@ -632,7 +632,7 @@
         //#53A053 normal
         {
             "name": "Regular Expressions;正则表达式 | ",
-            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,",
+            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,string punctuation.attribute-shorthand.event.html,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#53A053"
@@ -650,7 +650,7 @@
         //#CD6069 normal
         {
             "name": "Tags;HTML的标签名 | react组件 | Tex: punctuation.definition.function | 正则表达式里的关键字 | ",
-            "scope": "entity.name.tag,,entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css,punctuation.definition.heading.markdown,keyword.control punctuation.definition.function.latex,support.function.general.tex punctuation.definition.function.tex,support.function.section.latex punctuation.definition.function.latex,meta.object-literal.key punctuation.definition.string,punctuation.support.type.property-name.begin.json.comments,punctuation.support.type.property-name.end.json.comments,support.class.component,keyword.operator.optional,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.section.embedded.end.php source.php,punctuation.support.type.property-name.begin.json,punctuation.support.type.property-name.end.json,string.regexp keyword.other,",
+            "scope": "entity.name.tag,,entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css,punctuation.definition.heading.markdown,support.function.general.tex punctuation.definition.function.tex,support.function.section.latex punctuation.definition.function.latex,meta.object-literal.key punctuation.definition.string,punctuation.support.type.property-name.begin.json.comments,punctuation.support.type.property-name.end.json.comments,support.class.component,keyword.operator.optional,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.section.embedded.end.php source.php,punctuation.support.type.property-name.begin.json,punctuation.support.type.property-name.end.json,string.regexp keyword.other,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#CD6069"
@@ -731,7 +731,7 @@
         //#626264 italic
         {
             "name": "text;HTML标签里的文字;Markdown里书写的普通文字",
-            "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown,text.html.php,text.html.derivative,text.html.wxml,text.xml,text.html,source.ignore,source.nginx,text",
+            "scope": "text.html.basic,text.html.markdown,meta.paragraph.markdown,text.html.php,text.html.derivative,text.html.wxml,text.xml,text.html,source.ignore,source.nginx,text,text.tex.latex,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#626264"
@@ -758,7 +758,7 @@
         //#888888 italic
         {
             "name": "css Support type;css less sass属性名 如果不填就与support.type同色 | Tex: text | ",
-            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,entity.name.section.latex,text.tex.latex,meta.function.environment.frame.latex,meta.function.environment.general.latex,",
+            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,entity.name.section.latex,meta.function.environment.frame.latex,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#888888"
