@@ -15,5 +15,6 @@
 - JSON
 - Latex
 - Markdown
+- Julia
 
 其它语言也有语法高亮，但暂时不能保证全部语义化。
