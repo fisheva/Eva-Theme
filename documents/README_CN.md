@@ -10,7 +10,7 @@
 
 <!-- > VSCode版本要求 ≥ 1.12.0。 -->
 
-里面一共有6种样式: Dark, Dark Bold, Dark Italic; Light, Light Bold, Light Italic。Bold样式加粗了许多关键字和函数名。Italic样式则设置许多关键字为斜体。
+Eva Theme同时支持暗黑和明亮模式，每种模式下都有四种字体模式：普通、粗体、斜体、斜体加粗。
 
 ### 冲突
 <!-- 您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。 -->
