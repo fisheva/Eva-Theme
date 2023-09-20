@@ -38,6 +38,14 @@
         "checkbox.background": "#EDF0F7",
         "checkbox.border": "#CED1D7",
         "checkbox.foreground": "#5D5D5F",
+        "commandCenter.activeBackground": "#0065FFA8",
+        "commandCenter.activeBorder": "#0065FF00",
+        "commandCenter.activeForeground": "#fff",
+        "commandCenter.background": "#EBEEF5",
+        "commandCenter.border": "#EBEEF5",
+        "commandCenter.foreground": "#5D5D5F",
+        "commandCenter.inactiveBorder": "#EBEEF5",
+        "commandCenter.inactiveForeground": "#8E8E90",
         "debugConsole.errorForeground": "#EC0000",
         "debugConsole.infoForeground": "#4480F4",
         "debugConsole.warningForeground": "#FF6D12",
@@ -428,7 +436,7 @@
         "textLink.foreground": "#4d91f8",
         "textPreformat.foreground": "#FC8357",
         "titleBar.activeBackground": "#EBEEF5",
-        "titleBar.activeForeground": "#5D5D5F",
+        "titleBar.activeForeground": "#626264",
         "titleBar.border": "#EBEEF500",
         "titleBar.inactiveBackground": "#EBEEF5",
         "titleBar.inactiveForeground": "#8E8E90",
@@ -450,7 +458,8 @@
     // },
     "tokenColors": [
         //All Color Style & Comparison: Light Style Dark (Reason for separate classification of the same style)
-        //#7C4DFF bold #A78CFA
+        //#7C4DFF bold #A78CFA (In italic Bold : #7C4DFF italic bold #A78CFA)
+        //#7C4DFF bold
         //#7C4DFF normal
         //#437AED bold #6495EE
         //#437AED normal #6495EE (In Italic : #437AED Italic #6495EE)
@@ -495,10 +504,19 @@
         //#EC0000 normal #E51400
         //#EC0000 bold
 
-        //#7C4DFF bold
+        //#7C4DFF bold (In italic Bold : #7C4DFF italic bold)
         {
             "name": "new | CSS from to,js from | Keyword | js module | ",
-            "scope": "keyword.operator.new,keyword.other.new,storage.modifier.c,keyword.control.directive.define,keyword.control.def,keyword.control.class,keyword.control.module,keyword.control.new,keyword.preprocessor.define,meta.preprocessor.cs punctuation.separator.hash.cs,keyword.control.directive.undef,keyword.other.fn,storage.type.rust,keyword.operator.arrow.skinny,storage.modifier.extern,storage.modifier.const,storage.modifier.extends,storage.modifier.ts,keyword.control.at-rule,keyword.other.let,keyword.other.instance,keyword.other.newtype,keyword.other.data,keyword.other.module,keyword.other,keyword.other.preprocessor,keyword.cs,entity.other.keyframe-offset,keyword.control.import,keyword.other.import,keyword.import,keyword.control.from,keyword.control.directive.include,keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace,storage.type.language.primitive.cpp,storage.type.struct,storage.type.template,support.type.built-in.posix-reserved.pthread,keyword.other.typedef,storage.modifier.dart,meta.class.identifier.java storage.modifier.java,meta.enum.java storage.modifier.java,storage.type.modifier,storage.modifier,keyword.control.as,keyword.other.phpdoc,keyword.other.var,storage.modifier.java,meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,storage.type.primitive.dart,keyword.declaration,storage.type.enum,storage.type.type,storage.type.const,storage.modifier.specifier,storage.type.class.jsdoc,support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts,keyword.control.preamble.latex,keyword.control.cite.latex,keyword.control.label.latex,keyword.storage.modifier,",
+            "scope": "keyword.operator.new,keyword.other.new,storage.modifier.c,keyword.control.directive.define,keyword.control.def,keyword.control.class,keyword.control.module,keyword.control.new,keyword.preprocessor.define,meta.preprocessor.cs punctuation.separator.hash.cs,keyword.control.directive.undef,keyword.other.fn,storage.type.rust,storage.modifier.extern,storage.modifier.const,storage.modifier.extends,storage.modifier.ts,keyword.control.at-rule,keyword.other.let,keyword.other.instance,keyword.other.newtype,keyword.other.data,keyword.other.module,keyword.other,keyword.other.preprocessor,keyword.cs,entity.other.keyframe-offset,keyword.control.import,keyword.other.import,keyword.import,keyword.control.from,keyword.control.directive.include,keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace,storage.type.language.primitive.cpp,storage.type.struct,storage.type.template,support.type.built-in.posix-reserved.pthread,keyword.other.typedef,storage.modifier.dart,meta.class.identifier.java storage.modifier.java,meta.enum.java storage.modifier.java,storage.type.modifier,storage.modifier,keyword.control.as,keyword.other.phpdoc,keyword.other.var,storage.modifier.java,meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.declaration,storage.type.enum,storage.type.type,storage.type.const,storage.modifier.specifier,storage.type.class.jsdoc,support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts,keyword.control.preamble.latex,keyword.control.cite.latex,keyword.control.label.latex,keyword.storage.modifier,",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#7C4DFF"
+            }
+        },
+        //#7C4DFF bold
+        {
+            "name": "-> | $",
+            "scope": "keyword.operator.arrow.skinny,keyword.operator.interpolation,keyword.operator.borrow,",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#7C4DFF"
@@ -507,7 +525,7 @@
         //#7C4DFF normal
         {
             "name": "Tex: punctuation.definition.keyword",
-            "scope": "punctuation.definition.block.tag.jsdoc,keyword.control.directive.include punctuation.definition.directive,keyword.control.directive.undef punctuation.definition.directive,keyword.control.directive.define punctuation.definition.directive,punctuation.definition.directive,punctuation.definition.keyword.latex,keyword.control punctuation.definition.function.latex,keyword.control punctuation.definition.keyword.latex,keyword.control.equation.align.latex,",
+            "scope": "punctuation.definition.block.tag.jsdoc,keyword.control.directive.include punctuation.definition.directive,keyword.control.directive.undef punctuation.definition.directive,keyword.control.directive.define punctuation.definition.directive,punctuation.definition.directive,punctuation.definition.keyword.latex,keyword.control punctuation.definition.function.latex,keyword.control punctuation.definition.keyword.latex,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#7C4DFF"
@@ -552,7 +570,7 @@
         //#00BEC4 normal (In Italic : #00BEC4 Italic)
         {
             "name": "Attributes | pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child() | Classes | ",
-            "scope": "keyword.operator.relation.types.julia,entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name,entity.name.tag.custom.css,entity.name.tag.custom.scss,storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css,keyword.operator.gradient.css,entity.name.type,keyword.operator.expression,entity.other.inherited-class,entity.name.type.class,entity.name.scope-resolution,support.class,entity.name.type.interface,",
+            "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name,entity.name.tag.custom.css,entity.name.tag.custom.scss,storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css,keyword.operator.gradient.css,entity.name.type,keyword.operator.expression,entity.other.inherited-class,entity.name.type.class,support.class,entity.name.type.interface,support.class.dart,entity.name.scope-resolution,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#00BEC4"
@@ -560,8 +578,8 @@
         },
         //#00BEC4 normal
         {
-            "name": "keyword Operators increment decrement | 关键字 运算符 + - * / | 自增++ 自减-- | += -= | less sass里的关键字(用于+ -号) | string operator in php | php的string操作符 | 定义namespace符号 | ",
-            "scope": "keyword.operator,keyword.operator.arithmetic,keyword.operator.decrement,keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass,keyword.operator.increment-decrement,keyword.operator.css,entity.name.tag.wildcard.scss,keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby,keyword.operator.assignment.arithmetic,punctuation.definition.list.begin.markdown,variable.language.import-all,constant.language.import-export-all,storage.modifier.reference,storage.modifier.pointer,keyword.operator.assignment.rust,meta.directive.vue,punctuation.definition.quote.begin.markdown,meta.format.brace constant,meta.selector invalid.deprecated.combinator,meta.selector,storage.type.operator,entity.name.function.infix.haskell,constant.other.operator.infix.haskell,punctuation.separator.annotation.result.python,keyword.operator.string.php,entity.name.type.struct,keyword.interface,entity.name.type.delegate,storage.type.cs,support.class.builtin,support.type.graphql,punctuation.separator.namespace,keyword.operator.namespace,entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css,entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css,punctuation.attribute-shorthand.event.html,punctuation.attribute-shorthand.bind.html,punctuation.math.operator.latex,support.constant.mathematical-symbols.scss,meta.attribute.directive.vue,",
+            "name": "keyword Operators increment decrement | 关键字 运算符 + - * / | 自增++ 自减-- | += -= | less sass里的关键字(用于+ -号) | string operator in php | php的string操作符 | 定义namespace符号 | ::",
+            "scope": "keyword.operator,keyword.operator.arithmetic,keyword.operator.decrement,keyword.operator.increment,keyword.operator.assignment.compound,keyword.operator.less,meta.property-list.css,keyword.operator.sass,keyword.operator.increment-decrement,keyword.operator.css,entity.name.tag.wildcard.scss,keyword.operator.string,keyword.operator.bitwise,keyword.operator.assignment.augmented,storage.type.variable.ruby,keyword.operator.assignment.arithmetic,punctuation.definition.list.begin.markdown,variable.language.import-all,constant.language.import-export-all,storage.modifier.reference,storage.modifier.pointer,keyword.operator.assignment.rust,meta.directive.vue,punctuation.definition.quote.begin.markdown,meta.format.brace constant,meta.selector invalid.deprecated.combinator,meta.selector,storage.type.operator,entity.name.function.infix.haskell,constant.other.operator.infix.haskell,punctuation.separator.annotation.result.python,keyword.operator.string.php,entity.name.type.struct,keyword.interface,entity.name.type.delegate,storage.type.cs,support.class.builtin,support.type.graphql,punctuation.separator.namespace,keyword.operator.namespace,entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css,entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css,punctuation.attribute-shorthand.event.html,punctuation.attribute-shorthand.bind.html,punctuation.math.operator.latex,support.constant.mathematical-symbols.scss,meta.attribute.directive.vue,keyword.operator.relation.types.julia,keyword.operator.borrow.and.rust,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#00BEC4"
@@ -579,7 +597,7 @@
         //#EF8ED8 normal
         {
             "name": "typeof | support type ts |  class | ts里默认数据类型 | 自定义数据类型 | Markdown里引用语言声明 | ",
-            "scope": "support.type,keyword.operator.expression.typeof,keyword.other.typeof,support.type.primitive,support.type.builtin,entity.name.type.instance,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,keyword.type,entity.name.type.type-parameter,storage.type.object.array,entity.name.type.delegate,storage.type.c,meta.declaration.dart,meta.type.declaration,meta.block.ts,meta.class-struct-block.cpp entity.name.type.cpp,meta.function.definition.parameters.cpp storage.type.language.primitive.cpp,meta.function.definition.parameters.cpp storage.type.struct.cpp,meta.function.constructor.cpp storage.type.language.primitive.cpp,storage.type.template.argument,entity.name.type.numeric.rust,storage.modifier.mut,entity.name.type.primitive,storage.type.built-in,support.type.built-in.posix-reserved,support.class.dart,keyword.other.type,storage.type.haskell,meta.method.identifier.java storage.type.java,support.type.python,fenced_code.block.language,",
+            "scope": "support.type,keyword.operator.expression.typeof,keyword.other.typeof,support.type.primitive,support.type.builtin,entity.name.type.instance,storage.type.string,storage.type.numeric,storage.type.boolean,storage.type.primitive,meta.method.identifier,entity.other.inherited-classentity.name.type.interface,meta.return.type,meta.type.parameters,keyword.interface,storage.type.generic,keyword.type,entity.name.type.type-parameter,storage.type.object.array,entity.name.type.delegate,storage.type.c,meta.declaration.dart,meta.type.declaration,meta.block.ts,meta.class-struct-block.cpp entity.name.type.cpp,meta.function.definition.parameters.cpp storage.type.language.primitive.cpp,meta.function.definition.parameters.cpp storage.type.struct.cpp,meta.function.constructor.cpp storage.type.language.primitive.cpp,storage.type.template.argument,entity.name.type.numeric.rust,storage.modifier.mut,entity.name.type.primitive,storage.type.built-in,support.type.built-in.posix-reserved,keyword.other.type,storage.type.haskell,meta.method.identifier.java storage.type.java,support.type.python,fenced_code.block.language,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#EF8ED8"
@@ -660,7 +678,7 @@
         //#C838C6 bold (In Italic : #C838C6 Italic)
         {
             "name": "instanceof | Keyword Control,Using | Constant | 语言常量,包含 true false null undefined等 |  void | loop | ",
-            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.where,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,",
+            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.where,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,storage.type.primitive.dart,",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#C838C6"
@@ -669,7 +687,7 @@
         //#C838C6 bold
         {
             "name": "keyword Operators ternary,logical,comparison,relational,tilde | 三元运算符 ? : | logical | == === != !== | < > <= >= | 正则表达式里的 或| | 波浪号~",
-            "scope": "keyword.operator.boolean,keyword.operator.relation,keyword.operator.ternary,keyword.control.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.class,keyword.operator.type,keyword.operator.other.ruby,keyword.operator.conditional,punctuation.separator.question-mark,keyword.operator.null-coalescing,punctuation.tilde,punctuation.separator.pointer-access,keyword.operator.dart,keyword.operator.nulltype,keyword.operator.arrow.haskell,keyword.operator.arrow.left.haskell,keyword.control.directive punctuation.definition.directive,",
+            "scope": "keyword.operator.boolean,keyword.operator.relation,keyword.operator.ternary,keyword.control.ternary,keyword.operator.logical,keyword.operator.comparison,keyword.operator.relational,keyword.operator.or.regexp,keyword.operator.class,keyword.operator.type,keyword.operator.other.ruby,keyword.operator.conditional,punctuation.separator.question-mark,keyword.operator.null-coalescing,punctuation.tilde,punctuation.separator.pointer-access,keyword.operator.dart,keyword.operator.nulltype,keyword.operator.arrow.haskell,keyword.operator.arrow.left.haskell,keyword.control.directive punctuation.definition.directive,keyword.control.equation.align.latex,keyword.operator.bitwise.dart,",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#C838C6"
@@ -794,7 +812,7 @@
         //#8E8E90 normal
         {
             "name": "Punctuation colon 冒号 : | PHP里的 => 类似JS里的对象里的冒号: | ",
-            "scope": "keyword.operator.range,punctuation.separator.key-value,keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value,punctuation.section.function.begin.python,meta.property-list.css.sass,sass-script-maps,punctuation.colon,punctuation.separator.initializers,keyword.operator.key-value,punctuation.separator.label,keyword.operator.colon,punctuation.separator.annotation.python,source.ts.embedded.html meta.block.ts,keyword.operator.key.php,keyword.operator.arrow.julia,",
+            "scope": "keyword.operator.range,punctuation.separator.key-value,keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value,punctuation.section.function.begin.python,meta.property-list.css.sass,sass-script-maps,punctuation.colon,punctuation.separator.initializers,keyword.operator.key-value,punctuation.separator.label,keyword.operator.colon,punctuation.separator.annotation.python,source.ts.embedded.html meta.block.ts,keyword.operator.key.php,keyword.operator.arrow.julia,keyword.operator.ternary.dart,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#8E8E90"

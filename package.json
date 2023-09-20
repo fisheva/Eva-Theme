@@ -2,7 +2,7 @@
     "name": "eva-theme",
     "displayName": "Eva Theme",
     "description": "A comfortable and semantic theme.",
-    "version": "2.1.4",
+    "version": "2.1.5",
     "publisher": "fisheva",
     "license": "SEE LICENSE IN<LICENSE.md>",
     "icon": "eva.jpg",
@@ -50,6 +50,11 @@
                 "path": "./themes/Eva-Dark-Italic.json"
             },
             {
+                "label": "Eva Dark Italic Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Italic-Bold.json"
+            },
+            {
                 "label": "Eva Light",
                 "uiTheme": "vs",
                 "path": "./themes/Eva-Light.json"
@@ -63,6 +68,11 @@
                 "label": "Eva Light Italic",
                 "uiTheme": "vs",
                 "path": "./themes/Eva-Light-Italic.json"
+            },
+            {
+                "label": "Eva Light Italic Bold",
+                "uiTheme": "vs",
+                "path": "./themes/Eva-Light-Italic-Bold.json"
             }
         ]
     },

@@ -1,6 +1,33 @@
 2.1.5 (2023-09-19)
 
+* **Add Italic Bold Style**
+
 * **Support Julia**
+
+* Add All UI
+
+```UI
+commandCenter.activeBackground: #598DEFE6/#0065FFA8,
+commandCenter.activeBorder: #598DEF00/#0065FF00,
+commandCenter.activeForeground: #fff/#fff,
+commandCenter.background: #282c34/#EBEEF5,
+commandCenter.border: #282c34/#EBEEF5,
+commandCenter.foreground: #9DA5B3/#5D5D5F,
+commandCenter.inactiveBorder: #282c34/#EBEEF5,
+commandCenter.inactiveForeground: #676e95/#8E8E90,
+```
+
+* Change Light UI
+
+```UI
+titleBar.activeForeground: #5D5D5F → #626264
+```
+
+* Fixed All Syntax
+
+```Syntax
+Fixed some syntax color display errors in dart, rust files.
+```
 
 2.1.4 (2023-06-27)
 
@@ -19,8 +46,8 @@ meta.attribute.directive.vue: #56B7C3/#00BEC4
 * Change All UI
 
 ```UI
-diffEditor.insertedTextBackground": #45B7463F/#45B7464C → #45B7464F/#45B74666,
-diffEditor.removedTextBackground": #f14c4c21/#f14c4c3F → #f14c4c54/#f14c4c4C,
+diffEditor.insertedTextBackground: #45B7463F/#45B7464C → #45B7464F/#45B74666,
+diffEditor.removedTextBackground: #f14c4c21/#f14c4c3F → #f14c4c54/#f14c4c4C,
 ```
 
 2.1.1~2.1.2 (2023-06-19~2023-06-20)
@@ -2225,7 +2252,7 @@ inputValidation.warningForeground: #DCDFE5/#F5F8FF
 menu.separatorBackground: #8E99B1/#626264
 ```
 
-* Fixed Dark UI
+* Change Dark UI
 
 ```UI
 //It was too dark to be seen.
@@ -2257,7 +2284,7 @@ return: #A78CFA/#7C4DFF → #CF68E1/#C838C6
 * Fixed All Syntax
 
 ```Syntax
-Fixed some bugs in C++, ruby, css files.
+Fixed some syntax color display errors in C++, ruby, css files.
 ```
 
 0.5.4 (2018-09-25)
@@ -2282,7 +2309,7 @@ gitDecoration.addedResourceForeground: #40AD41/#44C145
 * Fixed All Syntax
 
 ```Syntax
-Fixed some bugs in Python files.
+Fixed some syntax color display errors in Python files.
 ```
 
 0.5.2 (2018-09-06)
@@ -2315,7 +2342,7 @@ meta.type.declaration, meta.block.ts : #FF6AB3/#EF8ED8
 * Fixed Dark Bold Syntax
 
 ```Syntax
-Fixed some bugs in TypeScript files.
+Fixed some syntax color display errors in TypeScript files.
 ```
 
 0.4.9 (2018-08-18)
@@ -2329,7 +2356,7 @@ editorIndentGuide.activeBackground: #454963/#CED1D7 → #FF9070BF/#FC8357CC
 * Fixed All Syntax
 
 ```Syntax
-Fixed some bugs in TypeScript files.
+Fixed some syntax color display errors in TypeScript files.
 ```
 
 0.4.8 (2018-08-16)
@@ -2453,7 +2480,7 @@ notification.buttonHoverBackground: #598DEF/#598DEF → #598DEFE6/#0065FFA8
 * Fixed All Syntax
 
 ```Syntax
-Fixed some bugs in JSX.
+Fixed some syntax color display errors in JSX.
 ```
 
 0.3.9 (2018-07-19)
@@ -2461,7 +2488,7 @@ Fixed some bugs in JSX.
 * Fixed All Syntax
 
 ```Syntax
-Fixed some bugs in TypeScript files.
+Fixed some syntax color display errors in TypeScript files.
 ```
 
 0.3.8 (2018-07-07)
@@ -2661,7 +2688,7 @@ editorBracketMatch.background: #FF907099 → #FF90708C
 * Fixed All Syntax
 
 ```Syntax
-Fixed some bugs in less files.
+Fixed some syntax color display errors in less files.
 ```
 
 0.2.6 (2018-05-08)
@@ -2669,7 +2696,7 @@ Fixed some bugs in less files.
 * Fixed All Syntax
 
 ```Syntax
-Fixed some bugs in Scss files.
+Fixed some syntax color display errors in Scss files.
 ```
 
 0.2.5（2018-05-06）
