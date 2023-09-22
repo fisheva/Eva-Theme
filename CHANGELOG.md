@@ -1,3 +1,12 @@
+2.1.8 (2023-09-22)
+
+* Add All Syntax
+
+```Syntax
+code-runner.output: #B0B7C3/#5D5D5F
+token.info-token: #4480F4/#4480F4
+```
+
 2.1.7 (2023-09-21)
 
 * Change All UI

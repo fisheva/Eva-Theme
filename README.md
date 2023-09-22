@@ -10,7 +10,7 @@ English | <a title="切换到中文README" href="https://github.com/fisheva/Eva-
 
 <!-- > Requires VSCode version >=1.12.0. -->
 
-Eva Theme supports both Dark and Light mode, with four font styles available for each mode: Normal, Bold, Italic, and Italic Bold.
+Eva Theme supports both Dark and Light modes, with four styles available for each mode: Normal, Bold, Italic, and Italic Bold. In Bold styles, keywords and function names are bolded.
 
 ### Conflicts
 <!-- You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. -->
