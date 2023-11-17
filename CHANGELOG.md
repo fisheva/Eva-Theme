@@ -1,3 +1,19 @@
+2.1.9 (2023-11-17)
+
+* Change All UI
+
+```UI
+extensionIcon.preReleaseForeground: #4b516a/#a6a7ae → #7BBE54/#83C654
+```
+
+* Add All Syntax
+
+```Syntax
+meta.tag.xml: #8792AA/#A0A1A7
+punctuation.definition.string.template.begin,punctuation.definition.string.template.end: #98C379/#53A053
+variable.other.constant.object.proterty: #E06C75/#CD6069
+```
+
 2.1.8 (2023-09-22)
 
 * Add All Syntax
