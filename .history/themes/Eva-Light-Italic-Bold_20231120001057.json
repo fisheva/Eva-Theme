@@ -15,6 +15,9 @@
         "activityBarBadge.foreground": "#fff",
         "badge.foreground": "#fff",
         "badge.background": "#B3B3B4",
+        "banner.background": "#0065ffa8",
+        "banner.foreground": "#fff",
+        "banner.iconForeground": "#fff",
         "breadcrumb.activeSelectionForeground": "#5D5D5F",
         "breadcrumb.background": "#EBEEF5",
         "breadcrumb.foreground": "#8E8E90",
@@ -38,9 +41,9 @@
         "checkbox.background": "#EDF0F7",
         "checkbox.border": "#CED1D7",
         "checkbox.foreground": "#5D5D5F",
-        "commandCenter.activeBackground": "#0065FFA8",
+        "commandCenter.activeBackground": "#0065ff3f",
         "commandCenter.activeBorder": "#0065FF00",
-        "commandCenter.activeForeground": "#fff",
+        "commandCenter.activeForeground": "#535355",
         "commandCenter.background": "#EBEEF5",
         "commandCenter.border": "#EBEEF5",
         "commandCenter.foreground": "#5D5D5F",
@@ -170,7 +173,7 @@
         "extensionButton.prominentBackground": "#499149",
         "extensionButton.prominentHoverBackground": "#0065FFA8",/*377337深绿色*/
         "extensionButton.separator": "#fff",
-        "extensionIcon.preReleaseForeground":"#a6a7ae",
+        "extensionIcon.preReleaseForeground":"#83C654",
         "extensionIcon.sponsorForeground":"#FA278E",
         "extensionIcon.starForeground": "#FF6D12",
         "focusBorder": "#4480F4",
@@ -412,7 +415,7 @@
         "terminal.ansiYellow": "#F0AA0B",
         "terminal.ansiWhite": "#000",
         "terminal.ansiBrightBlack": "#AAADB4",
-        "terminal.ansiBrightBlue": "#437AED",
+        "terminal.ansiBrightBlue": "#4d91f8",
         "terminal.ansiBrightGreen": "#44C145",
         "terminal.ansiBrightCyan": "#00BEC4",
         "terminal.ansiBrightRed": "#f14c4c",
@@ -534,7 +537,7 @@
         //#437AED italic bold
         {
             "name": "support.function | try...catch | Functions,pthread | 单独的函数,C++线程 | less sass里的自定义的代码块名 类似函数 |  [VSCODE-CUSTOM] Markdown Link Title/Description | ",
-            "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css,support.function.builtin.python,support.function.go,entity.name.function.macro,meta.attribute.rust,new.expr meta.function-call support.class.builtin,new.expr meta.function-call support.class,keyword.operator.function,support.function.dom,support.function.console,support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math,entity.name.type.lifetime.rust,entity.name.class,meta.method.declaration,keyword.control.trycatch,keyword.control.catch-exception,keyword.operator.cast,keyword.operator.big-arrow,entity.name.function,support.type.pthread,meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function,keyword.operator.sizeof,meta.function-call.python support.type.python,meta.function-call keyword.operator.expression.import,entity.name.type.js,new.expr.ts,entity.other.attribute-name.class.mixin,token.info-token,support.function.be.latex,keyword.other.special-method,",
+            "scope": "meta.function-call,support.function.construct.output,invalid.deprecated.gradient.function.css,invalid.deprecated.function.css,support.function.builtin.python,support.function.go,entity.name.function.macro,meta.attribute.rust,new.expr meta.function-call support.class.builtin,new.expr meta.function-call support.class,keyword.operator.function,support.function.dom,support.function.console,support.function.any-method.builtin.url,support.function.any-method.builtin,support.function.url,support.function.misc,support.function.transform,support.function.calc,support.function.var,support.function.string,support.function.basic_functions,support.function.array,support.function.construct,support.function.datetime,support.function.file,support.function.network,support.function.session,support.function.mail,support.function.filter,support.function.errorfunc,support.function.mysql,support.function.php_odbc,support.function.xml,support.function.math,entity.name.type.lifetime.rust,entity.name.class,meta.method.declaration,keyword.control.trycatch,keyword.control.catch-exception,keyword.operator.cast,keyword.operator.big-arrow,entity.name.function,support.type.pthread,meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp,support.function,keyword.operator.sizeof,meta.function-call.python support.type.python,meta.function-call keyword.operator.expression.import,entity.name.type.js,new.expr.ts,entity.other.attribute-name.class.mixin,support.function.be.latex,keyword.other.special-method,",
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#437AED"
@@ -651,7 +654,7 @@
         //#53A053 normal
         {
             "name": "Regular Expressions;正则表达式 | ",
-            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,string punctuation.attribute-shorthand.event.html,",
+            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,string punctuation.attribute-shorthand.event.html,punctuation.definition.string.template.begin,punctuation.definition.string.template.end,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#53A053"
@@ -660,7 +663,7 @@
         //#CD6069 italic
         {
             "name": "module | 模块 | 对象属性名 | namespace | dom,C系语言的命名空间 | console输出台 | pseudo-element;css里的伪元素 before after | [VSCODE-CUSTOM] Markdown headings;Markdown里的标题 和 定义标题的# | section | ",
-            "scope": "entity.name.type.module,entity.name.package,variable.other.property,variable.other.object.property,variable.other.constant.property,entity.name.type.option,entity.name.label,variable.other.object.property.cs,entity.name.variable.tuple-element.cs,meta.object-literal.key,meta.object-literal.key string.quoted,variable.object.property,support.type.map.key,meta.at-rule.each.scss,meta.attribute.python,support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,entity.name.type.namespace,variable.other.member.c,meta.using-namespace-declaration.cpp entity.name.type.cpp,meta.class-struct-block.cpp meta.namespace-block.cpp entity.name.type.cpp,variable.other.source.dart,entity.name.namespace,entity.name.module,entity.name.type.result.rust,entity.name.scope-resolution.namespace,support.class.console,meta.use.rust,keyword.other.preprocessor.extension,entity.other.attribute-name.pseudo-element.css,entity.name.section.markdown,markup.heading,source.json meta.structure.dictionary.json > string.quoted.json,support.type.property-name.json,support.function.section.latex,support.function.general.tex,",
+            "scope": "entity.name.type.module,entity.name.package,variable.other.property,variable.other.object.property,variable.other.constant.property,entity.name.type.option,entity.name.label,variable.other.object.property.cs,entity.name.variable.tuple-element.cs,meta.object-literal.key,meta.object-literal.key string.quoted,variable.object.property,support.type.map.key,meta.at-rule.each.scss,meta.attribute.python,support.variable.dom,support.variable.property,support.variable.property.dom,storage.modifier.import,constant.other.php,entity.name.type.namespace,variable.other.member.c,meta.using-namespace-declaration.cpp entity.name.type.cpp,meta.class-struct-block.cpp meta.namespace-block.cpp entity.name.type.cpp,variable.other.source.dart,entity.name.namespace,entity.name.module,entity.name.type.result.rust,entity.name.scope-resolution.namespace,support.class.console,meta.use.rust,keyword.other.preprocessor.extension,entity.other.attribute-name.pseudo-element.css,entity.name.section.markdown,markup.heading,source.json meta.structure.dictionary.json > string.quoted.json,support.type.property-name.json,support.function.section.latex,support.function.general.tex,meta.object-literal.key punctuation.definition.string,variable.other.constant.object.property,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#CD6069"
@@ -669,7 +672,7 @@
         //#CD6069 normal
         {
             "name": "Tags;HTML的标签名 | react组件 | Tex: punctuation.definition.function | 正则表达式里的关键字 | ",
-            "scope": "entity.name.tag,,entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css,punctuation.definition.heading.markdown,support.function.general.tex punctuation.definition.function.tex,support.function.section.latex punctuation.definition.function.latex,meta.object-literal.key punctuation.definition.string,punctuation.support.type.property-name.begin.json.comments,punctuation.support.type.property-name.end.json.comments,support.class.component,keyword.operator.optional,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.section.embedded.end.php source.php,punctuation.support.type.property-name.begin.json,punctuation.support.type.property-name.end.json,string.regexp keyword.other,",
+            "scope": "entity.name.tag,entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css,punctuation.definition.heading.markdown,support.function.general.tex punctuation.definition.function.tex,support.function.section.latex punctuation.definition.function.latex,punctuation.support.type.property-name.begin.json.comments,punctuation.support.type.property-name.end.json.comments,support.class.component,keyword.operator.optional,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.section.embedded.end.php source.php,string.regexp keyword.other,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#CD6069"
@@ -732,7 +735,7 @@
         //#5D5D5F italic
         {
             "name": "Variable | 变量 | css color standard name;css 颜色名词 red orange pink plum 等 | Tex: Constant Math | ",
-            "scope": "variable.other,support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite,entity.name.type.enum,meta.method.body,entity.name.variable,meta.block.c,meta.class-struct-block,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python,variable.parameter.keyframe-list.css,meta.property-value.css,meta.property-value.scss,entity.name.tag.custom,entity.name.function.scss,variable,meta.function-call.c,entity.name.function.preprocessor,meta.parens,support.constant.color.w3c-standard-color-name,support.constant.color.w3c-extended-color-name,constant.other.color.rgb-value.hex,constant.other.rgb-value,support.constant.color.w3c-extended-color-name.css,text.tex.latex constant.other.math.tex,constant.other.general.math.tex,constant.other.general.math.tex,constant.character.math.tex,constant.other.reference.citation.latex,",
+            "scope": "variable.other,support.variable,meta.definition.variable,variable.other.object,variable.other.readwrite,entity.name.type.enum,meta.method.body,entity.name.variable,meta.block.c,meta.class-struct-block,meta.item-access.python,meta.function-call.arguments.python,meta.item-access.arguments.python,variable.parameter.keyframe-list.css,meta.property-value.css,meta.property-value.scss,entity.name.tag.custom,entity.name.function.scss,variable,meta.function-call.c,entity.name.function.preprocessor,meta.parens,support.constant.color.w3c-standard-color-name,support.constant.color.w3c-extended-color-name,constant.other.color.rgb-value.hex,constant.other.rgb-value,support.constant.color.w3c-extended-color-name.css,text.tex.latex constant.other.math.tex,constant.other.general.math.tex,constant.other.general.math.tex,constant.character.math.tex,constant.other.reference.citation.latex,code-runner.output,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#5D5D5F"
@@ -838,7 +841,7 @@
         //#A0A1A7 normal
         {
             "name": "punctuation;html标签里的</> = | punctuation.definition.markdown;Markdown里引用块符号 ``` | ",
-            "scope": "punctuation.definition.tag,meta.tag.inline.any,meta.tag.block.any,meta.tag.any ,meta.tag.structure.any,meta.tag.metadata.script,punctuation.definition.tag.begin,punctuation.definition.tag.end,meta.tag.preprocessor.xml,punctuation.separator.key-value.html,meta.tag.metadata.style.html,meta.tag.attributes.js keyword.operator.assignment,meta.tag.other.html,meta.tag.inline.any.html source.directive.vue meta.brace,punctuation.definition.tag.begin source.js,punctuation.definition.tag.end source.js,punctuation.definition.tag source,source.vue,meta.attribute-selector.scss keyword.operator.scss,punctuation.separator.equals,meta.tag.svg,text.xml.svg meta.tag.style,punctuation.definition.markdown,meta.tag keyword.operator.assignment,",
+            "scope": "punctuation.definition.tag,meta.tag.inline.any,meta.tag.block.any,meta.tag.any ,meta.tag.structure.any,meta.tag.metadata.script,punctuation.definition.tag.begin,punctuation.definition.tag.end,meta.tag.preprocessor.xml,punctuation.separator.key-value.html,meta.tag.metadata.style.html,meta.tag.attributes.js keyword.operator.assignment,meta.tag.other.html,meta.tag.inline.any.html source.directive.vue meta.brace,punctuation.definition.tag.begin source.js,punctuation.definition.tag.end source.js,punctuation.definition.tag source,source.vue,meta.attribute-selector.scss keyword.operator.scss,punctuation.separator.equals,meta.tag.svg,text.xml.svg meta.tag.style,punctuation.definition.markdown,meta.tag keyword.operator.assignment,meta.tag.xml,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#A0A1A7"
@@ -882,7 +885,7 @@
         },
         //#4480F4 normal
         {
-            "scope": "log.info",
+            "scope": "log.info,token.info-token,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#4480F4"
