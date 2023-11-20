@@ -1,3 +1,15 @@
+2.2.2 (2023-11-20)
+
+* Change Dark UI
+
+```UI
+list.activeSelectionBackground: #2c313a → #30353E
+list.inactiveSelectionBackground: #2c313a → #30353E
+editor.rangeHighlightBackground: #2f323b → #30333D
+editor.lineHighlightBorder: #2f323b00 → #30333D00
+editor.lineHighlightBackground: #2f323b → #30333D
+```
+
 2.2.1 (2023-11-20)
 
 * Change Light UI
