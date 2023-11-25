@@ -1,3 +1,26 @@
+
+2.2.5 (2023-11-25)
+
+* Change All UI
+
+```UI
+menu.separatorBackground: #8E99B1/#626264 → #454963/#CED1D7
+```
+
+* Add All Syntax
+
+```Syntax
+punctuation.separator.key-value.css：#56B7C3/#00BEC4
+meta.property-list.css punctuation.separator.key-value.css,source.css.embedded.html punctuation.separator.key-value.css: #8E99B1/#8E8E90
+```
+
+* Change All Syntax
+
+```Syntax
+entity.name.tag.custom.css: #56B7C3/#00BEC4 → #E06C75/#CD6069
+meta.property-value.css keyword.operator.less: #838FA7/#5D5D5FD8 → #56B7C3/#00BEC4
+```
+
 2.2.2 ~ 2.2.4 (2023-11-20)
 
 * Change Dark UI
