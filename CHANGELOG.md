@@ -1,3 +1,18 @@
+2.2.6 (2023-11-26)
+
+* Change Dark UI
+
+```UI
+list.inactiveSelectionBackground: #2E333C → #30333D
+list.activeSelectionBackground: #2E333C → #30333D
+gitDecoration.untrackedResourceForeground: #7BBE54 → #77BE4E
+```
+
+* Change Dark Syntax
+
+```Syntax
+markup.inserted.diff: #40AD41 → #77BE4E
+```
 
 2.2.5 (2023-11-25)
 

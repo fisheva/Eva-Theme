@@ -187,7 +187,7 @@
         "gitDecoration.submoduleResourceForeground": "#FF6AB3",
         "gitDecoration.stageDeletedResourceForeground": "#E06C75",
         "gitDecoration.stageModifiedResourceForeground": "#D365E5",
-        "gitDecoration.untrackedResourceForeground": "#7BBE54",
+        "gitDecoration.untrackedResourceForeground": "#77BE4E",
         "gitlens.trailingLineBackgroundColor": "#2F323B00",
         "gitlens.trailingLineForegroundColor": "#585D68",
         "icon.foreground": "#c5c5c5",
@@ -207,7 +207,7 @@
         "inputValidation.warningBackground": "#21252B",
         "inputValidation.warningBorder": "#FF8A4C",
         "inputValidation.warningForeground": "#FF8A4C",
-        "list.activeSelectionBackground": "#2E333C",
+        "list.activeSelectionBackground": "#30333D",
         "list.activeSelectionForeground": "#d7dae0",
         "list.activeSelectionIconForeground": "#D2D5DB",
         "list.dropBackground": "#598DEF4C",
@@ -222,7 +222,7 @@
         "list.hoverForeground": "#d7dae0",
         "list.inactiveFocusBackground": "#598DEF3F",
         "list.inactiveFocusOutline": "#598DEF00",
-        "list.inactiveSelectionBackground": "#2E333C",
+        "list.inactiveSelectionBackground": "#30333D",
         "list.inactiveSelectionForeground": "#d7dae0",
         "list.inactiveSelectionIconForeground": "#d7dae0",
         "list.invalidItemForeground": "#676E95",
@@ -926,7 +926,7 @@
             "name": "inserted.diff",
             "scope": "markup.inserted.diff",
             "settings": {
-                "foreground": "#40AD41"
+                "foreground": "#77BE4E"
             }
         },
         {
