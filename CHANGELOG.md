@@ -1,3 +1,18 @@
+2.2.7 (2023-11-27)
+
+* Add All UI
+
+```UI
+panel.dropBorder: #598DEF/#5e9cfb
+panelSectionHeader.foreground: #B0B7C3/#5d5d5f
+```
+
+* Change All UI
+
+```UI
+list.activeSelectionBackground: #30333D/#EDF0F7 → #598DEF66/#0065FF33
+```
+
 2.2.6 (2023-11-26)
 
 * Change Dark UI
