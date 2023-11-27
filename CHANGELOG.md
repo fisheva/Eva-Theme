@@ -1,3 +1,24 @@
+2.2.8 (2023-11-28)
+
+* Change All UI
+
+```UI
+terminal.ansiBrightGreen: #3FB93F/#44C145 → #3EC141/#3EC141
+gitDecoration.untrackedResourceForeground: #77BE4E/#3EC141 → #3EC141/#44C145
+```
+
+* Change Light UI
+
+```UI
+terminalCommandDecoration.successBackground: #44C145 → #3EC141
+```
+
+* Change Dark UI
+
+```UI
+terminal.ansiGreen: #98c379 → #77BE4E
+```
+
 2.2.7 (2023-11-27)
 
 * Add All UI
