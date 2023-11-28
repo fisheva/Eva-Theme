@@ -1,3 +1,14 @@
+2.2.9 (2023-11-29)
+
+* Add All Syntax
+
+```UI
+punctuation.definition.begin.entity,punctuation.definition.end.entity,punctuation.separator.operator: #838FA7/#5d5d5fd8
+punctuation.definition.begin.entity.css,punctuation.definition.end.entity.css: #838FA7CC/#888888D9
+meta.tag meta.attribute entity.name.label: #8A97C3/#888888
+punctuation.separator.operator.css: #8792AA/#A0A1A7
+```
+
 2.2.8 (2023-11-28)
 
 * Change All UI
