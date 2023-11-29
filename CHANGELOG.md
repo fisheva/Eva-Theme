@@ -1,3 +1,11 @@
+2.3.0 (2023-11-29)
+
+* Change All UI
+
+```UI
+panel.dropBorder: #598DEF/#5e9cfb → #4480F4/#4480F4
+```
+
 2.2.9 (2023-11-29)
 
 * Add All Syntax
