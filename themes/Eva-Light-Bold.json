@@ -127,6 +127,7 @@
         "editorIndentGuide.background1": "#CED1D7",
         "editorInfo.foreground": "#4480F4",
         "editorInlayHint.foreground": "#888",
+        "editorLightBulb.foreground":"#F0AA0B",
         "editorLineNumber.foreground": "#B3B3B4",
         "editorLineNumber.activeForeground": "#5D5D5F",
         "editorLink.activeForeground": "#D73BD5",
@@ -173,7 +174,7 @@
         "extensionButton.prominentBackground": "#499149",
         "extensionButton.prominentHoverBackground": "#0065FFA8",/*377337深绿色*/
         "extensionButton.separator": "#fff",
-        "extensionIcon.preReleaseForeground":"#83C654",
+        "extensionIcon.preReleaseForeground":"#00BEC4",
         "extensionIcon.sponsorForeground":"#FA278E",
         "extensionIcon.starForeground": "#FF6D12",
         "focusBorder": "#4480F4",

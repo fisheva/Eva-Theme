@@ -3,6 +3,7 @@
 * Change All UI
 
 ```UI
+extensionIcon.preReleaseForeground: #7BBE54/#83C654 → #56B7C3/#00BEC4
 panel.dropBorder: #598DEF/#5e9cfb → #4480F4/#4480F4
 ```
 
