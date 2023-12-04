@@ -1,3 +1,19 @@
+2.3.1 （2023-12-04）
+
+* Delete All UI
+
+```UI
+//这二条不设置表现更好, 删除后插件的 认证icon、下载量icon 和 安装量的icon 在插件被选中时颜色走的是 list.activeSelectionForeground 和 list.inactiveSelectionForeground API。推荐插件的 星星icon 在插件被选中时颜色走的是 extensionButton.prominentForeground API。
+list.activeSelectionIconForeground: #D2D5DB/#464247
+list.inactiveSelectionIconForeground: #d7dae0/#5d5d5f
+```
+
+* Add All UI
+
+```UI
+extensionButton.hoverBackground: #598DEFE6/#0065ffa8
+```
+
 2.3.0 (2023-12-03)
 
 * Change All UI
@@ -9,9 +25,15 @@ panel.dropBorder: #598DEF/#5e9cfb → #4480F4/#4480F4
 
 2.2.9 (2023-11-29)
 
-* Add All Syntax
+* Add All UI
 
 ```UI
+editorLightBulb.foreground: #E4BF7F/#F0AA0B
+```
+
+* Add All Syntax
+
+```Syntax
 punctuation.definition.begin.entity,punctuation.definition.end.entity,punctuation.separator.operator: #838FA7/#5d5d5fd8
 punctuation.definition.begin.entity.css,punctuation.definition.end.entity.css: #838FA7CC/#888888D9
 meta.tag meta.attribute entity.name.label: #8A97C3/#888888
