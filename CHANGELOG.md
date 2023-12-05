@@ -1,3 +1,12 @@
+2.3.2 (2023-12-05)
+
+* Change Dark UI
+
+```UI
+terminal.ansiBrightGreen: #3EC141 → #77BE4E
+terminalCommandDecoration.successBackground: #3FB93F → #3EC141
+```
+
 2.3.1 （2023-12-04）
 
 * Delete All UI
