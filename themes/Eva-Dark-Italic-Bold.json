@@ -166,6 +166,8 @@
         "editorWidget.border": "#21252B",
         "editorWidget.foreground": "#b0b7c3",
         "errorForeground": "#E51400",
+        "extension.cssrem.trailingLineBackgroundColor": "#2F323B00",
+        "extension.cssrem.trailingLineForegroundColor": "#585D68",
         "extensionButton.background": "#4b516a",
         "extensionButton.foreground": "#DCDFE5",
         "extensionButton.hoverBackground": "#598DEFE6",

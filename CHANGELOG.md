@@ -1,3 +1,12 @@
+2.3.3 (2023-12-05)
+
+* Add All UI
+
+```UI
+extension.cssrem.trailingLineBackgroundColor: #2F323B00/#E3E6ED00
+extension.cssrem.trailingLineForegroundColor: #585D68/#C8CACE
+```
+
 2.3.2 (2023-12-05)
 
 * Change Dark UI
