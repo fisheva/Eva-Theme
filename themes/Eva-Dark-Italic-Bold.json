@@ -412,7 +412,7 @@
         "tab.unfocusedInactiveModifiedBorder": "#A78CFA",
         "terminal.ansiBlack": "#000",
         "terminal.ansiBlue": "#4283F5",
-        "terminal.ansiGreen": "#77BE4E",
+        "terminal.ansiGreen": "#4EC150",
         "terminal.ansiCyan": "#56B7C3",
         "terminal.ansiRed": "#e51400",
         "terminal.ansiMagenta": "#CF68E1",
@@ -420,7 +420,7 @@
         "terminal.ansiWhite": "#fff",
         "terminal.ansiBrightBlack": "#676E95",
         "terminal.ansiBrightBlue": "#6495EE",
-        "terminal.ansiBrightGreen": "#77BE4E",
+        "terminal.ansiBrightGreen": "#4EC150",
         "terminal.ansiBrightCyan": "#56B7C3",
         "terminal.ansiBrightRed": "#f14c4c",
         "terminal.ansiBrightMagenta": "#FF6AB3",
@@ -930,7 +930,7 @@
             "name": "inserted.diff",
             "scope": "markup.inserted.diff",
             "settings": {
-                "foreground": "#77BE4E"
+                "foreground": "#4EC150"
             }
         },
         {

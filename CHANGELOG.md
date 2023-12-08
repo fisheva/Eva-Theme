@@ -7,6 +7,26 @@ extension.cssrem.trailingLineBackgroundColor: #2F323B00/#E3E6ED00
 extension.cssrem.trailingLineForegroundColor: #585D68/#C8CACE
 ```
 
+* Change All UI
+
+```UI
+terminal.ansiGreen: #77BE4E/#53A053 → #4EC150/#44C145
+terminal.ansiBrightGreen: #77BE4E/#3EC141 → #4EC150/#44C145
+```
+
+* Change Light UI
+
+```UI
+gitDecoration.untrackedResourceForeground: #44C145 → #3EC141
+terminal.ansiBlack: #FFFFFF → #FAFAFA
+```
+
+* Change Dark Syntax
+
+```Syntax
+markup.inserted.diff: #77BE4E → #4EC150
+```
+
 2.3.2 (2023-12-05)
 
 * Change Dark UI
