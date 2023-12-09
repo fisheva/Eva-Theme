@@ -30,6 +30,7 @@
         "button.secondaryBackground": "#A0A1A7E5",
         "button.secondaryForeground": "#fff",
         "button.secondaryHoverBackground": "#0065FFA8",
+        "button.separator": "#ffffff66",
         "charts.blue": "#437AED",
         "charts.green": "#53A053",
         "charts.orange": "#FF6D12",
@@ -166,8 +167,8 @@
         "editorWidget.border": "#E1E4EB",
         "editorWidget.foreground": "#626264",
         "errorForeground": "#EC0000",
-        "extension.cssrem.trailingLineBackgroundColor": "#E3E6ED00",
-        "extension.cssrem.trailingLineForegroundColor": "#C8CACE",
+        "extension.cssrem.trailingLineBackgroundColor": "#E3E6ED00", //安装了px转rem的插件，这条才有效
+        "extension.cssrem.trailingLineForegroundColor": "#C8CACE", //安装了px转rem的插件，这条才有效
         "extensionButton.background": "#a6a7ae",
         "extensionButton.foreground": "#fff",
         "extensionButton.hoverBackground": "#0065ffa8",
