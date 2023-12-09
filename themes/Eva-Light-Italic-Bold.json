@@ -409,6 +409,7 @@
         "tab.unfocusedHoverBackground": "#0065FF33",
         "tab.unfocusedHoverBorder": "#0065FF00",
         "tab.unfocusedHoverForeground": "#5D5D5F",
+        "tab.unfocusedInactiveBackground": "#e1e4eb",
         "tab.unfocusedInactiveForeground": "#8E8E90",
         "tab.unfocusedInactiveModifiedBorder": "#7C4DFF",
         "terminal.ansiBlack": "#FAFAFA",

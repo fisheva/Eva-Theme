@@ -4,6 +4,7 @@
 
 ```UI
 button.separator: #ffffff66
+tab.unfocusedInactiveBackground: #21252b/#e1e4eb
 ```
 
 2.3.3 (2023-12-08)
