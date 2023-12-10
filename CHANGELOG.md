@@ -1,4 +1,4 @@
-2.3.4 ~ 2.3.7 (2023-12-10)
+2.3.4 ~ 2.3.8 (2023-12-10)
 
 * Add All UI
 
@@ -11,6 +11,7 @@ tab.unfocusedInactiveBackground: #21252b/#e1e4eb
 
 ```Syntax
 keyword.control.directive punctuation.definition.directive.c,keyword.control.directive punctuation.definition.directive.cpp: #A78CFA/#7C4DFF
+keyword.control.directive.conditional punctuation.definition.directive.cpp,keyword.control.directive.else punctuation.definition.directive.cpp,keyword.control.directive.endif punctuation.definition.directive.cpp, keyword.control.directive.conditional punctuation.definition.directive.c,keyword.control.directive.else punctuation.definition.directive.c,keyword.control.directive.endif punctuation.definition.directive.c: #CF68E1/#C838C6
 ```
 
 * Change All Bold Syntax
