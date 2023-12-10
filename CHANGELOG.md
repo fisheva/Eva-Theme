@@ -3,8 +3,34 @@
 * Add All UI
 
 ```UI
-button.separator: #ffffff66
+button.separator: #dcdfe566/#ffffff66
 tab.unfocusedInactiveBackground: #21252b/#e1e4eb
+```
+
+* Add All Syntax
+
+```Syntax
+entity.name.variable.preprocessor: #6495EE/#437AED
+```
+
+* Change All Bold Syntax
+
+```Syntax
+keyword.control.directive.include punctuation.definition.directive: normal → bold
+```
+
+* Change All italic Syntax
+
+```Syntax
+meta.preprocessor.cs punctuation.separator.hash.cs: italic → normal
+```
+
+* Delete All Syntax
+
+```Syntax
+meta.preprocessor.cs: #98C379/#53A053
+entity.name.variable.preprocessor.symbol,entity.name.function.preprocessor.c: #FF9070/#FF6D12
+entity.name.function.preprocessor: #B0B7C3/#5D5D5F
 ```
 
 2.3.3 (2023-12-08)
