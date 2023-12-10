@@ -525,7 +525,7 @@
         //#A78CFA bold
         {
             "name": "-> | $",
-            "scope": "keyword.operator.arrow.skinny,keyword.operator.interpolation,keyword.operator.borrow,meta.preprocessor.cs punctuation.separator.hash.cs,punctuation.definition.directive,",
+            "scope": "keyword.operator.arrow.skinny,keyword.operator.interpolation,keyword.operator.borrow,meta.preprocessor.cs punctuation.separator.hash.cs,punctuation.definition.directive,keyword.control.directive.c punctuation.definition.directive.c,keyword.control.directive.cpp punctuation.definition.directive.cpp,",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#A78CFA"

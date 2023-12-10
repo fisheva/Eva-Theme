@@ -1,10 +1,16 @@
-2.3.4 (2023-12-09)
+2.3.4 ~ 2.3.6 (2023-12-10)
 
 * Add All UI
 
 ```UI
 button.separator: #dcdfe566/#ffffff66
 tab.unfocusedInactiveBackground: #21252b/#e1e4eb
+```
+
+* Add ALL Syntax
+
+```Syntax
+keyword.control.directive.c punctuation.definition.directive.c,keyword.control.directive.cpp punctuation.definition.directive.cpp: #A78CFA/#7C4DFF
 ```
 
 * Change All Bold Syntax

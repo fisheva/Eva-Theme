@@ -16,6 +16,7 @@
         "*.nvue": "html",
         "*.json": "jsonc",
         "limits": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "ctime": "cpp"
     }
 }
