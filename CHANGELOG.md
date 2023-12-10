@@ -7,16 +7,10 @@ button.separator: #dcdfe566/#ffffff66
 tab.unfocusedInactiveBackground: #21252b/#e1e4eb
 ```
 
-* Add All Syntax
-
-```Syntax
-entity.name.variable.preprocessor: #6495EE/#437AED
-```
-
 * Change All Bold Syntax
 
 ```Syntax
-keyword.control.directive.include punctuation.definition.directive: normal → bold
+punctuation.definition.directive: normal → bold
 ```
 
 * Change All italic Syntax
