@@ -1,3 +1,14 @@
+2.3.9 （2023-12-11）
+
+* Add All UI
+
+```UI
+editor.inactiveSelectionBackground: #598def2d/#0065ff20
+editor.wordHighlightTextBackground: #0080997f/#00bec459
+editor.wordHighlightTextBorder: #00809900/#00bec400
+minimap.selectionOccurrenceHighlight: #676767/#c9c9c9
+```
+
 2.3.4 ~ 2.3.8 (2023-12-10)
 
 * Add All UI
