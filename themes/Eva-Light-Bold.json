@@ -58,6 +58,7 @@
         "debugToolBar.background": "#E1E4EB",
         "debugToolBar.border": "#E1E4EB",
         "descriptionForeground": "#626264BF",
+        "disabledForeground": "#61616180",
         "dropdown.background": "#F1F4FB",
         "dropdown.border": "#CED1D7",
         "dropdown.foreground": "#5D5D5F",
