@@ -1,12 +1,21 @@
-2.3.9 （2023-12-11）
+2.3.9 （2023-12-12）
 
 * Add All UI
 
 ```UI
+disabledForeground: #cccccc80/#61616180
 editor.inactiveSelectionBackground: #598def2d/#0065ff20
 editor.wordHighlightTextBackground: #0080997f/#00bec459
 editor.wordHighlightTextBorder: #00809900/#00bec400
-minimap.selectionOccurrenceHighlight: #676767/#c9c9c9
+editorOverviewRuler.wordHighlightTextForeground: #0080998C/#00bec466 //颜色取自editor.wordHighlightTextBackground同时不透明度提高5%
+minimap.selectionOccurrenceHighlight: #0080998C/#00bec466 //颜色取自editor.wordHighlightTextBackground同时不透明度提高5%
+```
+
+* Change All UI
+
+```UI
+editorOverviewRuler.selectionHighlightForeground: #008099BF/#00BEC4AD → #0080998C/#00bec466 //颜色取自editor.wordHighlightTextBackground同时不透明度提高5%
+editorOverviewRuler.wordHighlightForeground: #008099BF/#00BEC4AD → #0080998C/#00bec466 //颜色取自editor.wordHighlightTextBackground同时不透明度提高5%
 ```
 
 2.3.4 ~ 2.3.8 (2023-12-10)
