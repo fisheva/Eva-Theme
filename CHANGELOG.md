@@ -1,3 +1,11 @@
+2.4.0 (2023-12-13)
+
+* Change All UI
+
+```UI
+minimap.selectionOccurrenceHighlight: #0080998C/#00bec466 → #5759647F/#BEC1C87F
+```
+
 2.3.9 （2023-12-12）
 
 * Add All UI
