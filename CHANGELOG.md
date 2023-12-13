@@ -1,3 +1,13 @@
+2.4.1 (2023-12-13)
+
+* Change All UI
+
+```UI
+editorOverviewRuler.selectionHighlightForeground: #0080998C/#00bec466 → #008099BF/#00BEC4AD
+editorOverviewRuler.wordHighlightForeground: #0080998C/#00bec466 → #008099BF/#00BEC4AD
+editorOverviewRuler.wordHighlightTextForeground: #0080998C/#00bec466 → #008099BF/#00BEC4AD
+```
+
 2.4.0 (2023-12-13)
 
 * Change All UI
