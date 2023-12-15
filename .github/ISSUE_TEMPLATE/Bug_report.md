@@ -14,5 +14,5 @@ about: Report some code color or UI display error.
 
 ```
 
-## Supplement
+## Notes
 <!-- more description ? -->
