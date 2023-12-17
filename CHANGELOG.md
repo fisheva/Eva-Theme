@@ -1,3 +1,28 @@
+2.4.2 (2023-12-17)
+
+* Add All UI
+
+```UI
+diffEditor.insertedLineBackground: #4EC15021/#44C1453F
+diffEditor.removedLineBackground: #f14c4c21/#f14c4c3F
+diffEditor.unchangedCodeBackground: #282c34/#EBEEF5
+diffEditor.unchangedRegionBackground: #252931/#E4E7EE
+diffEditor.unchangedRegionForeground: #B0B7C3/#5d5d5f
+inputOption.hoverBackground: #4283F58F/#0065ff3f
+```
+
+* Change All UI
+
+```UI
+diffEditor.insertedTextBackground: #45B7464F/#45B74666 → #4EC1503F/#44C14559
+```
+
+* Change Dark UI
+
+```UI
+diffEditor.removedTextBackground: #f14c4c54 → #f14c4c4C
+```
+
 2.4.1 (2023-12-13)
 
 * Change All UI
