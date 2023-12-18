@@ -1,3 +1,24 @@
+2.4.3 （2023-12-18）
+
+* Change All UI
+
+```UI
+diffEditor.removedLineBackground: #f14c4c21/#f14c4c3F → #f14c4c33/#f14c4c33
+diffEditor.insertedLineBackground: #4EC15021/#44C1453F → #4EC15019/#44C14533
+```
+
+* Change Dark UI
+
+```UI
+diffEditor.insertedTextBackground: #4EC1503F → #4EC15033
+```
+
+* Change Light UI
+
+```UI
+diffEditor.removedTextBackground: #f14c4c4C → #f14c4c3F
+```
+
 2.4.2 (2023-12-17)
 
 * Add All UI
