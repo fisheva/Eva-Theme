@@ -1,18 +1,9 @@
-2.4.4 (2023-12-18)
-
-* Change Light UI
-
-```UI
-diffEditor.removedLineBackground: #f14c4c33 → #f14c4c21
-diffEditor.removedTextBackground: #f14c4c3F → #f14c4c33
-```
-
-2.4.3 （2023-12-18）
+2.4.3~2.4.5 （2023-12-18）
 
 * Change All UI
 
 ```UI
-diffEditor.removedLineBackground: #f14c4c21/#f14c4c3F → #f14c4c33/#f14c4c33
+diffEditor.removedLineBackground: #f14c4c21/#f14c4c3F → #f14c4c33/#f14c4c21
 diffEditor.insertedLineBackground: #4EC15021/#44C1453F → #4EC15019/#44C14533
 ```
 
@@ -25,7 +16,7 @@ diffEditor.insertedTextBackground: #4EC1503F → #4EC15033
 * Change Light UI
 
 ```UI
-diffEditor.removedTextBackground: #f14c4c4C → #f14c4c3F
+diffEditor.removedTextBackground: #f14c4c4C → #f14c4c33
 ```
 
 2.4.2 (2023-12-17)
