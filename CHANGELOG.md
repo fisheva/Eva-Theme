@@ -1770,6 +1770,36 @@ terminal.ansiBlue: #0065FF → #598DEF
 terminal.ansiYellow: #F8F900 → #EFED68
 ```
 
+<!-- <div align=center>
+  <table>
+      <tr>
+        <th colspan=8><h3 align=center>Backers</h3></th>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+        <td>January</td>
+      </tr>
+  </table>
+</div> -->
+
 0.9.5 (2020-09-16)
 
 * Renewal All UI
@@ -1810,6 +1840,27 @@ terminal.ansiGreen: #98C379/#53A053
 terminal.ansiMagenta: #F8F900
 terminal.ansiWhite: #676E95/#A9A9AA
 ```
+* Delete README.md
+
+<!-- Eva Theme's ongoing development is inseparable from the support of all generous supporters. If you'd like to join them, please consider: -->
+
+<!-- ### Conflicts
+
+Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are [Babel JavasScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). -->
+
+<!-- ### Encourage
+
+If you do like this theme, would you please give me a [Github Star ☆](https://github.com/fisheva/Eva-Theme) and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) as reward. Thanks so much! O(∩_∩)O~ -->
+
+* Delete README_CN.md
+
+<!-- ### 冲突
+
+有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有[Babel JavasScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) -->
+
+<!-- ### 鼓励
+
+如果您喜欢这款主题, 可以给我一颗[Github Star ☆](https://github.com/fisheva/Eva-Theme)和[好评](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme)以示鼓励吗? 感谢! O(∩_∩)O~ -->
 
 0.9.2 (2020-09-10)
 
@@ -1840,57 +1891,8 @@ terminal.ansiWhite: #676E95/#A9A9AA
 string.quoted source: #98C379/#53A053
 ```
 
-<!-- <div align=center>
-  <table>
-      <tr>
-        <th colspan=8><h3 align=center>Backers</h3></th>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-      </tr>
-  </table>
-</div> -->
 
-* Delete README.md
 
-<!-- Eva Theme's ongoing development is inseparable from the support of all generous supporters. If you'd like to join them, please consider: -->
-
-<!-- ### Conflicts
-
-Some extensions add some of their own semantic coloring to cover the theme file, thereby changing the color of some characters. You can disable this feature by turning off 'C_Cpp.enhancedColorization' in the settings. Currently found such extensions are [Babel JavasScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). -->
-
-<!-- ### Encourage
-
-If you do like this theme, would you please give me a [Github Star ☆](https://github.com/fisheva/Eva-Theme) and [Nice Rating](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) as reward. Thanks so much! O(∩_∩)O~ -->
-
-* Delete README_CN.md
-
-<!-- ### 冲突
-
-有些插件添加了一些其自身的语义化着色覆盖在主题文件之上, 从而改变了某些字符的颜色。您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。目前发现的这类插件有[Babel JavasScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel), [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode), [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar), [MS-C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) -->
-
-<!-- ### 鼓励
-
-如果您喜欢这款主题, 可以给我一颗[Github Star ☆](https://github.com/fisheva/Eva-Theme)和[好评](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme)以示鼓励吗? 感谢! O(∩_∩)O~ -->
 
 0.9.1 (2020-09-06)
 
