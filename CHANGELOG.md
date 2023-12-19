@@ -1,3 +1,46 @@
+2.4.6 (2023-12-20)
+
+* Add All UI
+
+```UI
+mergeEditor.conflictingLines.background: #f14c4c33/#f14c4c21
+```
+
+* Change All UI
+
+```UI
+mergeEditor.conflict.handledFocused.border: #e51400/#EC0000 → #4480F4/#4480F4
+mergeEditor.conflict.handledUnfocused.border: #e51400/#EC0000 → #40AD41/#44C145
+mergeEditor.conflict.handled.minimapOverViewRuler: #e51400/#EC0000 → #40AD41/#44C145
+mergeEditor.conflict.unhandled.minimapOverViewRuler: #e51400/#EC0000 → #FF8A4C/#FC8357
+mergeEditor.conflict.unhandledFocused.border: #e51400/#EC0000 → #4480F4/#4480F4
+mergeEditor.conflict.unhandledUnfocused.border: #e51400/#EC0000 → #FF8A4C/#FC8357
+mergeEditor.change.background: #45B7461A/#45B7462E → #4EC15019/#44C14533
+mergeEditor.change.word.background: #45B7464D/#45B74666 → #4EC15033/#44C14559
+```
+
+<!-- * Change Light UI
+
+```UI
+editorGutter.modifiedBackground: #9277E6 → #7C4DEF
+editorOverviewRuler.modifiedForeground: #9277E6 → #7C4DEF
+minimapGutter.modifiedBackground: #9277E6 → #7C4DEF
+``` -->
+
+* Add All Syntax
+
+```Syntax
+entity.name.type.parameter: #FF6AB3/#EF8ED8
+source.cs keyword.operator.expression,source.cs storage.type: #A78CFA/#7C4DEF
+source.cs storage.type.accessor: #E06C75/#CD6069
+```
+
+<!-- * Change Light Syntax
+
+```Syntax
+meta.diff.range.unified,meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff: #9277E6 → #7C4DEF
+``` -->
+
 2.4.3~2.4.5 （2023-12-18）
 
 * Change All UI
@@ -1890,9 +1933,6 @@ If you do like this theme, would you please give me a [Github Star ☆](https://
 ```Syntax
 string.quoted source: #98C379/#53A053
 ```
-
-
-
 
 0.9.1 (2020-09-06)
 
