@@ -112,7 +112,7 @@
         "editorBracketPairGuide.activeBackground4": "#FF6D12cc",
         "editorBracketPairGuide.activeBackground5": "#C838C6cc",
         "editorBracketPairGuide.activeBackground6": "#437AEDcc",
-        "editorCodeLens.foreground": "#BDBDBE",
+        "editorCodeLens.foreground": "#8E8E90",
         "editorCursor.background": "#FFFFFF",
         "editorCursor.foreground": "#FC8357",
         "editorError.foreground": "#EC0000",
@@ -252,10 +252,10 @@
         "menubar.selectionBorder": "#0065FF00",
         "menubar.selectionForeground": "#fff",
         "merge.border": "#CED1D7",
-        "merge.currentHeaderBackground": "#0065FF33",
-        "merge.currentContentBackground": "#0065FF33",
-        "merge.incomingHeaderBackground": "#45B7464C",
-        "merge.incomingContentBackground": "#45B7464C",
+        "merge.currentHeaderBackground": "#0065FF30",
+        "merge.currentContentBackground": "#0065FF30",
+        "merge.incomingHeaderBackground": "#44C1454C",
+        "merge.incomingContentBackground": "#44C1454C",
         "mergeEditor.conflict.handledFocused.border": "#4480F4", //focusBorder
         "mergeEditor.conflict.handledUnfocused.border": "#44C145",
         "mergeEditor.conflict.handled.minimapOverViewRuler": "#44C145", //editorOverviewRuler.addedForeground

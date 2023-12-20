@@ -1,3 +1,21 @@
+2.4.7 (2023-12-20)
+
+* Change All UI
+
+```UI
+editorCodeLens.foreground: #50567C/#BDBDBE → #8E99B1/#8E8E90
+merge.currentHeaderBackground: #598DEF59/#0065FF33 → #598DEF33/#0065FF30
+merge.currentContentBackground: #598DEF59/#0065FF33 → #598DEF33/#0065FF30
+merge.incomingHeaderBackground: #45B7463F/#45B7464C → #4EC15033/#44C1454C
+merge.incomingContentBackground: #45B7463F/#45B7464C → #4EC15033/#44C1454C
+```
+
+* Change Dark UI
+
+```UI
+gitlens.trailingLineForegroundColor: #585D68 → #50567C
+```
+
 2.4.6 (2023-12-20)
 
 * Add All UI
