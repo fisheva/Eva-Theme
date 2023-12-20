@@ -1019,7 +1019,7 @@
         },
         {
             "name": "cs.regular-keywords",
-            "scope":"storage.type.delegate.cs,storage.type.operator.cs,keyword.operator.expression.unchecked.cs,keyword.operator.expression.checked.cs,keyword.operator.expression.await.cs,variable.language.base.cs,storage.type.record.cs,storage.type.record.cs,storage.type.event.cs,storage.type.accessor.get.cs,storage.type.accessor.set.cs,storage.type.accessor.init.cs,storage.type.var.cs",
+            "scope":"storage.type.delegate.cs,keyword.operator.expression.default.cs,storage.type.operator.cs,keyword.operator.expression.unchecked.cs,keyword.operator.expression.checked.cs,keyword.operator.expression.await.cs,variable.language.base.cs,storage.type.record.cs,storage.type.record.cs,storage.type.event.cs,storage.type.accessor.get.cs,storage.type.accessor.set.cs,storage.type.accessor.init.cs,storage.type.var.cs",
             "settings": {
                 "foreground": "#7C4DFF",
                 "fontStyle": "bold"
