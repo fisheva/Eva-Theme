@@ -1,3 +1,17 @@
+2.4.8 (2023-12-21)
+
+* Change All UI
+
+```UI
+editorCodeLens.foreground: #8E99B1/#8E8E90 → #676E95/#A9A9AA
+```
+
+* Add All Syntax
+
+```Syntax
+keyword.other.base: #6495EE/#437AED
+```
+
 2.4.7 (2023-12-20)
 
 * Change All UI

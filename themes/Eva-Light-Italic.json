@@ -112,7 +112,7 @@
         "editorBracketPairGuide.activeBackground4": "#FF6D12cc",
         "editorBracketPairGuide.activeBackground5": "#C838C6cc",
         "editorBracketPairGuide.activeBackground6": "#437AEDcc",
-        "editorCodeLens.foreground": "#8E8E90",
+        "editorCodeLens.foreground": "#A9A9AA",
         "editorCursor.background": "#FFFFFF",
         "editorCursor.foreground": "#FC8357",
         "editorError.foreground": "#EC0000",
