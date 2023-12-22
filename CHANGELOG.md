@@ -1,5 +1,16 @@
 2.4.9 (2023-12-22)
 
+* Add All UI
+
+```UI
+keybindingLabel.background: #8080802b/#dddddd66
+keybindingLabel.border: #33333399/#cccccc66
+keybindingLabel.bottomBorder: #44444499/#dddddd66
+keybindingLabel.foreground: #B0B7C3/#5D5D5F
+keybindingTable.headerBackground: #21252B/#E1E4EB
+keybindingTable.rowsBackground: #21252B/#E1E4EB
+```
+
 * Add All Syntax
 
 ```Syntax
