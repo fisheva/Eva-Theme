@@ -1,3 +1,20 @@
+2.4.9 (2023-12-22)
+
+* Add All Syntax
+
+```Syntax
+keyword.other.base: #F02B77/#FA278E
+keyword.query,keyword.other.is: #CF68E1/#C838C6
+keyword.other.get,keyword.other.get,keyword.other.init,keyword.other.set,keyword.other.nameof,entity.name.type.delegate.cs,keyword.other.keyof,keyword.operator.expression.keyof: #6495EE/#437AED
+```
+
+* Change All Syntax
+
+```Syntax
+keyword.other.where: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
+keyword.control.as: #A78CFA/#7C4DFF → #CF68E1/#C838C6
+```
+
 2.4.8 (2023-12-21)
 
 * Change All UI
