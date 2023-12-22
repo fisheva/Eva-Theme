@@ -1,4 +1,4 @@
-2.4.8 (2023-12-22)
+2.4.8~2.4.9 (2023-12-22)
 
 * Add All UI
 
@@ -21,11 +21,10 @@ editorCodeLens.foreground: #8E99B1/#8E8E90 → #676E95/#A9A9AA
 * Add All Syntax
 
 ```Syntax
-variable.language.discard: #8A97C3/#888888
 keyword.operator.expression.typeof: #FF6AB3/#EF8ED8
 keyword.other.base,variable.language.base: #F02B77/#FA278E
-keyword.operator.range.cs,punctuation.separator.asterisk: #56B7C3/#00BEC4
 entity.name.type.enum,entity.name.variable.tuple-element: #B0B7C3/#5D5D5F
+keyword.operator.range.cs,punctuation.separator.asterisk,variable.language.discard: #56B7C3/#00BEC4
 keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query: #CF68E1/#C838C6
 storage.type.delegate,storage.type.operator.cs,keyword.operator.expression.unchecked,keyword.operator.expression.checked,keyword.operator.expression.await,storage.type.record,storage.type.event,storage.type.var,keyword.operator.expression.new,keyword.operator.expression.stackalloc: #A78CFA/#7C4DFF
 keyword.other.get,keyword.other.init,keyword.other.set,keyword.other.nameof,entity.name.type.delegate.cs,keyword.other.keyof,keyword.operator.expression.keyof,storage.type.accessor.get,storage.type.accessor.set,storage.type.accessor.init,keyword.operator.expression.nameof,keyword.operator.expression.sizeof,keyword.operator.expression.default: #6495EE/#437AED
@@ -36,6 +35,12 @@ keyword.other.get,keyword.other.init,keyword.other.set,keyword.other.nameof,enti
 ```Syntax
 keyword.other.where: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
 keyword.control.as: #A78CFA/#7C4DFF → #CF68E1/#C838C6
+```
+
+* Delete All Syntax
+
+```Syntax
+entity.name.type.js: #56B7C3/#00BEC4
 ```
 
 <!-- * Change Light UI
