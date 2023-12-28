@@ -1,3 +1,9 @@
+* Add All Syntax
+
+```Syntax
+keyword.operator.expression.as.cs,keyword.operator.expression.with.cs,storage.modifier.where: #CF68E1/#C838C6
+```
+
 2.4.8~2.4.9 (2023-12-22)
 
 * Add All UI
