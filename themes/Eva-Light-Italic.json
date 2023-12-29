@@ -600,7 +600,7 @@
         //#00BEC4 italic
         {
             "name": "Attributes | pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child() | Classes | ",
-            "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name,entity.name.tag.custom.scss,storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css,keyword.operator.gradient.css,entity.name.type,keyword.operator.expression,entity.other.inherited-class,entity.name.type.class,support.class,entity.name.type.interface,support.class.dart,entity.name.scope-resolution,",
+            "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name,entity.name.tag.custom.scss,storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css,keyword.operator.gradient.css,entity.name.type,keyword.operator.expression,entity.other.inherited-class,entity.name.type.class,support.class,entity.name.type.interface,support.class.dart,entity.name.scope-resolution,entity.name.type.ts",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#00BEC4"
