@@ -1,32 +1,22 @@
-2.4.9 (2023-12-22)
+* Add All Syntax
+
+```Syntax
+keyword.operator.expression.as.cs,keyword.operator.expression.with.cs,storage.modifier.where: #CF68E1/#C838C6
+```
+
+2.4.8~2.4.9 (2023-12-22)
 
 * Add All UI
 
 ```UI
 keybindingLabel.background: #8080802b/#dddddd66
 keybindingLabel.border: #33333399/#cccccc66
-keybindingLabel.bottomBorder: #44444499/#dddddd66
-keybindingLabel.foreground: #B0B7C3/#5D5D5F
+keybindingLabel.bottomBorder: #44444499/#bbbbbb66
+keybindingLabel.foreground: #d7dae0/#5D5D5F
 keybindingTable.headerBackground: #21252B/#E1E4EB
 keybindingTable.rowsBackground: #21252B/#E1E4EB
+tree.tableColumnsBorder: #454963/#CED1D7
 ```
-
-* Add All Syntax
-
-```Syntax
-keyword.other.base: #F02B77/#FA278E
-keyword.query,keyword.other.is: #CF68E1/#C838C6
-keyword.other.get,keyword.other.get,keyword.other.init,keyword.other.set,keyword.other.nameof,entity.name.type.delegate.cs,keyword.other.keyof,keyword.operator.expression.keyof: #6495EE/#437AED
-```
-
-* Change All Syntax
-
-```Syntax
-keyword.other.where: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
-keyword.control.as: #A78CFA/#7C4DFF → #CF68E1/#C838C6
-```
-
-2.4.8 (2023-12-21)
 
 * Change All UI
 
@@ -37,8 +27,41 @@ editorCodeLens.foreground: #8E99B1/#8E8E90 → #676E95/#A9A9AA
 * Add All Syntax
 
 ```Syntax
-keyword.other.base: #6495EE/#437AED
+keyword.operator.expression.typeof: #FF6AB3/#EF8ED8
+keyword.other.base,variable.language.base: #F02B77/#FA278E
+entity.name.type.enum,entity.name.variable.tuple-element: #B0B7C3/#5D5D5F
+keyword.operator.range.cs,punctuation.separator.asterisk,variable.language.discard: #56B7C3/#00BEC4
+keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query: #CF68E1/#C838C6
+storage.type.delegate,storage.type.operator.cs,keyword.operator.expression.unchecked,keyword.operator.expression.checked,keyword.operator.expression.await,storage.type.record,storage.type.event,storage.type.var,keyword.operator.expression.new,keyword.operator.expression.stackalloc: #A78CFA/#7C4DFF
+keyword.other.get,keyword.other.init,keyword.other.set,keyword.other.nameof,entity.name.type.delegate.cs,keyword.other.keyof,keyword.operator.expression.keyof,storage.type.accessor.get,storage.type.accessor.set,storage.type.accessor.init,keyword.operator.expression.nameof,keyword.operator.expression.sizeof,keyword.operator.expression.default: #6495EE/#437AED
 ```
+
+* Change All Syntax
+
+```Syntax
+keyword.other.where: #CF68E1/#C838C6 → #A78CFA/#7C4DFF
+keyword.control.as: #A78CFA/#7C4DFF → #CF68E1/#C838C6
+```
+
+* Delete All Syntax
+
+```Syntax
+entity.name.type.js: #56B7C3/#00BEC4
+```
+
+<!-- * Change Light UI
+
+```UI
+editorGutter.modifiedBackground: #9277E6 → #7C4DEF
+editorOverviewRuler.modifiedForeground: #9277E6 → #7C4DEF
+minimapGutter.modifiedBackground: #9277E6 → #7C4DEF
+```
+
+* Change Light Syntax
+
+```Syntax
+meta.diff.range.unified,meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff: #9277E6 → #7C4DEF
+``` -->
 
 2.4.7 (2023-12-20)
 
@@ -79,13 +102,6 @@ mergeEditor.change.background: #45B7461A/#45B7462E → #4EC15019/#44C14533
 mergeEditor.change.word.background: #45B7464D/#45B74666 → #4EC15033/#44C14559
 ```
 
-<!-- * Change Light UI
-
-```UI
-editorGutter.modifiedBackground: #9277E6 → #7C4DEF
-editorOverviewRuler.modifiedForeground: #9277E6 → #7C4DEF
-minimapGutter.modifiedBackground: #9277E6 → #7C4DEF
-``` -->
 
 * Add All Syntax
 
@@ -94,12 +110,6 @@ entity.name.type.parameter: #FF6AB3/#EF8ED8
 source.cs keyword.operator.expression,source.cs storage.type: #A78CFA/#7C4DEF
 source.cs storage.type.accessor: #E06C75/#CD6069
 ```
-
-<!-- * Change Light Syntax
-
-```Syntax
-meta.diff.range.unified,meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff: #9277E6 → #7C4DEF
-``` -->
 
 2.4.3~2.4.5 （2023-12-18）
 
