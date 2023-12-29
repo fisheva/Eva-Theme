@@ -137,7 +137,7 @@
         "editorIndentGuide.background1": "#454963",
         "editorInfo.foreground": "#4480F4",
         "editorInlayHint.foreground": "#8A97C3",
-        "editorLightBulb.foreground":"#E4BF7F",
+        "editorLightBulb.foreground": "#E4BF7F",
         "editorLineNumber.foreground": "#535773",
         "editorLineNumber.activeForeground": "#9DA5B3",
         "editorLink.activeForeground": "#D365E5",
@@ -149,11 +149,11 @@
         "editorOverviewRuler.background": "#282c34",
         "editorOverviewRuler.border": "#5F668B00",
         "editorOverviewRuler.bracketMatchForeground": "#FF90707F",
-        "editorOverviewRuler.currentContentForeground": "#598DEF59",
+        "editorOverviewRuler.currentContentForeground": "#598DEF",
         "editorOverviewRuler.deletedForeground": "#f14c4c",
         "editorOverviewRuler.errorForeground": "#E51400",
         "editorOverviewRuler.findMatchForeground": "#EEF3FF7F",
-        "editorOverviewRuler.incomingContentForeground": "#45B7463F",
+        "editorOverviewRuler.incomingContentForeground": "#45B746",
         "editorOverviewRuler.infoForeground": "#4480F4",
         "editorOverviewRuler.modifiedForeground": "#A78CFA",
         "editorOverviewRuler.rangeHighlightForeground": "#2D3039",
@@ -180,15 +180,16 @@
         "extensionButton.background": "#4b516a",
         "extensionButton.foreground": "#DCDFE5",
         "extensionButton.hoverBackground": "#598DEFE6",
-        "extensionBadge.remoteBackground":"#56B7C3",
-        "extensionBadge.remoteForeground":"#ffffff",
+        "extensionBadge.remoteBackground": "#56B7C3",
+        "extensionBadge.remoteForeground": "#ffffff",
         "extensionButton.prominentForeground": "#fff",
         "extensionButton.prominentBackground": "#499149",
-        "extensionButton.prominentHoverBackground": "#598DEFE6",/*377337深绿色*/
+        "extensionButton.prominentHoverBackground": "#598DEFE6", /*377337深绿色*/
         "extensionButton.separator": "#DCDFE5",
-        "extensionIcon.preReleaseForeground":"#56B7C3", //#7BBE54
-        "extensionIcon.sponsorForeground":"#F02B77",
+        "extensionIcon.preReleaseForeground": "#56B7C3", //#7BBE54
+        "extensionIcon.sponsorForeground": "#F02B77",
         "extensionIcon.starForeground": "#FF8A4C",
+        "extensionIcon.verifiedForeground": "#4283f5",
         "focusBorder": "#4480F4",
         "foreground": "#B0B7C3",
         "gitDecoration.addedResourceForeground": "#98C379",
@@ -196,7 +197,7 @@
         "gitDecoration.deletedResourceForeground": "#F14C4C",
         "gitDecoration.ignoredResourceForeground": "#676E95",
         "gitDecoration.modifiedResourceForeground": "#A78CFA",
-        "gitDecoration.renamedResourceForeground": "#E4BF7F",/*518DFF蓝色*/
+        "gitDecoration.renamedResourceForeground": "#E4BF7F", /*518DFF蓝色*/
         "gitDecoration.submoduleResourceForeground": "#FF6AB3",
         "gitDecoration.stageDeletedResourceForeground": "#E06C75",
         "gitDecoration.stageModifiedResourceForeground": "#D365E5",
@@ -274,6 +275,7 @@
         "minimap.background": "#282c34",
         "minimap.errorHighlight": "#E514007F",
         "minimap.findMatchHighlight": "#D0D5E17F",
+        "minimap.foregroundOpacity": "#000000",
         "minimap.selectionHighlight": "#5F97FFF2",
         "minimap.selectionOccurrenceHighlight": "#5759647F",
         "minimap.warningHighlight": "#FF8A4C7F",
@@ -294,13 +296,14 @@
         "panel.background": "#282c34",
         "panel.border": "#21252B",
         "panel.dropBorder": "#4480F4",
+        "panelInput.border": "#21252b",
+        "panelSection.border": "#21252B",
+        "panelSection.dropBackground": "#598DEF4C",
+        "panelSectionHeader.background": "#21252B",
+        "panelSectionHeader.foreground": "#B0B7C3",
         "panelTitle.activeForeground": "#B0B7C3",
         "panelTitle.activeBorder": "#B0B7C3",
         "panelTitle.inactiveForeground": "#676E95",
-        "panelSectionHeader.background": "#21252B",
-        "panelSectionHeader.foreground": "#B0B7C3",
-        "panelSection.border": "#21252B",
-        "panelSection.dropBackground": "#598DEF4C",
         "peekView.border": "#535773",
         "peekViewEditor.background": "#2D3039",
         "peekViewEditor.matchHighlightBackground": "#598DEF33",
@@ -325,6 +328,7 @@
         "progressBar.background": "#4283F5",
         "quickInput.background": "#21252B",
         "quickInput.foreground": "#B0B7C3",
+        "quickInputList.focusForeground": "#d7dae0",
         "quickInputList.focusBackground": "#598DEF3F",
         "quickInputTitle.background": "#21252B",
         "sash.hoverBorder": "#598DEF",
@@ -376,36 +380,36 @@
         "statusBarItem.remoteForeground": "#ffffff",
         "statusBarItem.warningBackground": "#21252B",
         "statusBarItem.warningForeground": "#ff8a4c",
-        "symbolIcon.arrayForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.arrayForeground": "#B0B7C3", //颜色同变量
         "symbolIcon.booleanForeground": "#CF68E1",
         "symbolIcon.classForeground": "#56B7C3",
         "symbolIcon.constantForeground": "#FF9070",
         "symbolIcon.constructorForeground": "#6495EE",
         "symbolIcon.enumeratorMemberForeground": "#FF9070",
         "symbolIcon.eventForeground": "#6495EE",
-        "symbolIcon.fieldForeground": "#E06C75",//颜色同tag
-        "symbolIcon.fileForeground": "#8E99B1",//颜色同sideBar.foreground
-        "symbolIcon.folderForeground": "#9DA5B3",//颜色同sideBarSectionHeader.foreground
+        "symbolIcon.fieldForeground": "#E06C75", //颜色同tag
+        "symbolIcon.fileForeground": "#8E99B1", //颜色同sideBar.foreground
+        "symbolIcon.folderForeground": "#9DA5B3", //颜色同sideBarSectionHeader.foreground
         "symbolIcon.functionForeground": "#6495EE",
         "symbolIcon.interfaceForeground": "#56B7C3",
-        "symbolIcon.keyForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.keyForeground": "#B0B7C3", //颜色同变量
         "symbolIcon.keywordForeground": "#A78CFA",
         "symbolIcon.methodForeground": "#6495EE",
         "symbolIcon.moduleForeground": "#E06C75",
         "symbolIcon.namespaceForeground": "#E06C75",
         "symbolIcon.nullForeground": "#CF68E1",
         "symbolIcon.numberForeground": "#FF9070",
-        "symbolIcon.objectForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.objectForeground": "#B0B7C3", //颜色同变量
         "symbolIcon.operatorForeground": "#56B7C3",
         "symbolIcon.packageForeground": "#E06C75",
-        "symbolIcon.propertyForeground": "#8A97C3",//这条既包含css属性，也包含对象属性
-        "symbolIcon.snippetForeground": "#A78CFA",//颜色同keyword
+        "symbolIcon.propertyForeground": "#8A97C3", //这条既包含css属性，也包含对象属性
+        "symbolIcon.snippetForeground": "#A78CFA", //颜色同keyword
         "symbolIcon.stringForeground": "#98c379",
         "symbolIcon.structForeground": "#56B7C3",
-        "symbolIcon.textForeground": "#676E95",//颜色同注释
-        "symbolIcon.typeParameterForeground": "#FF6AB3",//颜色同数据类型
+        "symbolIcon.textForeground": "#676E95", //颜色同注释
+        "symbolIcon.typeParameterForeground": "#FF6AB3", //颜色同数据类型
         "symbolIcon.unitForeground": "#FF9070",
-        "symbolIcon.variableForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.variableForeground": "#B0B7C3", //颜色同变量
         "tab.activeBackground": "#282c34",
         "tab.activeBorder": "#282c3400",
         "tab.activeBorderTop": "#282c3400",
@@ -530,7 +534,6 @@
         //#FF8A4C normal #FF6D12
         //#E51400 normal #EC0000
         //#E51400 bold
-
         //#A78CFA bold (In italic Bold : #A78CFA italic bold)
         {
             "name": "new | CSS from to,js from | Keyword | js module | ",
@@ -705,7 +708,7 @@
         //#CF68E1 bold (In Italic : #CF68E1 Italic)
         {
             "name": "instanceof | Keyword Control,Using | Constant | 语言常量,包含 true false null undefined等 |  void | loop | ",
-            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.is.ts,",
+            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.as,keyword.operator.expression.with,storage.modifier.where,keyword.operator.expression.is.ts,",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#CF68E1"
@@ -804,7 +807,7 @@
         //#8A97C3 normal (In Italic : #8A97C3 Italic)
         {
             "name": "css Support type;css less sass属性名 如果不填就与support.type同色 | Tex: text | ",
-            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,meta.function.environment.frame.latex,meta.tag meta.attribute entity.name.label,",
+            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,meta.function.environment.frame.latex,meta.tag meta.attribute entity.name.label,meta.property-value.css support.type.property-name.media.css,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#8A97C3"
