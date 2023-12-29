@@ -1,7 +1,26 @@
+2.5.0 (2023-12-25)
+
+* Add All UI
+
+```UI
+extensionIcon.verifiedForeground: #4283f5/#4d91f8
+minimap.foregroundOpacity: #000000/#ffffff
+panelInput.border: #21252b/#dddddd
+quickInputList.focusForeground: #d7dae0/#5D5D5F
+```
+
+* Change All UI
+
+```UI
+editorOverviewRuler.currentContentForeground: #598DEF59/#0065FF33 → #598DEF/#598DEF
+editorOverviewRuler.incomingContentForeground: #45B7463F/#45B7464C → #45B746/#45B746
+```
+
 * Add All Syntax
 
 ```Syntax
-keyword.operator.expression.as.cs,keyword.operator.expression.with.cs,storage.modifier.where: #CF68E1/#C838C6
+keyword.operator.expression.as,keyword.operator.expression.with,storage.modifier.where: #CF68E1/#C838C6
+meta.property-value.css support.type.property-name.media.css: #8A97C3/#888888
 ```
 
 2.4.8~2.4.9 (2023-12-22)
@@ -499,7 +518,7 @@ diffEditor.insertedTextBackground: #45B7463F/#45B7464C → #45B7464F/#45B74666,
 diffEditor.removedTextBackground: #f14c4c21/#f14c4c3F → #f14c4c54/#f14c4c4C,
 ```
 
-2.1.1~2.1.2 (2023-06-19~2023-06-20)
+2.1.1 (2023-06-19)
 
 * Add All UI
 
@@ -522,7 +541,7 @@ markup.inserted.diff: #40AD41/#44C145
 markup.deleted.diff: #F14C4C/#f14c4c
 ```
 
-2.0.7~2.1.0 (2023-06-02~2023-06-16)
+2.0.7~2.1.0 (2023-06-16)
 
 * **Add many italic Syntax**
 
@@ -639,9 +658,9 @@ statusBarItem.errorForeground: #ffffff/#ffffff → #e51400/#ec0000
 
 1.9.2 (2022-12-03)
 
-* Add All Semantic Textmate
+* Add All Syntax
 
-```Semantic Textmate
+```Syntax
 keyword.cs: #A78CFA/#7C4DFF
 ```
 
@@ -1646,8 +1665,6 @@ Italic all (function names,HTML className, CSS property & value) into italic sty
 keyword.other.debugger: #e51400
 ```
 
-'printf(hello, world);' 是非常著名的一段代码
-
 1.1.5(2021-03-25)
 
 * Add All UI
@@ -1882,36 +1899,6 @@ terminal.ansiRed: #f14c4c → #e51400
 terminal.ansiBlue: #0065FF → #598DEF
 terminal.ansiYellow: #F8F900 → #EFED68
 ```
-
-<!-- <div align=center>
-  <table>
-      <tr>
-        <th colspan=8><h3 align=center>Backers</h3></th>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-      </tr>
-      <tr></tr>
-      <tr>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-        <td>January</td>
-      </tr>
-  </table>
-</div> -->
 
 0.9.5 (2020-09-16)
 

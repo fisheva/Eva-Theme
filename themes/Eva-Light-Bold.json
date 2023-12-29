@@ -149,7 +149,7 @@
         "editorOverviewRuler.background": "#EBEEF5",
         "editorOverviewRuler.border": "#B3B3B400",
         "editorOverviewRuler.bracketMatchForeground": "#FC835762",
-        "editorOverviewRuler.currentContentForeground": "#0065FF33",
+        "editorOverviewRuler.currentContentForeground": "#598DEF",
         "editorOverviewRuler.deletedForeground": "#F14C4C",
         "editorOverviewRuler.errorForeground": "#EC0000",
         "editorOverviewRuler.findMatchForeground": "#BEC1C8",
@@ -189,6 +189,7 @@
         "extensionIcon.preReleaseForeground":"#00BEC4",
         "extensionIcon.sponsorForeground":"#FA278E",
         "extensionIcon.starForeground": "#FF6D12",
+        "extensionIcon.verifiedForeground": "#4d91f8",
         "focusBorder": "#4480F4",
         "foreground": "#626264",
         "gitDecoration.addedResourceForeground": "#83C654",
@@ -274,6 +275,7 @@
         "minimap.background": "#EBEEF5",
         "minimap.errorHighlight": "#EC00007F",
         "minimap.findMatchHighlight": "#7D80877F",
+        "minimap.foregroundOpacity": "#ffffff",
         "minimap.selectionHighlight": "#5F97FFF2",
         "minimap.selectionOccurrenceHighlight": "#BEC1C87F",
         "minimap.warningHighlight": "#FC835799",
@@ -294,13 +296,14 @@
         "panel.background": "#EBEEF5",
         "panel.border": "#E1E4EB",
         "panel.dropBorder": "#4480F4",
+        "panelInput.border": "#dddddd",
+        "panelSection.border": "#E1E4EB",
+        "panelSection.dropBackground": "#0065FF21",
+        "panelSectionHeader.background": "#E1E4EB",
+        "panelSectionHeader.foreground": "#5d5d5f",
         "panelTitle.activeForeground": "#5D5D5F",
         "panelTitle.activeBorder": "#5D5D5F",
         "panelTitle.inactiveForeground": "#A9A9AA",
-        "panelSectionHeader.background": "#E1E4EB",
-        "panelSectionHeader.foreground": "#5d5d5f",
-        "panelSection.border": "#E1E4EB",
-        "panelSection.dropBackground": "#0065FF21",
         "peekView.border": "#BDBDBED8",
         "peekViewEditor.background": "#E5E8EF",
         "peekViewEditor.matchHighlightBackground": "#0065FF19",
@@ -325,6 +328,7 @@
         "progressBar.background": "#4d91f8",
         "quickInput.background": "#E1E4EB",
         "quickInput.foreground": "#626264",
+        "quickInputList.focusForeground": "#5D5D5F",
         "quickInputList.focusBackground": "#0065FF19",
         "quickInputTitle.background": "#E1E4EB",
         "sash.hoverBorder": "#5e9cfb",
@@ -705,7 +709,7 @@
         //#C838C6 bold (In Italic : #C838C6 Italic)
         {
             "name": "instanceof | Keyword Control,Using | Constant | 语言常量,包含 true false null undefined等 |  void | loop | ",
-            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.as.cs,keyword.operator.expression.with.cs,storage.modifier.where,",
+            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.as,keyword.operator.expression.with,storage.modifier.where,",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#C838C6"
@@ -804,7 +808,7 @@
         //#888888 normal (In Italic : #888888 Italic)
         {
             "name": "css Support type;css less sass属性名 如果不填就与support.type同色 | Tex: text | ",
-            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,meta.function.environment.frame.latex,meta.tag meta.attribute entity.name.label,",
+            "scope": "support.type.property-name.css,support.type.vendored.property-name.css,meta.at-rule.each.scss support.constant.property-value.css,source.css.scss,meta.text.normal.tex,meta.function.environment.frame.latex,meta.tag meta.attribute entity.name.label,meta.property-value.css support.type.property-name.media.css,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#888888"
