@@ -1,3 +1,12 @@
+2.5.1 (2024-01-01)
+
+* Add All Syntax
+
+```Syntax
+keyword.operator.expression.is: #CF68E1/#C838C6
+keyword.operator.expression.infer: #A78CFA/#7C4DFF
+```
+
 2.5.0 (2023-12-25)
 
 * Add All UI
