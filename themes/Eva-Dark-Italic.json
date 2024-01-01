@@ -137,7 +137,7 @@
         "editorIndentGuide.background1": "#454963",
         "editorInfo.foreground": "#4480F4",
         "editorInlayHint.foreground": "#8A97C3",
-        "editorLightBulb.foreground":"#E4BF7F",
+        "editorLightBulb.foreground": "#E4BF7F",
         "editorLineNumber.foreground": "#535773",
         "editorLineNumber.activeForeground": "#9DA5B3",
         "editorLink.activeForeground": "#D365E5",
@@ -180,14 +180,14 @@
         "extensionButton.background": "#4b516a",
         "extensionButton.foreground": "#DCDFE5",
         "extensionButton.hoverBackground": "#598DEFE6",
-        "extensionBadge.remoteBackground":"#56B7C3",
-        "extensionBadge.remoteForeground":"#ffffff",
+        "extensionBadge.remoteBackground": "#56B7C3",
+        "extensionBadge.remoteForeground": "#ffffff",
         "extensionButton.prominentForeground": "#fff",
         "extensionButton.prominentBackground": "#499149",
-        "extensionButton.prominentHoverBackground": "#598DEFE6",/*377337深绿色*/
+        "extensionButton.prominentHoverBackground": "#598DEFE6", /*377337深绿色*/
         "extensionButton.separator": "#DCDFE5",
-        "extensionIcon.preReleaseForeground":"#56B7C3", //#7BBE54
-        "extensionIcon.sponsorForeground":"#F02B77",
+        "extensionIcon.preReleaseForeground": "#56B7C3", //#7BBE54
+        "extensionIcon.sponsorForeground": "#F02B77",
         "extensionIcon.starForeground": "#FF8A4C",
         "extensionIcon.verifiedForeground": "#4283f5",
         "focusBorder": "#4480F4",
@@ -197,7 +197,7 @@
         "gitDecoration.deletedResourceForeground": "#F14C4C",
         "gitDecoration.ignoredResourceForeground": "#676E95",
         "gitDecoration.modifiedResourceForeground": "#A78CFA",
-        "gitDecoration.renamedResourceForeground": "#E4BF7F",/*#518DFF 蓝色*/
+        "gitDecoration.renamedResourceForeground": "#E4BF7F", /*#518DFF 蓝色*/
         "gitDecoration.submoduleResourceForeground": "#FF6AB3",
         "gitDecoration.stageDeletedResourceForeground": "#E06C75",
         "gitDecoration.stageModifiedResourceForeground": "#D365E5",
@@ -380,36 +380,36 @@
         "statusBarItem.remoteForeground": "#ffffff",
         "statusBarItem.warningBackground": "#21252B",
         "statusBarItem.warningForeground": "#ff8a4c",
-        "symbolIcon.arrayForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.arrayForeground": "#B0B7C3", //颜色同变量
         "symbolIcon.booleanForeground": "#CF68E1",
         "symbolIcon.classForeground": "#56B7C3",
         "symbolIcon.constantForeground": "#FF9070",
         "symbolIcon.constructorForeground": "#6495EE",
         "symbolIcon.enumeratorMemberForeground": "#FF9070",
         "symbolIcon.eventForeground": "#6495EE",
-        "symbolIcon.fieldForeground": "#E06C75",//颜色同tag
-        "symbolIcon.fileForeground": "#8E99B1",//颜色同sideBar.foreground
-        "symbolIcon.folderForeground": "#9DA5B3",//颜色同sideBarSectionHeader.foreground
+        "symbolIcon.fieldForeground": "#E06C75", //颜色同tag
+        "symbolIcon.fileForeground": "#8E99B1", //颜色同sideBar.foreground
+        "symbolIcon.folderForeground": "#9DA5B3", //颜色同sideBarSectionHeader.foreground
         "symbolIcon.functionForeground": "#6495EE",
         "symbolIcon.interfaceForeground": "#56B7C3",
-        "symbolIcon.keyForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.keyForeground": "#B0B7C3", //颜色同变量
         "symbolIcon.keywordForeground": "#A78CFA",
         "symbolIcon.methodForeground": "#6495EE",
         "symbolIcon.moduleForeground": "#E06C75",
         "symbolIcon.namespaceForeground": "#E06C75",
         "symbolIcon.nullForeground": "#CF68E1",
         "symbolIcon.numberForeground": "#FF9070",
-        "symbolIcon.objectForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.objectForeground": "#B0B7C3", //颜色同变量
         "symbolIcon.operatorForeground": "#56B7C3",
         "symbolIcon.packageForeground": "#E06C75",
-        "symbolIcon.propertyForeground": "#8A97C3",//这条既包含css属性，也包含对象属性
-        "symbolIcon.snippetForeground": "#A78CFA",//颜色同keyword
+        "symbolIcon.propertyForeground": "#8A97C3", //这条既包含css属性，也包含对象属性
+        "symbolIcon.snippetForeground": "#A78CFA", //颜色同keyword
         "symbolIcon.stringForeground": "#98c379",
         "symbolIcon.structForeground": "#56B7C3",
-        "symbolIcon.textForeground": "#676E95",//颜色同注释
-        "symbolIcon.typeParameterForeground": "#FF6AB3",//颜色同数据类型
+        "symbolIcon.textForeground": "#676E95", //颜色同注释
+        "symbolIcon.typeParameterForeground": "#FF6AB3", //颜色同数据类型
         "symbolIcon.unitForeground": "#FF9070",
-        "symbolIcon.variableForeground": "#B0B7C3",//颜色同变量
+        "symbolIcon.variableForeground": "#B0B7C3", //颜色同变量
         "tab.activeBackground": "#282c34",
         "tab.activeBorder": "#282c3400",
         "tab.activeBorderTop": "#282c3400",
@@ -534,11 +534,10 @@
         //#FF8A4C normal #FF6D12
         //#E51400 normal #EC0000
         //#E51400 italic
-
         //#A78CFA italic
         {
             "name": "new | CSS from to,js from | Keyword | js module | ",
-            "scope": "keyword.operator.new,keyword.other.new,storage.modifier.c,keyword.control.directive.define,keyword.control.def,keyword.control.class,keyword.control.module,keyword.control.new,keyword.preprocessor.define,keyword.control.directive.undef,keyword.other.fn,storage.type.rust,storage.modifier.extern,storage.modifier.const,storage.modifier.extends,storage.modifier.ts,keyword.control.at-rule,keyword.other.let,keyword.other.instance,keyword.other.newtype,keyword.other.data,keyword.other.module,keyword.other,keyword.other.preprocessor,keyword.cs,entity.other.keyframe-offset,keyword.control.import,keyword.other.import,keyword.import,keyword.control.from,keyword.control.directive.include,keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace,storage.type.language.primitive.cpp,storage.type.struct,storage.type.template,support.type.built-in.posix-reserved.pthread,keyword.other.typedef,storage.modifier.dart,meta.class.identifier.java storage.modifier.java,meta.enum.java storage.modifier.java,storage.type.modifier,storage.modifier,keyword.other.phpdoc,keyword.other.var,storage.modifier.java,meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.declaration,storage.type.enum,storage.type.type,storage.type.const,storage.modifier.specifier,storage.type.class.jsdoc,support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts,keyword.control.preamble.latex,keyword.control.cite.latex,keyword.control.label.latex,keyword.storage.modifier,source.cs keyword.operator.expression,source.cs storage.type,keyword.other.where,storage.type.delegate,storage.type.operator.cs,keyword.operator.expression.unchecked,keyword.operator.expression.checked,keyword.operator.expression.await,storage.type.record,storage.type.event,storage.type.var,keyword.operator.expression.new,keyword.operator.expression.stackalloc,",
+            "scope": "keyword.operator.new,keyword.other.new,storage.modifier.c,keyword.control.directive.define,keyword.control.def,keyword.control.class,keyword.control.module,keyword.control.new,keyword.preprocessor.define,keyword.control.directive.undef,keyword.other.fn,storage.type.rust,storage.modifier.extern,storage.modifier.const,storage.modifier.extends,storage.modifier.ts,keyword.control.at-rule,keyword.other.let,keyword.other.instance,keyword.other.newtype,keyword.other.data,keyword.other.module,keyword.other,keyword.other.preprocessor,keyword.cs,entity.other.keyframe-offset,keyword.control.import,keyword.other.import,keyword.import,keyword.control.from,keyword.control.directive.include,keyword.other.package,keyword.other.class,keyword.other.namespace,keyword.other.enum,keyword.other.operator-decl,keyword.other.interface,keyword.preprocessor,keyword.other.delegate,storage.type.cpp,storage.type.namespace,storage.type.language.primitive.cpp,storage.type.struct,storage.type.template,support.type.built-in.posix-reserved.pthread,keyword.other.typedef,storage.modifier.dart,meta.class.identifier.java storage.modifier.java,meta.enum.java storage.modifier.java,storage.type.modifier,storage.modifier,keyword.other.phpdoc,keyword.other.var,storage.modifier.java,meta.var.expr,storage.type.function,keyword.function,keyword.var,keyword.const,keyword.channel,keyword.struct,keyword.other.struct,keyword.map,keyword.reserved,storage.type.class,storage.type.php,storage.type.interface,storage.type.object,keyword.declaration,storage.type.enum,storage.type.type,storage.type.const,storage.modifier.specifier,storage.type.class.jsdoc,support.module.node.js,support.type.object.module.js,support.type.object.module.ts,support.module.node.ts,keyword.control.preamble.latex,keyword.control.cite.latex,keyword.control.label.latex,keyword.storage.modifier,source.cs keyword.operator.expression,source.cs storage.type,keyword.other.where,storage.type.delegate,storage.type.operator.cs,keyword.operator.expression.unchecked,keyword.operator.expression.checked,keyword.operator.expression.await,storage.type.record,storage.type.event,storage.type.var,keyword.operator.expression.new,keyword.operator.expression.stackalloc,keyword.operator.expression.infer.ts",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#A78CFA"
@@ -601,7 +600,7 @@
         //#56B7C3 italic
         {
             "name": "Attributes | pseudo-class;css里的伪类 hover等 和 伪类选择器 如nth-child() | Classes | ",
-            "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name,entity.name.tag.custom.scss,storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css,keyword.operator.gradient.css,entity.name.type,keyword.operator.expression,entity.other.inherited-class,entity.name.type.class,support.class,entity.name.type.interface,support.class.dart,entity.name.scope-resolution,",
+            "scope": "entity.other.attribute-name,invalid.deprecated.entity.other.attribute-name,entity.name.tag.custom.scss,storage.type.java,entity.other.attribute-name.pseudo-class.css,support.type.property-name.media.css,support.constant.media.css,source.css.less entity.name.tag.custom.css,keyword.operator.gradient.css,entity.name.type,keyword.operator.expression,entity.other.inherited-class,entity.name.type.class,support.class,entity.name.type.interface,support.class.dart,entity.name.scope-resolution,entity.name.type.ts",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#56B7C3"
@@ -673,7 +672,7 @@
         //#98C379 italic
         {
             "name": "variable.parameter | css里url文件引用的链接 | Strings | Attribute class;css里的class名 | font-name | css里字体 如 微软雅黑 | [VSCODE-CUSTOM] Markdown Inline Raw | [VSCODE-CUSTOM] Markdown Link/Image | ",
-            "scope": "variable.parameter.url,string,markup.inline.raw.string,text.html.vue-html meta.object-literal.key,text.html.vue-html meta.object-literal.key string.quoted,entity.other.attribute-name.class.css,selector.sass,entity.other.attribute-name.parent-selector.css,meta.at-rule.extend.scss,string.other.math.tex,support.constant.font-name,markup.inline.raw.markdown,markup.underline.link.markdown,markup.underline.link.image.markdown,",
+            "scope": "variable.parameter.url,string,markup.inline.raw.string,text.html.vue-html meta.object-literal.key,text.html.vue-html meta.object-literal.key string.quoted,entity.other.attribute-name.class.css,selector.sass,entity.other.attribute-name.parent-selector.css,meta.at-rule.extend.scss,string.other.math.tex,support.constant.font-name,markup.inline.raw.markdown,markup.underline.link.markdown,markup.underline.link.image.markdown,string.quoted.single.ts,punctuation.definition.string.end.ts,punctuation.definition.string.begin.ts",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#98C379"
@@ -709,7 +708,7 @@
         //#CF68E1 italic
         {
             "name": "instanceof | Keyword Control,Using | Constant | 语言常量,包含 true false null undefined等 |  void | loop | ",
-            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.as,keyword.operator.expression.with,storage.modifier.where,",
+            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.other.item.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.as,keyword.operator.expression.with,storage.modifier.where,keyword.operator.expression.is.ts,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#CF68E1"
