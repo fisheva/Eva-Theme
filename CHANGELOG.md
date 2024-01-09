@@ -1,3 +1,12 @@
+2.5.2 (2024-01-09)
+
+* Add All Syntax
+
+```Syntax
+string entity.other.attribute-name,string meta.attribute.directive.vue: #98C379/#53A053
+source.css.embedded.html punctuation.attribute-shorthand.bind.html: #8E99B1/#8E8E90
+```
+
 2.5.1 (2024-01-01)
 
 * Add All Syntax

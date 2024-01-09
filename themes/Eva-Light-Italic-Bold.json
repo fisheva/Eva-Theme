@@ -672,7 +672,7 @@
         //#53A053 italic
         {
             "name": "variable.parameter | css里url文件引用的链接 | Strings | Attribute class;css里的class名 | font-name | css里字体 如 微软雅黑 | [VSCODE-CUSTOM] Markdown Inline Raw | [VSCODE-CUSTOM] Markdown Link/Image | ",
-            "scope": "variable.parameter.url,string,markup.inline.raw.string,text.html.vue-html meta.object-literal.key,text.html.vue-html meta.object-literal.key string.quoted,entity.other.attribute-name.class.css,selector.sass,entity.other.attribute-name.parent-selector.css,meta.at-rule.extend.scss,string.other.math.tex,support.constant.font-name,markup.inline.raw.markdown,markup.underline.link.markdown,markup.underline.link.image.markdown,",
+            "scope": "variable.parameter.url,string,markup.inline.raw.string,text.html.vue-html meta.object-literal.key,text.html.vue-html meta.object-literal.key string.quoted,entity.other.attribute-name.class.css,selector.sass,entity.other.attribute-name.parent-selector.css,meta.at-rule.extend.scss,string.other.math.tex,support.constant.font-name,markup.inline.raw.markdown,markup.underline.link.markdown,markup.underline.link.image.markdown,string entity.other.attribute-name,string meta.attribute.directive.vue,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#53A053"
@@ -842,7 +842,7 @@
         //#8E8E90 normal
         {
             "name": "Punctuation colon 冒号 : | PHP里的 => 类似JS里的对象里的冒号: | ",
-            "scope": "keyword.operator.range,punctuation.separator.key-value,keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value,punctuation.section.function.begin.python,meta.property-list.css.sass,sass-script-maps,punctuation.colon,punctuation.separator.initializers,keyword.operator.key-value,punctuation.separator.label,keyword.operator.colon,punctuation.separator.annotation.python,source.ts.embedded.html meta.block.ts,keyword.operator.key.php,keyword.operator.arrow.julia,keyword.operator.ternary.dart,meta.property-list.css punctuation.separator.key-value.css,source.css.embedded.html punctuation.separator.key-value.css,",
+            "scope": "keyword.operator.range,punctuation.separator.key-value,keyword.operator.type.annotation,punctuation.definition.section.case-statement,punctuation.separator.colon,punctuation.separator.other,punctuation.definition.parameters,punctuation.definition.constant.ruby,punctuation.separator.dictionary.key-value,punctuation.section.function.begin.python,meta.property-list.css.sass,sass-script-maps,punctuation.colon,punctuation.separator.initializers,keyword.operator.key-value,punctuation.separator.label,keyword.operator.colon,punctuation.separator.annotation.python,source.ts.embedded.html meta.block.ts,keyword.operator.key.php,keyword.operator.arrow.julia,keyword.operator.ternary.dart,meta.property-list.css punctuation.separator.key-value.css,source.css.embedded.html punctuation.separator.key-value.css,source.css.embedded.html punctuation.attribute-shorthand.bind.html,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#8E8E90"
