@@ -1,4 +1,11 @@
-2.5.2 (2024-01-09)
+2.5.2 (2024-01-11)
+
+* Change All UI
+
+```UI
+editorOverviewRuler.currentContentForeground: #598DEF/#598DEF → #598DEF59/#0065FF3F
+editorOverviewRuler.incomingContentForeground: #45B746/#45B746 → #45B7463F/#45B7464C
+```
 
 * Add All Syntax
 
