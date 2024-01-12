@@ -23,3 +23,7 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
 ### Issue
 
 这款主题目前还不完善, 您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提 issue, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言。
+
+### 其他
+
+其他平台的Eva Theme: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).

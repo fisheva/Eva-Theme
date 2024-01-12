@@ -26,4 +26,4 @@ This theme is not perfect yet. If you find any inconsistencies in any language, 
 
 ### Others
 
-Eva Theme on other platform: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
+Eva Theme on other platforms: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
