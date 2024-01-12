@@ -1,3 +1,11 @@
+2.5.3 (2024-01-12)
+
+* Change All Syntax
+
+```Syntax
+meta.property-list.css: #56B7C3/#00BEC4 → #676E95/#A9A9AA
+```
+
 2.5.2 (2024-01-11)
 
 * Change All UI
