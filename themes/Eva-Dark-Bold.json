@@ -55,6 +55,7 @@
         "debugConsole.warningForeground": "#FF8A4C",
         "debugExceptionWidget.background": "#a3151533",
         "debugExceptionWidget.border": "#a31515",
+		"debugIcon.breakpointForeground": "#E51400",
         "debugToolBar.background": "#21252B",
         "debugToolBar.border": "#21252B",
         "descriptionForeground": "#B0B7C3BF",

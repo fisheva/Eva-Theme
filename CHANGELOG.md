@@ -1,5 +1,11 @@
 2.5.3 (2024-01-12)
 
+* Add All UI
+
+```UI
+debugIcon.breakpointForeground: #E51400/#ec0000
+```
+
 * Change All Syntax
 
 ```Syntax
