@@ -6,7 +6,7 @@
 
 ### 介绍
 
-<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme </a>for VSCode 是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些<a href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">编程语言</a>。
+<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a><!-- for VSCode -->是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些<a href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">编程语言</a>。
 
 <!-- > VSCode版本要求 ≥ 1.12.0。 -->
 
@@ -18,11 +18,11 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
 
 ### 终端
 
-在 VSCode 1.66.0+ 中，如果您想在终端中显示主题原色，请在您的 VSCode settings.json 中添加这行: `“terminal.integrated.minimumContrastRatio”：1`
+在VSCode 1.66.0+中，如果您想在终端中显示主题原色，请在您的VSCode settings.json中添加: `“terminal.integrated.minimumContrastRatio”：1`
 <!--更多信息请看[issue](https://github.com/microsoft/vscode/issues/146406)。-->
 ### Issue
 
-这款主题目前还不完善, 您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提 issue, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言。
+这款主题目前还不完善, 如果您发现某个地方的颜色不合适，您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提issue<!--, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言-->。
 
 ### 其他
 
