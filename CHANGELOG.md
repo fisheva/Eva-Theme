@@ -3,7 +3,10 @@
 * Add All UI
 
 ```UI
+editorLineNumber.dimmedForeground: #53577372/#B3B3B466
 debugIcon.breakpointForeground: #E51400/#ec0000
+tree.inactiveIndentGuidesStroke: #454963/#CED1D7
+welcomePage.tileBorder: #ffffff1a/#ced1d7
 ```
 
 * Add All Syntax
