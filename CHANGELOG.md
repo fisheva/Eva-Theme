@@ -1,4 +1,4 @@
-2.5.3 (2024-01-12)
+2.5.3 (2024-01-31)
 
 * Add All UI
 
@@ -13,6 +13,7 @@ welcomePage.tileBorder: #ffffff1a/#ced1d7
 
 ```Syntax
 meta.attribute.unrecognized.wx:if.html entity.other.attribute-name,meta.attribute.unrecognized.wx:for.html entity.other.attribute-name,meta.attribute.unrecognized.wx:elif.html entity.other.attribute-name,meta.attribute.unrecognized.wx:else.html entity.other.attribute-name: #CF68E1/#C838C6
+punctuation.destructuring: #8E99B1/#8E8E90
 ```
 
 * Change All Syntax
