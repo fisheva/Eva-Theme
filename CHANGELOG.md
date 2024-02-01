@@ -15,6 +15,7 @@ welcomePage.tileBorder: #ffffff1a/#ced1d7
 meta.attribute.unrecognized.wx:if.html entity.other.attribute-name,meta.attribute.unrecognized.wx:for.html entity.other.attribute-name,meta.attribute.unrecognized.wx:elif.html entity.other.attribute-name,meta.attribute.unrecognized.wx:else.html entity.other.attribute-name: #CF68E1/#C838C6
 punctuation.destructuring: #8E99B1/#8E8E90
 punctuation.definition.arguments.begin,punctuation.definition.arguments.end,punctuation.definition.textit.begin,punctuation.definition.textit.end,punctuation.definition.textbf.begin,punctuation.definition.textbf.end: #838FA7/#5D5D5FD8
+constant.other.general.math.tex,constant.character.latex,punctuation.definition.constant.math.tex,punctuation.definition.constant.latex: #98C379/#53A053
 punctuation.definition.keyword.tex: #56B7C3/#00BEC4
 markup.bold.textbf.latex: #B0B7C3/#5D5D5F
 ```
