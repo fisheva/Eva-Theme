@@ -1,4 +1,4 @@
-2.5.3 (2024-01-31)
+2.5.3 (2024-02-01)
 
 * Add All UI
 
@@ -14,12 +14,19 @@ welcomePage.tileBorder: #ffffff1a/#ced1d7
 ```Syntax
 meta.attribute.unrecognized.wx:if.html entity.other.attribute-name,meta.attribute.unrecognized.wx:for.html entity.other.attribute-name,meta.attribute.unrecognized.wx:elif.html entity.other.attribute-name,meta.attribute.unrecognized.wx:else.html entity.other.attribute-name: #CF68E1/#C838C6
 punctuation.destructuring: #8E99B1/#8E8E90
+punctuation.definition.arguments.begin,punctuation.definition.arguments.end,punctuation.definition.textit.begin,punctuation.definition.textit.end,punctuation.definition.textbf.begin,punctuation.definition.textbf.end: #838FA7/#5D5D5FD8
+punctuation.definition.keyword.tex: #56B7C3/#00BEC4
+markup.bold.textbf.latex: #B0B7C3/#5D5D5F
 ```
 
 * Change All Syntax
 
 ```Syntax
 meta.property-list.css: #56B7C3/#00BEC4 → #676E95/#A9A9AA
+keyword.control.preamble.latex,keyword.control punctuation.definition.function.latex: #A78CFA/#7C4DFF → #CF68E1/#C838C6
+support.function.general.tex,support.function.general.tex punctuation.definition.function.tex: #E06C75/#CD6069 → #CF68E1/#C838C6
+keyword.other.item.latex：#CF68E1/#C838C6 → #A78CFA/#7C4DFF
+keyword.control.equation.newline.latex,keyword.control.newline.tex: #CF68E1/#C838C6 → #E06C75/#CD6069
 ```
 
 2.5.2 (2024-01-11)
