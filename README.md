@@ -32,6 +32,6 @@ Eva Theme on other platforms: [Visual Studio](https://marketplace.visualstudio.c
 
 Grateful to all [sponsors！](https://github.com/sponsors/fisheva)
 <p style="display:flex;flex-flow:row wrap;width:100%;">
-    <a title="JetBrains" style="width:50px;height:50px;border-radius:25px;background:#EBEEF5;margin-right:2px;overflow:hidden;" href="https://jb.gg/OpenSourceSupport" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer" style="width:50px;height:50px;"></a>
-    <a title="Andreas Kanz" style="width:50px;height:50px;border-radius:25px;background:#EBEEF5;margin-right:2px;overflow:hidden;" href="https://github.com/akanz1" target="_blank"><img src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer" style="width:50px; height:50px;"></a>
+    <a title="JetBrains" style="width:50px;height:50px;border-radius:25px;background:#EBEEF5;margin-right:2px;overflow:hidden;display:block;" href="https://jb.gg/OpenSourceSupport" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer" style="display:block;width:50px;height:50px;"></a>
+    <a title="Andreas Kanz" style="width:50px;height:50px;border-radius:25px;background:#EBEEF5;margin-right:2px;overflow:hidden;display:block;" href="https://github.com/akanz1" target="_blank"><img src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer" style="display:block;width:50px; height:50px;"></a>
 </p>
