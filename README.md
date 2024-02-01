@@ -24,6 +24,13 @@ In VSCode 1.66.0+, if you want to display the original theme color in the Termin
 
 This theme is not perfect yet. If you find somewhere with ill-suited color, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">here</a><!-- , or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">Marketplace</a> -->.
 
+### Sponsors
+
+Support this project by [becoming a sponsor](https://github.com/sponsors/fisheva). Your logo will show up here with a link to your website.
+<p style="display:flex;flex-flow:row wrap;width:100%;">
+    <a title="" href="https://jb.gg/OpenSourceSupport" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_gl=1*1y6ruug*_ga*OTAyNTI3MjAxLjE2ODk4NTI5OTI.*_ga_9J976DJZ68*MTcwNjc4NDU2Ni41MS4xLjE3MDY3ODQ2NTAuMC4wLjA.&_ga=2.228353757.1782804733.1706784567-902527201.1689852992" referrerpolicy="no-referrer" style="width: 60px; height: 60px; border-radius:50%;background: #fff"></a>
+</p>
+
 ### Others
 
 Eva Theme on other platforms: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
