@@ -20,10 +20,19 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
 
 在VSCode 1.66.0+中，如果您想在终端中显示主题原色，请在您的VSCode settings.json中添加: `“terminal.integrated.minimumContrastRatio”：1`
 <!--更多信息请看[issue](https://github.com/microsoft/vscode/issues/146406)。-->
-### Issue
+### 问题
 
-这款主题目前还不完善, 如果您发现某个地方的颜色不合适，您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提issue<!--, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言-->。
+这款主题目前还不完善, 如果您发现某个地方的颜色不合适，您可以在<a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">这里</a>向我提问题<!--, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme&ssr=false#review-details" target="_blank">插件商店</a>给我留言-->。
 
-### 其他
+### 平台
 
 其他平台的Eva Theme: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
+
+
+### 赞助
+
+感谢所有[赞助者！](https://github.com/sponsors/fisheva)
+<p style="display:flex;flex-flow:row wrap;width:100%;">
+    <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer" style="width:50px;height:50px;border-radius:50%;background:#EBEEF5;margin-right:2px;"></a>
+    <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank"><img src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer" style="width:50px; height:50px;border-radius:50%;background:#EBEEF5;margin-right:2px;"></a>
+</p>
