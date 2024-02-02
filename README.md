@@ -35,10 +35,10 @@ Eva Theme on other platforms: [Visual Studio](https://marketplace.visualstudio.c
 
 Grateful to all [sponsors！](https://github.com/sponsors/fisheva)
 <p style="display: flex;flex-flow: row wrap;">
-    <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank">
+    <!-- <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank"> -->
         <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7 !important;border-radius:25px !important;margin-right:2px !important;" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" vertical-align="bottom" referrerpolicy="no-referrer">
-    </a>
-    <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank">
+    <!-- </a>
+    <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank"> -->
         <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7 !important;border-radius:25px !important;margin-right:2px !important;" src="https://avatars.githubusercontent.com/u/51492342?v=4" vertical-align="bottom" referrerpolicy="no-referrer">
-    </a>
+    <!-- </a> -->
 </p>
