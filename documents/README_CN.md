@@ -11,7 +11,7 @@
 
 <a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a><!-- for VSCode -->是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些<a href="https://github.com/fisheva/Eva-Theme/blob/master/documents/languages_CN.md" target="_blank">编程语言</a>。
 
-<!-- > VSCode版本要求 ≥ 1.12.0。 -->
+<!-- VSCode版本要求 ≥ 1.12.0。 -->
 
 Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式可选择：普通、粗体、斜体、斜体加粗。粗体样式加粗了关键字和函数名。
 
