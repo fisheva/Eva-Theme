@@ -1,5 +1,5 @@
 <p style="display: flex;flex-flow: row wrap;">
-    <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" vertical-align="bottom" referrerpolicy="no-referrer">
+    <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" aligh="left" vertical-align="bottom" referrerpolicy="no-referrer">
     <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" vertical-align="bottom" referrerpolicy="no-referrer">
 </p>
 
@@ -36,7 +36,7 @@ Eva Theme on other platforms: [Visual Studio](https://marketplace.visualstudio.c
 Grateful to all [sponsors！](https://github.com/sponsors/fisheva)
 <p style="display: flex;flex-flow: row wrap;">
     <a title="JetBrains" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://jb.gg/OpenSourceSupport" target="_blank">
-        <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer">
+        <img class="sponsor" width="50px" height="50px" aligh="left" style="background:#EDF0F7;border-radius:25px;" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer">
     </a>
     <a title="Andreas Kanz" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/akanz1" target="_blank">
         <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;" src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer">
