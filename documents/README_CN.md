@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./style.css">
+
 <p>
     <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer">
     <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer">
@@ -44,7 +46,7 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
     </a>
 </p>
 
-<style>
+<!-- <style>
 p{
     display: flex;
     flex-flow: row wrap;
@@ -60,4 +62,4 @@ p{
     background:#EDF0F7;
     margin-right:2px;
 }
-</style>
+</style> -->

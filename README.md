@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./documents/style.css">
+
 <p>
     <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer">
     <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer">
@@ -43,7 +45,7 @@ Grateful to all [sponsors！](https://github.com/sponsors/fisheva)
     </a>
 </p>
 
-<style>
+<!-- <style>
 p{
     display: flex;
     flex-flow: row wrap;
@@ -59,4 +61,4 @@ p{
     border-radius:25px;
     background:#EDF0F7;
 }
-</style>
+</style> -->
