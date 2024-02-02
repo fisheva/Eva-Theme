@@ -1,8 +1,6 @@
-<link rel="stylesheet" href="./documents/style.css">
-
-<p>
-    <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer">
-    <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer">
+<p style="display: flex;flex-flow: row wrap;">
+    <img width="50%" align="left" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer">
+    <img width="50%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer">
 </p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
@@ -36,12 +34,12 @@ Eva Theme on other platforms: [Visual Studio](https://marketplace.visualstudio.c
 ### Sponsors
 
 Grateful to all [sponsors！](https://github.com/sponsors/fisheva)
-<p>
+<p style="display: flex;flex-flow: row wrap;">
     <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank">
-        <img class="sponsor" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer">
+        <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;margin-right:2px;" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer">
     </a>
     <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank">
-        <img class="sponsor" src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer">
+        <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;margin-right:2px;" src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer">
     </a>
 </p>
 
