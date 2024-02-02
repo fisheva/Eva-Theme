@@ -1,4 +1,7 @@
-<p style="display:flex;flex-flow:row nowrap;width:100%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"><img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer" style="max-width:50%;"></p>
+<p>
+    <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer">
+    <img class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer">
+</p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 
@@ -32,7 +35,29 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
 ### 赞助
 
 感谢所有[赞助者！](https://github.com/sponsors/fisheva)
-<p style="display:flex;flex-flow:row wrap;width:100%;">
-    <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer" style="width:50px;height:50px;border-radius:25px;background:#EBEEF5;margin-right:2px;"></a>
-    <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank"><img src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer" style="width:50px; height:50px;border-radius:25px;background:#EBEEF5;margin-right:2px;"></a>
+<p>
+    <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank">
+        <img class="sponsor" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer">
+    </a>
+    <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank">
+        <img class="sponsor" src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer">
+    </a>
 </p>
+
+<style>
+p{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.screenshot{
+    width: 50%;
+}
+.sponsor{
+    width: 50px;
+    height: 50px;
+    border-radius:25px;
+    background:#EDF0F7;
+    margin-right:2px;
+}
+</style>
