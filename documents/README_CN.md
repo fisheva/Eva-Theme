@@ -29,17 +29,17 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
 
 ### 平台
 
-其他平台的Eva Theme: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd))
+其他平台的Eva Theme: [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
 
 
 ### 赞助
 
-感谢所有[赞助者！](https://github.com/sponsors/fisheva).
+感谢所有[赞助者！](https://github.com/sponsors/fisheva)
 <p style="display: flex;flex-flow: row wrap;">
-    <!-- <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank"> -->
+    <a title="JetBrains" href="https://jb.gg/OpenSourceSupport" target="_blank">
         <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7 !important;border-radius:25px !important;margin-right:2px !important;" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" vertical-align="bottom" referrerpolicy="no-referrer">
-    <!-- </a>
-    <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank"> -->
+    </a>
+    <a title="Andreas Kanz" href="https://github.com/akanz1" target="_blank">
         <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7 !important;border-radius:25px !important;margin-right:2px !important;" src="https://avatars.githubusercontent.com/u/51492342?v=4" vertical-align="bottom" referrerpolicy="no-referrer">
-    <!-- </a> -->
+    </a>
 </p>
