@@ -1,6 +1,6 @@
 <p style="display: flex;flex-flow: row wrap;">
-    <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer">
-    <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/screenshots/eva-light-bold.png" referrerpolicy="no-referrer">
+    <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/screenshots/eva-dark-bold.png" referrerpolicy="no-referrer">
+    <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/screenshots/eva-light-bold.png" referrerpolicy="no-referrer">
 </p>
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
@@ -37,9 +37,9 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
 感谢所有[赞助者！](https://github.com/sponsors/fisheva)
 <p style="display: flex;flex-flow: row wrap;">
     <a title="JetBrains" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://jb.gg/OpenSourceSupport" target="_blank">
-        <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" referrerpolicy="no-referrer">
+        <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/jetbrains.png" referrerpolicy="no-referrer">
     </a>
     <a title="Andreas Kanz" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/akanz1" target="_blank">
-        <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;" src="https://avatars.githubusercontent.com/u/51492342?v=4" referrerpolicy="no-referrer">
+        <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/Andreas%20Kanz.png" referrerpolicy="no-referrer">
     </a>
 </p>
