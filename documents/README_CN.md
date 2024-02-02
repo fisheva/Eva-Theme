@@ -36,10 +36,10 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
 
 感谢所有[赞助者！](https://github.com/sponsors/fisheva)
 <p style="display: flex;flex-flow: row wrap;">
-    <a title="JetBrains" style="text-decoration:none;" href="https://jb.gg/OpenSourceSupport" target="_blank">
+    <a title="JetBrains" style="text-decoration:none;color:#ffffff00;" href="https://jb.gg/OpenSourceSupport" target="_blank">
         <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;margin-right:2px;" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" vertical-align="bottom" referrerpolicy="no-referrer">
     </a>
-    <a title="Andreas Kanz" style="text-decoration:none;" href="https://github.com/akanz1" target="_blank">
+    <a title="Andreas Kanz" style="text-decoration:none;color:#ffffff00;" href="https://github.com/akanz1" target="_blank">
         <img class="sponsor" width="50px" height="50px" style="background:#EDF0F7;border-radius:25px;margin-right:2px;" src="https://avatars.githubusercontent.com/u/51492342?v=4" vertical-align="bottom" referrerpolicy="no-referrer">
     </a>
 </p>
