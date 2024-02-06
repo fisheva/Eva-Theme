@@ -1,3 +1,13 @@
+2.5.6 (2024-02-06)
+
+* Add All UI
+
+```UI
+settings.headerBorder: #21252b/#e1e4eb
+settings.sashBorder: #21252b/#e1e4eb
+statusBar.noFolderBorder: #21252b00/#E1E4EB00
+```
+
 2.5.3~2.5.5 (2024-02-02)
 
 * Add All UI
