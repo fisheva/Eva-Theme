@@ -1,4 +1,4 @@
-2.5.6 (2024-02-06)
+2.5.6 (2024-02-16)
 
 * Add All UI
 
@@ -6,6 +6,16 @@
 settings.headerBorder: #21252b/#e1e4eb
 settings.sashBorder: #21252b/#e1e4eb
 statusBar.noFolderBorder: #21252b00/#E1E4EB00
+```
+
+* **Support Lua**
+
+* Add All Syntax
+
+```Syntax
+keyword.local,meta.function.lua keyword.control.lua: #A78CFA/#7C4DFF
+punctuation.definition.parameters.finish: #838FA7/#5D5D5FD8
+entity.other.attribute: #E06C75/#CD6069
 ```
 
 2.5.3~2.5.5 (2024-02-02)

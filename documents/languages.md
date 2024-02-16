@@ -16,5 +16,6 @@ Tested with the following languages in native environment, except derived framew
 - Latex
 - Markdown
 - Julia
+- Lua
 
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic yet.
