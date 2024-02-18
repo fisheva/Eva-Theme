@@ -38,6 +38,9 @@ Grateful to all these [sponsors！](https://github.com/sponsors/fisheva)
     <a title="JetBrains" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://jb.gg/OpenSourceSupport" target="_blank">
         <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/jetbrains.png" referrerpolicy="no-referrer">
     </a>
+    <a title="Joshua Hannaford" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/Cy-Tek" target="_blank">
+        <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/Joshua%Hannaford.png" referrerpolicy="no-referrer">
+    </a>
     <a title="Andreas Kanz" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/akanz1" target="_blank">
         <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/Andreas%20Kanz.png" referrerpolicy="no-referrer">
     </a>
