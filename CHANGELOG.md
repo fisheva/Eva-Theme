@@ -1,9 +1,10 @@
-2.5.9 (2024-02-29)
+2.5.9~2.6.0 (2024-02-29)
 
 * Add All Syntax
 
 ```Syntax
 storage.type.glsl: #FF6AB3/#EF8ED8
+meta.preprocessor.glsl: #676E95/#A9A9AA
 ```
 
 2.5.6~2.5.8 (2024-02-18)

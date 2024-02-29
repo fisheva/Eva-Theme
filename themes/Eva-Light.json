@@ -904,7 +904,7 @@
         //#A9A9AA italic
         {
             "name": "comment | 注释",
-            "scope": "comment,comment markup.link,punctuation.definition.comment,markup.quote.markdown",
+            "scope": "comment,comment markup.link,punctuation.definition.comment,markup.quote.markdown,meta.preprocessor.glsl,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#A9A9AA"
