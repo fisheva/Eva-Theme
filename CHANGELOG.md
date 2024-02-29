@@ -1,3 +1,11 @@
+2.5.9 (2024-02-29)
+
+* Add All Syntax
+
+```Syntax
+storage.type.glsl: #FF6AB3/#EF8ED8
+```
+
 2.5.6~2.5.8 (2024-02-18)
 
 * Add All UI
