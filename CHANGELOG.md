@@ -1,3 +1,13 @@
+2.6.1 (2024-04-02)
+
+* Add All Syntax
+
+```Syntax
+entity.other.attribute-name.id punctuation.definition.entity.css: #FF9070/#FF6D12
+source.css meta.selector.css: #E06C75/#CD6069
+variable.css: #E4BF7F/#F0AA0B
+```
+
 2.5.9~2.6.0 (2024-02-29)
 
 * Add All Syntax

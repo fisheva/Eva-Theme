@@ -654,7 +654,7 @@
         //#FF6D12 normal
         {
             "name": "正则字符串里的符号 | ",
-            "scope": "constant.other.character-class.regexp,constant.other.character-class.range.regexp,constant.other.character-class.set.regexp,support.constant,support.constant.math,support.constant.json,entity.other.attribute-name.id.css punctuation.definition.entity.css,",
+            "scope": "constant.other.character-class.regexp,constant.other.character-class.range.regexp,constant.other.character-class.set.regexp,support.constant,support.constant.math,support.constant.json,entity.other.attribute-name.id.css punctuation.definition.entity.css,entity.other.attribute-name.id punctuation.definition.entity.css,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#FF6D12"
@@ -663,7 +663,7 @@
         //#F0AA0B italic
         {
             "name": "variable.parameter,keyframe-list,sass,less里的变量 | css3里的关键帧 | Tex: \\label { } | markup bold | Markdown里的bold | ",
-            "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c,punctuation.vararg-ellipses,variable.other.block.ruby,meta.arguments,entity.name.type.template,meta.type.parameters entity.name.type,meta.parameters,meta.function.parameter variable.other,variable.other.less,variable.other.sass,variable.scss,source.sass variable.other,variable.argument.css,variable.parameter.function.latex,variable.parameter.definition.label.latex,markup.bold.markdown,",
+            "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c,punctuation.vararg-ellipses,variable.other.block.ruby,meta.arguments,entity.name.type.template,meta.type.parameters entity.name.type,meta.parameters,meta.function.parameter variable.other,variable.other.less,variable.other.sass,variable.scss,source.sass variable.other,variable.argument.css,variable.parameter.function.latex,variable.parameter.definition.label.latex,markup.bold.markdown,variable.css,",
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#F0AA0B"
@@ -708,7 +708,7 @@
         //#CD6069 normal
         {
             "name": "Tags;HTML的标签名 | react组件 | 正则表达式里的关键字 | ",
-            "scope": "entity.name.tag,entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css,punctuation.definition.heading.markdown,support.function.section.latex punctuation.definition.function.latex,punctuation.support.type.property-name.begin.json.comments,punctuation.support.type.property-name.end.json.comments,support.class.component,keyword.operator.optional,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.section.embedded.end.php source.php,string.regexp keyword.other,entity.name.tag.custom.css,keyword.control.equation.newline.latex,keyword.control.newline.tex,",
+            "scope": "entity.name.tag,entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css,punctuation.definition.heading.markdown,support.function.section.latex punctuation.definition.function.latex,punctuation.support.type.property-name.begin.json.comments,punctuation.support.type.property-name.end.json.comments,support.class.component,keyword.operator.optional,punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php,punctuation.section.embedded.end.php source.php,string.regexp keyword.other,entity.name.tag.custom.css,keyword.control.equation.newline.latex,keyword.control.newline.tex,source.css meta.selector.css,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#CD6069"
