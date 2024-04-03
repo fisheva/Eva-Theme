@@ -510,6 +510,8 @@
         //#FF6AB3 normal #EF8ED8
         //#FF9070 normal #FF6D12 (In Italic : #FF9070 Italic #FF6D12)
         //#FF9070 normal
+        //#E4BF7F bold #F0AA0B (In Italic Bold: #E4BF7F italic bold #F0AA0B)
+        //#E4BF7F bold
         //#E4BF7F normal #F0AA0B (In Italic : #E4BF7F Italic #F0AA0B)
         //#E4BF7F normal
         //#98C379 normal #53A053 (In Italic : #98C379 Italic #53A053)
@@ -660,10 +662,28 @@
                 "foreground": "#FF9070"
             }
         },
+        //#E4BF7F bold (In Italic Bold: #E4BF7F italic bold)
+        {
+            "name": "Markdown里的bold | ",
+            "scope": "markup.bold.markdown,",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#E4BF7F"
+            }
+        },
+        //#E4BF7F bold
+        {
+            "name": "Markdown里的bold定义符号 | ",
+            "scope": "punctuation.definition.bold.markdown,",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#E4BF7F"
+            }
+        },
         //#E4BF7F normal (In Italic : #E4BF7F Italic)
         {
             "name": "variable.parameter,keyframe-list,sass,less里的变量 | css3里的关键帧 | Tex: \\label { } | markup bold | Markdown里的bold | ",
-            "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c,punctuation.vararg-ellipses,variable.other.block.ruby,meta.arguments,entity.name.type.template,meta.type.parameters entity.name.type,meta.parameters,meta.function.parameter variable.other,variable.other.less,variable.other.sass,variable.scss,source.sass variable.other,variable.argument.css,variable.parameter.function.latex,variable.parameter.definition.label.latex,markup.bold.markdown,variable.css,",
+            "scope": "variable.parameter,token.variable.parameter,variable.other.jsdoc,variable.language.arguments,function.parameter,entity.name.variable.parameter,meta.function.c,punctuation.vararg-ellipses,variable.other.block.ruby,meta.arguments,entity.name.type.template,meta.type.parameters entity.name.type,meta.parameters,meta.function.parameter variable.other,variable.other.less,variable.other.sass,variable.scss,source.sass variable.other,variable.argument.css,variable.parameter.function.latex,variable.parameter.definition.label.latex,variable.css,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#E4BF7F"
@@ -672,7 +692,7 @@
         //#E4BF7F normal
         {
             "name": "regexp ^ ?: $ + | ",
-            "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp,punctuation.definition.bold.markdown,",
+            "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#E4BF7F"

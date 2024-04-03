@@ -1,5 +1,12 @@
 2.6.1 (2024-04-02)
 
+* Change All Syntax
+
+```Syntax
+markup.bold.markdown: '' → 'italic bold'
+punctuation.definition.bold.markdown: '' → 'bold'
+```
+
 * Add All Syntax
 
 ```Syntax
