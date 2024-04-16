@@ -8,7 +8,7 @@ Tested with the following languages in native environment, except derived framew
 - PHP
 - Rust
 - Ruby
-- Pyhton
+- Python
 - Golang
 - Haskell
 - Dart
