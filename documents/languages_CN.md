@@ -8,7 +8,7 @@
 - PHP
 - Rust
 - Ruby
-- Pyhton
+- Python
 - Golang
 - Haskell
 - Dart
