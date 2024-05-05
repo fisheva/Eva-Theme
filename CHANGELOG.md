@@ -1,4 +1,4 @@
-2.6.1 (2024-04-02)
+2.6.1 (2024-05-06)
 
 * Change All Syntax
 
@@ -10,6 +10,7 @@ punctuation.definition.bold.markdown: '' → 'bold'
 * Add All Syntax
 
 ```Syntax
+entity.name.function.preprocessor.cpp: #CF68E1/#C838C6
 entity.other.attribute-name.id punctuation.definition.entity.css: #FF9070/#FF6D12
 source.css meta.selector.css: #E06C75/#CD6069
 variable.css: #E4BF7F/#F0AA0B
