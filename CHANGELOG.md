@@ -1,3 +1,11 @@
+2.6.2 (2024-05-08)
+
+* Delete All Syntax
+
+```Syntax
+entity.name.function.preprocessor.cpp: #CF68E1/#C838C6
+```
+
 2.6.1 (2024-05-06)
 
 * Change All Syntax
