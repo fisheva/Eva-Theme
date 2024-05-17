@@ -511,7 +511,6 @@
         //#FF9070 normal #FF6D12 (In Italic : #FF9070 Italic #FF6D12)
         //#FF9070 normal
         //#E4BF7F bold #F0AA0B (In Italic Bold: #E4BF7F italic bold #F0AA0B)
-        //#E4BF7F bold
         //#E4BF7F normal #F0AA0B (In Italic : #E4BF7F Italic #F0AA0B)
         //#E4BF7F normal
         //#98C379 normal #53A053 (In Italic : #98C379 Italic #53A053)
@@ -671,15 +670,6 @@
                 "foreground": "#E4BF7F"
             }
         },
-        //#E4BF7F
-        {
-            "name": "Markdown里的bold定义符号 | ",
-            "scope": "punctuation.definition.bold.markdown,",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#E4BF7F"
-            }
-        },
         //#E4BF7F normal (In Italic : #E4BF7F Italic)
         {
             "name": "variable.parameter,keyframe-list,sass,less里的变量 | css3里的关键帧 | Tex: \\label { } | markup bold | Markdown里的bold | ",
@@ -692,7 +682,7 @@
         //#E4BF7F normal
         {
             "name": "regexp ^ ?: $ + | ",
-            "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp,",
+            "scope": "keyword.operator.negetion.regexp,keyword.control.anchor.regexp,punctuation.definition.group.capture.regexp,keyword.operator.quantifier.regexp,punctuation.definition.bold.markdown,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#E4BF7F"
