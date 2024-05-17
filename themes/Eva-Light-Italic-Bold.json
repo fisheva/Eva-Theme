@@ -671,12 +671,12 @@
                 "foreground": "#F0AA0B"
             }
         },
-        //#F0AA0B bold
+        //#F0AA0B
         {
             "name": "Markdown里的bold定义符号 | ",
             "scope": "punctuation.definition.bold.markdown,",
             "settings": {
-                "fontStyle": "bold",
+                "fontStyle": "",
                 "foreground": "#F0AA0B"
             }
         },

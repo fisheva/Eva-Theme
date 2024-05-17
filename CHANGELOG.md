@@ -1,3 +1,11 @@
+2.6.3 （2024-05-17）
+
+* Change All Syntax
+
+```Syntax
+punctuation.definition.bold.markdown: 'bold' → ''
+```
+
 2.6.2 (2024-05-08)
 
 * Delete All Syntax
