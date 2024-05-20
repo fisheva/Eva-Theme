@@ -1,0 +1,20 @@
+name: Sync to Organization Repo
+
+on:
+  push:
+    branches:
+      - master  # 或你使用的默认分支名
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Push changes to organization repository
+      run: |
+        git config --global user.name 'fisheva'
+        git config --global user.email 'fishyu_eva@qq.com'
+        git remote add org_repo 'https://x-access-token:${{ secrets.ORG_ACCESS_TOKEN }}@github.com/Eva-Theme/Eva-Theme.git'
+        git push org_repo main  # 确保分支名称正确
