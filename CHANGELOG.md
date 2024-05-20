@@ -3,6 +3,7 @@
 * Change All Syntax
 
 ```Syntax
+entity.name.function.preprocessor → meta.preprocessor.macro entity.name.function.preprocessor
 punctuation.definition.bold.markdown: 'bold' → ''
 ```
 
