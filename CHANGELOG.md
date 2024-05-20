@@ -2435,11 +2435,11 @@ bracketPairColorizer.consecutivePairColors: [
         ],
         #e51400
     ]
-``` 
+```
 
 ### 冲突
 
-所有主题插件都是基于字符的Scope值给字符分配颜色。同时按下Ctrl+Shift+P(Windows)或Command+Shift+P(Mac), 选择检查TM作用域, 您可以查看到所有字符的Scope值。 -->
+所有主题插件都是基于字符的Scope值给字符分配颜色。同时按下Ctrl+Shift+P(Windows)或Command+Shift+P(Mac), 选择检查TM作用域, 您可以查看字符的Scope值。 -->
 
 0.7.9 (2019-12-06)
 
