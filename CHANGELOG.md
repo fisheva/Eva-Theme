@@ -1,5 +1,12 @@
 2.6.3 （2024-05-20）
 
+* Add All Syntax
+
+```Syntax
+support.type.lua: #56B7C3/#00BEC4
+storage.type.annotation.lua: #A78CFA/#7C4DFF
+```
+
 * Change All Syntax
 
 ```Syntax
