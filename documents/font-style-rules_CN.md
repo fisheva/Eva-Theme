@@ -1,4 +1,6 @@
-Eva Theme的特殊字体样式有 bold、italic、underline。
+EN: [font-style-rules.md](https://github.com/fisheva/Eva-Theme/blob/master/documents/font-style-rules.md)
+
+### Eva Theme的特殊字体样式有 bold、italic、underline。
 
 ### Bold
 bold样式用于增加关键字的醒目程度。
@@ -24,5 +26,3 @@ italic样式为偏爱斜体字的用户准备，原则是在不影响阅读代�
 
 ### Underline
 underline样式只用于标记未被调用的变量。
-
-EN: [font-style-rules.md]()

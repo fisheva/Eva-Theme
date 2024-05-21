@@ -1,4 +1,6 @@
-The special font styles of the Eva Theme include: bold, italic, underline.
+中文： [font-style-rules_CN.md](https://github.com/fisheva/Eva-Theme/blob/master/documents/font-style-rules_CN.md)
+
+### The special font styles of the Eva Theme include: bold, italic, underline.
 
 ### Bold
 The bold style is used to emphasize important keywords.
@@ -24,5 +26,3 @@ In the normal and Bold versions, characters that remain **italic**: italic text 
 
 ### Underline
 The underline style is only used to mark unused variables.
-
-中文： [font-style-rules_CN.md]()
