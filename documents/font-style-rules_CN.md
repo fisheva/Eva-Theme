@@ -9,7 +9,7 @@ bold样式用于增加关键字的醒目程度。
 1. 有创建、定义、声明含义，如 `let` `const` `var`；或形式类似的，如 `import`.
 2. 布尔值 `false` `true`; 比较符号 如 `==` `===` `>` `<`; 条件语句 `if` `esle if` `else`.
 3. 流程控制 如 `for` `return` `export default`.
-4. 函数名, 箭头函数符号 `=>`.
+4. 函数名; 箭头函数符号 `=>`.
 5. 其它重要关键字，如 `this` `debugger` `delete` (js), `!important` (css), `self` (Python).
 6. 特例，在normal版本下也保持bold样式的：1) markdown里的加粗文字; 2) 属性读取符号点`.`
 

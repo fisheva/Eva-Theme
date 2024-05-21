@@ -9,7 +9,7 @@ In both Bold and Italic Bold versions, the font style for keywords or symbols th
 1. Keywords that create, define, or declare meanings, such as `let` `const` `var`; or similar forms, such as `import`.
 2. Boolean values `false` `true`; comparison symbols such as `==` `===` `>` `<`; and conditional keywords like `if` `else if` `else`.
 3. Flow control keywords such as `for` `return` `export default`.
-4. Function names, arrow function symbols `=>`.
+4. Function names; Arrow function symbols `=>`.
 5. Other important keywords, such as `this` `debugger` `delete` (JS), `!important` (CSS), `self` (Python).
 6. Special cases where the bold style is retained even in the normal version: 1) bold text in markdown; 2) property access symbol dot `.`.
 
