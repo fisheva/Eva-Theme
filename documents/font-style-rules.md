@@ -6,7 +6,7 @@
 The bold style is used to emphasize important keywords.
 
 In both Bold and Italic Bold versions, the font style for keywords or symbols that need to be set to bold includes:
-1. Keywords that create, define, or declare meanings, such as `let` `const` `var`; or similar forms, such as `import`.
+1. Keywords that create, define, or declare meanings, such as `let` `const` `public` `static`; or similar forms, such as `import`.
 2. Boolean values `false` `true`; comparison symbols such as `==` `===` `>` `<`; and conditional keywords like `if` `else if` `else`.
 3. Flow control keywords such as `for` `return` `export default`.
 4. Function names; Arrow function symbols `=>`.

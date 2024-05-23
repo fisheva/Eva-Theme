@@ -6,7 +6,7 @@ EN: [font-style-rules.md](https://github.com/fisheva/Eva-Theme/blob/master/docum
 bold样式用于增加关键字的醒目程度。
 
 在 Bold 和 Italic Bold 版本中，字体样式要设为 bold 的关键字或符号有
-1. 有创建、定义、声明含义，如 `let` `const` `var`；或形式类似的，如 `import`.
+1. 有创建、定义、声明含义，如 `let` `const` `public` `static`；或形式类似的，如 `import`.
 2. 布尔值 `false` `true`; 比较符号 如 `==` `===` `>` `<`; 条件语句 `if` `esle if` `else`.
 3. 流程控制 如 `for` `return` `export default`.
 4. 函数名; 箭头函数符号 `=>`.
