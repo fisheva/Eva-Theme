@@ -17,7 +17,7 @@ In both Bold and Italic Bold versions, the font style for keywords or symbols th
 The italic style is for users who prefer italic text, with the principle of making text italicized as much as possible without affecting the readability of the code.
 
 In both Italic and Italic Bold versions, characters that are **normal** (not italic) include:
-1. All punctuations.
+1. All punctuations and symbols.
 2. HTML tags.
 3. All characters within regular expressions.
 4. Escape characters, such as `&nbsp;`.
