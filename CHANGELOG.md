@@ -1,3 +1,7 @@
+2.6.4 (2024-05-28)
+
+**Eva Theme for NeoVim(by sharpchen)**
+
 2.6.3 （2024-05-20）
 
 * Add All Syntax
