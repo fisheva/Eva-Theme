@@ -45,4 +45,7 @@ Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式�
     <a title="Joshua Hannaford" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/Cy-Tek" target="_blank">
         <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/Joshua%20Hannaford.png" referrerpolicy="no-referrer">
     </a>
+    <a title="levinit" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/levinit" target="_blank">
+        <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/levinit.png" referrerpolicy="no-referrer">
+    </a>
 </p>
