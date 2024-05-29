@@ -1,4 +1,4 @@
-2.6.4 (2024-05-28)
+2.6.4~2.6.5 (2024-05-29)
 
 **Eva Theme for NeoVim(by sharpchen)**
 
