@@ -3697,11 +3697,11 @@ welcomePage.buttonHoverBackground
 
 ---
 
-* Avoid Using API UI
+* Avoid Using API UI //不设置更好的UI API
 
 ```UI
-sideBarSectionHeader.border 不用加, 加了会使文字向下靠, 不居中
-
+sideBarSectionHeader.border,editorGroupHeader.tabsBorder 不用加, 加了会使文字向下靠, 不居中
+sideBar.border 无论加#E1E4EB还是#EBEEF5都会有一个地方不好看
 //这三个是双下划线, 非常不宜加。
 editorInfo.border
 editorWarning.border
@@ -3710,9 +3710,18 @@ editorError.border
 //外边缘线, 因底部色块与其它三个方向不同, 故不宜添加此项
 window.activeBorder
 window.inactiveBorder
+
+//这二条不设置表现更好, 删除后插件的 认证icon、下载量icon 和 安装量的icon 在插件被选中时颜色走的是 list.activeSelectionForeground 和 list.inactiveSelectionForeground API。推荐插件的 星星icon 在插件被选中时颜色走的是 extensionButton.prominentForeground API。
+list.activeSelectionIconForeground: #D2D5DB/#464247
+list.inactiveSelectionIconForeground: #d7dae0/#5d5d5f
+
+加了反而不好看的一条api: diffEditor.border, 加了之后对比文件的页面中间会有条分割线，切断了二边的改动颜色条连接。
+
+//这条API只能设置透明色或不设置, 任何颜色都会挡住零任务启动页文字
+editorGroup.emptyBackground: #282c34/#EBEEF5 → #282c3400/#EBEEF500
 ```
 
-* Avoid Using API Syntax
+* Avoid Using API Syntax //不设置更好的Syntax API
 
 ```syntax
 //覆盖面太广, 同时影响太多元素, 删除后各元素以2级scope值设置颜色
