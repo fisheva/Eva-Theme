@@ -1,3 +1,7 @@
+2.6.6 (2024-06-20)
+
+**Eva Theme for Windows Terminal(by TomDan)**
+
 2.6.4~2.6.5 (2024-05-29)
 
 **Eva Theme for NeoVim(by sharpchen)**
