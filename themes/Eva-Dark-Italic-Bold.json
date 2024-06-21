@@ -293,7 +293,7 @@
         "notificationCenter.border": "#181A1F",
         "notificationCenterHeader.background": "#21252b",
         "notificationCenterHeader.foreground": "#B0B7C3",
-        "notificationLink.foreground": "#598DEF",
+        "notificationLink.foreground": "#4283F5",
         "notificationToast.border": "#181A1F",
         "panel.background": "#282c34",
         "panel.border": "#21252B",

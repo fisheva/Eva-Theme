@@ -1,3 +1,11 @@
+2.6.7 (2024-06-21)
+
+* Change All UI
+
+```UI
+notificationLink.foreground: #598DEF/#5B87EB → #4283F5/#4d91f8
+```
+
 2.6.6 (2024-06-20)
 
 **Eva Theme for Windows Terminal(by TomDan)**
