@@ -1,9 +1,17 @@
-2.6.7 (2024-06-21)
+2.6.7 (2024-07-18)
 
 * Change All UI
 
 ```UI
 notificationLink.foreground: #598DEF/#5B87EB → #4283F5/#4d91f8
+```
+
+* Add All Syntax
+
+```Syntax
+support.type.property-name.less: #8A97C3/#888888
+entity.other.attribute-name.class.less: #98C379/#53A053
+support.constant.property-value.less: #C57BDB/#C57BDB
 ```
 
 2.6.6 (2024-06-20)
