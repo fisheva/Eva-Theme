@@ -166,6 +166,7 @@
         "editorOverviewRuler.wordHighlightTextForeground": "#00BEC4AD",
         "editorPane.background": "#EBEEF5",
         "editorRuler.foreground": "#B3B3B4",
+		"editorStickyScrollHover.background": "#E3E6ED",
         "editorSuggestWidget.background": "#F1F4FB",
         "editorSuggestWidget.border": "#CED1D7",
         "editorSuggestWidget.foreground": "#8E8E90",
@@ -464,6 +465,7 @@
         "terminalCommandDecoration.errorBackground": "#EC0000",
         "terminalCursor.background": "#FFF",
         "terminalCursor.foreground": "#FC8357",
+		"terminalStickyScrollHover.background": "#E3E6ED",
         "textBlockQuote.background": "#e0e3e9",
         "textBlockQuote.border": "#598DEF",
         "textCodeBlock.background": "#E5E8EF",
@@ -727,7 +729,7 @@
         //#C838C6 italic bold
         {
             "name": "instanceof | Keyword Control,Using | Constant | 语言常量,包含 true false null undefined等 |  void | loop | ",
-            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.as,keyword.operator.expression.with,storage.modifier.where,keyword.operator.expression.is,meta.attribute.unrecognized.wx:if.html entity.other.attribute-name,meta.attribute.unrecognized.wx:for.html entity.other.attribute-name,meta.attribute.unrecognized.wx:elif.html entity.other.attribute-name,meta.attribute.unrecognized.wx:else.html entity.other.attribute-name,keyword.control.preamble.latex,support.function.general.tex,",
+            "scope": "keyword.operator.expression.instanceof,keyword.operator.instanceof,keyword.operator.expression.in,keyword.operator.expression.of,keyword.control,keyword.other.using,keyword.preprocessor.elif,keyword.preprocessor.if,keyword.preprocessor.else,keyword.preprocessor.endif,keyword.control.directive,punctuation.separator.hash,keyword.package,keyword.control.flow,keyword.input,keyword.type.graphql,keyword.cmake,keyword.control.rust,keyword.other.rust,keyword.control.default,keyword.control.export,keyword.other.forall,keyword.other.deriving,keyword.other.qualified,keyword.other.hiding,keyword.other.in,constant.language,constant.language.boolean,keyword.operator.expression.void,keyword.control.loop,keyword.control.ref.latex,keyword.operator.relation.in,storage.type.primitive.dart,keyword.query,keyword.other.is,keyword.control.as,keyword.operator.expression.pattern,keyword.operator.expression.query,keyword.operator.expression.as,keyword.operator.expression.with,storage.modifier.where,keyword.operator.expression.is,meta.attribute.unrecognized.wx:if.html entity.other.attribute-name,meta.attribute.unrecognized.wx:for.html entity.other.attribute-name,meta.attribute.unrecognized.wx:elif.html entity.other.attribute-name,meta.attribute.unrecognized.wx:else.html entity.other.attribute-name,keyword.control.preamble.latex,support.function.general.tex,meta.attribute.unrecognized.v-else entity.other.attribute-name,meta.attribute.unrecognized.v-if entity.other.attribute-name,meta.attribute.unrecognized.v-else-if entity.other.attribute-name,meta.attribute.unrecognized.v-for entity.other.attribute-name,",
             "settings": {
                 "fontStyle": "italic bold",
                 "foreground": "#C838C6"
