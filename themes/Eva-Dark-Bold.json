@@ -166,7 +166,7 @@
         "editorOverviewRuler.wordHighlightTextForeground": "#008099BF",
         "editorPane.background": "#282c34",
         "editorRuler.foreground": "#676E95",
-		"editorStickyScrollHover.background": "#2F323C",
+		"editorStickyScrollHover.background": "#598DEF3F",
         "editorSuggestWidget.background": "#23272F",
         "editorSuggestWidget.border": "#181A1F",
         "editorSuggestWidget.foreground": "#8E99B1",

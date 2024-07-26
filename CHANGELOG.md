@@ -1,3 +1,12 @@
+2.6.8 (2024-07-26)
+
+* Change All UI
+
+```UI
+editorStickyScrollHover.background: #2F323C/#E3E6ED → #598DEF3F/#0065ff19
+terminalStickyScrollHover.background: #2F323C/#E3E6ED → #598DEF3F/#0065ff19
+```
+
 2.6.7 (2024-07-25)
 
 * Add All UI
