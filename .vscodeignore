@@ -1,4 +1,5 @@
 .github
+.gitignore
 .history
 .vscode
 documents/
