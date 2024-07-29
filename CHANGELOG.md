@@ -1,3 +1,12 @@
+2.6.9 (2024-07-29)
+
+* Add All Syntax
+
+```Syntax
+punctuation.definition.group.begin,punctuation.definition.group.end: #/#5D5D5FD8
+punctuation.separator: #/#A0A1A7F2
+```
+
 2.6.8 (2024-07-26)
 
 * Change All UI
