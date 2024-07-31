@@ -1,8 +1,29 @@
-2.7.0 (2024-07-31)
+2.7.0 ~ 2.7.1 (2024-07-31)
+
+* Add All UI
+
+```UI
+tab.dragAndDropBorder: #598def/#598def
+```
+
+* Change All UI
+
+```UI
+debugConsole.infoForeground: #598DEF/#598DEF → #4480F4/#4480F4
+editorMarkerNavigationInfo.background: #598DEF/#598DEF → #4480F4/#4480F4
+```
+
+* Change Light UI
+
+```UI
+editorInfo.foreground: #598DEF → #4480F4
+editorOverviewRuler.infoForeground: #598DEF → #4480F4
+```
 
 * Add All Syntax
 
 ```Syntax
+entity.other.attribute-name.class.less punctuation.definition.entity.less: #98C379/#53A053
 entity.other.attribute-name.parent.less punctuation.definition.entity.less,entity.other.attribute-name.pseudo-element.less,entity.other.attribute-name.pseudo-element.less support.type.vendor-prefix.less: #E06C75/#CD6069
 keyword.operator.pattern.css: #8792AA/#A0A1A7
 punctuation.definition.entity.less: #56B7C3/#00BEC4

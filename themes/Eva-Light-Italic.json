@@ -51,7 +51,7 @@
         "commandCenter.inactiveBorder": "#EBEEF5",
         "commandCenter.inactiveForeground": "#8E8E90",
         "debugConsole.errorForeground": "#EC0000",
-        "debugConsole.infoForeground": "#598DEF",
+        "debugConsole.infoForeground": "#4480F4",
         "debugConsole.warningForeground": "#FF6D12",
         "debugExceptionWidget.background": "#a315153F",
         "debugExceptionWidget.border": "#a31515",
@@ -136,7 +136,7 @@
         "editorHoverWidget.statusBarBackground": "#F1F4FB",
         "editorIndentGuide.activeBackground1": "#FC8357CC",
         "editorIndentGuide.background1": "#CED1D7",
-        "editorInfo.foreground": "#598DEF",
+        "editorInfo.foreground": "#4480F4",
         "editorInlayHint.foreground": "#888",
         "editorLightBulb.foreground": "#F0AA0B",
         "editorLineNumber.activeForeground": "#5D5D5F",
@@ -145,7 +145,7 @@
         "editorLink.activeForeground": "#D73BD5",
         "editorMarkerNavigation.background": "#E3E6ED",
         "editorMarkerNavigationError.background": "#EC0000",
-        "editorMarkerNavigationInfo.background": "#598DEF",
+        "editorMarkerNavigationInfo.background": "#4480F4",
         "editorMarkerNavigationWarning.background": "#FF6D12",
         "editorOverviewRuler.addedForeground": "#44C145",
         "editorOverviewRuler.background": "#EBEEF5",
@@ -156,7 +156,7 @@
         "editorOverviewRuler.errorForeground": "#EC0000",
         "editorOverviewRuler.findMatchForeground": "#C3C6CD",
         "editorOverviewRuler.incomingContentForeground": "#45B7464C",
-        "editorOverviewRuler.infoForeground": "#598DEF",
+        "editorOverviewRuler.infoForeground": "#4480F4",
         "editorOverviewRuler.modifiedForeground": "#9277E6",
         "editorOverviewRuler.rangeHighlightForeground": "#E5E8EF",
         "editorOverviewRuler.selectionHighlightForeground": "#00BEC4AD",
@@ -422,6 +422,7 @@
         "tab.activeForeground": "#5D5D5F",
         "tab.activeModifiedBorder": "#7C4DFF",
         "tab.border": "#AAADB499",
+        "tab.dragAndDropBorder": "#598def",
         "tab.hoverBackground": "#0065FF33",
         "tab.hoverBorder": "#0065FF00",
         "tab.hoverForeground": "#5D5D5F",
@@ -702,7 +703,7 @@
         //#53A053 normal
         {
             "name": "Regular Expressions;正则表达式 | ",
-            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,string punctuation.attribute-shorthand.event.html,punctuation.definition.string.template.begin,punctuation.definition.string.template.end,punctuation.definition.constant.math.tex,punctuation.definition.constant.latex,",
+            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,string punctuation.attribute-shorthand.event.html,punctuation.definition.string.template.begin,punctuation.definition.string.template.end,punctuation.definition.constant.math.tex,punctuation.definition.constant.latex,entity.other.attribute-name.class.less punctuation.definition.entity.less,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#53A053"

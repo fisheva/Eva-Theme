@@ -145,7 +145,7 @@
         "editorLink.activeForeground": "#D365E5",
         "editorMarkerNavigation.background": "#2F323B",
         "editorMarkerNavigationError.background": "#E51400",
-        "editorMarkerNavigationInfo.background": "#598DEF",
+        "editorMarkerNavigationInfo.background": "#4480F4",
         "editorMarkerNavigationWarning.background": "#FF8A4C",
         "editorOverviewRuler.addedForeground": "#40AD41",
         "editorOverviewRuler.background": "#282c34",
@@ -422,6 +422,7 @@
         "tab.activeForeground": "#d7dae0",
         "tab.activeModifiedBorder": "#A78CFA",
         "tab.border": "#181A1F",
+        "tab.dragAndDropBorder": "#598def",
         "tab.hoverBackground": "#598DEF66",
         "tab.hoverBorder": "#598DEF00",
         "tab.hoverForeground": "#d7dae0",
@@ -702,7 +703,7 @@
         //#98C379 normal
         {
             "name": "Regular Expressions;正则表达式 | ",
-            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,string punctuation.attribute-shorthand.event.html,punctuation.definition.string.template.begin,punctuation.definition.string.template.end,punctuation.definition.constant.math.tex,punctuation.definition.constant.latex,",
+            "scope": "punctuation.definition.metadata.markdown,string.regexp,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json,source.jsonmeta.structure.array.json>value.json>string.quoted.json,source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation,source.jsonmeta.structure.array.json>value.json>string.quoted.json>punctuation,string.quoted source,punctuation.definition.entity.css,meta.attribute-selector.scss,string invalid.illegal,string.other.math.tex,punctuation.definition.string.begin.tex,punctuation.definition.string.end.tex,punctuation.definition.string,text.html.vue-html meta.object-literal.key punctuation.definition.string,string punctuation.attribute-shorthand.bind.html,string punctuation.attribute-shorthand.event.html,punctuation.definition.string.template.begin,punctuation.definition.string.template.end,punctuation.definition.constant.math.tex,punctuation.definition.constant.latex,entity.other.attribute-name.class.less punctuation.definition.entity.less,",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#98C379"
