@@ -3,8 +3,11 @@
 * Add All Syntax
 
 ```Syntax
-punctuation.definition.group.begin,punctuation.definition.group.end: #/#5D5D5FD8
-punctuation.separator: #/#A0A1A7F2
+constant.other.color.rgb-value,constant.other.color.rgb-value punctuation.definition.constant: #B0B7C3/#5D5D5F
+keyword.other.important punctuation.separator: #F02B77/#FA278E
+punctuation.definition.block.begin.less,punctuation.definition.block.end.less: #838FA7CC/#888888D9
+punctuation.definition.group.begin,punctuation.definition.group.end: #838FA7/#5D5D5FD8
+punctuation.definition.arbitrary-repetition,punctuation.separator: #79859D/#A0A1A7F2
 ```
 
 2.6.8 (2024-07-26)
