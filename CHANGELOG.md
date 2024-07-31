@@ -1,3 +1,16 @@
+2.7.0 (2024-07-31)
+
+* Add All Syntax
+
+```Syntax
+entity.other.attribute-name.parent.less punctuation.definition.entity.less,entity.other.attribute-name.pseudo-element.less,entity.other.attribute-name.pseudo-element.less support.type.vendor-prefix.less: #E06C75/#CD6069
+keyword.operator.pattern.css: #8792AA/#A0A1A7
+punctuation.definition.entity.less: #56B7C3/#00BEC4
+keyword.other.pseudo-class.less: #E4BF7F/#F0AA0B
+support.type.vendor-prefix.less: #8A97C3/#888888
+keyword.operator.attribute-selector.less,meta.attribute-selector.less punctuation.definition.entity.less,punctuation.definition.group.begin.less,punctuation.definition.group.end.less: #838FA7CC/#888888D9
+```
+
 2.6.9 (2024-07-29)
 
 * Add All Syntax
