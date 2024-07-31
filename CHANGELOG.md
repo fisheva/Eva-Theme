@@ -1,3 +1,11 @@
+2.7.2
+
+* Add All UI
+
+```UI
+editorSuggestWidget.focusHighlightForeground: #4480F4/#598def
+```
+
 2.7.0 ~ 2.7.1 (2024-07-31)
 
 * Add All UI

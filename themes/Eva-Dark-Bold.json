@@ -169,6 +169,7 @@
 		"editorStickyScrollHover.background": "#598DEF3F",
         "editorSuggestWidget.background": "#23272F",
         "editorSuggestWidget.border": "#181A1F",
+		"editorSuggestWidget.focusHighlightForeground": "#4480F4",
         "editorSuggestWidget.foreground": "#8E99B1",
         "editorSuggestWidget.highlightForeground": "#4480F4",
         "editorSuggestWidget.selectedBackground": "#598DEF64",
