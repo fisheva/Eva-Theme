@@ -1,9 +1,24 @@
-2.7.2
+2.7.2 （2024-10-10）
 
 * Add All UI
 
 ```UI
 editorSuggestWidget.focusHighlightForeground: #4480F4/#598def
+```
+
+* Add All Syntax
+
+```Syntax
+entity.other.attribute-name.id punctuation.definition.entity.less: #FF9070/#FF6D12
+support.constant.media.less: #56B7C3/#00BEC4
+keyword.operator.logic: #CF68E1/#C838C6
+support.type.property-name.media.less: #E4BF7F/#F0AA0B
+```
+
+* Change All Syntax
+
+```Syntax
+support.type.property-name.media.css: #56B7C3/#00BEC4 → #E4BF7F/#F0AA0B
 ```
 
 2.7.0 ~ 2.7.1 (2024-07-31)
