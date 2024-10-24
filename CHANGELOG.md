@@ -1,3 +1,12 @@
+2.7.3 (2024-10-24)
+
+* Add All Syntax
+
+```Syntax
+source.css keyword.operator.arithmetic: #C57BDB/#C57BDB
+source.css meta.function-call keyword.operator.arithmetic: #56B7C3/#00BEC4
+```
+
 2.7.2 （2024-10-10）
 
 * Add All UI
