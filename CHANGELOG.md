@@ -3,6 +3,7 @@
 * Add All Syntax
 
 ```Syntax
+punctuation.section.braces.begin, punctuation.section.braces.end: #838FA7CC/#888888D9
 source.css keyword.operator.arithmetic: #C57BDB/#C57BDB
 source.css meta.function-call keyword.operator.arithmetic: #56B7C3/#00BEC4
 ```
