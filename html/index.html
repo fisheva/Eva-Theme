@@ -2247,30 +2247,31 @@
             Eva_Light_Bold,
             Eva_Light_Italic_Bold,
             Eva_Dark,
-        },
-        all_scope = [];
+        };
 
     for (let i in all_theme) {
-        all_scope = convert(all_theme[i], i);
+        all_theme[i] = convert(all_theme[i], i);
     }
-    console.log("all_scope: ", all_scope);
+    console.log("all_theme.Eva_Light: ", all_theme.Eva_Light);
 
     let json = {};
     console.log("Eva_Light after: ", Eva_Light);
 
-    for (let i = 0; i < all_scope.length; i++) {
-        let scope = all_scope[i];
-        console.log("i===", i);
-        console.log("Eva_Light[i]===", Eva_Light[i]);
+    for (let i = 0; i < all_theme.Eva_Light.length; i++) {
+        let scope = all_theme.Eva_Light[i].scope;
 
         json[scope] = {
-            name: Eva_Light[i].name,
-            Light: Eva_Light[i].settings.foreground,
-            Dark: Eva_Dark[i].settings.foreground,
-            Eva: Eva_Light[i].settings.fontStyle,
-            "Eva-Italic": Eva_Light_Italic[i].settings.fontStyle,
-            "Eva-Bold": Eva_Light_Bold[i].settings.fontStyle,
-            "Eva-Italic-Bold": Eva_Light_Italic_Bold[i].settings.fontStyle,
+            name: all_theme.Eva_Light[i].name,
+            foreground:{
+                Light: all_theme.Eva_Light[i].settings.foreground,
+                Dark: all_theme.Eva_Dark[i].settings.foreground,
+            },
+            fontStyle:{
+                "Eva": all_theme.Eva_Light[i].settings.fontStyle,
+                "Eva-Italic": all_theme.Eva_Light_Italic[i].settings.fontStyle,
+                "Eva-Bold": all_theme.Eva_Light_Bold[i].settings.fontStyle,
+                "Eva-Italic-Bold": all_theme.Eva_Light_Italic_Bold[i].settings.fontStyle,
+            },
         };
     }
 
