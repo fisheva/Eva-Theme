@@ -12848,7 +12848,7 @@
         }
     };
 
-    let json = {
+    let output = {
         'Eva-Light':{},
         'Eva-Light-Italic':{},
         'Eva-Light-Bold':{},
@@ -12858,4 +12858,18 @@
         'Eva-Dark-Bold':{},
         'Eva-Dark-Italic-Bold':{},
     };
+
+    for(let i in output) {
+        if(i.indexOf('Light') > -1) {
+            output[i] = {...light};
+        } else {
+            output[i] = {...dark};
+        }
+
+        
+    }
+
+    function scopes2token(){
+        
+    }
 </script>
