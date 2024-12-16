@@ -1002,7 +1002,11 @@
         tokenColors: [],
     };
 
-    let scopes = {
+    console.log("light", light);
+    console.log("dark", dark);
+
+
+    let scope = {
         "keyword.operator.new": {
             "name": "",
             "foreground": {
@@ -12847,16 +12851,16 @@
             }
         }
     }
-    function scopes2token(type,file) {
+    function scope2token(type,file) {
         let token = [];
         file = type == 'light' ? file.replace('-Light', '') : file.replace('-Dark', '');
-        for (let i in scopes) {
+        for (let i in scope) {
             let obj = {
-                name: scopes[i].name,
+                name: scope[i].name,
                 scope: i,
                 settings: {
-                    foreground: scopes[i].foreground[type],
-                    fontStyle: scopes[i].fontStyle[file] || '',
+                    foreground: scope[i].foreground[type],
+                    fontStyle: scope[i].fontStyle[file] || '',
                 },
             };
             token.push(obj);
@@ -12878,10 +12882,10 @@
     for (let i in output) {
         if (i.indexOf("Light") > -1) {
             light.name = i.replace(/-/g, " ");
-            output[i] = { ...light, type: "light", tokenColors:scopes2token("light",i) };
+            output[i] = { ...light, type: "light", tokenColors:scope2token("light",i) };
         } else {
             dark.name = i.replace(/-/g, " ");
-            output[i] = { ...dark, type: "dark", tokenColors:scopes2token("dark",i) };
+            output[i] = { ...dark, type: "dark", tokenColors:scope2token("dark",i) };
         }
     }
 

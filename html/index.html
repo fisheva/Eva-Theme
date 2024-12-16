@@ -2239,7 +2239,6 @@
                 },
             },
         ];
-    console.log("Eva_Light 11111: ", Eva_Light);
 
     let all_theme = {
             Eva_Light,
@@ -2250,12 +2249,10 @@
         };
 
     for (let i in all_theme) {
-        all_theme[i] = convert(all_theme[i], i);
+        all_theme[i] = disperse(all_theme[i], i);
     }
-    console.log("all_theme.Eva_Light: ", all_theme.Eva_Light);
 
     let json = {};
-    console.log("Eva_Light after: ", Eva_Light);
 
     for (let i = 0; i < all_theme.Eva_Light.length; i++) {
         let scope = all_theme.Eva_Light[i].scope;
@@ -2277,7 +2274,7 @@
 
     console.log("json: ", json);
 
-    function convert(token, name) {
+    function disperse(token, name) {
         let theme = [],
             scope = [],
             same = [];
@@ -2302,10 +2299,10 @@
                 }
             }
         }
-        console.log(name, theme);
+        // console.log(name, theme);
         // console.log("scope", scope);
         // console.log("same", same);
-        console.log("===============");
+        // console.log("===============");
         return theme;
     }
 </script>
