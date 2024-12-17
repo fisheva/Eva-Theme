@@ -1,16 +1,11 @@
 const fs = require("fs");
 const { parse } = require("jsonc-parser");
 
-let light_content = fs.readFileSync("../jsonc/lightUI.jsonc", "utf-8"),
-    dark_content = fs.readFileSync("../jsonc/darkUI.jsonc", "utf-8"),
-    syntax_content = fs.readFileSync("../jsonc/syntax.jsonc", "utf-8");
-
-let light = parse(light_content),
-    dark = parse(dark_content),
-    syntax = parse(syntax_content);
+let light = parse(fs.readFileSync("../jsonc/lightUI.jsonc", "utf-8")),
+    dark = parse(fs.readFileSync("../jsonc/darkUI.jsonc", "utf-8")),
+    syntax = parse(fs.readFileSync("../jsonc/syntax.jsonc", "utf-8"));
 
 // console.log("light========",light);
-// let light = require('../json/lightUI.json'), dark = require('../json/darkUI.json'), syntax = require('../json/syntax.json');
 
 let output = {
     "Eva-Light": {},
