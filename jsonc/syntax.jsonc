@@ -1,4 +1,17 @@
 {
+    "punctuation.separator.java": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "bold",
+            "Eva-Italic": "bold",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "bold"
+        }
+    },
     "keyword.operator.new": {
         "name": "",
         "foreground": {

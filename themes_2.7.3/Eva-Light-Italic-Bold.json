@@ -821,7 +821,7 @@
         //#5D5D5FD8 bold
         {
             "name": "Punctuation accessor 点号 .",
-            "scope": "keyword.operator.dots,punctuation.accessor,punctuation.separator.period,punctuation.separator.dot-access,punctuation.separator.method,punctuation.other.period,punctuation.dot,meta.delimiter.property.period,keyword.operator.access.dot,keyword.operator.period",
+            "scope": "keyword.operator.dots,punctuation.accessor,punctuation.separator.period,punctuation.separator.dot-access,punctuation.separator.method,punctuation.other.period,punctuation.dot,meta.delimiter.property.period,keyword.operator.access.dot,keyword.operator.period,punctuation.separator.java,",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#5D5D5FD8"
