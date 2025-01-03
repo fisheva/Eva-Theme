@@ -1,3 +1,13 @@
+2.7.4 （2025-01-02）
+
+* Change Dark UI
+
+```UI
+editorBracketMatch.background: #FF90707F → #FF907062
+```
+
+**Add index jsonc folder**
+
 2.7.3 (2024-10-24)
 
 * Add All Syntax
