@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Eva Theme" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+    <module name="Eva-Theme" />
+    <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+    <option name="PROGRAM_PARAMETERS" value="" />
+    <alternative-path path="IntelliJ IDEA IU-231.9423.9" alternative-path-enabled="true" />
+    <predefined_log_file enabled="true" id="idea.log" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
