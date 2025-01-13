@@ -22,8 +22,8 @@ dependencies {
 tasks {
     // Gradle 构建任务，打包插件为 .zip 文件
     buildPlugin {
-        from 'src/main/resources'  // 插件资源路径
+        from './resources'  // 插件资源路径
         archiveFileName = 'eva-theme-plugin.zip'  // 生成的插件 ZIP 文件名
-        destinationDirectory = file('./src/build')  // 存放打包文件的目录
+        destinationDirectory = file('./build')  // 存放打包文件的目录
     }
 }
