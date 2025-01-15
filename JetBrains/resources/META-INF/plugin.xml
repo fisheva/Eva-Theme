@@ -36,7 +36,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="Eva Dark" path="/themes/Eva_Dark.theme.json"/>
-        <themeProvider id="Eva Light" path="/themes/Eva_Light.theme.json"/>
+        <themeProvider id="Eva Dark" path="/Themes/Eva_Dark.theme.json"/>
+        <themeProvider id="Eva Light" path="/Themes/Eva_Light.theme.json"/>
     </extensions>
 </idea-plugin>
