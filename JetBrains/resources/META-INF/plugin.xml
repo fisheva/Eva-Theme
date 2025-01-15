@@ -1,8 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-<!--    插件的唯一标识符。应该是FQN。它不能在插件版本之间更改。-->
-    <id>Eva Theme</id>
+    <!--    插件的唯一标识符。应该是FQN。它不能在插件版本之间更改。-->
+    <id>eva-theme</id>
     <version>0.0.1</version>
 
     <!-- Public plugin name should be written in Title Case.
@@ -12,8 +12,8 @@
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="fisheva@foxmail.com" url="https://github.com/fisheva">fisheva</vendor>
-<!--    until-build="223.*"-->
-    <idea-version since-build="213"/>
+    <!--  since-build="213"  until-build="223.*"-->
+    <idea-version since-build="162"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -25,7 +25,10 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Initial release of the theme.
+    <b>0.0.1</b>
+    <ul>
+      <li>Initial release of the theme.</li>
+    </ul>
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
