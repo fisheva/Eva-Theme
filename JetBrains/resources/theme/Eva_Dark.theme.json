@@ -2,7 +2,7 @@
     "name": "Eva Dark",
     "dark": true,
     "author": "fisheva",
-    "editorScheme": "/theme/eva-dark.xml",
+    "editorScheme": "/theme/Eva_Dark.xml",
     "ui": {
         "*.background": "#22272F",
         "*.inactiveBackground": "#282c34",

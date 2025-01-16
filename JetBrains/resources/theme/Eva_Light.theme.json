@@ -2,7 +2,7 @@
     "name": "Eva Light",
     "dark": false,
     "author": "fisheva",
-    "editorScheme": "/theme/eva-light.xml",
+    "editorScheme": "/theme/Eva_Light.xml",
     "ui": {
         "*.background": "#E6E9F0",
         "*.inactiveBackground": "#ff0000",
