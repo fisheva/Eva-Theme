@@ -13,7 +13,7 @@
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="fisheva@foxmail.com" url="https://github.com/fisheva">fisheva</vendor>
     <!--  since-build="213"  until-build="223.*"-->
-    <idea-version since-build="162"/>
+    <idea-version since-build="213"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -36,7 +36,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="Eva Dark" path="/Themes/Eva_Dark.theme.json"/>
-        <themeProvider id="Eva Light" path="/Themes/Eva_Light.theme.json"/>
+        <themeProvider id="Eva Dark" path="/theme/Eva_Dark.theme.json"/>
+        <themeProvider id="Eva Light" path="/theme/Eva_Light.theme.json"/>
     </extensions>
 </idea-plugin>
