@@ -3,7 +3,7 @@
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <!--    插件的唯一标识符。应该是FQN。它不能在插件版本之间更改。-->
     <id>eva-theme</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -26,15 +26,11 @@
     <description><![CDATA[
      <div><b>Introduction</b></div>
 
-     <br/>
-
      <div>Eva Theme is a semantic coloring code theme making you more comfortable programming, supports both Dark and Light modes.</div>
 
      <br/>
 
      <div><b>Issue</b></div>
-
-     <br/>
 
      <div>This theme is not perfect yet. If you find somewhere with ill-suited color, you can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme/issues" target="_blank">here</a></div>
 
@@ -42,15 +38,33 @@
 
      <div><b>Platforms</b></div>
 
+     <div>Eva Theme on other platforms: <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">VSCode</a>, <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs" target="_blank">Visual Studio</a>, <a href="https://github.com/sharpchen/Eva-Theme.nvim" target="_blank">NeoVim</a>(by <a href="https://github.com/sharpchen" target="_blank">sharpchen</a>), <a href="https://github.com/TomDan-GodsHand/Eva-themes" target="_blank">Windows Terminal</a>(by <a href="https://github.com/TomDan-GodsHand" target="_blank">TomDan</a>), <a href="https://addons.mozilla.org/en-US/firefox/addon/eva-dark/" target="_blank">Firefox</a>(by <a href="https://github.com/hmnd" target="_blank">David</a>).</div>
+
      <br/>
 
-     <div>Eva Theme on other platforms: <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme" target="_blank">VSCode</a>, <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs" target="_blank">Visual Studio</a>, <a href="https://github.com/sharpchen/Eva-Theme.nvim" target="_blank">NeoVim</a>(by <a href="https://github.com/sharpchen" target="_blank">sharpchen</a>), <a href="https://github.com/TomDan-GodsHand/Eva-themes" target="_blank">Windows Terminal</a>(by <a href="https://github.com/TomDan-GodsHand" target="_blank">TomDan</a>), <a href="https://addons.mozilla.org/en-US/firefox/addon/eva-dark/" target="_blank">Firefox</a>(by <a href="https://github.com/hmnd" target="_blank">David</a>).</div>
+     <div><b>Sponsors</b></div>
+
+     <div>Grateful to all these  <a href="https://github.com/sponsors/fisheva" target="_blank">sponsors</a>！</div>
+     <p style="display: flex;flex-flow: row wrap;">
+          <a title="JetBrains" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://jb.gg/OpenSourceSupport" target="_blank">
+          <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/jetbrains_small.png" referrerpolicy="no-referrer">
+          </a>
+          <a title="Andreas Kanz" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/akanz1" target="_blank">
+          <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/Andreas%20Kanz_small.png" referrerpolicy="no-referrer">
+          </a>
+          <a title="Joshua Hannaford" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/Cy-Tek" target="_blank">
+          <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/Joshua%20Hannaford_small.png" referrerpolicy="no-referrer">
+          </a>
+          <a title="levinit" style="display:inline-block;text-decoration:none;margin-right:2px;" text-decoration="none" href="https://github.com/levinit" target="_blank">
+          <img class="sponsor" width="50px" height="50px" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/sponsors/levinit_small.png" referrerpolicy="no-referrer">
+          </a>
+     </p>
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    <b>0.0.1~0.0.2(2025-01-16)</b>
+    <b>0.0.1~0.0.3(2025-01-17)</b>
     <div>Initial release of the theme.</div>
   ]]></change-notes>
 
