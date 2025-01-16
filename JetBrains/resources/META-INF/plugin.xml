@@ -19,6 +19,10 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
+    <p style="display: flex;flex-flow: row wrap;">
+     <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/screenshots/IDEA-dark.png" referrerpolicy="no-referrer">
+     <img width="49%" class="screenshot" src="https://raw.githubusercontent.com/fisheva/Eva-Theme/master/images/screenshots/IDEA-light.png" referrerpolicy="no-referrer">
+     </p>
     A semantic coloring and comfortable theme.
   ]]></description>
 
