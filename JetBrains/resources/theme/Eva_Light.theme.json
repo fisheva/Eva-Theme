@@ -5,8 +5,8 @@
     "editorScheme": "/theme/Eva_Light.xml",
     "ui": {
         "*.background": "#E6E9F0",
-        "*.inactiveBackground": "#ff0000",
-        "*.textBackground": "#ff0000",
+        "*.inactiveBackground": "#EBEEF5",
+        "*.textBackground": "#EBEEF5",
 
         "*.contrast": "#E1E4EBFF",
         "*.disabledBackground": "#EBEEF5",

@@ -5,8 +5,8 @@
     "editorScheme": "/theme/Eva_Light.xml",
     "ui": {
         "*.background": "#E6E9F0",
-        "*.inactiveBackground": "#ff0000",
-        "*.textBackground": "#ff0000",
+        "*.inactiveBackground": "#EBEEF5",
+        "*.textBackground": "#EBEEF5",
 
         "*.contrast": "#E1E4EBFF",
         "*.disabledBackground": "#EBEEF5",
@@ -804,9 +804,9 @@
         "Popup.borderColor": "#CED1D7",
         "Popup.inactiveBorderColor": "#CED1D7",
         "Popup.preferences.borderColor": "#CED1D7",
-        "Popup.Separator.color": "#CED1D7",
-        "Popup.Separator.foreground": "#CED1D7",
-        "Popup.separatorColor": "#CED1D7",
+        "Popup.Separator.color": "#D9DCE2",
+        "Popup.Separator.foreground": "#D9DCE2",
+        "Popup.separatorColor": "#D9DCE2",
         "Popup.Toolbar.borderColor": "#CED1D7",
         "ProgressBar.trackColor": "#D2D5DC",
         "RadioButton.darcula.borderColor1": "#CED1D7",
