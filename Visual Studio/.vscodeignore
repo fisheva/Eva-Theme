@@ -1,0 +1,11 @@
+.github
+.gitignore
+.history
+.vscode
+documents/
+images/
+node_modules
+themes_2.7.3/
+index/
+jsonc/
+JetBrains/

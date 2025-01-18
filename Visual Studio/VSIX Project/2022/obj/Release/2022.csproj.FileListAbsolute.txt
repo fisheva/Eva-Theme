@@ -1,0 +1,64 @@
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\Eva Dark.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\Eva Light.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\eva.png
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\LICENSE.txt
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\2022.dll
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\2022.pdb
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\2022.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\2022.vsix
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\2022.csproj.AssemblyReference.cache
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\_EmptyResource.resources
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\2022.csproj.GenerateResource.cache
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\2022.csproj.CoreCompileInputs.cache
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\2022.dll
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\2022.pdb
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\2022.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\2022.latest.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\files.json
+E:\fisheva\Others\Eva Theme for VS\2022\obj\Release\createTemplateManifests.cache
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\Eva Theme.png
+E:\fisheva\Others\Eva Theme for VS\2022\bin\Release\Eva Test.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\Eva Dark.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\Eva Light.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\Eva Theme.png
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\eva.png
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\LICENSE.txt
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\2022.dll
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\2022.pdb
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\2022.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\2022.vsix
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\bin\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\2022.csproj.AssemblyReference.cache
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\_EmptyResource.resources
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\2022.csproj.GenerateResource.cache
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\2022.csproj.CoreCompileInputs.cache
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\2022.dll
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\2022.pdb
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\2022.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\2022.latest.pkgdef
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\files.json
+E:\fisheva\Others\Eva Theme for VS\2022\VISX Project\obj\Release\createTemplateManifests.cache
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\Eva Dark.pkgdef
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\Eva Light.pkgdef
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\Eva Theme.png
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\eva.png
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\LICENSE.txt
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.dll
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.pdb
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.pkgdef
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.vsix
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\bin\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.csproj.AssemblyReference.cache
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\_EmptyResource.resources
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.csproj.GenerateResource.cache
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.csproj.CoreCompileInputs.cache
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.dll
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.pdb
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.pkgdef
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.latest.pkgdef
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\extension.vsixmanifest
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\files.json
+E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\createTemplateManifests.cache
