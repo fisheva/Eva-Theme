@@ -1,4 +1,8 @@
-2.7.4 （2025-01-02）
+2.7.5 (2025-01-18)
+
+* Add Eva Theme for JetBrains link in README.
+
+2.7.4 （2025-01-18）
 
 * Change Dark UI
 
