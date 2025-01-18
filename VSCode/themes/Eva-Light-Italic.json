@@ -499,6 +499,14 @@
     "tokenColors": [
         {
             "name": "",
+            "scope": "punctuation.separator.java",
+            "settings": {
+                "foreground": "#5D5D5FD8",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "",
             "scope": "keyword.operator.new",
             "settings": {
                 "foreground": "#7C4DFF",

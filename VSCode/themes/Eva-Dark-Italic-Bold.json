@@ -105,7 +105,7 @@
         "editorBracketHighlight.foreground5": "#CF68E1",
         "editorBracketHighlight.foreground6": "#6495EE",
         "editorBracketHighlight.unexpectedBracket.foreground": "#838FA7",
-        "editorBracketMatch.background": "#FF90707F",
+        "editorBracketMatch.background": "#FF907062",
         "editorBracketMatch.border": "#FF907000",
         "editorBracketPairGuide.activeBackground1": "#E4BF7Fcc",
         "editorBracketPairGuide.activeBackground2": "#CF68E1cc",
@@ -497,6 +497,14 @@
     },
     "semanticHighlighting": false,
     "tokenColors": [
+        {
+            "name": "",
+            "scope": "punctuation.separator.java",
+            "settings": {
+                "foreground": "#838FA7",
+                "fontStyle": "bold"
+            }
+        },
         {
             "name": "",
             "scope": "keyword.operator.new",
