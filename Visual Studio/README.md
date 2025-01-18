@@ -20,8 +20,8 @@ Import steps: Click Tools → Import and Export Settings → Import selected env
 
 This theme is not perfect yet. You can help by reporting issues <a href="https://github.com/fisheva/Eva-Theme-VS/issues" target="_blank">Here</a>, or leave me a comment on <a href="https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs&ssr=false#review-details" target="_blank">Marketplace</a>.
 
-<a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/documents/How%20to%20make%20Eva%20Theme%20for%20VS%20better.md" target="_blank">How to make Eva Theme better?</a>
+<!-- <a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/documents/How%20to%20make%20Eva%20Theme%20for%20VS%20better.md" target="_blank">How to make Eva Theme better?</a> -->
 
-### Others 
+### Platforms 
 
-Eva Theme on other platform: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/) (by [David](https://github.com/hmnd)).
+Eva Theme on other platforms: [JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme), [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [NeoVim](https://github.com/sharpchen/Eva-Theme.nvim)(by [sharpchen](https://github.com/sharpchen)), [Windows Terminal](https://github.com/TomDan-GodsHand/Eva-themes)(by [TomDan](https://github.com/TomDan-GodsHand)), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/)(by [David](https://github.com/hmnd)).

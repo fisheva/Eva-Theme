@@ -20,7 +20,12 @@
 
 这款主题目前还不完善, 您可以在<a href="https://github.com/fisheva/Eva-Theme-VS/issues" target="_blank">这里</a>向我提 issue, 或者到<a href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme-vs&ssr=false#review-details" target="_blank">插件商店</a>给我留言。
 
-<a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/documents/How%20to%20make%20Eva%20Theme%20for%20VS%20better_CN.md" target="_blank">如何使Eva Theme更好?</a>
+
+### 平台
+
+其他平台的Eva Theme: [JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme), [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [NeoVim](https://github.com/sharpchen/Eva-Theme.nvim)(by [sharpchen](https://github.com/sharpchen)),  [Windows Terminal](https://github.com/TomDan-GodsHand/Eva-themes)(by [TomDan](https://github.com/TomDan-GodsHand)), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/)(by [David](https://github.com/hmnd)).
+
+<!-- <a href="https://github.com/fisheva/Eva-Theme/blob/master/Visual%20Studio/documents/How%20to%20make%20Eva%20Theme%20for%20VS%20better_CN.md" target="_blank">如何使Eva Theme更好?</a> -->
 
 <!-- ### 赞助
 
