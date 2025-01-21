@@ -5,15 +5,15 @@
 
 [![install](https://img.shields.io/vscode-marketplace/i/fisheva.Eva-Theme.svg?style=flat-flat)](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme) [![rating](https://img.shields.io/visual-studio-marketplace/r/fisheva.Eva-Theme.svg?style=flat)](https://marketplace.visualstudio.com/items/fisheva.Eva-Theme) [![GitHub stars](https://img.shields.io/github/stars/fisheva/Eva-Theme.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fisheva/Eva-Theme)
 
-<a title="Go to the English README." href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/README.md" target="_blank">English</a> | 简体中文
+<a title="View English README." href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/README.md" target="_blank">English</a> | 简体中文
 
 ### 介绍
 
-<a title="从Github跳转到Eva Theme的插件商店页面。" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a><!-- for VSCode -->是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些<a href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/languages_CN.md" target="_blank">编程语言</a>。
+<a title="跳转到Eva Theme的插件商店页面" href="https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme" target="_blank">Eva Theme</a><!-- for VSCode -->是一款语义着色代码主题，使您可以更舒适地进行编程, 已支持这些<a href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/documents/languages_CN.md" target="_blank">编程语言</a>。
 
 <!-- VSCode版本要求 ≥ 1.12.0。 -->
 
-Eva Theme同时支持暗黑和明亮模式，每种模式下又有四种样式可选择：普通、粗体、斜体、斜体加粗。粗体样式加粗了关键字和函数名。
+Eva Theme有暗黑和明亮二种模式，每种模式下又有四种样式可选择：普通、粗体、斜体、斜体加粗。粗体样式加粗了关键字和函数名。
 
 ### 冲突
 <!-- 您可以通过在设置里关闭 C_Cpp.enhancedColorization 项来禁用此功能。 -->
