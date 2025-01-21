@@ -1,4 +1,4 @@
-<a title="View English README." href="https://github.com/fisheva/Eva-Theme/blob/master/VSCode/README.md" target="_blank">English</a> | 简体中文
+<a title="View English README." href="https://github.com/fisheva/Eva-Theme" target="_blank">English</a> | 简体中文
 
 ### 介绍
 
