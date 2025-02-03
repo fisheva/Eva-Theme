@@ -1,10 +1,6 @@
-2.7.6 (2025-02-03)
+2.7.5~2.7.7 (2025-02-03)
 
-* Show Eva Theme for JetBrains ad tab.
-
-2.7.5 (2025-01-18)
-
-* Add Eva Theme for JetBrains link in README.
+* Update README.
 
 2.7.4 （2025-01-18）
 
