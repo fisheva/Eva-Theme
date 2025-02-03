@@ -39,6 +39,7 @@ function getWelcomeMarkdownContent(): string {
 ### [Eva Theme for JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme) has coming! :)
 
 <img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/refs/heads/master/VSCode/images/screenshots/Eva-Dark-IDEA.png" referrerpolicy="no-referrer" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/refs/heads/master/VSCode/images/screenshots/Eva-Light-IDEA.png" referrerpolicy="no-referrer" style="max-width:100%;">
 `;
 }
 
@@ -49,5 +50,6 @@ function getUpdateMarkdownContent(previousVersion: string, currentVersion: strin
 ### [Eva Theme for JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme) has coming! :)
 
 <img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/refs/heads/master/VSCode/images/screenshots/Eva-Dark-IDEA.png" referrerpolicy="no-referrer" style="max-width:100%;">
+<img src="https://raw.githubusercontent.com/fisheva/Eva-Theme/refs/heads/master/VSCode/images/screenshots/Eva-Light-IDEA.png" referrerpolicy="no-referrer" style="max-width:100%;">
 `;
 }
