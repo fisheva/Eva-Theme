@@ -13,6 +13,7 @@
         "activityBar.inactiveForeground": "#5C617D",
         "activityBarBadge.background": "#598DEF",
         "activityBarBadge.foreground": "#fff",
+		"activityWarningBadge.background": "#ff8a4c",
         "badge.foreground": "#CED5E1",
         "badge.background": "#676E95E5",
         "banner.background": "#598defe6",

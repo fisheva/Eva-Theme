@@ -1,3 +1,11 @@
+2.7.8 （2025-02-09）
+
+* Add All UI
+
+```UI
+activityWarningBadge.background: #ff8a4c/#ff6d12
+```
+
 2.7.5~2.7.7 (2025-02-03)
 
 * Update README.
