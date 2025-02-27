@@ -6,6 +6,12 @@
 activityWarningBadge.background: #ff8a4c/#ff6d12
 ```
 
+* Change All Syntax
+
+```Syntax
+source.css meta.selector.css: #E06C75/#CD6069 → #98C379/#53A053
+```
+
 2.7.5~2.7.7 (2025-02-03)
 
 * Update README.

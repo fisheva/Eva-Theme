@@ -6268,14 +6268,14 @@
     "source.css meta.selector.css": {
         "name": "",
         "foreground": {
-            "light": "#CD6069",
-            "dark": "#E06C75"
+            "light": "#53A053",
+            "dark": "#98C379"
         },
         "fontStyle": {
             "Eva": "",
-            "Eva-Italic": "",
+            "Eva-Italic": "italic",
             "Eva-Bold": "",
-            "Eva-Italic-Bold": ""
+            "Eva-Italic-Bold": "italic"
         }
     },
     "keyword.operator.expression.instanceof": {
