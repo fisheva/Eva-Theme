@@ -6,6 +6,23 @@
 activityWarningBadge.background: #ff8a4c/#ff6d12
 ```
 
+* Change All UI
+
+```UI
+editorBracketHighlight.foreground1: #838FA7/#5d5d5fd8
+editorBracketHighlight.foreground2: #CF68E1/#C838C6
+editorBracketHighlight.foreground3: #A78CFA/#7C4DFF
+editorBracketHighlight.foreground4: #FF6AB3/#f183da
+editorBracketHighlight.foreground5: #56B7C3/#00bec4
+editorBracketHighlight.foreground6: #3ec141/#3ec141
+editorBracketPairGuide.activeBackground1: #838FA7f2/#5d5d5f8c
+editorBracketPairGuide.activeBackground2: #CF68E1cc/#C838C6cc
+editorBracketPairGuide.activeBackground3: #A78CFAcc/#7C4DFFcc
+editorBracketPairGuide.activeBackground4: #FF6AB3cc/#f183dacc
+editorBracketPairGuide.activeBackground5: #56B7C3cc/#00bec4cc
+editorBracketPairGuide.activeBackground6: #3ec141cc/#3ec141cc
+```
+
 * Change All Syntax
 
 ```Syntax
