@@ -64,11 +64,8 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    <b>0.0.5 (2025-01-18)</b>
-    <div>(Change Dark) MATCHED_BRACE_ATTRIBUTES: #FF90707F → #FF907066</div>
-    <div>(Fix Both) FOLDED_TEXT_ATTRIBUTES background: #323B4D/#d9e1f4</div>
-    <b>0.0.1~0.0.4 (2025-01-17)</b>
-    <div>Initial release of the theme.</div>
+    <b>CHANGELOG Address:</b>
+    <div>https://github.com/fisheva/Eva-Theme/blob/master/JetBrains/CHANGELOG.md</div>
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
