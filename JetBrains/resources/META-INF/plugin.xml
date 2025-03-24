@@ -3,7 +3,7 @@
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <!--    插件的唯一标识符。应该是FQN。它不能在插件版本之间更改。-->
     <id>eva-theme</id>
-    <version>0.0.5</version>
+    <version>0.0.7</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->

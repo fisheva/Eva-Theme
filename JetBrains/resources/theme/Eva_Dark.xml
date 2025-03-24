@@ -23,27 +23,36 @@
     <option name="FILESTATUS_ADDED" value="98c379" />
     <option name="FILESTATUS_COPIED" value="3ec141" />
     <option name="FILESTATUS_DELETED" value="f14c4c" />
-    <option name="FILESTATUS_HIJACKED" value="e4bf7f" />
+    <option name="FILESTATUS_HIJACKED" value="" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f14c4c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="676e95" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="e51400" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="e51400" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="b0b7c3" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="b0b7c3" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="ff8a4c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="e51400" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="98c379" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="8a97c3" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="a78cfa" />
-    <option name="FILESTATUS_MERGED" value="b0b7c3" />
+    <option name="FILESTATUS_MERGED" value="d365e5" />
     <option name="FILESTATUS_MODIFIED" value="a78cfa" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
-    <option name="FILESTATUS_OBSOLETE" value="676e95" />
-    <option name="FILESTATUS_SWITCHED" value="a78cfa" />
+    <option name="FILESTATUS_NOT_CHANGED" value="b0b7c3" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="a78cfa" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="a78cfa" />
+    <option name="FILESTATUS_OBSOLETE" value="" />
+    <option name="FILESTATUS_RENAMED" value="56b7c3" />
+    <option name="FILESTATUS_SUPPRESSED" value="" />
+    <option name="FILESTATUS_SWITCHED" value="" />
     <option name="FILESTATUS_UNKNOWN" value="3ec141" />
-    <option name="FILESTATUS_addedOutside" value="3ec141" />
-    <option name="FILESTATUS_changelistConflict" value="ff8a4c" />
+    <option name="FILESTATUS_addedOutside" value="98c379" />
+    <option name="FILESTATUS_changelistConflict" value="e51400" />
     <option name="FILESTATUS_modifiedOutside" value="a78cfa" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="282c34" />
+    <option name="HTML_TAG_TREE_LEVEL0" value="282c34" />
+    <option name="HTML_TAG_TREE_LEVEL1" value="282c34" />
+    <option name="HTML_TAG_TREE_LEVEL2" value="282c34" />
+    <option name="HTML_TAG_TREE_LEVEL3" value="282c34" />
+    <option name="HTML_TAG_TREE_LEVEL4" value="282c34" />
+    <option name="HTML_TAG_TREE_LEVEL5" value="282c34" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="" />
@@ -611,8 +620,8 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="4283f5" />
-        <option name="EFFECT_COLOR" value="4283f5" />
+        <option name="FOREGROUND" value="d365e5" />
+        <option name="EFFECT_COLOR" value="d365e5" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -971,7 +980,6 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="676e95" />
         <option name="EFFECT_COLOR" value="676e95" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -1095,8 +1103,8 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="4283f5" />
-        <option name="EFFECT_COLOR" value="4283f5" />
+        <option name="FOREGROUND" value="98c379" />
+        <option name="EFFECT_COLOR" value="98c379" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1248,7 +1256,8 @@
     </option>
     <option name="GRAMMAR_ERROR">
       <value>
-        <option name="EFFECT_COLOR" value="f14c4c" />
+        <option name="EFFECT_COLOR" value="e51400" />
+        <option name="ERROR_STRIPE_COLOR" value="e51400" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1323,6 +1332,9 @@
         <option name="FOREGROUND" value="b0b7c3" />
       </value>
     </option>
+    <option name="HTML:INJECTED_LANGUAGE_FRAGMENT">
+      <value />
+    </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="56b7c3" />
@@ -1366,8 +1378,8 @@
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="4283f5" />
-        <option name="EFFECT_COLOR" value="4283f5" />
+        <option name="FOREGROUND" value="98c379" />
+        <option name="EFFECT_COLOR" value="98c379" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1385,16 +1397,15 @@
     </option>
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="4283f5" />
-        <option name="EFFECT_COLOR" value="4283f5" />
+        <option name="FOREGROUND" value="98c379" />
+        <option name="EFFECT_COLOR" value="98c379" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="cccccc" />
-        <option name="ERROR_STRIPE_COLOR" value="e4bf7f" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="e4bf7f" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="INI.SECTION">
@@ -1402,22 +1413,22 @@
         <option name="FOREGROUND" value="c88cdc" />
       </value>
     </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value />
+    </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="e4bf7f" />
-        <option name="BACKGROUND" value="23272f" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
         <option name="FOREGROUND" value="e4bf7f" />
-        <option name="BACKGROUND" value="23272f" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="FOREGROUND" value="e4bf7f" />
-        <option name="BACKGROUND" value="23272f" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -1996,8 +2007,7 @@
     </option>
     <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="676e95" />
-        <option name="EFFECT_COLOR" value="676e95" />
+        <option name="EFFECT_COLOR" value="f14c4c" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2065,9 +2075,8 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="676e95" />
         <option name="EFFECT_COLOR" value="676e95" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="OC.BADCHARACTER">
@@ -3048,8 +3057,9 @@
     </option>
     <option name="TEXT_STYLE_ERROR">
       <value>
-        <option name="EFFECT_COLOR" value="f14c4c" />
-        <option name="EFFECT_TYPE" value="5" />
+        <option name="EFFECT_COLOR" value="e51400" />
+        <option name="ERROR_STRIPE_COLOR" value="e51400" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="TEXT_STYLE_SUGGESTION">
@@ -3154,7 +3164,6 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="282c34" />
         <option name="EFFECT_COLOR" value="e4bf7f" />
         <option name="ERROR_STRIPE_COLOR" value="dab77c" />
         <option name="EFFECT_TYPE" value="2" />
