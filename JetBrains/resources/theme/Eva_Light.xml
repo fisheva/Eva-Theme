@@ -85,7 +85,7 @@
     <option name="TABS" value="b3b3b4" />
     <option name="TAB_UNDERLINE" value="ebeef5" />
     <option name="TAB_UNDERLINE_INACTIVE" value="ebeef5" />
-    <option name="TEARLINE_COLOR" value="dddddd" />
+    <option name="TEARLINE_COLOR" value="d8dbe1" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="ff0000" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="ff00" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="ff" />
@@ -196,7 +196,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffc8c8" />
+        <option name="BACKGROUND" value="edb3b8" />
       </value>
     </option>
     <option name="BUILDOUT.KEY">
@@ -886,7 +886,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="7c4dff" />
+        <option name="FOREGROUND" value="c838c6" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -913,7 +913,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="bec4" />
+        <option name="FOREGROUND" value="727276" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -928,7 +928,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="c838c6" />
+        <option name="FOREGROUND" value="7c4dff" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1046,6 +1046,11 @@
     <option name="EDITORCONFIG_PATTERN">
       <value>
         <option name="FOREGROUND" value="ef8ed8" />
+      </value>
+    </option>
+    <option name="EDITORCONFIG_SEPARATOR">
+      <value>
+        <option name="FOREGROUND" value="a0a1a7" />
       </value>
     </option>
     <option name="EDITORCONFIG_VARIABLE">
@@ -1264,11 +1269,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GROOVY_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7c4dff" />
-      </value>
-    </option>
+    <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
     <option name="HAML_CLASS">
       <value>
         <option name="FOREGROUND" value="cd6069" />
@@ -1428,17 +1429,20 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="f0aa0b" />
+        <option name="FOREGROUND" value="aeaeaf" />
+        <option name="BACKGROUND" value="dcdfe6" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="f0aa0b" />
+        <option name="FOREGROUND" value="aeaeaf" />
+        <option name="BACKGROUND" value="dcdfe6" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="f0aa0b" />
+        <option name="FOREGROUND" value="aeaeaf" />
+        <option name="BACKGROUND" value="dcdfe6" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -1502,11 +1506,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7c4dff" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="a9a9aa" />
@@ -1516,11 +1515,6 @@
     <option name="JAVA_NUMBER">
       <value>
         <option name="FOREGROUND" value="ff6d12" />
-      </value>
-    </option>
-    <option name="JAVA_OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="bec4" />
       </value>
     </option>
     <option name="JAVA_STRING">
@@ -1586,7 +1580,7 @@
     </option>
     <option name="JS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="7c4dff" />
+        <option name="FOREGROUND" value="c838c6" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
@@ -1718,11 +1712,6 @@
     </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value />
-    </option>
-    <option name="KOTLIN_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7c4dff" />
-      </value>
     </option>
     <option name="KOTLIN_KEYWORD_VAL">
       <value>
@@ -1946,16 +1935,6 @@
     <option name="MARKDOWN_BOLD_MARKER">
       <value>
         <option name="FOREGROUND" value="f0aa0b" />
-      </value>
-    </option>
-    <option name="MARKDOWN_CODE_SPAN">
-      <value>
-        <option name="FOREGROUND" value="44c145" />
-      </value>
-    </option>
-    <option name="MARKDOWN_CODE_SPAN_MARKER">
-      <value>
-        <option name="FOREGROUND" value="44c145" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_1">
@@ -2238,11 +2217,6 @@
         <option name="FOREGROUND" value="53a053" />
       </value>
     </option>
-    <option name="Operation sign">
-      <value>
-        <option name="FOREGROUND" value="bec4" />
-      </value>
-    </option>
     <option name="PHP_ALIAS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ffc86e" />
@@ -2290,11 +2264,6 @@
     <option name="PROTOTEXT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="cd6069" />
-      </value>
-    </option>
-    <option name="PROTO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7c4dff" />
       </value>
     </option>
     <option name="PUPPET_BAD_CHARACTER">
@@ -2443,11 +2412,6 @@
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="888888" />
-      </value>
-    </option>
-    <option name="QL_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7c4dff" />
       </value>
     </option>
     <option name="QUTE_BOOLEAN">
@@ -3005,11 +2969,6 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="SQL_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7c4dff" />
-      </value>
-    </option>
     <option name="SQL_OUTER_QUERY_COLUMN" baseAttributes="SQL_COLUMN" />
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
@@ -3249,11 +3208,7 @@
         <option name="FOREGROUND" value="437aed" />
       </value>
     </option>
-    <option name="XPATH.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7c4dff" />
-      </value>
-    </option>
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.XPATH_NAME">
       <value>
         <option name="FOREGROUND" value="53a053" />
@@ -3303,11 +3258,6 @@
     <option name="YAML_SCALAR_VALUE">
       <value>
         <option name="FOREGROUND" value="53a053" />
-      </value>
-    </option>
-    <option name="YAML_SIGN">
-      <value>
-        <option name="FOREGROUND" value="bec4" />
       </value>
     </option>
     <option name="YAML_TEXT">

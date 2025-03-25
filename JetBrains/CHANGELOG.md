@@ -1,3 +1,7 @@
+0.0.8 (2025-03-25)
+
+* Change keyword, operator, function parameters note colors.
+
 0.0.5~0.0.7 (2025-03-24)
 
 * Fix some file status colors.
