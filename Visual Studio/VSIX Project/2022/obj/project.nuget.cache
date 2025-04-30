@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t1f8RBU5foo=",
+  "dgSpecHash": "TUJ/vOeDBUw=",
   "success": true,
-  "projectFilePath": "C:\\fisheva\\others\\GitHub\\Eva-Theme-VS\\VSIX Project\\2022\\2022.csproj",
+  "projectFilePath": "C:\\fisheva\\others\\GitHub\\Eva-Theme\\Visual Studio\\VSIX Project\\2022\\2022.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Justin\\.nuget\\packages\\envdte\\17.13.40008\\envdte.17.13.40008.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\envdte100\\17.13.40008\\envdte100.17.13.40008.nupkg.sha512",

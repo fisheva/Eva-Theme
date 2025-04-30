@@ -16362,11 +16362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\fisheva\\others\\GitHub\\Eva-Theme-VS\\VSIX Project\\2022\\2022.csproj",
+      "projectUniqueName": "C:\\fisheva\\others\\GitHub\\Eva-Theme\\Visual Studio\\VSIX Project\\2022\\2022.csproj",
       "projectName": "2022",
-      "projectPath": "C:\\fisheva\\others\\GitHub\\Eva-Theme-VS\\VSIX Project\\2022\\2022.csproj",
+      "projectPath": "C:\\fisheva\\others\\GitHub\\Eva-Theme\\Visual Studio\\VSIX Project\\2022\\2022.csproj",
       "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-      "outputPath": "C:\\fisheva\\others\\GitHub\\Eva-Theme-VS\\VSIX Project\\2022\\obj\\",
+      "outputPath": "C:\\fisheva\\others\\GitHub\\Eva-Theme\\Visual Studio\\VSIX Project\\2022\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
