@@ -1,3 +1,11 @@
+2.7.9 （2025-04-08）
+
+* Change All UI
+
+```UI
+gitDecoration.renamedResourceForeground: #E4BF7F/#F3AD01 → #56b7c3/#00bec4
+```
+
 2.7.8 （2025-02-09）
 
 * Add All UI
