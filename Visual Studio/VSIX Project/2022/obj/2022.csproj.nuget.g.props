@@ -5,19 +5,23 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Administrator\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Justin\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.1.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.2</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\Administrator\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\Justin\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.0.5233\build\Microsoft.VSSDK.BuildTools.props" Condition="Exists('$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.0.5233\build\Microsoft.VSSDK.BuildTools.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.vssdk.compatibilityanalyzer\17.13.2126\build\Microsoft.VsSDK.CompatibilityAnalyzer.props" Condition="Exists('$(NuGetPackageRoot)microsoft.vssdk.compatibilityanalyzer\17.13.2126\build\Microsoft.VsSDK.CompatibilityAnalyzer.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.13.2126\build\Microsoft.VSSDK.BuildTools.props" Condition="Exists('$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.13.2126\build\Microsoft.VSSDK.BuildTools.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\Administrator\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.0.64</PkgMicrosoft_VisualStudio_Threading_Analyzers>
-    <PkgMicrosoft_VisualStudio_SDK_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_SDK_Analyzers)' == '' ">C:\Users\Administrator\.nuget\packages\microsoft.visualstudio.sdk.analyzers\15.8.33</PkgMicrosoft_VisualStudio_SDK_Analyzers>
-    <PkgMicrosoft_VSSDK_BuildTools Condition=" '$(PkgMicrosoft_VSSDK_BuildTools)' == '' ">C:\Users\Administrator\.nuget\packages\microsoft.vssdk.buildtools\17.0.5233</PkgMicrosoft_VSSDK_BuildTools>
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\Justin\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.13.2</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgMicrosoft_VsSDK_CompatibilityAnalyzer Condition=" '$(PkgMicrosoft_VsSDK_CompatibilityAnalyzer)' == '' ">C:\Users\Justin\.nuget\packages\microsoft.vssdk.compatibilityanalyzer\17.13.2126</PkgMicrosoft_VsSDK_CompatibilityAnalyzer>
+    <PkgMicrosoft_VisualStudio_SDK_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_SDK_Analyzers)' == '' ">C:\Users\Justin\.nuget\packages\microsoft.visualstudio.sdk.analyzers\17.7.47</PkgMicrosoft_VisualStudio_SDK_Analyzers>
+    <PkgMicrosoft_VSSDK_BuildTools Condition=" '$(PkgMicrosoft_VSSDK_BuildTools)' == '' ">C:\Users\Justin\.nuget\packages\microsoft.vssdk.buildtools\17.13.2126</PkgMicrosoft_VSSDK_BuildTools>
+    <PkgMicrosoft_VisualStudio_Composition_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Composition_Analyzers)' == '' ">C:\Users\Justin\.nuget\packages\microsoft.visualstudio.composition.analyzers\17.12.20</PkgMicrosoft_VisualStudio_Composition_Analyzers>
   </PropertyGroup>
 </Project>

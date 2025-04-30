@@ -62,3 +62,24 @@ E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.latest.pkgdef
 E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\extension.vsixmanifest
 E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\files.json
 E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Release\createTemplateManifests.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\Eva Dark.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\Eva Light.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\Eva Theme.png
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\eva.png
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\LICENSE.txt
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.dll
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.pdb
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\2022.vsix
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Release\extension.vsixmanifest
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.csproj.AssemblyReference.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\_EmptyResource.resources
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.csproj.GenerateResource.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.csproj.CoreCompileInputs.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.dll
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.pdb
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\2022.latest.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\extension.vsixmanifest
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\files.json
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Release\createTemplateManifests.cache

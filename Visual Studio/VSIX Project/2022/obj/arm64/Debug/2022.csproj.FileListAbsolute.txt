@@ -1,0 +1,20 @@
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\Eva Dark.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\Eva Light.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\Eva Theme.png
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\eva.png
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\LICENSE.txt
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\2022.dll
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\2022.pdb
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\2022.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\ARM64\Debug\2022.vsix
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\2022.csproj.AssemblyReference.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\_EmptyResource.resources
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\2022.csproj.GenerateResource.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\2022.csproj.CoreCompileInputs.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\2022.dll
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\2022.pdb
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\2022.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\2022.latest.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\extension.vsixmanifest
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\files.json
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\ARM64\Debug\createTemplateManifests.cache

@@ -41,3 +41,24 @@ E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.latest.pkgdef
 E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Debug\extension.vsixmanifest
 E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Debug\files.json
 E:\fisheva\Others\Eva-Theme-VS\VSIX Project\2022\obj\Debug\createTemplateManifests.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\Eva Dark.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\Eva Light.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\Eva Theme.png
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\eva.png
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\LICENSE.txt
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\2022.dll
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\2022.pdb
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\2022.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\2022.vsix
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\bin\Debug\extension.vsixmanifest
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.csproj.AssemblyReference.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\_EmptyResource.resources
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.csproj.GenerateResource.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.csproj.CoreCompileInputs.cache
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.dll
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.pdb
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\2022.latest.pkgdef
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\extension.vsixmanifest
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\files.json
+C:\fisheva\others\GitHub\Eva-Theme-VS\VSIX Project\2022\obj\Debug\createTemplateManifests.cache
