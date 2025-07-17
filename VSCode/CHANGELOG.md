@@ -1,9 +1,27 @@
-2.7.9 （2025-04-08）
+2.7.9 （2025.07-17）
 
 * Change All UI
 
 ```UI
 gitDecoration.renamedResourceForeground: #E4BF7F/#F3AD01 → #56b7c3/#00bec4
+```
+
+* Add All Syntax
+
+```Syntax
+variable.language.wildcard: #56b7c3/#00bec4
+storage.type.byte.go: #FF6AB3/#EF8ED8
+support.variable.magic.python: #FF9070/#FF6D12
+entity.name.type.package, storage.modifier.package: #E06C75/#CD6069
+source.ts.embedded.html meta.object-literal.key punctuation.definition.string,source.ts.embedded.html meta.object-literal.key, source.ts.embedded.html meta.object-literal.key string.quoted: #98C379/#53A053
+storage.type.annotation.java,punctuation.definition.annotation: #B0B7C3/#5D5D5F
+punctuation.definition.annotation-arguments.begin.bracket,punctuation.definition.annotation-arguments.end.bracket,punctuation.section.try.resources.begin.bracket,punctuation.section.try.resources.end.bracket,punctuation.section.catch.begin.bracket.curly,punctuation.section.catch.end.bracket.curly,punctuation.section.try.begin.bracket.curly,punctuation.section.try.end.bracket.curly: #838FA7/#5D5D5FD8
+```
+
+* Change All Syntax
+
+```Syntax
+keyword.package: #C838C6/#CF68E1 → #A78CFA/#7C4DFF
 ```
 
 2.7.8 （2025-02-09）

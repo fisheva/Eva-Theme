@@ -1,15 +1,15 @@
 {
-    "punctuation.separator.java": {
+    "keyword.package": {
         "name": "",
         "foreground": {
-            "light": "#5D5D5FD8",
-            "dark": "#838FA7"
+            "light": "#7C4DFF",
+            "dark": "#A78CFA"
         },
         "fontStyle": {
-            "Eva": "bold",
-            "Eva-Italic": "bold",
+            "Eva": "",
+            "Eva-Italic": "italic",
             "Eva-Bold": "bold",
-            "Eva-Italic-Bold": "bold"
+            "Eva-Italic-Bold": "italic bold"
         }
     },
     "keyword.operator.new": {
@@ -2872,6 +2872,19 @@
             "Eva-Italic-Bold": "italic"
         }
     },
+    "variable.language.wildcard": {
+        "name": "",
+        "foreground": {
+            "light": "#00BEC4",
+            "dark": "#56B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "keyword.operator": {
         "name": "",
         "foreground": {
@@ -3717,6 +3730,19 @@
             "Eva-Italic-Bold": "italic bold"
         }
     },
+    "storage.type.byte.go": {
+        "name": "",
+        "foreground": {
+            "light": "#EF8ED8",
+            "dark": "#FF6AB3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
     "support.type": {
         "name": "",
         "foreground": {
@@ -4229,6 +4255,19 @@
         "foreground": {
             "light": "#EF8ED8",
             "dark": "#FF6AB3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
+    "support.variable.magic.python": {
+        "name": "",
+        "foreground": {
+            "light": "#FF6D12",
+            "dark": "#FF9070"
         },
         "fontStyle": {
             "Eva": "",
@@ -5225,6 +5264,19 @@
             "Eva-Italic-Bold": ""
         }
     },
+    "source.ts.embedded.html meta.object-literal.key punctuation.definition.string": {
+        "name": "",
+        "foreground": {
+            "light": "#53A053",
+            "dark": "#98C379"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "string.regexp": {
         "name": "",
         "foreground": {
@@ -5483,6 +5535,32 @@
             "Eva-Italic": "",
             "Eva-Bold": "",
             "Eva-Italic-Bold": ""
+        }
+    },
+    "entity.name.type.package": {
+        "name": "",
+        "foreground": {
+            "light": "#CD6069",
+            "dark": "#E06C75"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
+    "storage.modifier.package": {
+        "name": "",
+        "foreground": {
+            "light": "#CD6069",
+            "dark": "#E06C75"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
         }
     },
     "entity.name.type.module": {
@@ -6278,6 +6356,32 @@
             "Eva-Italic-Bold": "italic"
         }
     },
+    "source.ts.embedded.html meta.object-literal.key": {
+        "name": "",
+        "foreground": {
+            "light": "#53A053",
+            "dark": "#98C379"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
+    "source.ts.embedded.html meta.object-literal.key string.quoted": {
+        "name": "",
+        "foreground": {
+            "light": "#53A053",
+            "dark": "#98C379"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
     "keyword.operator.expression.instanceof": {
         "name": "",
         "foreground": {
@@ -6422,19 +6526,6 @@
         }
     },
     "punctuation.separator.hash": {
-        "name": "",
-        "foreground": {
-            "light": "#C838C6",
-            "dark": "#CF68E1"
-        },
-        "fontStyle": {
-            "Eva": "",
-            "Eva-Italic": "italic",
-            "Eva-Bold": "bold",
-            "Eva-Italic-Bold": "italic bold"
-        }
-    },
-    "keyword.package": {
         "name": "",
         "foreground": {
             "light": "#C838C6",
@@ -7513,6 +7604,19 @@
             "Eva-Italic-Bold": "italic bold"
         }
     },
+    "storage.type.annotation.java": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5F",
+            "dark": "#B0B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
     "variable.other": {
         "name": "",
         "foreground": {
@@ -7968,6 +8072,19 @@
             "Eva-Italic-Bold": "italic"
         }
     },
+    "punctuation.definition.annotation": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5F",
+            "dark": "#B0B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "punctuation.definition.constant.math.tex": {
         "name": "",
         "foreground": {
@@ -8319,6 +8436,19 @@
             "Eva-Italic-Bold": "italic"
         }
     },
+    "punctuation.separator.java": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "bold",
+            "Eva-Italic": "bold",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "bold"
+        }
+    },
     "keyword.operator.dots": {
         "name": "",
         "foreground": {
@@ -8447,6 +8577,110 @@
             "Eva-Italic": "bold",
             "Eva-Bold": "bold",
             "Eva-Italic-Bold": "bold"
+        }
+    },
+    "punctuation.definition.annotation-arguments.begin.bracket": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.definition.annotation-arguments.end.bracket": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.section.try.resources.begin.bracket": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.section.try.resources.end.bracket": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.section.catch.begin.bracket.curly": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.section.catch.end.bracket.curly": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.section.try.begin.bracket.curly": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.section.try.end.bracket.curly": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
         }
     },
     "keyword.operator.update": {
