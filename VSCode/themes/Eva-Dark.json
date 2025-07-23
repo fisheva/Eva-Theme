@@ -2708,6 +2708,14 @@
         },
         {
             "name": "",
+            "scope": "keyword.accessor.dollar",
+            "settings": {
+                "foreground": "#56B7C3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "variable.language.self",
             "settings": {
                 "foreground": "#F02B77",
@@ -2796,7 +2804,7 @@
         },
         {
             "name": "",
-            "scope": "storage.type.byte.go",
+            "scope": "storage.type.byte",
             "settings": {
                 "foreground": "#FF6AB3",
                 "fontStyle": ""
@@ -3124,7 +3132,7 @@
         },
         {
             "name": "",
-            "scope": "support.variable.magic.python",
+            "scope": "support.variable.magic",
             "settings": {
                 "foreground": "#FF9070",
                 "fontStyle": ""
@@ -3908,6 +3916,14 @@
         },
         {
             "name": "",
+            "scope": "meta.function-call.arguments",
+            "settings": {
+                "foreground": "#E06C75",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "entity.name.type.package",
             "settings": {
                 "foreground": "#E06C75",
@@ -4399,14 +4415,6 @@
             "scope": "keyword.control.newline.tex",
             "settings": {
                 "foreground": "#E06C75",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "",
-            "scope": "source.css meta.selector.css",
-            "settings": {
-                "foreground": "#98C379",
                 "fontStyle": ""
             }
         },
@@ -6732,6 +6740,22 @@
         },
         {
             "name": "",
+            "scope": "punctuation.section.brackets.double.begin",
+            "settings": {
+                "foreground": "#838FA7",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "punctuation.section.brackets.double.end",
+            "settings": {
+                "foreground": "#838FA7",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "support.type.property-name.css",
             "settings": {
                 "foreground": "#8A97C3",
@@ -7063,6 +7087,14 @@
             "scope": "punctuation.section.braces.end",
             "settings": {
                 "foreground": "#838FA7CC",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "source.css meta.selector.css",
+            "settings": {
+                "foreground": "#8E99B1",
                 "fontStyle": ""
             }
         },

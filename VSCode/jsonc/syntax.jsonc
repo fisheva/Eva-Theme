@@ -3587,6 +3587,19 @@
             "Eva-Italic-Bold": ""
         }
     },
+    "keyword.accessor.dollar": {
+        "name": "",
+        "foreground": {
+            "light": "#00BEC4",
+            "dark": "#56B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "variable.language.self": {
         "name": "",
         "foreground": {
@@ -3730,7 +3743,7 @@
             "Eva-Italic-Bold": "italic bold"
         }
     },
-    "storage.type.byte.go": {
+    "storage.type.byte": {
         "name": "",
         "foreground": {
             "light": "#EF8ED8",
@@ -4263,7 +4276,7 @@
             "Eva-Italic-Bold": "italic"
         }
     },
-    "support.variable.magic.python": {
+    "support.variable.magic": {
         "name": "",
         "foreground": {
             "light": "#FF6D12",
@@ -5537,6 +5550,19 @@
             "Eva-Italic-Bold": ""
         }
     },
+    "meta.function-call.arguments": {
+        "name": "",
+        "foreground": {
+            "light": "#CD6069",
+            "dark": "#E06C75"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
     "entity.name.type.package": {
         "name": "",
         "foreground": {
@@ -6341,19 +6367,6 @@
             "Eva-Italic": "",
             "Eva-Bold": "",
             "Eva-Italic-Bold": ""
-        }
-    },
-    "source.css meta.selector.css": {
-        "name": "",
-        "foreground": {
-            "light": "#53A053",
-            "dark": "#98C379"
-        },
-        "fontStyle": {
-            "Eva": "",
-            "Eva-Italic": "italic",
-            "Eva-Bold": "",
-            "Eva-Italic-Bold": "italic"
         }
     },
     "source.ts.embedded.html meta.object-literal.key": {
@@ -10126,6 +10139,32 @@
             "Eva-Italic-Bold": ""
         }
     },
+    "punctuation.section.brackets.double.begin": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.section.brackets.double.end": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "support.type.property-name.css": {
         "name": "",
         "foreground": {
@@ -10670,6 +10709,19 @@
             "Eva-Italic": "",
             "Eva-Bold": "",
             "Eva-Italic-Bold": ""
+        }
+    },
+    "source.css meta.selector.css": {
+        "name": "",
+        "foreground": {
+            "light": "#8E8E90",
+            "dark": "#8E99B1"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
         }
     },
     "variable.parameter.url.scss": {
