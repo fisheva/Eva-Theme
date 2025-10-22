@@ -2872,6 +2872,19 @@
             "Eva-Italic-Bold": "italic"
         }
     },
+    "source.css.embedded.html keyword.operator.arithmetic.css": {
+        "name": "",
+        "foreground": {
+            "light": "#00BEC4",
+            "dark": "#56B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "variable.language.wildcard": {
         "name": "",
         "foreground": {
@@ -4651,6 +4664,32 @@
             "Eva-Italic": "bold",
             "Eva-Bold": "bold",
             "Eva-Italic-Bold": "italic bold"
+        }
+    },
+    "punctuation.definition.custom-property.less": {
+        "name": "",
+        "foreground": {
+            "light": "#F0AA0B",
+            "dark": "#E4BF7F"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
+    "support.type.custom-property.name.less": {
+        "name": "",
+        "foreground": {
+            "light": "#F0AA0B",
+            "dark": "#E4BF7F"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
         }
     },
     "variable.parameter": {
@@ -8268,6 +8307,19 @@
         }
     },
     "punctuation.definition.link.title.end.markdown": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5F",
+            "dark": "#B0B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "meta.function-call.less": {
         "name": "",
         "foreground": {
             "light": "#5D5D5F",

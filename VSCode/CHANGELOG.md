@@ -1,3 +1,22 @@
+2.8.1 (2025-10-16)
+
+* Add All UI
+
+```UI
+editorGutter.addedSecondaryBackground: #98C379/#83C654
+editorGutter.deletedSecondaryBackground: #E06C75/#CD6069
+editorGutter.modifiedSecondaryBackground: #D365E5/#d73bd5
+```
+
+* Add All Syntax
+
+```Syntax
+meta.function-call.less: #B0B7C3/#5D5D5F
+punctuation.definition.custom-property.less: #E4BF7F/#F0AA0B
+support.type.custom-property.name.less: #E4BF7F/#F0AA0B
+source.css.embedded.html keyword.operator.arithmetic.css: #56B7C3/#00BEC4
+```
+
 2.8.0 （2025-07-23)
 
 * Add All Syntax

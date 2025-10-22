@@ -127,10 +127,13 @@
         "editorGroupHeader.tabsBorder": "#282c3400",
         "editorGroupHeader.noTabsBackground": "#21252B",
         "editorGutter.addedBackground": "#40AD41",
+        "editorGutter.addedSecondaryBackground": "#98C379",
         "editorGutter.background": "#282c34",
         "editorGutter.deletedBackground": "#F14C4C",
+        "editorGutter.deletedSecondaryBackground": "#E06C75",
         "editorGutter.foldingControlForeground": "#FFF",
         "editorGutter.modifiedBackground": "#A78CFA",
+        "editorGutter.modifiedSecondaryBackground": "#D365E5",
         "editorHoverWidget.background": "#23272F",
         "editorHoverWidget.border": "#181A1F",
         "editorHoverWidget.foreground": "#B0B7C3",
@@ -2268,6 +2271,14 @@
         },
         {
             "name": "",
+            "scope": "source.css.embedded.html keyword.operator.arithmetic.css",
+            "settings": {
+                "foreground": "#56B7C3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "variable.language.wildcard",
             "settings": {
                 "foreground": "#56B7C3",
@@ -3360,6 +3371,22 @@
             "settings": {
                 "foreground": "#E4BF7F",
                 "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "",
+            "scope": "punctuation.definition.custom-property.less",
+            "settings": {
+                "foreground": "#E4BF7F",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "",
+            "scope": "support.type.custom-property.name.less",
+            "settings": {
+                "foreground": "#E4BF7F",
+                "fontStyle": "italic"
             }
         },
         {
@@ -5589,6 +5616,14 @@
         {
             "name": "",
             "scope": "punctuation.definition.link.title.end.markdown",
+            "settings": {
+                "foreground": "#B0B7C3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "meta.function-call.less",
             "settings": {
                 "foreground": "#B0B7C3",
                 "fontStyle": ""
