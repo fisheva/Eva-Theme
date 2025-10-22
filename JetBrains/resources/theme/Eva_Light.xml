@@ -86,11 +86,11 @@
     <option name="TAB_UNDERLINE" value="ebeef5" />
     <option name="TAB_UNDERLINE_INACTIVE" value="ebeef5" />
     <option name="TEARLINE_COLOR" value="d8dbe1" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="ff0000" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="ff00" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="ff" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="ffff00" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="f00fff" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="eaffe2" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="eeeada" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="cddcf6" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="e2e1f6" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="ECCDD3" />
     <option name="VISUAL_INDENT_GUIDE" value="ced1d7" />
     <option name="WHITESPACES" value="b3b3b4" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="9277e6" />
@@ -191,7 +191,7 @@
     </option>
     <option name="BREADCRUMBS_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="a9a9aa" />
+        <option name="FOREGROUND" value="8e8e90" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
