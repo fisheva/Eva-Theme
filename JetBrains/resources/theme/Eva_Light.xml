@@ -2,6 +2,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="44c145" />
     <option name="ANNOTATIONS_COLOR" value="8e8e90" />
+    <option name="BREADCRUMBS_BORDER_COLOR" value="ced1d7" />
     <option name="CARET_COLOR" value="fc8357" />
     <option name="CARET_ROW_COLOR" value="e3e6ed" />
     <option name="CONSOLE_BACKGROUND_KEY" value="ebeef5" />
@@ -90,7 +91,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_2" value="eeeada" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="cddcf6" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="e2e1f6" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="ECCDD3" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="eccdd3" />
     <option name="VISUAL_INDENT_GUIDE" value="ced1d7" />
     <option name="WHITESPACES" value="b3b3b4" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="9277e6" />

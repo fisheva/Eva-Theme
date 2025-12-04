@@ -1,3 +1,11 @@
+0.1.0 (2025-12-04)
+
+* Add All xml
+
+```IDEA Settings > Editor > Color Scheme
+General > Editor > Breadcrumbs > Border Color: #21252b/#ced1d7
+```
+
 0.0.9 （2025-10-18）
 
 * Add All xml
