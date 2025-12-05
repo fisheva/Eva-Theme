@@ -1,3 +1,16 @@
+2.8.2 (2025-12-05)
+
+* Add All UI
+
+```UI
+terminal.findMatchBackground: #f8f900/#f8f900
+terminal.findMatchBorder: #f8f900/#f8f900
+terminal.findMatchHighlightBackground: #324464/#cfd2d9
+terminal.findMatchHighlightBorder: #32446400/#cfd2d900
+terminal.hoverHighlightBackground: #32446499/#cfd2d98c
+terminal.inactiveSelectionBackground: #598def2d/#0065ff3f
+```
+
 2.8.1 (2025-10-16)
 
 * Add All UI
