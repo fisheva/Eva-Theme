@@ -3,7 +3,7 @@
     <module name="Eva-Theme" />
     <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
     <option name="PROGRAM_PARAMETERS" value="" />
-    <alternative-path path="IntelliJ IDEA IU-231.9423.9" alternative-path-enabled="true" />
+    <alternative-path path="IntelliJ IDEA IU-242.26775.15" alternative-path-enabled="true" />
     <predefined_log_file enabled="true" id="idea.log" />
     <method v="2">
       <option name="Make" enabled="true" />
