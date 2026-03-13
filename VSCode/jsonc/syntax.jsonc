@@ -1312,6 +1312,19 @@
             "Eva-Italic-Bold": "italic bold"
         }
     },
+    "keyword.fsharp": {
+        "name": "",
+        "foreground": {
+            "light": "#7C4DFF",
+            "dark": "#A78CFA"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "italic bold"
+        }
+    },
     "keyword.operator.arrow.skinny": {
         "name": "",
         "foreground": {
@@ -2300,6 +2313,19 @@
             "Eva-Italic-Bold": "italic bold"
         }
     },
+    "support.function.attribute.fsharp": {
+        "name": "",
+        "foreground": {
+            "light": "#437AED",
+            "dark": "#6495EE"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "italic bold"
+        }
+    },
     "string.other.link.title.markdown": {
         "name": "",
         "foreground": {
@@ -2886,6 +2912,19 @@
         }
     },
     "source.css.embedded.html keyword.operator.arithmetic.css": {
+        "name": "",
+        "foreground": {
+            "light": "#00BEC4",
+            "dark": "#56B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "keyword.symbol.fsharp": {
         "name": "",
         "foreground": {
             "light": "#00BEC4",

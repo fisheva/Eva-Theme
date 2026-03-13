@@ -1,3 +1,13 @@
+2.8.5 (2026-03-13)
+
+* Add All Syntax (sharpchen commit)
+
+```Syntax
+keyword.fsharp: #A78CFA/#7C4DFF
+support.function.attribute.fsharp: #6495EE/#437AED
+keyword.symbol.fsharp: #56B7C3/#00BEC4
+```
+
 2.8.4 (2026-03-13)
 
 * Add All Syntax

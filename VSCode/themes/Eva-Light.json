@@ -717,14 +717,6 @@
         },
         {
             "name": "",
-            "scope": "keyword.fsharp",
-            "settings": {
-                "foreground": "#7C4DFF",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "",
             "scope": "entity.other.keyframe-offset",
             "settings": {
                 "foreground": "#7C4DFF",
@@ -1325,6 +1317,14 @@
         },
         {
             "name": "",
+            "scope": "keyword.fsharp",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "keyword.operator.arrow.skinny",
             "settings": {
                 "foreground": "#7C4DFF",
@@ -1773,14 +1773,6 @@
         },
         {
             "name": "",
-            "scope": "support.function.attribute.fsharp",
-            "settings": {
-                "foreground": "#437AED",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "",
             "scope": "keyword.operator.sizeof",
             "settings": {
                 "foreground": "#437AED",
@@ -1934,6 +1926,14 @@
         {
             "name": "",
             "scope": "keyword.operator.expression.default",
+            "settings": {
+                "foreground": "#437AED",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "support.function.attribute.fsharp",
             "settings": {
                 "foreground": "#437AED",
                 "fontStyle": ""
@@ -2309,6 +2309,14 @@
         },
         {
             "name": "",
+            "scope": "keyword.symbol.fsharp",
+            "settings": {
+                "foreground": "#00BEC4",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "variable.language.wildcard",
             "settings": {
                 "foreground": "#00BEC4",
@@ -2406,14 +2414,6 @@
         {
             "name": "",
             "scope": "keyword.operator.bitwise",
-            "settings": {
-                "foreground": "#00BEC4",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "",
-            "scope": "keyword.symbol.fsharp",
             "settings": {
                 "foreground": "#00BEC4",
                 "fontStyle": ""
