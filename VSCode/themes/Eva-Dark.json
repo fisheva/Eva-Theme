@@ -717,6 +717,14 @@
         },
         {
             "name": "",
+            "scope": "keyword.fsharp",
+            "settings": {
+                "foreground": "#A78CFA",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "entity.other.keyframe-offset",
             "settings": {
                 "foreground": "#A78CFA",
@@ -1765,6 +1773,14 @@
         },
         {
             "name": "",
+            "scope": "support.function.attribute.fsharp",
+            "settings": {
+                "foreground": "#6495EE",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "keyword.operator.sizeof",
             "settings": {
                 "foreground": "#6495EE",
@@ -2390,6 +2406,14 @@
         {
             "name": "",
             "scope": "keyword.operator.bitwise",
+            "settings": {
+                "foreground": "#56B7C3",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "keyword.symbol.fsharp",
             "settings": {
                 "foreground": "#56B7C3",
                 "fontStyle": ""
