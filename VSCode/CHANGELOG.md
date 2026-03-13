@@ -1,3 +1,12 @@
+2.8.4 (2026-03-13)
+
+* Add All Syntax
+
+```Syntax
+entity.name.type.glsl: #A78CFA/#7C4DFF
+punctuation.definition.optional-value.begin.bracket.square, punctuation.definition.optional-value.end.bracket.square: #E4BF7F/#F0AA0B
+```
+
 2.8.2~2.8.3 (2025-12-05)
 
 * Add All UI

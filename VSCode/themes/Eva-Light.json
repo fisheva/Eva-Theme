@@ -1309,6 +1309,14 @@
         },
         {
             "name": "",
+            "scope": "entity.name.type.glsl",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "keyword.operator.arrow.skinny",
             "settings": {
                 "foreground": "#7C4DFF",
@@ -3590,6 +3598,22 @@
         {
             "name": "",
             "scope": "support.type.property-name.media.css",
+            "settings": {
+                "foreground": "#F0AA0B",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "punctuation.definition.optional-value.begin.bracket.square",
+            "settings": {
+                "foreground": "#F0AA0B",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "punctuation.definition.optional-value.end.bracket.square",
             "settings": {
                 "foreground": "#F0AA0B",
                 "fontStyle": ""

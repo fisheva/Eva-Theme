@@ -1299,6 +1299,19 @@
             "Eva-Italic-Bold": "italic bold"
         }
     },
+    "entity.name.type.glsl": {
+        "name": "",
+        "foreground": {
+            "light": "#7C4DFF",
+            "dark": "#A78CFA"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "italic bold"
+        }
+    },
     "keyword.operator.arrow.skinny": {
         "name": "",
         "foreground": {
@@ -5015,6 +5028,32 @@
             "Eva-Italic": "italic",
             "Eva-Bold": "",
             "Eva-Italic-Bold": "italic"
+        }
+    },
+    "punctuation.definition.optional-value.begin.bracket.square": {
+        "name": "",
+        "foreground": {
+            "light": "#F0AA0B",
+            "dark": "#E4BF7F"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "punctuation.definition.optional-value.end.bracket.square": {
+        "name": "",
+        "foreground": {
+            "light": "#F0AA0B",
+            "dark": "#E4BF7F"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
         }
     },
     "keyword.operator.negetion.regexp": {

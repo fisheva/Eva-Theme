@@ -1309,6 +1309,14 @@
         },
         {
             "name": "",
+            "scope": "entity.name.type.glsl",
+            "settings": {
+                "foreground": "#A78CFA",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "",
             "scope": "keyword.operator.arrow.skinny",
             "settings": {
                 "foreground": "#A78CFA",
@@ -3590,6 +3598,22 @@
         {
             "name": "",
             "scope": "support.type.property-name.media.css",
+            "settings": {
+                "foreground": "#E4BF7F",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "punctuation.definition.optional-value.begin.bracket.square",
+            "settings": {
+                "foreground": "#E4BF7F",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "punctuation.definition.optional-value.end.bracket.square",
             "settings": {
                 "foreground": "#E4BF7F",
                 "fontStyle": ""
