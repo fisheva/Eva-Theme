@@ -1,4 +1,4 @@
-2.8.6 （2026-03-13）
+2.8.6~2.8.7 （2026-03-13）
 
 * Add All Syntax
 
@@ -14,7 +14,7 @@ constant.character.string.escape: #8A97C3/#888888
 * Change All Syntax
 
 ```Syntax
-keyword.symbol.fsharp: #56B7C3/#00BEC4 → #838FA7/#5D5D5FD8
+keyword.symbol.fsharp: #56B7C3/#00BEC4 → #B0B7C3/#626264
 ```
 
 2.8.5 (2026-03-13)

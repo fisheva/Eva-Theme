@@ -5813,6 +5813,14 @@
         },
         {
             "name": "",
+            "scope": "keyword.symbol.fsharp",
+            "settings": {
+                "foreground": "#626264",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "punctuation.separator.java",
             "settings": {
                 "foreground": "#5D5D5FD8",
@@ -6870,14 +6878,6 @@
         {
             "name": "",
             "scope": "punctuation.section.brackets.double.end",
-            "settings": {
-                "foreground": "#5D5D5FD8",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "",
-            "scope": "keyword.symbol.fsharp",
             "settings": {
                 "foreground": "#5D5D5FD8",
                 "fontStyle": ""

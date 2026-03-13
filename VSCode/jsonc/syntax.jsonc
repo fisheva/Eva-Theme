@@ -8618,6 +8618,19 @@
             "Eva-Italic-Bold": "italic"
         }
     },
+    "keyword.symbol.fsharp": {
+        "name": "",
+        "foreground": {
+            "light": "#626264",
+            "dark": "#B0B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "punctuation.separator.java": {
         "name": "",
         "foreground": {
@@ -10335,19 +10348,6 @@
         }
     },
     "punctuation.section.brackets.double.end": {
-        "name": "",
-        "foreground": {
-            "light": "#5D5D5FD8",
-            "dark": "#838FA7"
-        },
-        "fontStyle": {
-            "Eva": "",
-            "Eva-Italic": "",
-            "Eva-Bold": "",
-            "Eva-Italic-Bold": ""
-        }
-    },
-    "keyword.symbol.fsharp": {
         "name": "",
         "foreground": {
             "light": "#5D5D5FD8",
