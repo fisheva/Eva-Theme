@@ -2391,6 +2391,19 @@
             "Eva-Italic-Bold": "bold"
         }
     },
+    "keyword.symbol.arrow.fsharp": {
+        "name": "",
+        "foreground": {
+            "light": "#437AED",
+            "dark": "#6495EE"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "bold"
+        }
+    },
     "punctuation.definition.template-expression.begin": {
         "name": "",
         "foreground": {
@@ -2911,7 +2924,7 @@
             "Eva-Italic-Bold": "italic"
         }
     },
-    "source.css.embedded.html keyword.operator.arithmetic.css": {
+    "record.fsharp entity.name.type.fsharp": {
         "name": "",
         "foreground": {
             "light": "#00BEC4",
@@ -2919,12 +2932,12 @@
         },
         "fontStyle": {
             "Eva": "",
-            "Eva-Italic": "",
+            "Eva-Italic": "italic",
             "Eva-Bold": "",
-            "Eva-Italic-Bold": ""
+            "Eva-Italic-Bold": "italic"
         }
     },
-    "keyword.symbol.fsharp": {
+    "source.css.embedded.html keyword.operator.arithmetic.css": {
         "name": "",
         "foreground": {
             "light": "#00BEC4",
@@ -4329,6 +4342,19 @@
         }
     },
     "keyword.operator.expression.typeof": {
+        "name": "",
+        "foreground": {
+            "light": "#EF8ED8",
+            "dark": "#FF6AB3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
+    "entity.name.type.fsharp": {
         "name": "",
         "foreground": {
             "light": "#EF8ED8",
@@ -6279,6 +6305,19 @@
         }
     },
     "entity.other.attribute-name.pseudo-element.less support.type.vendor-prefix.less": {
+        "name": "",
+        "foreground": {
+            "light": "#CD6069",
+            "dark": "#E06C75"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
+    "entity.name.section": {
         "name": "",
         "foreground": {
             "light": "#CD6069",
@@ -8722,6 +8761,19 @@
             "Eva-Italic-Bold": "bold"
         }
     },
+    "punctuation.separator.namespace-reference": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "bold",
+            "Eva-Italic": "bold",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "bold"
+        }
+    },
     "punctuation.definition.annotation-arguments.begin.bracket": {
         "name": "",
         "foreground": {
@@ -10295,6 +10347,19 @@
             "Eva-Italic-Bold": ""
         }
     },
+    "keyword.symbol.fsharp": {
+        "name": "",
+        "foreground": {
+            "light": "#5D5D5FD8",
+            "dark": "#838FA7"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
     "support.type.property-name.css": {
         "name": "",
         "foreground": {
@@ -10439,6 +10504,19 @@
         }
     },
     "constant.character.entity": {
+        "name": "",
+        "foreground": {
+            "light": "#888888",
+            "dark": "#8A97C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
+        }
+    },
+    "constant.character.string.escape": {
         "name": "",
         "foreground": {
             "light": "#888888",

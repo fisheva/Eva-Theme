@@ -1,3 +1,22 @@
+2.8.6 （2026-03-13）
+
+* Add All Syntax
+
+```Syntax
+keyword.symbol.arrow.fsharp: #6495EE/#437AED
+record.fsharp entity.name.type.fsharp: #56B7C3/#00BEC4
+entity.name.type.fsharp: #FF6AB3/#EF8ED8
+entity.name.section: #E06C75/#CD6069
+punctuation.separator.namespace-reference: #838FA7/#5D5D5FD8
+constant.character.string.escape: #8A97C3/#888888
+```
+
+* Change All Syntax
+
+```Syntax
+keyword.symbol.fsharp: #56B7C3/#00BEC4 → #838FA7/#5D5D5FD8
+```
+
 2.8.5 (2026-03-13)
 
 * Add All Syntax (sharpchen commit)
