@@ -2313,19 +2313,6 @@
             "Eva-Italic-Bold": "italic bold"
         }
     },
-    "support.function.attribute.fsharp": {
-        "name": "",
-        "foreground": {
-            "light": "#437AED",
-            "dark": "#6495EE"
-        },
-        "fontStyle": {
-            "Eva": "",
-            "Eva-Italic": "italic",
-            "Eva-Bold": "bold",
-            "Eva-Italic-Bold": "italic bold"
-        }
-    },
     "string.other.link.title.markdown": {
         "name": "",
         "foreground": {
@@ -2392,6 +2379,19 @@
         }
     },
     "keyword.symbol.arrow.fsharp": {
+        "name": "",
+        "foreground": {
+            "light": "#437AED",
+            "dark": "#6495EE"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "bold",
+            "Eva-Italic-Bold": "bold"
+        }
+    },
+    "support.function.attribute.fsharp": {
         "name": "",
         "foreground": {
             "light": "#437AED",
@@ -2935,6 +2935,19 @@
             "Eva-Italic": "italic",
             "Eva-Bold": "",
             "Eva-Italic-Bold": "italic"
+        }
+    },
+    "keyword.symbol.fsharp": {
+        "name": "",
+        "foreground": {
+            "light": "#00BEC4",
+            "dark": "#56B7C3"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": ""
         }
     },
     "source.css.embedded.html keyword.operator.arithmetic.css": {
@@ -8616,19 +8629,6 @@
             "Eva-Italic": "italic",
             "Eva-Bold": "",
             "Eva-Italic-Bold": "italic"
-        }
-    },
-    "keyword.symbol.fsharp": {
-        "name": "",
-        "foreground": {
-            "light": "#626264",
-            "dark": "#B0B7C3"
-        },
-        "fontStyle": {
-            "Eva": "",
-            "Eva-Italic": "",
-            "Eva-Bold": "",
-            "Eva-Italic-Bold": ""
         }
     },
     "punctuation.separator.java": {

@@ -1,3 +1,11 @@
+2.8.8 (2026-04-15)
+
+* Change All Syntax
+
+```Syntax
+keyword.symbol.fsharp: #B0B7C3/#626264 → #56B7C3/#00BEC4
+```
+
 2.8.6~2.8.7 （2026-03-13）
 
 * Add All Syntax

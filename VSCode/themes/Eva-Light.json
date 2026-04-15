@@ -1933,14 +1933,6 @@
         },
         {
             "name": "",
-            "scope": "support.function.attribute.fsharp",
-            "settings": {
-                "foreground": "#437AED",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "",
             "scope": "string.other.link.title.markdown",
             "settings": {
                 "foreground": "#437AED",
@@ -1982,6 +1974,14 @@
         {
             "name": "",
             "scope": "keyword.symbol.arrow.fsharp",
+            "settings": {
+                "foreground": "#437AED",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "support.function.attribute.fsharp",
             "settings": {
                 "foreground": "#437AED",
                 "fontStyle": ""
@@ -2310,6 +2310,14 @@
         {
             "name": "",
             "scope": "record.fsharp entity.name.type.fsharp",
+            "settings": {
+                "foreground": "#00BEC4",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
+            "scope": "keyword.symbol.fsharp",
             "settings": {
                 "foreground": "#00BEC4",
                 "fontStyle": ""
@@ -5806,14 +5814,6 @@
         {
             "name": "",
             "scope": "entity.name.section.latex",
-            "settings": {
-                "foreground": "#626264",
-                "fontStyle": ""
-            }
-        },
-        {
-            "name": "",
-            "scope": "keyword.symbol.fsharp",
             "settings": {
                 "foreground": "#626264",
                 "fontStyle": ""
