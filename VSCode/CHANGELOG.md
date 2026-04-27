@@ -1,3 +1,12 @@
+2.8.9 (2026-04-27)
+
+* Change All UI
+
+```UI
+terminal.ansiBlack: #000/#fafafa → #282c34/#ebeef5
+terminal.ansiWhite: #fff/#000 → #B0B7C3/#5d5d5f
+```
+
 2.8.8 (2026-04-15)
 
 * Change All Syntax
