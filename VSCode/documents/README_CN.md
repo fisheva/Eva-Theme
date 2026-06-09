@@ -29,7 +29,7 @@ Eva Theme有暗黑和明亮二种模式，每种模式下又有四种样式可�
 
 ### 平台
 
-其他平台的Eva Theme: [JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme), [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [NeoVim](https://github.com/sharpchen/Eva-Theme.nvim)(by [sharpchen](https://github.com/sharpchen)),  [Windows Terminal](https://github.com/TomDan-GodsHand/Eva-themes)(by [TomDan](https://github.com/TomDan-GodsHand)), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/)(by [David](https://github.com/hmnd)).
+其他平台的Eva Theme: [JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme), [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [NeoVim](https://github.com/sharpchen/Eva-Theme.nvim)(by [sharpchen](https://github.com/sharpchen)), [Zed](https://github.com/sharpchen/Eva-Theme.zed)(by [sharpchen](https://github.com/sharpchen)),  [Windows Terminal](https://github.com/TomDan-GodsHand/Eva-themes)(by [TomDan](https://github.com/TomDan-GodsHand)), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/)(by [David](https://github.com/hmnd)).
 
 
 ### 赞助

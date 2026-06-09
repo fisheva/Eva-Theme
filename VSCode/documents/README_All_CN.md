@@ -6,7 +6,7 @@ Eva Theme是一款语义着色代码主题，使您可以更舒适地进行编�
 
 ### 平台
 
-各平台的Eva Theme: [VSCode](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme), [JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme), [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [NeoVim](https://github.com/sharpchen/Eva-Theme.nvim)(by [sharpchen](https://github.com/sharpchen)),  [Windows Terminal](https://github.com/TomDan-GodsHand/Eva-themes)(by [TomDan](https://github.com/TomDan-GodsHand)), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/)(by [David](https://github.com/hmnd)).
+各平台的Eva Theme: [VSCode](https://marketplace.visualstudio.com/items?itemName=fisheva.Eva-Theme), [JetBrains](https://plugins.jetbrains.com/plugin/26338-eva-theme), [Visual Studio](https://marketplace.visualstudio.com/items?itemName=fisheva.eva-theme-vs), [NeoVim](https://github.com/sharpchen/Eva-Theme.nvim)(by [sharpchen](https://github.com/sharpchen)), [Zed](https://github.com/sharpchen/Eva-Theme.zed)(by [sharpchen](https://github.com/sharpchen)),  [Windows Terminal](https://github.com/TomDan-GodsHand/Eva-themes)(by [TomDan](https://github.com/TomDan-GodsHand)), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/eva-dark/)(by [David](https://github.com/hmnd)).
 
 
 ### 赞助

@@ -1,3 +1,7 @@
+2.9.0 (2026-06-09)
+
+**Eva Theme for Zed(by sharpchen)**
+
 2.8.9 (2026-04-27)
 
 * Change All UI
