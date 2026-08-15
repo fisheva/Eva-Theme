@@ -3293,6 +3293,14 @@
         },
         {
             "name": "",
+            "scope": "variable.other.constant",
+            "settings": {
+                "foreground": "#FF6D12",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "",
             "scope": "variable.other.enummember",
             "settings": {
                 "foreground": "#FF6D12",

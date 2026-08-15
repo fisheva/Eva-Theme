@@ -4523,6 +4523,19 @@
             "Eva-Italic-Bold": "italic"
         }
     },
+    "variable.other.constant": {
+        "name": "",
+        "foreground": {
+            "light": "#FF6D12",
+            "dark": "#FF9070"
+        },
+        "fontStyle": {
+            "Eva": "",
+            "Eva-Italic": "italic",
+            "Eva-Bold": "",
+            "Eva-Italic-Bold": "italic"
+        }
+    },
     "variable.other.enummember": {
         "name": "",
         "foreground": {

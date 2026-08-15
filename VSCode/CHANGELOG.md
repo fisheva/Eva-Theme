@@ -1,3 +1,11 @@
+2.9.1 (2026-08-15)
+
+* Add All Syntax
+
+```Syntax
+variable.other.constant: #FF9070/#FF6D12
+```
+
 2.9.0 (2026-06-09)
 
 **Eva Theme for Zed(by sharpchen)**
