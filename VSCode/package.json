@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/fisheva/Eva-Theme"
     },
     "engines": {
         "vscode": "^1.63.0"
@@ -55,6 +55,46 @@
                 "path": "./themes/Eva-Dark-Italic-Bold.json"
             },
             {
+                "label": "Eva Dark Charcoal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Charcoal.json"
+            },
+            {
+                "label": "Eva Dark Charcoal Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Charcoal-Bold.json"
+            },
+            {
+                "label": "Eva Dark Charcoal Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Charcoal-Italic.json"
+            },
+            {
+                "label": "Eva Dark Charcoal Italic Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Charcoal-Italic-Bold.json"
+            },
+            {
+                "label": "Eva Dark Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Midnight.json"
+            },
+            {
+                "label": "Eva Dark Midnight Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Midnight-Bold.json"
+            },
+            {
+                "label": "Eva Dark Midnight Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Midnight-Italic.json"
+            },
+            {
+                "label": "Eva Dark Midnight Italic Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Eva-Dark-Midnight-Italic-Bold.json"
+            },
+            {
                 "label": "Eva Light",
                 "uiTheme": "vs",
                 "path": "./themes/Eva-Light.json"
@@ -79,6 +119,8 @@
     "keywords": [
         "eva",
         "dark",
+        "charcoal",
+        "midnight",
         "light",
         "theme",
         "vscode"
